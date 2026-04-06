@@ -2,6 +2,16 @@
 
 Inventaire normalisé des sites de l'**âge du Fer** du **Rhin supérieur** — pipeline ETL Python avec extraction OCR Gallica, géocodage multi-fournisseur et interface web interactive. Coordonnées internes en **Lambert-93 (EPSG:2154)**.
 
+### Interface Dash
+
+![Interface Dash — carte, filtres, frise chronologique et statistiques](docs/images/dash-ui.jpg)
+
+### Kepler.gl (Node.js / React / DuckDB)
+
+![Kepler.gl — carte interactive des sites archéologiques](docs/images/kepler-map.jpg)
+
+![Kepler.gl — table de données GeoJSON](docs/images/kepler-data.jpg)
+
 ## Périmètre
 
 ### Géographique

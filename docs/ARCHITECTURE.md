@@ -92,8 +92,9 @@ Chaque étape sauvegarde un checkpoint JSON dans `data/processed/{STEP}.json` av
 | `pytesseract>=0.3` | OCR Tesseract (fra+deu) |
 | `Pillow>=10.0` | Traitement d'image pré-OCR |
 | `rapidfuzz>=3.0` | Scoring fuzzy pour déduplication |
+| `pyproj>=3.6` | Reprojection WGS84 ↔ Lambert-93 (EPSG:2154) |
 | `geopy>=2.4` | Geocodage (Nominatim, GeoAdmin) |
-| `geopandas>=1.0` | Export GeoJSON (Shapely, pyproj) |
+| `geopandas>=1.0` | Export GeoJSON (Shapely, reprojection 2154→4326) |
 | `sqlite-utils>=3.36` | Export SQLite |
 | `lxml>=5.0` | Parsing XML (SRU, ALTO) |
 | `rich>=13.0` | Affichage console |
@@ -129,9 +130,9 @@ data/
 │   └── review_queue.json              # Candidats déduplication à revoir
 ├── raw/gallica/                       # Cache OCR brut (Tesseract par page IIIF)
 └── output/
-    ├── sites.csv                      # Export CSV dénormalisé
-    ├── sites.geojson                  # Export GeoJSON (EPSG:4326)
-    └── sites.sqlite                   # Export SQLite (tables sites/phases/sources)
+    ├── sites.csv                      # Export CSV (colonnes x_l93/y_l93, EPSG:2154)
+    ├── sites.geojson                  # Export GeoJSON (reprojection auto → EPSG:4326)
+    └── sites.sqlite                   # Export SQLite (x_l93/y_l93, tables sites/phases/sources)
 ```
 
 ## Script utilitaire Kepler.gl / DuckDB

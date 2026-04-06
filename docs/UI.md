@@ -40,7 +40,7 @@ Le loader essaie 3 sources par ordre de priorité :
 2. `tests/fixtures/golden_sites.json` — 20 sites de référence (fallback)
 3. `data/sources/golden_sites.csv` — données brutes (fallback minimal)
 
-Produit un DataFrame Pandas unifié avec colonnes normalisées : `site_id`, `nom_site`, `type_site`, `periodes`, `sous_periodes`, `commune`, `pays`, `latitude`, `longitude`, etc.
+Produit un DataFrame Pandas unifié avec colonnes normalisées : `site_id`, `nom_site`, `type_site`, `periodes`, `sous_periodes`, `commune`, `pays`, `latitude`, `longitude`, etc. Les coordonnées `latitude`/`longitude` (WGS84) sont extraites du GeoJSON (reprojection depuis Lambert-93) ou converties depuis `x_l93`/`y_l93` via `pyproj` pour les sources JSON/CSV.
 
 ## Layout
 

@@ -1,6 +1,6 @@
 # BaseFerRhin
 
-Inventaire normalisé des sites de l'**âge du Fer** du **Rhin supérieur** — pipeline ETL Python avec extraction OCR Gallica, géocodage multi-fournisseur et interface web interactive.
+Inventaire normalisé des sites de l'**âge du Fer** du **Rhin supérieur** — pipeline ETL Python avec extraction OCR Gallica, géocodage multi-fournisseur et interface web interactive. Coordonnées internes en **Lambert-93 (EPSG:2154)**.
 
 ## Périmètre
 
@@ -84,9 +84,9 @@ python .cursor/skills/kepler-gl-archeo/scripts/visualize.py data/output/sites.ge
 
 | Format | Fichier | Description |
 |---|---|---|
-| GeoJSON | `data/output/sites.geojson` | Points EPSG:4326 (QGIS, Kepler.gl) |
-| CSV | `data/output/sites.csv` | UTF-8 BOM, une ligne par site-phase |
-| SQLite | `data/output/sites.sqlite` | Tables `sites`, `phases`, `sources` avec FK |
+| GeoJSON | `data/output/sites.geojson` | Points EPSG:4326 (reprojection auto depuis L93) |
+| CSV | `data/output/sites.csv` | UTF-8 BOM, colonnes `x_l93`/`y_l93` (EPSG:2154) |
+| SQLite | `data/output/sites.sqlite` | Tables `sites` (`x_l93`/`y_l93`), `phases`, `sources` |
 | DuckDB | `src/keplergl/data/sites.duckdb` | 4 tables + 2 vues (via `build_duckdb.py`) |
 
 ## Architecture

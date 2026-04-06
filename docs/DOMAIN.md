@@ -12,7 +12,7 @@ Site 1───* PhaseOccupation
 
 ### Site (`src/domain/models/site.py`)
 
-Entité racine de l'agrégat. Chaque site a un identifiant unique (`SITE-` + MD5), des coordonnées optionnelles, un type et une localisation administrative.
+Entité racine de l'agrégat. Chaque site a un identifiant unique (`SITE-` + MD5), des coordonnées optionnelles en Lambert-93 (EPSG:2154), un type et une localisation administrative.
 
 | Champ | Type | Contraintes | Description |
 |---|---|---|---|
@@ -22,8 +22,8 @@ Entité racine de l'agrégat. Chaque site a un identifiant unique (`SITE-` + MD5
 | `pays` | `Pays` | requis | `FR`, `DE`, `CH` |
 | `region_admin` | `str` | requis | Grand Est, Baden-Württemberg, Basel-Stadt... |
 | `commune` | `str` | requis | Commune canonique |
-| `latitude` | `float?` | `[-90, 90]` | WGS84 |
-| `longitude` | `float?` | `[-180, 180]` | WGS84 |
+| `x_l93` | `float?` | `[100 000, 1 200 000]` | Lambert-93 X (mètres) |
+| `y_l93` | `float?` | `[6 000 000, 7 200 000]` | Lambert-93 Y (mètres) |
 | `precision_localisation` | `PrecisionLocalisation` | requis | exact / approx / centroïde |
 | `type_site` | `TypeSite` | requis | oppidum, habitat, nécropole... |
 | `description` | `str?` | — | Texte descriptif libre |
@@ -89,7 +89,7 @@ Dataclass légère utilisée avant normalisation. Contient le texte brut et les 
 | `commune` | `str?` | Commune détectée |
 | `type_mention` | `str?` | Type de site brut |
 | `periode_mention` | `str?` | Période brute |
-| `latitude_raw` / `longitude_raw` | `float?` | Coordonnées brutes |
+| `latitude_raw` / `longitude_raw` | `float?` | Coordonnées brutes WGS84 (reprojection L93 au normalize) |
 | `source_path` | `str` | Chemin du fichier source |
 | `page_number` | `int?` | Numéro de page |
 | `extraction_method` | `str` | `gallica_ocr`, `tesseract_iiif`, `csv`, `pdf` |
@@ -133,7 +133,7 @@ Dataclass légère utilisée avant normalisation. Contient le texte brut et les 
 
 ### SiteNormalizer (`composite.py`)
 
-Construit un `Site` + `PhaseOccupation` + `Source` à partir d'un `RawRecord`. Defaults : `Pays.FR`, `region_admin="Alsace"`, `nom_site = commune ou "Inconnu"`, `precision_localisation = EXACT si lat/lon, sinon CENTROIDE`.
+Construit un `Site` + `PhaseOccupation` + `Source` à partir d'un `RawRecord`. Reprojette `latitude_raw`/`longitude_raw` (WGS84) vers `x_l93`/`y_l93` (Lambert-93) via `wgs84_to_l93()`. Defaults : `Pays.FR`, `region_admin="Alsace"`, `nom_site = commune ou "Inconnu"`, `precision_localisation = EXACT si x_l93 renseigné, sinon CENTROIDE`.
 
 ### PeriodeNormalizer (`periode.py`)
 
@@ -158,14 +158,14 @@ Règles appliquées à chaque `PhaseOccupation` :
 
 ### Cohérence géographique (`coherence_geo.py`)
 
-Bounding box du Rhin supérieur :
+Bounding box du Rhin supérieur en Lambert-93 (EPSG:2154) :
 
 ```
-lat_min=47.0  lat_max=49.5
-lon_min=6.5   lon_max=9.0
+x_min=930 000   x_max=1 060 000
+y_min=6 710 000  y_max=6 990 000
 ```
 
-Warning si coordonnées hors de la zone.
+Warning si coordonnées L93 hors de la zone.
 
 ## Déduplication (`src/domain/deduplication/`)
 
@@ -186,7 +186,7 @@ Warning si coordonnées hors de la zone.
 
 - `name_sim` = `rapidfuzz.fuzz.token_sort_ratio` / 100
 - `commune_sim` = idem sur commune
-- `geo_sim` = `1 - min(haversine_km, 50) / 50`
+- `geo_sim` = `1 - min(distance_l93_km, 50) / 50` (distance euclidienne Lambert-93)
 
 ### Stratégie de merge
 

@@ -116,7 +116,7 @@ Transforme chaque `RawRecord` en `Site` Pydantic normalisé via `SiteNormalizer`
 
 Détection et fusion des doublons (voir [DOMAIN.md](DOMAIN.md#déduplication-srcdomaindeduplication) pour l'algorithme détaillé).
 
-- Scoring pairwise (rapidfuzz + haversine)
+- Scoring pairwise (rapidfuzz + distance euclidienne Lambert-93)
 - Union-Find avec `merge_threshold=0.85`
 - Review queue pour les paires entre 0.70 et 0.85
 - Merge par richesse de données
@@ -133,7 +133,9 @@ Géocode les sites sans coordonnées. L'étape GEOCODE dans `pipeline_support.py
 | DE | Nominatim (`de`) |
 | CH | GeoAdmin (`api3.geo.admin.ch`) → Nominatim (`ch`) |
 
-**Cache :** `data/processed/geocoder_cache.json` (clé = commune normalisée).
+**Reprojection :** les APIs retournent des coordonnées WGS84 (lat/lon). Chaque géocodeur reprojette automatiquement vers Lambert-93 (EPSG:2154) via `wgs84_to_l93()` dans `GeoResult`.
+
+**Cache :** `data/processed/geocoder_cache.json` (clé = commune normalisée, valeurs `x_l93`/`y_l93`).
 
 **Précision :**
 - BAN retourne des centroïdes municipaux → `precision = "centroide"`
@@ -144,7 +146,7 @@ Géocode les sites sans coordonnées. L'étape GEOCODE dans `pipeline_support.py
 Applique les validateurs de cohérence sur chaque site :
 
 1. **Cohérence chronologique** — datation dans les bornes de la période, sous-période cohérente
-2. **Cohérence géographique** — coordonnées dans la bounding box du Rhin supérieur (47.0–49.5°N, 6.5–9.0°E)
+2. **Cohérence géographique** — coordonnées Lambert-93 dans la bounding box du Rhin supérieur (x: 930 000–1 060 000, y: 6 710 000–6 990 000)
 
 Les warnings sont ajoutés à la `review_queue.json`.
 
@@ -154,9 +156,9 @@ Produit 3 formats de sortie dans `data/output/` :
 
 | Format | Fichier | Détails |
 |---|---|---|
-| CSV | `sites.csv` | UTF-8 BOM, une ligne par site-phase, colonnes dénormalisées |
-| GeoJSON | `sites.geojson` | EPSG:4326, Point(lon, lat), propriétés sans `phases`/`sources` |
-| SQLite | `sites.sqlite` | Tables `sites`, `phases`, `sources` avec FK |
+| CSV | `sites.csv` | UTF-8 BOM, une ligne par site-phase, colonnes `x_l93`/`y_l93` (EPSG:2154) |
+| GeoJSON | `sites.geojson` | EPSG:4326 (reprojection auto depuis Lambert-93), propriétés sans `phases`/`sources` |
+| SQLite | `sites.sqlite` | Tables `sites` (`x_l93`/`y_l93`), `phases`, `sources` avec FK |
 
 Affiche les statistiques via `ExportStats` (Rich console) : totaux, ventilation par pays/type/période, taux de géolocalisation.
 

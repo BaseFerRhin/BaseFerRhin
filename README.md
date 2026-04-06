@@ -26,7 +26,9 @@ Oppidum, habitat, nécropole, dépôt, sanctuaire, atelier, voie, tumulus.
 ## Sources de données
 
 - **Gallica (BnF)** — Carte Archéologique de la Gaule 67/1 et 68, Cahiers alsaciens d'archéologie, ouvrages (Déchelette)
+- **Métadonnées Gallica** — Extraction structurée depuis l'API SRU (communes, types de sites)
 - **Fichiers locaux** — CSV, Excel, PDF, rapports de fouilles
+- **Golden set** — 20 sites de référence validés manuellement (`data/sources/golden_sites.csv`)
 
 ## Installation
 
@@ -85,6 +87,7 @@ python .cursor/skills/kepler-gl-archeo/scripts/visualize.py data/output/sites.ge
 | GeoJSON | `data/output/sites.geojson` | Points EPSG:4326 (QGIS, Kepler.gl) |
 | CSV | `data/output/sites.csv` | UTF-8 BOM, une ligne par site-phase |
 | SQLite | `data/output/sites.sqlite` | Tables `sites`, `phases`, `sources` avec FK |
+| DuckDB | `src/keplergl/data/sites.duckdb` | 4 tables + 2 vues (via `build_duckdb.py`) |
 
 ## Architecture
 
@@ -95,15 +98,16 @@ src/
 │   ├── normalizers/     Type, période, toponymie (FR/DE), composite
 │   ├── validators/      Cohérence chronologique et géographique
 │   └── deduplication/   Scoring fuzzy, union-find, merge
-├── infrastructure/      25 fichiers — extracteurs, géocodage, persistance
-│   ├── extractors/      Gallica (SRU, IIIF, OCR, Tesseract), CSV, PDF
+├── infrastructure/      27 fichiers — extracteurs, géocodage, persistance
+│   ├── extractors/      Gallica (SRU, IIIF, OCR, Tesseract, Metadata), CSV, PDF
 │   ├── geocoding/       BAN, Nominatim, GeoAdmin, multi-provider, cache
 │   └── persistence/     Export CSV, GeoJSON, SQLite, stats
 ├── application/         5 fichiers — pipeline ETL, config YAML, review queue
+├── keplergl/            1 fichier — conversion DuckDB pour Kepler.gl
 └── ui/                  9 fichiers — Dash app, carte Plotly, frise, filtres
 ```
 
-**59 fichiers Python** | **5 modules de test** | **Python ≥ 3.11** | **Hatchling**
+**61 fichiers Python** | **5 modules de test** | **Python ≥ 3.11** | **Hatchling**
 
 ## Tests
 
@@ -129,6 +133,21 @@ Golden set : 20 sites de référence (`tests/fixtures/golden_sites.json`).
 | [Domaine](docs/DOMAIN.md) | Modèles Pydantic, enums, normalisation, validation, déduplication |
 | [Pipeline](docs/PIPELINE.md) | 8 étapes ETL, extracteurs Gallica, géocodage, configuration |
 | [Interface web](docs/UI.md) | Application Dash, composants, palettes, thème CSS |
+
+## Spécifications
+
+Le dossier `openspec/` contient les spécifications détaillées du pipeline ETL :
+
+| Spécification | Contenu |
+|---|---|
+| [Modèle de domaine](openspec/changes/base-fer-rhin-etl-pipeline/specs/domain-model/spec.md) | Agrégats Site, Phase, Source |
+| [Extracteurs de sources](openspec/changes/base-fer-rhin-etl-pipeline/specs/source-extractors/spec.md) | CSV, PDF, Gallica extractors |
+| [Extracteur Gallica](openspec/changes/base-fer-rhin-etl-pipeline/specs/gallica-extractor/spec.md) | SRU, IIIF, OCR, mentions |
+| [Pipeline ETL](openspec/changes/base-fer-rhin-etl-pipeline/specs/etl-pipeline/spec.md) | Orchestration 8 étapes |
+| [Déduplicateur](openspec/changes/base-fer-rhin-etl-pipeline/specs/site-deduplicator/spec.md) | Scoring, union-find, merge |
+| [Normaliseur](openspec/changes/base-fer-rhin-etl-pipeline/specs/site-normalizer/spec.md) | Type, période, toponymie |
+| [Multi-géocodeur](openspec/changes/base-fer-rhin-etl-pipeline/specs/multi-geocoder/spec.md) | BAN, Nominatim, GeoAdmin |
+| [Export](openspec/changes/base-fer-rhin-etl-pipeline/specs/data-export/spec.md) | CSV, GeoJSON, SQLite |
 
 ## Licence
 

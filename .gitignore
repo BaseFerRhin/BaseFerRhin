@@ -34,8 +34,5 @@ data/processed/geocoder_cache.json
 # Vite cache
 src/keplergl/node_modules/.vite/
 
-# OpenSpec
-openspec/
-
 # Cursor
 .cursor/projects/

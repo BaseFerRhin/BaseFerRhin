@@ -32,10 +32,13 @@ BaseFerRhin suit une **Clean Architecture** organisée en 4 couches. Chaque couc
 | Domaine | `src/domain/normalizers/` | 5 | Normalisation (type, période, toponymie) |
 | Domaine | `src/domain/validators/` | 3 | Cohérence chrono/géo |
 | Domaine | `src/domain/deduplication/` | 4 | Scoring, merge, union-find |
-| Infra | `src/infrastructure/extractors/` | 13 | Gallica (SRU, IIIF, OCR, Tesseract), CSV, PDF |
-| Infra | `src/infrastructure/geocoding/` | 7 | BAN, Nominatim, GeoAdmin, cache |
+| Infra | `src/infrastructure/` | 1 | Package init |
+| Infra | `src/infrastructure/extractors/` | 14 | Gallica (SRU, IIIF, OCR, Tesseract, Metadata), CSV, PDF |
+| Infra | `src/infrastructure/geocoding/` | 7 | BAN, Nominatim, GeoAdmin, multi-provider, cache |
 | Infra | `src/infrastructure/persistence/` | 5 | Export CSV/GeoJSON/SQLite, stats |
-| **Total** | | **59** | |
+| Utilitaire | `src/keplergl/scripts/` | 1 | Conversion DuckDB pour visualisation Kepler.gl |
+| Racine | `src/` | 1 | Point d'entrée CLI (`__main__.py`) |
+| **Total** | | **61** | |
 
 ## Pipeline ETL — flux de données
 
@@ -49,6 +52,7 @@ BaseFerRhin suit une **Clean Architecture** organisée en 4 couches. Chaque couc
 │ SRU      │    │ Gallica │    │ OCR /    │    │ Type      │
 │ queries  │    │ CSV     │    │ PDF /    │    │ Période   │
 │          │    │ PDF     │    │ CSV      │    │ Toponymie │
+│          │    │ Metadata│    │          │    │           │
 └─────────┘    └─────────┘    └──────────┘    └───────────┘
                                                     │
                     ┌───────────────────────────────┘
@@ -69,7 +73,7 @@ Chaque étape sauvegarde un checkpoint JSON dans `data/processed/{STEP}.json` av
 | Étape | Entrée | Sortie | Données |
 |-------|--------|--------|---------|
 | DISCOVER | `config.yaml` | documents Gallica | ARK, titres, auteurs via SRU |
-| INGEST | documents + fichiers locaux | `list[Path]` | Chemins à traiter |
+| INGEST | documents + fichiers locaux + metadata | `list[RawRecord]` | Records bruts (CSV, Gallica metadata, PDF) |
 | EXTRACT | pages/fichiers | `list[RawRecord]` | Texte brut, mentions, coordonnées |
 | NORMALIZE | `list[RawRecord]` | `list[Site]` | Sites Pydantic normalisés |
 | DEDUPLICATE | `list[Site]` | `list[Site]` + review queue | Sites uniques, candidats à revoir |
@@ -109,7 +113,10 @@ Chaque étape sauvegarde un checkpoint JSON dans `data/processed/{STEP}.json` av
 ```
 data/
 ├── sources/
-│   └── golden_sites.csv              # 20 sites de référence (entrée pipeline)
+│   ├── golden_sites.csv              # 20 sites de référence (entrée pipeline)
+│   ├── gallica_metadata.json          # Métadonnées structurées Gallica (SRU harvest)
+│   ├── gallica_downloads.md           # URLs de téléchargement et instructions
+│   └── pdf/                           # PDFs téléchargés manuellement (CAG 67, 68...)
 ├── reference/
 │   ├── gallica_sources.json           # 4 sources Gallica (CAG 67, 68, CAAH, Déchelette)
 │   ├── periodes.json                  # Chronologie Hallstatt/La Tène + patterns FR/DE
@@ -120,10 +127,19 @@ data/
 │   ├── pipeline_log.json              # Log append-only
 │   ├── geocoder_cache.json            # Cache géocodeur
 │   └── review_queue.json              # Candidats déduplication à revoir
-├── raw/gallica/                       # Cache OCR brut (Tesseract)
+├── raw/gallica/                       # Cache OCR brut (Tesseract par page IIIF)
 └── output/
     ├── sites.csv                      # Export CSV dénormalisé
-    └── sites.geojson                  # Export GeoJSON (EPSG:4326)
+    ├── sites.geojson                  # Export GeoJSON (EPSG:4326)
+    └── sites.sqlite                   # Export SQLite (tables sites/phases/sources)
+```
+
+## Script utilitaire Kepler.gl / DuckDB
+
+`src/keplergl/scripts/build_duckdb.py` — convertit l'état du pipeline (`EXPORT.json`) en base DuckDB avec 4 tables (`sites`, `phases`, `sources`, `raw_records`) et 2 vues (`sites_with_phases`, `sites_geojson`). Utilise le module `duckdb` (non listé dans `pyproject.toml`, à installer séparément).
+
+```bash
+python src/keplergl/scripts/build_duckdb.py
 ```
 
 ## Tests

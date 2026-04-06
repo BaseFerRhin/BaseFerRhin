@@ -30,7 +30,7 @@ data_dir: data
 log_level: INFO
 ```
 
-Modèle Pydantic : `PipelineConfig` (`src/application/config.py`).
+Modèle Pydantic : `PipelineConfig` (`src/application/config.py`), 10 champs dont `gallica_metadata_path` (défaut `data/sources/gallica_metadata.json`).
 
 ## Étapes du pipeline
 
@@ -42,7 +42,8 @@ Interroge l'API **SRU de Gallica** (BnF) via `GallicaSRUClient`. Pagination par 
 
 ### 2. INGEST
 
-Collecte les chemins de tous les fichiers à traiter :
+Collecte les données de toutes les sources configurées :
+- **Métadonnées Gallica** (`GallicaMetadataExtractor`) — parse `gallica_metadata.json` pour extraire communes et types depuis les champs `geographic_scope`, `communes_mentioned` et `mentions_found`
 - Documents Gallica découverts (ARK → pages)
 - Fichiers locaux déclarés dans `sources[]` (CSV, PDF)
 
@@ -70,20 +71,24 @@ Extrait les `RawRecord` depuis chaque source selon son type :
    - Preposition : "fouilles/découvertes… à COMMUNE"
    - Dédoublonnage par `(commune, type)`
 
-**Composants Gallica** (13 fichiers) :
+**Composants Gallica et extraction** (14 fichiers) :
 
-| Classe | Rôle |
-|---|---|
-| `GallicaSRUClient` | Recherche SRU paginée |
-| `GallicaCache` | Cache disque + sémaphore HTTP (2 connexions) |
-| `GallicaIIIFClient` | Téléchargement image IIIF (retry tenacity) |
-| `GallicaOCRClient` | Texte brut Gallica (détection CAPTCHA) |
-| `TesseractOCRClient` | OCR Tesseract via Pillow + pytesseract |
-| `OCRQualityScorer` | Score qualité basé sur lexique français |
-| `GallicaSiteMentionExtractor` | Regex extraction communes/types |
-| `GallicaALTOClient` | Parsing XML ALTO (coordonnées blocs texte) |
-| `GallicaExtractor` | Orchestrateur async du pipeline complet |
-| `ExtractorFactory` | Routage `.csv`/`.xlsx` → CSV, `.pdf` → PDF |
+| Classe | Fichier | Rôle |
+|---|---|---|
+| `GallicaSRUClient` | `gallica_sru.py` | Recherche SRU paginée (`https://gallica.bnf.fr/SRU`) |
+| `GallicaCache` | `gallica_cache.py` | Cache disque + sémaphore HTTP (2 connexions) |
+| `GallicaIIIFClient` | `gallica_iiif.py` | Téléchargement image IIIF `full/max` (retry tenacity) |
+| `GallicaOCRClient` | `gallica_ocr.py` | Texte brut Gallica via `texteBrut` (détection CAPTCHA) |
+| `OCRQualityScorer` | `gallica_ocr.py` | Score qualité basé sur lexique français |
+| `TesseractOCRClient` | `tesseract_ocr.py` | OCR local Tesseract `fra+deu` via Pillow + pytesseract |
+| `GallicaSiteMentionExtractor` | `gallica_mention_extractor.py` | Regex extraction communes/types (3 patterns) |
+| `GallicaMetadataExtractor` | `gallica_metadata_extractor.py` | Extraction depuis métadonnées structurées JSON |
+| `GallicaALTOClient` | `gallica_alto.py` | Parsing XML ALTO (coordonnées blocs texte) |
+| `GallicaExtractor` | `gallica_extractor.py` | Orchestrateur async du pipeline OCR complet |
+| `ExtractorFactory` | `factory.py` | Routage `.csv`/`.xlsx` → CSV, `.pdf` → PDF |
+| `CSVExtractor` | `csv_extractor.py` | Détection encodage, sniff séparateur, mapping colonnes |
+| `PDFExtractor` | `pdf_extractor.py` | `pdfplumber` page par page : texte + tables |
+| `BaseExtractor` | `base.py` | Classe abstraite (interface) |
 
 ### 4. NORMALIZE
 
@@ -105,7 +110,7 @@ Transforme chaque `RawRecord` en `Site` Pydantic normalisé via `SiteNormalizer`
 |---|---|
 | `gallica_ocr` | `GALLICA_CAG` |
 | `pdf` | `PUBLICATION` |
-| autre (csv, tesseract_iiif) | `TABLEUR` |
+| autre (csv, tesseract_iiif, gallica_metadata) | `TABLEUR` |
 
 ### 5. DEDUPLICATE
 
@@ -120,7 +125,7 @@ Détection et fusion des doublons (voir [DOMAIN.md](DOMAIN.md#déduplication-src
 
 ### 6. GEOCODE
 
-Géocode les sites sans coordonnées via `MultiGeocoder` :
+Géocode les sites sans coordonnées. L'étape GEOCODE dans `pipeline_support.py` utilise directement `BANGeocoder` avec un cache JSON. Le module `MultiGeocoder` est disponible pour un dispatch par pays :
 
 | Pays | Chaîne de géocodeurs |
 |---|---|
@@ -164,6 +169,27 @@ python -m src --config config.yaml --start-from NORMALIZE
 ```
 
 Le `pipeline_log.json` enregistre chaque début/fin d'étape avec timestamps et compteurs.
+
+## Stratégie OCR Gallica
+
+Le pipeline utilise deux stratégies complémentaires pour extraire du texte des documents Gallica :
+
+```
+Document (ARK bpt6k*)
+    │
+    ├── Stratégie primaire : IIIF + Tesseract (local)
+    │   1. GallicaIIIFClient télécharge l'image JPEG (full/max)
+    │   2. TesseractOCRClient redimensionne si > 4000×6000px
+    │   3. pytesseract.image_to_string(lang="fra+deu", --psm 1 --oem 1)
+    │   4. Cache disque : data/raw/gallica/{ark_path}/f{page}.tesseract.txt
+    │
+    └── Stratégie fallback : texteBrut Gallica (si Tesseract désactivé)
+        1. GallicaOCRClient GET texteBrut URL
+        2. Détection CAPTCHA (réponse HTML au lieu de texte)
+        3. Retry après 10s, abandon après 3 échecs consécutifs
+```
+
+Le sémaphore dans `GallicaCache` limite à 2 connexions HTTP simultanées. Un délai de 2 secondes entre chaque page (`_PAGE_DELAY`) respecte le rate-limiting de Gallica.
 
 ## Données de référence
 

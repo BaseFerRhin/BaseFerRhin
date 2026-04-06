@@ -1,0 +1,2054 @@
+{
+  "input_md5": "5c49d9f4694e79f638bed3807160788e",
+  "state": {
+    "raw_records": [
+      {
+        "raw_text": "Carte archéologique de la Gaule. [Nouvelle série]. 67, Le Bas-Rhin — Bas-Rhin (67) hors Strasbourg",
+        "commune": "Bas-Rhin",
+        "type_mention": null,
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bd6t54207173p",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bd6t54207173p",
+        "context_text": "Carte archéologique de la Gaule. [Nouvelle série]. 67, Le Bas-Rhin",
+        "extra": {
+          "authors": [
+            "Pascal Flotté",
+            "Matthieu Fuchs"
+          ],
+          "year": 2000,
+          "relevance": "essential"
+        }
+      },
+      {
+        "raw_text": "Carte archéologique de la Gaule. 67, Strasbourg — Strasbourg et CUS",
+        "commune": "Strasbourg",
+        "type_mention": null,
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bd6t542071728",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bd6t542071728",
+        "context_text": "Carte archéologique de la Gaule. 67, Strasbourg",
+        "extra": {
+          "authors": [
+            "Juliette Baudoux",
+            "Pascal Flotté",
+            "Matthieu Fuchs"
+          ],
+          "year": 2002,
+          "relevance": "essential"
+        }
+      },
+      {
+        "raw_text": "Carte archéologique de la Gaule. [Nouvelle série]. 68, Haut-Rhin — Haut-Rhin (68)",
+        "commune": "Haut-Rhin",
+        "type_mention": null,
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bd6t542071580",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bd6t542071580",
+        "context_text": "Carte archéologique de la Gaule. [Nouvelle série]. 68, Haut-Rhin",
+        "extra": {
+          "authors": [
+            "Muriel Zehner"
+          ],
+          "year": 1998,
+          "relevance": "essential"
+        }
+      },
+      {
+        "raw_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg — Alsace (Strasbourg, Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg)",
+        "commune": "Strasbourg",
+        "type_mention": "dépôt",
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k1002738n",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k1002738n",
+        "context_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "high"
+        }
+      },
+      {
+        "raw_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg — Alsace (Strasbourg, Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg)",
+        "commune": "Biesheim",
+        "type_mention": "dépôt",
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k1002738n",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k1002738n",
+        "context_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "high"
+        }
+      },
+      {
+        "raw_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg — Alsace (Strasbourg, Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg)",
+        "commune": "Colmar",
+        "type_mention": "dépôt",
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k1002738n",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k1002738n",
+        "context_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "high"
+        }
+      },
+      {
+        "raw_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg — Alsace (Strasbourg, Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg)",
+        "commune": "Haguenau",
+        "type_mention": "dépôt",
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k1002738n",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k1002738n",
+        "context_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "high"
+        }
+      },
+      {
+        "raw_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg — Alsace (Strasbourg, Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg)",
+        "commune": "Mulhouse",
+        "type_mention": "dépôt",
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k1002738n",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k1002738n",
+        "context_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "high"
+        }
+      },
+      {
+        "raw_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg — Alsace (Strasbourg, Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg)",
+        "commune": "Niederbronn",
+        "type_mention": "dépôt",
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k1002738n",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k1002738n",
+        "context_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "high"
+        }
+      },
+      {
+        "raw_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg — Alsace (Strasbourg, Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg)",
+        "commune": "Sélestat",
+        "type_mention": "dépôt",
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k1002738n",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k1002738n",
+        "context_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "high"
+        }
+      },
+      {
+        "raw_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg — Alsace (Strasbourg, Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg)",
+        "commune": "Wissembourg",
+        "type_mention": "dépôt",
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k1002738n",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k1002738n",
+        "context_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "high"
+        }
+      },
+      {
+        "raw_text": "Essai statistique sur les frontières nord-est de la France — Alsace, Lorraine",
+        "commune": "Lorraine",
+        "type_mention": null,
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k7051449q",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k7051449q",
+        "context_text": "Essai statistique sur les frontières nord-est de la France",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "low"
+        }
+      },
+      {
+        "raw_text": "Oppidum du Münsterberg (Breisach am Rhein) — occupation Ha D, VIe-Ve s. av. J.-C. Fortification de hauteur dominant le Rhin.",
+        "commune": "Breisach am Rhein",
+        "type_mention": "oppidum",
+        "periode_mention": "Hallstatt Ha D",
+        "latitude_raw": 48.028,
+        "longitude_raw": 7.58,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Oppidum du Münsterhügel (Bâle) — occupation La Tène finale, IIe-Ier s. av. J.-C. Oppidum celtique à rempart de type murus gallicus.",
+        "commune": "Bâle",
+        "type_mention": "oppidum",
+        "periode_mention": "La Tène LT C",
+        "latitude_raw": 47.556,
+        "longitude_raw": 7.588,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Nécropole à tumuli de la forêt de Haguenau — plusieurs centaines de tumuli, Ha C et Ha D. Mobilier céramique et métallique abondant.",
+        "commune": "Haguenau",
+        "type_mention": "nécropole",
+        "periode_mention": "Hallstatt Ha C",
+        "latitude_raw": 48.82,
+        "longitude_raw": 7.79,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Britzgyberg (Illfurth) — habitat fortifié de hauteur Ha D. Site princier du Hallstatt final avec importations méditerranéennes.",
+        "commune": "Illfurth",
+        "type_mention": "habitat",
+        "periode_mention": "Hallstatt Ha D",
+        "latitude_raw": 47.67,
+        "longitude_raw": 7.23,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Mont Sainte-Odile (Ottrott) — enceinte cyclopéenne (Mur Païen). Occupation Ha D et transition Ha D3/LT A.",
+        "commune": "Ottrott",
+        "type_mention": "oppidum",
+        "periode_mention": "Hallstatt Ha D",
+        "latitude_raw": 48.437,
+        "longitude_raw": 7.404,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Nécropole hallstattienne de Wettolsheim — tombes à inhumation Ha D, riche mobilier funéraire.",
+        "commune": "Wettolsheim",
+        "type_mention": "nécropole",
+        "periode_mention": "Hallstatt Ha D",
+        "latitude_raw": 48.05,
+        "longitude_raw": 7.3,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Habitat laténien de Nordhouse — fosses et structures d'habitat LT B, IVe-IIIe s. av. J.-C.",
+        "commune": "Nordhouse",
+        "type_mention": "habitat",
+        "periode_mention": "La Tène LT B",
+        "latitude_raw": 48.43,
+        "longitude_raw": 7.71,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Habitat laténien de Rosheim — zone artisanale protohistorique, LT C, IIIe-Ier s. av. J.-C.",
+        "commune": "Rosheim",
+        "type_mention": "habitat",
+        "periode_mention": "La Tène LT C",
+        "latitude_raw": 48.5,
+        "longitude_raw": 7.47,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Dépôt de métaux du Rhin (Kembs) — dépôt laténien d'objets métalliques, LT D, IIe-Ier s. av. J.-C.",
+        "commune": "Kembs",
+        "type_mention": "dépôt",
+        "periode_mention": "La Tène LT D",
+        "latitude_raw": 47.69,
+        "longitude_raw": 7.5,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Nécropole hallstattienne de Sierentz — inhumations Ha D, VIIe-Ve s. av. J.-C.",
+        "commune": "Sierentz",
+        "type_mention": "nécropole",
+        "periode_mention": "Hallstatt Ha D",
+        "latitude_raw": 47.66,
+        "longitude_raw": 7.45,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Site protohistorique d'Entzheim — vestiges mal datés, Ve-IIIe s. av. J.-C.",
+        "commune": "Entzheim",
+        "type_mention": "indéterminé",
+        "periode_mention": "indéterminé",
+        "latitude_raw": 48.55,
+        "longitude_raw": 7.62,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Habitat du Colmar centre — occupation laténienne, LT C, IIIe-Ier s. av. J.-C. Fouilles rue des Clefs.",
+        "commune": "Colmar",
+        "type_mention": "habitat",
+        "periode_mention": "La Tène LT C",
+        "latitude_raw": 48.08,
+        "longitude_raw": 7.36,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Tumulus de Bischoffheim — tumulus hallstattien Ha D, VIIe-Ve s. av. J.-C.",
+        "commune": "Bischoffsheim",
+        "type_mention": "tumulus",
+        "periode_mention": "Hallstatt Ha D",
+        "latitude_raw": 48.48,
+        "longitude_raw": 7.5,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Habitat hallstattien de Brumath (Brumatium) — occupation Ha D, VIIe-Ve s. av. J.-C.",
+        "commune": "Brumath",
+        "type_mention": "habitat",
+        "periode_mention": "Hallstatt Ha D",
+        "latitude_raw": 48.73,
+        "longitude_raw": 7.71,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Oppidum des Cordeliers (Strasbourg) — occupation LT C, IIe-Ier s. av. J.-C.",
+        "commune": "Strasbourg",
+        "type_mention": "oppidum",
+        "periode_mention": "La Tène LT C",
+        "latitude_raw": 48.58,
+        "longitude_raw": 7.75,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Sanctuaire protohistorique de Sélestat — dépôts votifs LT B, IVe-IIe s. av. J.-C.",
+        "commune": "Sélestat",
+        "type_mention": "sanctuaire",
+        "periode_mention": "La Tène LT B",
+        "latitude_raw": 48.26,
+        "longitude_raw": 7.45,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Atelier métallurgique laténien (Saverne) — production métallique LT C, IIIe-Ier s. av. J.-C.",
+        "commune": "Saverne",
+        "type_mention": "atelier",
+        "periode_mention": "La Tène LT C",
+        "latitude_raw": 48.74,
+        "longitude_raw": 7.36,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Habitat du Sundgau (Altkirch) — occupation hallstattienne Ha D, VIe-Ve s. av. J.-C.",
+        "commune": "Altkirch",
+        "type_mention": "habitat",
+        "periode_mention": "Hallstatt Ha D",
+        "latitude_raw": 47.62,
+        "longitude_raw": 7.24,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Habitat laténien Mulhouse-Est (Riedisheim secteur est) — occupation LT D, IIe-Ier s. av. J.-C.",
+        "commune": "Mulhouse",
+        "type_mention": "habitat",
+        "periode_mention": "La Tène LT D",
+        "latitude_raw": 47.76,
+        "longitude_raw": 7.35,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Habitat laténien de Reinach BL — occupation LT C, IIIe-Ier s. av. J.-C.",
+        "commune": "Reinach",
+        "type_mention": "habitat",
+        "periode_mention": "La Tène LT C",
+        "latitude_raw": 47.543,
+        "longitude_raw": 7.597,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      }
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-3e7d2aa8603e1ccb",
+        "nom_site": "Bas-Rhin",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Bas-Rhin",
+        "latitude": null,
+        "longitude": null,
+        "precision_localisation": "centroïde",
+        "type_site": "indéterminé",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-3e7d2aa8603e1ccb-PH1",
+            "site_id": "SITE-3e7d2aa8603e1ccb",
+            "periode": "indéterminé",
+            "sous_periode": null,
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.642932Z",
+            "date_maj": "2026-04-06T10:17:13.642932Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-3e7d2aa8603e1ccb-SRC1",
+            "site_id": "SITE-3e7d2aa8603e1ccb",
+            "reference": "gallica_metadata:12148/bd6t54207173p",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": "12148/bd6t54207173p",
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.642887Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.642947Z",
+        "date_maj": "2026-04-06T10:17:13.642947Z"
+      },
+      {
+        "site_id": "SITE-f5e1a42d2ca3c8de",
+        "nom_site": "Strasbourg",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Strasbourg",
+        "latitude": null,
+        "longitude": null,
+        "precision_localisation": "centroïde",
+        "type_site": "indéterminé",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-f5e1a42d2ca3c8de-PH1",
+            "site_id": "SITE-f5e1a42d2ca3c8de",
+            "periode": "indéterminé",
+            "sous_periode": null,
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.642981Z",
+            "date_maj": "2026-04-06T10:17:13.642981Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-f5e1a42d2ca3c8de-SRC1",
+            "site_id": "SITE-f5e1a42d2ca3c8de",
+            "reference": "gallica_metadata:12148/bd6t542071728",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": "12148/bd6t542071728",
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.642954Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.642985Z",
+        "date_maj": "2026-04-06T10:17:13.642985Z"
+      },
+      {
+        "site_id": "SITE-732edf76de65203e",
+        "nom_site": "Haut-Rhin",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Haut-Rhin",
+        "latitude": null,
+        "longitude": null,
+        "precision_localisation": "centroïde",
+        "type_site": "indéterminé",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-732edf76de65203e-PH1",
+            "site_id": "SITE-732edf76de65203e",
+            "periode": "indéterminé",
+            "sous_periode": null,
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643058Z",
+            "date_maj": "2026-04-06T10:17:13.643058Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-732edf76de65203e-SRC1",
+            "site_id": "SITE-732edf76de65203e",
+            "reference": "gallica_metadata:12148/bd6t542071580",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": "12148/bd6t542071580",
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.642989Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643118Z",
+        "date_maj": "2026-04-06T10:17:13.643125Z"
+      },
+      {
+        "site_id": "SITE-e7c800b9878d5b12",
+        "nom_site": "Strasbourg",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Strasbourg",
+        "latitude": null,
+        "longitude": null,
+        "precision_localisation": "centroïde",
+        "type_site": "dépôt",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-e7c800b9878d5b12-PH1",
+            "site_id": "SITE-e7c800b9878d5b12",
+            "periode": "indéterminé",
+            "sous_periode": null,
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643235Z",
+            "date_maj": "2026-04-06T10:17:13.643236Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-e7c800b9878d5b12-SRC1",
+            "site_id": "SITE-e7c800b9878d5b12",
+            "reference": "gallica_metadata:12148/bpt6k1002738n",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": "12148/bpt6k1002738n",
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643166Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643240Z",
+        "date_maj": "2026-04-06T10:17:13.643240Z"
+      },
+      {
+        "site_id": "SITE-e7c800b9878d5b12",
+        "nom_site": "Biesheim",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Biesheim",
+        "latitude": null,
+        "longitude": null,
+        "precision_localisation": "centroïde",
+        "type_site": "dépôt",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-e7c800b9878d5b12-PH1",
+            "site_id": "SITE-e7c800b9878d5b12",
+            "periode": "indéterminé",
+            "sous_periode": null,
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643297Z",
+            "date_maj": "2026-04-06T10:17:13.643297Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-e7c800b9878d5b12-SRC1",
+            "site_id": "SITE-e7c800b9878d5b12",
+            "reference": "gallica_metadata:12148/bpt6k1002738n",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": "12148/bpt6k1002738n",
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643245Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643300Z",
+        "date_maj": "2026-04-06T10:17:13.643300Z"
+      },
+      {
+        "site_id": "SITE-e7c800b9878d5b12",
+        "nom_site": "Colmar",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Colmar",
+        "latitude": null,
+        "longitude": null,
+        "precision_localisation": "centroïde",
+        "type_site": "dépôt",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-e7c800b9878d5b12-PH1",
+            "site_id": "SITE-e7c800b9878d5b12",
+            "periode": "indéterminé",
+            "sous_periode": null,
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643353Z",
+            "date_maj": "2026-04-06T10:17:13.643354Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-e7c800b9878d5b12-SRC1",
+            "site_id": "SITE-e7c800b9878d5b12",
+            "reference": "gallica_metadata:12148/bpt6k1002738n",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": "12148/bpt6k1002738n",
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643303Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643355Z",
+        "date_maj": "2026-04-06T10:17:13.643356Z"
+      },
+      {
+        "site_id": "SITE-e7c800b9878d5b12",
+        "nom_site": "Haguenau",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Haguenau",
+        "latitude": null,
+        "longitude": null,
+        "precision_localisation": "centroïde",
+        "type_site": "dépôt",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-e7c800b9878d5b12-PH1",
+            "site_id": "SITE-e7c800b9878d5b12",
+            "periode": "indéterminé",
+            "sous_periode": null,
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643408Z",
+            "date_maj": "2026-04-06T10:17:13.643408Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-e7c800b9878d5b12-SRC1",
+            "site_id": "SITE-e7c800b9878d5b12",
+            "reference": "gallica_metadata:12148/bpt6k1002738n",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": "12148/bpt6k1002738n",
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643358Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643410Z",
+        "date_maj": "2026-04-06T10:17:13.643410Z"
+      },
+      {
+        "site_id": "SITE-e7c800b9878d5b12",
+        "nom_site": "Mulhouse",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Mulhouse",
+        "latitude": null,
+        "longitude": null,
+        "precision_localisation": "centroïde",
+        "type_site": "dépôt",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-e7c800b9878d5b12-PH1",
+            "site_id": "SITE-e7c800b9878d5b12",
+            "periode": "indéterminé",
+            "sous_periode": null,
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643462Z",
+            "date_maj": "2026-04-06T10:17:13.643463Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-e7c800b9878d5b12-SRC1",
+            "site_id": "SITE-e7c800b9878d5b12",
+            "reference": "gallica_metadata:12148/bpt6k1002738n",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": "12148/bpt6k1002738n",
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643412Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643464Z",
+        "date_maj": "2026-04-06T10:17:13.643464Z"
+      },
+      {
+        "site_id": "SITE-e7c800b9878d5b12",
+        "nom_site": "Niederbronn",
+        "variantes_nom": [
+          "Niederbronn"
+        ],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Niederbronn-les-Bains",
+        "latitude": null,
+        "longitude": null,
+        "precision_localisation": "centroïde",
+        "type_site": "dépôt",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-e7c800b9878d5b12-PH1",
+            "site_id": "SITE-e7c800b9878d5b12",
+            "periode": "indéterminé",
+            "sous_periode": null,
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643517Z",
+            "date_maj": "2026-04-06T10:17:13.643517Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-e7c800b9878d5b12-SRC1",
+            "site_id": "SITE-e7c800b9878d5b12",
+            "reference": "gallica_metadata:12148/bpt6k1002738n",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": "12148/bpt6k1002738n",
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643467Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643519Z",
+        "date_maj": "2026-04-06T10:17:13.643519Z"
+      },
+      {
+        "site_id": "SITE-e7c800b9878d5b12",
+        "nom_site": "Sélestat",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Sélestat",
+        "latitude": null,
+        "longitude": null,
+        "precision_localisation": "centroïde",
+        "type_site": "dépôt",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-e7c800b9878d5b12-PH1",
+            "site_id": "SITE-e7c800b9878d5b12",
+            "periode": "indéterminé",
+            "sous_periode": null,
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643572Z",
+            "date_maj": "2026-04-06T10:17:13.643572Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-e7c800b9878d5b12-SRC1",
+            "site_id": "SITE-e7c800b9878d5b12",
+            "reference": "gallica_metadata:12148/bpt6k1002738n",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": "12148/bpt6k1002738n",
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643522Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643574Z",
+        "date_maj": "2026-04-06T10:17:13.643574Z"
+      },
+      {
+        "site_id": "SITE-e7c800b9878d5b12",
+        "nom_site": "Wissembourg",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Wissembourg",
+        "latitude": null,
+        "longitude": null,
+        "precision_localisation": "centroïde",
+        "type_site": "dépôt",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-e7c800b9878d5b12-PH1",
+            "site_id": "SITE-e7c800b9878d5b12",
+            "periode": "indéterminé",
+            "sous_periode": null,
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643626Z",
+            "date_maj": "2026-04-06T10:17:13.643626Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-e7c800b9878d5b12-SRC1",
+            "site_id": "SITE-e7c800b9878d5b12",
+            "reference": "gallica_metadata:12148/bpt6k1002738n",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": "12148/bpt6k1002738n",
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643576Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643628Z",
+        "date_maj": "2026-04-06T10:17:13.643628Z"
+      },
+      {
+        "site_id": "SITE-565d090ff67d9f5f",
+        "nom_site": "Lorraine",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Lorraine",
+        "latitude": null,
+        "longitude": null,
+        "precision_localisation": "centroïde",
+        "type_site": "indéterminé",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-565d090ff67d9f5f-PH1",
+            "site_id": "SITE-565d090ff67d9f5f",
+            "periode": "indéterminé",
+            "sous_periode": null,
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643654Z",
+            "date_maj": "2026-04-06T10:17:13.643654Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-565d090ff67d9f5f-SRC1",
+            "site_id": "SITE-565d090ff67d9f5f",
+            "reference": "gallica_metadata:12148/bpt6k7051449q",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": "12148/bpt6k7051449q",
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643630Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643655Z",
+        "date_maj": "2026-04-06T10:17:13.643656Z"
+      },
+      {
+        "site_id": "SITE-cb1d5e18aee893ab",
+        "nom_site": "Breisach am Rhein",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Breisach am Rhein",
+        "latitude": 48.028,
+        "longitude": 7.58,
+        "precision_localisation": "exact",
+        "type_site": "oppidum",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-cb1d5e18aee893ab-PH1",
+            "site_id": "SITE-cb1d5e18aee893ab",
+            "periode": "Hallstatt",
+            "sous_periode": "Ha D",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643666Z",
+            "date_maj": "2026-04-06T10:17:13.643666Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-cb1d5e18aee893ab-SRC1",
+            "site_id": "SITE-cb1d5e18aee893ab",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643662Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643671Z",
+        "date_maj": "2026-04-06T10:17:13.643672Z"
+      },
+      {
+        "site_id": "SITE-378ea3620ebed165",
+        "nom_site": "Bâle",
+        "variantes_nom": [
+          "Bâle"
+        ],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Basel",
+        "latitude": 47.556,
+        "longitude": 7.588,
+        "precision_localisation": "exact",
+        "type_site": "oppidum",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-378ea3620ebed165-PH1",
+            "site_id": "SITE-378ea3620ebed165",
+            "periode": "La Tène",
+            "sous_periode": "LT C",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643680Z",
+            "date_maj": "2026-04-06T10:17:13.643680Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-378ea3620ebed165-SRC1",
+            "site_id": "SITE-378ea3620ebed165",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643674Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643682Z",
+        "date_maj": "2026-04-06T10:17:13.643682Z"
+      },
+      {
+        "site_id": "SITE-b36a6085eb632234",
+        "nom_site": "Haguenau",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Haguenau",
+        "latitude": 48.82,
+        "longitude": 7.79,
+        "precision_localisation": "exact",
+        "type_site": "nécropole",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-b36a6085eb632234-PH1",
+            "site_id": "SITE-b36a6085eb632234",
+            "periode": "Hallstatt",
+            "sous_periode": "Ha C",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643687Z",
+            "date_maj": "2026-04-06T10:17:13.643687Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-b36a6085eb632234-SRC1",
+            "site_id": "SITE-b36a6085eb632234",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643685Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643691Z",
+        "date_maj": "2026-04-06T10:17:13.643691Z"
+      },
+      {
+        "site_id": "SITE-473d80f6fa49f8be",
+        "nom_site": "Illfurth",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Illfurth",
+        "latitude": 47.67,
+        "longitude": 7.23,
+        "precision_localisation": "exact",
+        "type_site": "habitat",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-473d80f6fa49f8be-PH1",
+            "site_id": "SITE-473d80f6fa49f8be",
+            "periode": "Hallstatt",
+            "sous_periode": "Ha D",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643695Z",
+            "date_maj": "2026-04-06T10:17:13.643695Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-473d80f6fa49f8be-SRC1",
+            "site_id": "SITE-473d80f6fa49f8be",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643693Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643697Z",
+        "date_maj": "2026-04-06T10:17:13.643697Z"
+      },
+      {
+        "site_id": "SITE-34047eed3df26de6",
+        "nom_site": "Ottrott",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Ottrott",
+        "latitude": 48.437,
+        "longitude": 7.404,
+        "precision_localisation": "exact",
+        "type_site": "oppidum",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-34047eed3df26de6-PH1",
+            "site_id": "SITE-34047eed3df26de6",
+            "periode": "Hallstatt",
+            "sous_periode": "Ha D",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643701Z",
+            "date_maj": "2026-04-06T10:17:13.643701Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-34047eed3df26de6-SRC1",
+            "site_id": "SITE-34047eed3df26de6",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643699Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643702Z",
+        "date_maj": "2026-04-06T10:17:13.643703Z"
+      },
+      {
+        "site_id": "SITE-caa462e042f2d4d5",
+        "nom_site": "Wettolsheim",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Wettolsheim",
+        "latitude": 48.05,
+        "longitude": 7.3,
+        "precision_localisation": "exact",
+        "type_site": "nécropole",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-caa462e042f2d4d5-PH1",
+            "site_id": "SITE-caa462e042f2d4d5",
+            "periode": "Hallstatt",
+            "sous_periode": "Ha D",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643706Z",
+            "date_maj": "2026-04-06T10:17:13.643707Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-caa462e042f2d4d5-SRC1",
+            "site_id": "SITE-caa462e042f2d4d5",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643705Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643708Z",
+        "date_maj": "2026-04-06T10:17:13.643708Z"
+      },
+      {
+        "site_id": "SITE-f6a30889496ba198",
+        "nom_site": "Nordhouse",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Nordhouse",
+        "latitude": 48.43,
+        "longitude": 7.71,
+        "precision_localisation": "exact",
+        "type_site": "habitat",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-f6a30889496ba198-PH1",
+            "site_id": "SITE-f6a30889496ba198",
+            "periode": "La Tène",
+            "sous_periode": "LT B",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643715Z",
+            "date_maj": "2026-04-06T10:17:13.643715Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-f6a30889496ba198-SRC1",
+            "site_id": "SITE-f6a30889496ba198",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643711Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643717Z",
+        "date_maj": "2026-04-06T10:17:13.643717Z"
+      },
+      {
+        "site_id": "SITE-a210b0d6a0f964e6",
+        "nom_site": "Rosheim",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Rosheim",
+        "latitude": 48.5,
+        "longitude": 7.47,
+        "precision_localisation": "exact",
+        "type_site": "habitat",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-a210b0d6a0f964e6-PH1",
+            "site_id": "SITE-a210b0d6a0f964e6",
+            "periode": "La Tène",
+            "sous_periode": "LT C",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643723Z",
+            "date_maj": "2026-04-06T10:17:13.643723Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-a210b0d6a0f964e6-SRC1",
+            "site_id": "SITE-a210b0d6a0f964e6",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643719Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643725Z",
+        "date_maj": "2026-04-06T10:17:13.643725Z"
+      },
+      {
+        "site_id": "SITE-0158902e68aa986e",
+        "nom_site": "Kembs",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Kembs",
+        "latitude": 47.69,
+        "longitude": 7.5,
+        "precision_localisation": "exact",
+        "type_site": "dépôt",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-0158902e68aa986e-PH1",
+            "site_id": "SITE-0158902e68aa986e",
+            "periode": "La Tène",
+            "sous_periode": "LT D",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643734Z",
+            "date_maj": "2026-04-06T10:17:13.643734Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-0158902e68aa986e-SRC1",
+            "site_id": "SITE-0158902e68aa986e",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643727Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643736Z",
+        "date_maj": "2026-04-06T10:17:13.643736Z"
+      },
+      {
+        "site_id": "SITE-2ded050bb394f58c",
+        "nom_site": "Sierentz",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Sierentz",
+        "latitude": 47.66,
+        "longitude": 7.45,
+        "precision_localisation": "exact",
+        "type_site": "nécropole",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-2ded050bb394f58c-PH1",
+            "site_id": "SITE-2ded050bb394f58c",
+            "periode": "Hallstatt",
+            "sous_periode": "Ha D",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643740Z",
+            "date_maj": "2026-04-06T10:17:13.643740Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-2ded050bb394f58c-SRC1",
+            "site_id": "SITE-2ded050bb394f58c",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643738Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643741Z",
+        "date_maj": "2026-04-06T10:17:13.643742Z"
+      },
+      {
+        "site_id": "SITE-1f16f72f4d1d5f67",
+        "nom_site": "Entzheim",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Entzheim",
+        "latitude": 48.55,
+        "longitude": 7.62,
+        "precision_localisation": "exact",
+        "type_site": "indéterminé",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-1f16f72f4d1d5f67-PH1",
+            "site_id": "SITE-1f16f72f4d1d5f67",
+            "periode": "indéterminé",
+            "sous_periode": null,
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643756Z",
+            "date_maj": "2026-04-06T10:17:13.643756Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-1f16f72f4d1d5f67-SRC1",
+            "site_id": "SITE-1f16f72f4d1d5f67",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643744Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643758Z",
+        "date_maj": "2026-04-06T10:17:13.643758Z"
+      },
+      {
+        "site_id": "SITE-f701fdf48f5178c3",
+        "nom_site": "Colmar",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Colmar",
+        "latitude": 48.08,
+        "longitude": 7.36,
+        "precision_localisation": "exact",
+        "type_site": "habitat",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-f701fdf48f5178c3-PH1",
+            "site_id": "SITE-f701fdf48f5178c3",
+            "periode": "La Tène",
+            "sous_periode": "LT C",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643764Z",
+            "date_maj": "2026-04-06T10:17:13.643764Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-f701fdf48f5178c3-SRC1",
+            "site_id": "SITE-f701fdf48f5178c3",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643760Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643766Z",
+        "date_maj": "2026-04-06T10:17:13.643766Z"
+      },
+      {
+        "site_id": "SITE-e8671993a3c19565",
+        "nom_site": "Bischoffsheim",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Bischoffsheim",
+        "latitude": 48.48,
+        "longitude": 7.5,
+        "precision_localisation": "exact",
+        "type_site": "tumulus",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-e8671993a3c19565-PH1",
+            "site_id": "SITE-e8671993a3c19565",
+            "periode": "Hallstatt",
+            "sous_periode": "Ha D",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643770Z",
+            "date_maj": "2026-04-06T10:17:13.643770Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-e8671993a3c19565-SRC1",
+            "site_id": "SITE-e8671993a3c19565",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643768Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643771Z",
+        "date_maj": "2026-04-06T10:17:13.643772Z"
+      },
+      {
+        "site_id": "SITE-ba0d8a94086a2f85",
+        "nom_site": "Brumath",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Brumath",
+        "latitude": 48.73,
+        "longitude": 7.71,
+        "precision_localisation": "exact",
+        "type_site": "habitat",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-ba0d8a94086a2f85-PH1",
+            "site_id": "SITE-ba0d8a94086a2f85",
+            "periode": "Hallstatt",
+            "sous_periode": "Ha D",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643777Z",
+            "date_maj": "2026-04-06T10:17:13.643777Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-ba0d8a94086a2f85-SRC1",
+            "site_id": "SITE-ba0d8a94086a2f85",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643775Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643779Z",
+        "date_maj": "2026-04-06T10:17:13.643779Z"
+      },
+      {
+        "site_id": "SITE-dacd1a769bbdfb18",
+        "nom_site": "Strasbourg",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Strasbourg",
+        "latitude": 48.58,
+        "longitude": 7.75,
+        "precision_localisation": "exact",
+        "type_site": "oppidum",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-dacd1a769bbdfb18-PH1",
+            "site_id": "SITE-dacd1a769bbdfb18",
+            "periode": "La Tène",
+            "sous_periode": "LT C",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643785Z",
+            "date_maj": "2026-04-06T10:17:13.643785Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-dacd1a769bbdfb18-SRC1",
+            "site_id": "SITE-dacd1a769bbdfb18",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643781Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643787Z",
+        "date_maj": "2026-04-06T10:17:13.643787Z"
+      },
+      {
+        "site_id": "SITE-eaf3fe9ca930380b",
+        "nom_site": "Sélestat",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Sélestat",
+        "latitude": 48.26,
+        "longitude": 7.45,
+        "precision_localisation": "exact",
+        "type_site": "sanctuaire",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-eaf3fe9ca930380b-PH1",
+            "site_id": "SITE-eaf3fe9ca930380b",
+            "periode": "La Tène",
+            "sous_periode": "LT B",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643793Z",
+            "date_maj": "2026-04-06T10:17:13.643793Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-eaf3fe9ca930380b-SRC1",
+            "site_id": "SITE-eaf3fe9ca930380b",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643789Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643795Z",
+        "date_maj": "2026-04-06T10:17:13.643795Z"
+      },
+      {
+        "site_id": "SITE-79cae145641808ac",
+        "nom_site": "Saverne",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Saverne",
+        "latitude": 48.74,
+        "longitude": 7.36,
+        "precision_localisation": "exact",
+        "type_site": "atelier",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-79cae145641808ac-PH1",
+            "site_id": "SITE-79cae145641808ac",
+            "periode": "La Tène",
+            "sous_periode": "LT C",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643801Z",
+            "date_maj": "2026-04-06T10:17:13.643801Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-79cae145641808ac-SRC1",
+            "site_id": "SITE-79cae145641808ac",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643797Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643802Z",
+        "date_maj": "2026-04-06T10:17:13.643802Z"
+      },
+      {
+        "site_id": "SITE-bfedff907e812123",
+        "nom_site": "Altkirch",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Altkirch",
+        "latitude": 47.62,
+        "longitude": 7.24,
+        "precision_localisation": "exact",
+        "type_site": "habitat",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-bfedff907e812123-PH1",
+            "site_id": "SITE-bfedff907e812123",
+            "periode": "Hallstatt",
+            "sous_periode": "Ha D",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643806Z",
+            "date_maj": "2026-04-06T10:17:13.643806Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-bfedff907e812123-SRC1",
+            "site_id": "SITE-bfedff907e812123",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643804Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643809Z",
+        "date_maj": "2026-04-06T10:17:13.643809Z"
+      },
+      {
+        "site_id": "SITE-27e3da56ccd725f3",
+        "nom_site": "Mulhouse",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Mulhouse",
+        "latitude": 47.76,
+        "longitude": 7.35,
+        "precision_localisation": "exact",
+        "type_site": "habitat",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-27e3da56ccd725f3-PH1",
+            "site_id": "SITE-27e3da56ccd725f3",
+            "periode": "La Tène",
+            "sous_periode": "LT D",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643815Z",
+            "date_maj": "2026-04-06T10:17:13.643815Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-27e3da56ccd725f3-SRC1",
+            "site_id": "SITE-27e3da56ccd725f3",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643811Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643817Z",
+        "date_maj": "2026-04-06T10:17:13.643817Z"
+      },
+      {
+        "site_id": "SITE-979346f0e27ffc5a",
+        "nom_site": "Reinach",
+        "variantes_nom": [],
+        "pays": "FR",
+        "region_admin": "Alsace",
+        "commune": "Reinach",
+        "latitude": 47.543,
+        "longitude": 7.597,
+        "precision_localisation": "exact",
+        "type_site": "habitat",
+        "description": null,
+        "surface_m2": null,
+        "altitude_m": null,
+        "statut_fouille": null,
+        "identifiants_externes": {},
+        "commentaire_qualite": null,
+        "phases": [
+          {
+            "phase_id": "SITE-979346f0e27ffc5a-PH1",
+            "site_id": "SITE-979346f0e27ffc5a",
+            "periode": "La Tène",
+            "sous_periode": "LT C",
+            "datation_debut": null,
+            "datation_fin": null,
+            "methode_datation": null,
+            "mobilier_associe": [],
+            "date_creation": "2026-04-06T10:17:13.643822Z",
+            "date_maj": "2026-04-06T10:17:13.643822Z"
+          }
+        ],
+        "sources": [
+          {
+            "source_id": "SITE-979346f0e27ffc5a-SRC1",
+            "site_id": "SITE-979346f0e27ffc5a",
+            "reference": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+            "type_source": "tableur",
+            "url": null,
+            "ark_gallica": null,
+            "page_gallica": null,
+            "niveau_confiance": "moyen",
+            "confiance_ocr": null,
+            "date_extraction": "2026-04-06T10:17:13.643819Z"
+          }
+        ],
+        "date_creation": "2026-04-06T10:17:13.643824Z",
+        "date_maj": "2026-04-06T10:17:13.643824Z"
+      }
+    ]
+  }
+}

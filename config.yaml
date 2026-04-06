@@ -1,0 +1,20 @@
+# Sample BaseFerRhin pipeline configuration (CAG 67 / CAG 68 Gallica SRU)
+
+sources:
+  - path: data/sources/golden_sites.csv
+    type: csv
+
+gallica_queries:
+  - 'dc.title all "carte archéologique Gaule" and dc.title all "Bas-Rhin"'
+  - 'dc.title all "carte archéologique Gaule" and dc.title all "68"'
+  - 'dc.title all "archéologique" and dc.title all "Alsace"'
+  - 'dc.title all "archéologique" and dc.title all "Rhin"'
+
+ocr_quality_threshold: 0.4
+dedup_merge_threshold: 0.85
+dedup_review_threshold: 0.70
+
+geocoder_cache_path: data/processed/geocoder_cache.json
+output_dir: data/output
+data_dir: data
+log_level: INFO

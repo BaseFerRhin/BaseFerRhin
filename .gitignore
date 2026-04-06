@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+
+# Node.js
+node_modules/
+src/keplergl/dist/
+src/keplergl/node_modules/
+
+# DuckDB (generated, rebuild with: npm run db:build)
+src/keplergl/data/*.duckdb
+src/keplergl/data/*.duckdb.wal
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+
+# Data (large/generated files)
+data/raw/gallica/
+data/processed/geocoder_cache.json
+
+# Vite cache
+src/keplergl/node_modules/.vite/
+
+# OpenSpec
+openspec/
+
+# Cursor
+.cursor/projects/

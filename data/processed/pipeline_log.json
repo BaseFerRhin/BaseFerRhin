@@ -1,0 +1,16 @@
+{"step": "DISCOVER", "event": "start", "ts": "2026-04-06T10:16:00.085042+00:00", "input_md5": "dac2fae0232f22001560c534d3c60b3c", "input_raw": 0, "input_sites": 0}
+{"step": "DISCOVER", "event": "end", "ts": "2026-04-06T10:17:13.637737+00:00", "output_raw": 0, "output_sites": 0}
+{"step": "INGEST", "event": "start", "ts": "2026-04-06T10:17:13.638293+00:00", "input_md5": "dac2fae0232f22001560c534d3c60b3c", "input_raw": 0, "input_sites": 0}
+{"step": "INGEST", "event": "end", "ts": "2026-04-06T10:17:13.640448+00:00", "output_raw": 32, "output_sites": 0}
+{"step": "EXTRACT", "event": "start", "ts": "2026-04-06T10:17:13.640897+00:00", "input_md5": "5c49d9f4694e79f638bed3807160788e", "input_raw": 32, "input_sites": 0}
+{"step": "EXTRACT", "event": "end", "ts": "2026-04-06T10:17:13.641603+00:00", "output_raw": 32, "output_sites": 0}
+{"step": "NORMALIZE", "event": "start", "ts": "2026-04-06T10:17:13.641968+00:00", "input_md5": "5c49d9f4694e79f638bed3807160788e", "input_raw": 32, "input_sites": 0}
+{"step": "NORMALIZE", "event": "end", "ts": "2026-04-06T10:17:13.645082+00:00", "output_raw": 32, "output_sites": 32}
+{"step": "DEDUPLICATE", "event": "start", "ts": "2026-04-06T10:17:13.645783+00:00", "input_md5": "5c76359a15321892bc9aa7c660a7d657", "input_raw": 32, "input_sites": 32}
+{"step": "DEDUPLICATE", "event": "end", "ts": "2026-04-06T10:17:13.647861+00:00", "output_raw": 32, "output_sites": 26}
+{"step": "GEOCODE", "event": "start", "ts": "2026-04-06T10:17:13.648697+00:00", "input_md5": "c5fde3141fea59729797bc81b529373c", "input_raw": 32, "input_sites": 26}
+{"step": "GEOCODE", "event": "end", "ts": "2026-04-06T10:17:15.488205+00:00", "output_raw": 32, "output_sites": 26}
+{"step": "VALIDATE", "event": "start", "ts": "2026-04-06T10:17:15.489255+00:00", "input_md5": "f28d2064079c7b62738f18cf41fffebe", "input_raw": 32, "input_sites": 26}
+{"step": "VALIDATE", "event": "end", "ts": "2026-04-06T10:17:15.491192+00:00", "output_raw": 32, "output_sites": 26}
+{"step": "EXPORT", "event": "start", "ts": "2026-04-06T10:17:15.492072+00:00", "input_md5": "f28d2064079c7b62738f18cf41fffebe", "input_raw": 32, "input_sites": 26}
+{"step": "EXPORT", "event": "end", "ts": "2026-04-06T10:17:15.533512+00:00", "output_raw": 32, "output_sites": 26}

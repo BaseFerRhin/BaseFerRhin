@@ -1,0 +1,513 @@
+{
+  "input_md5": "dac2fae0232f22001560c534d3c60b3c",
+  "state": {
+    "raw_records": [
+      {
+        "raw_text": "Carte archéologique de la Gaule. [Nouvelle série]. 67, Le Bas-Rhin — Bas-Rhin (67) hors Strasbourg",
+        "commune": "Bas-Rhin",
+        "type_mention": null,
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bd6t54207173p",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bd6t54207173p",
+        "context_text": "Carte archéologique de la Gaule. [Nouvelle série]. 67, Le Bas-Rhin",
+        "extra": {
+          "authors": [
+            "Pascal Flotté",
+            "Matthieu Fuchs"
+          ],
+          "year": 2000,
+          "relevance": "essential"
+        }
+      },
+      {
+        "raw_text": "Carte archéologique de la Gaule. 67, Strasbourg — Strasbourg et CUS",
+        "commune": "Strasbourg",
+        "type_mention": null,
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bd6t542071728",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bd6t542071728",
+        "context_text": "Carte archéologique de la Gaule. 67, Strasbourg",
+        "extra": {
+          "authors": [
+            "Juliette Baudoux",
+            "Pascal Flotté",
+            "Matthieu Fuchs"
+          ],
+          "year": 2002,
+          "relevance": "essential"
+        }
+      },
+      {
+        "raw_text": "Carte archéologique de la Gaule. [Nouvelle série]. 68, Haut-Rhin — Haut-Rhin (68)",
+        "commune": "Haut-Rhin",
+        "type_mention": null,
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bd6t542071580",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bd6t542071580",
+        "context_text": "Carte archéologique de la Gaule. [Nouvelle série]. 68, Haut-Rhin",
+        "extra": {
+          "authors": [
+            "Muriel Zehner"
+          ],
+          "year": 1998,
+          "relevance": "essential"
+        }
+      },
+      {
+        "raw_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg — Alsace (Strasbourg, Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg)",
+        "commune": "Strasbourg",
+        "type_mention": "dépôt",
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k1002738n",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k1002738n",
+        "context_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "high"
+        }
+      },
+      {
+        "raw_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg — Alsace (Strasbourg, Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg)",
+        "commune": "Biesheim",
+        "type_mention": "dépôt",
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k1002738n",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k1002738n",
+        "context_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "high"
+        }
+      },
+      {
+        "raw_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg — Alsace (Strasbourg, Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg)",
+        "commune": "Colmar",
+        "type_mention": "dépôt",
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k1002738n",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k1002738n",
+        "context_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "high"
+        }
+      },
+      {
+        "raw_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg — Alsace (Strasbourg, Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg)",
+        "commune": "Haguenau",
+        "type_mention": "dépôt",
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k1002738n",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k1002738n",
+        "context_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "high"
+        }
+      },
+      {
+        "raw_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg — Alsace (Strasbourg, Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg)",
+        "commune": "Mulhouse",
+        "type_mention": "dépôt",
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k1002738n",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k1002738n",
+        "context_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "high"
+        }
+      },
+      {
+        "raw_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg — Alsace (Strasbourg, Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg)",
+        "commune": "Niederbronn",
+        "type_mention": "dépôt",
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k1002738n",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k1002738n",
+        "context_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "high"
+        }
+      },
+      {
+        "raw_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg — Alsace (Strasbourg, Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg)",
+        "commune": "Sélestat",
+        "type_mention": "dépôt",
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k1002738n",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k1002738n",
+        "context_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "high"
+        }
+      },
+      {
+        "raw_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg — Alsace (Strasbourg, Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg)",
+        "commune": "Wissembourg",
+        "type_mention": "dépôt",
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k1002738n",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k1002738n",
+        "context_text": "Bronzes antiques d'Alsace : Musée archéologique de Strasbourg, musées de Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "high"
+        }
+      },
+      {
+        "raw_text": "Essai statistique sur les frontières nord-est de la France — Alsace, Lorraine",
+        "commune": "Lorraine",
+        "type_mention": null,
+        "periode_mention": null,
+        "latitude_raw": null,
+        "longitude_raw": null,
+        "source_path": "gallica_metadata:12148/bpt6k7051449q",
+        "page_number": null,
+        "extraction_method": "gallica_metadata",
+        "ark_id": "12148/bpt6k7051449q",
+        "context_text": "Essai statistique sur les frontières nord-est de la France",
+        "extra": {
+          "authors": [],
+          "year": null,
+          "relevance": "low"
+        }
+      },
+      {
+        "raw_text": "Oppidum du Münsterberg (Breisach am Rhein) — occupation Ha D, VIe-Ve s. av. J.-C. Fortification de hauteur dominant le Rhin.",
+        "commune": "Breisach am Rhein",
+        "type_mention": "oppidum",
+        "periode_mention": "Hallstatt Ha D",
+        "latitude_raw": 48.028,
+        "longitude_raw": 7.58,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Oppidum du Münsterhügel (Bâle) — occupation La Tène finale, IIe-Ier s. av. J.-C. Oppidum celtique à rempart de type murus gallicus.",
+        "commune": "Bâle",
+        "type_mention": "oppidum",
+        "periode_mention": "La Tène LT C",
+        "latitude_raw": 47.556,
+        "longitude_raw": 7.588,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Nécropole à tumuli de la forêt de Haguenau — plusieurs centaines de tumuli, Ha C et Ha D. Mobilier céramique et métallique abondant.",
+        "commune": "Haguenau",
+        "type_mention": "nécropole",
+        "periode_mention": "Hallstatt Ha C",
+        "latitude_raw": 48.82,
+        "longitude_raw": 7.79,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Britzgyberg (Illfurth) — habitat fortifié de hauteur Ha D. Site princier du Hallstatt final avec importations méditerranéennes.",
+        "commune": "Illfurth",
+        "type_mention": "habitat",
+        "periode_mention": "Hallstatt Ha D",
+        "latitude_raw": 47.67,
+        "longitude_raw": 7.23,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Mont Sainte-Odile (Ottrott) — enceinte cyclopéenne (Mur Païen). Occupation Ha D et transition Ha D3/LT A.",
+        "commune": "Ottrott",
+        "type_mention": "oppidum",
+        "periode_mention": "Hallstatt Ha D",
+        "latitude_raw": 48.437,
+        "longitude_raw": 7.404,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Nécropole hallstattienne de Wettolsheim — tombes à inhumation Ha D, riche mobilier funéraire.",
+        "commune": "Wettolsheim",
+        "type_mention": "nécropole",
+        "periode_mention": "Hallstatt Ha D",
+        "latitude_raw": 48.05,
+        "longitude_raw": 7.3,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Habitat laténien de Nordhouse — fosses et structures d'habitat LT B, IVe-IIIe s. av. J.-C.",
+        "commune": "Nordhouse",
+        "type_mention": "habitat",
+        "periode_mention": "La Tène LT B",
+        "latitude_raw": 48.43,
+        "longitude_raw": 7.71,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Habitat laténien de Rosheim — zone artisanale protohistorique, LT C, IIIe-Ier s. av. J.-C.",
+        "commune": "Rosheim",
+        "type_mention": "habitat",
+        "periode_mention": "La Tène LT C",
+        "latitude_raw": 48.5,
+        "longitude_raw": 7.47,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Dépôt de métaux du Rhin (Kembs) — dépôt laténien d'objets métalliques, LT D, IIe-Ier s. av. J.-C.",
+        "commune": "Kembs",
+        "type_mention": "dépôt",
+        "periode_mention": "La Tène LT D",
+        "latitude_raw": 47.69,
+        "longitude_raw": 7.5,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Nécropole hallstattienne de Sierentz — inhumations Ha D, VIIe-Ve s. av. J.-C.",
+        "commune": "Sierentz",
+        "type_mention": "nécropole",
+        "periode_mention": "Hallstatt Ha D",
+        "latitude_raw": 47.66,
+        "longitude_raw": 7.45,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Site protohistorique d'Entzheim — vestiges mal datés, Ve-IIIe s. av. J.-C.",
+        "commune": "Entzheim",
+        "type_mention": "indéterminé",
+        "periode_mention": "indéterminé",
+        "latitude_raw": 48.55,
+        "longitude_raw": 7.62,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Habitat du Colmar centre — occupation laténienne, LT C, IIIe-Ier s. av. J.-C. Fouilles rue des Clefs.",
+        "commune": "Colmar",
+        "type_mention": "habitat",
+        "periode_mention": "La Tène LT C",
+        "latitude_raw": 48.08,
+        "longitude_raw": 7.36,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Tumulus de Bischoffheim — tumulus hallstattien Ha D, VIIe-Ve s. av. J.-C.",
+        "commune": "Bischoffsheim",
+        "type_mention": "tumulus",
+        "periode_mention": "Hallstatt Ha D",
+        "latitude_raw": 48.48,
+        "longitude_raw": 7.5,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Habitat hallstattien de Brumath (Brumatium) — occupation Ha D, VIIe-Ve s. av. J.-C.",
+        "commune": "Brumath",
+        "type_mention": "habitat",
+        "periode_mention": "Hallstatt Ha D",
+        "latitude_raw": 48.73,
+        "longitude_raw": 7.71,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Oppidum des Cordeliers (Strasbourg) — occupation LT C, IIe-Ier s. av. J.-C.",
+        "commune": "Strasbourg",
+        "type_mention": "oppidum",
+        "periode_mention": "La Tène LT C",
+        "latitude_raw": 48.58,
+        "longitude_raw": 7.75,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Sanctuaire protohistorique de Sélestat — dépôts votifs LT B, IVe-IIe s. av. J.-C.",
+        "commune": "Sélestat",
+        "type_mention": "sanctuaire",
+        "periode_mention": "La Tène LT B",
+        "latitude_raw": 48.26,
+        "longitude_raw": 7.45,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Atelier métallurgique laténien (Saverne) — production métallique LT C, IIIe-Ier s. av. J.-C.",
+        "commune": "Saverne",
+        "type_mention": "atelier",
+        "periode_mention": "La Tène LT C",
+        "latitude_raw": 48.74,
+        "longitude_raw": 7.36,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Habitat du Sundgau (Altkirch) — occupation hallstattienne Ha D, VIe-Ve s. av. J.-C.",
+        "commune": "Altkirch",
+        "type_mention": "habitat",
+        "periode_mention": "Hallstatt Ha D",
+        "latitude_raw": 47.62,
+        "longitude_raw": 7.24,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Habitat laténien Mulhouse-Est (Riedisheim secteur est) — occupation LT D, IIe-Ier s. av. J.-C.",
+        "commune": "Mulhouse",
+        "type_mention": "habitat",
+        "periode_mention": "La Tène LT D",
+        "latitude_raw": 47.76,
+        "longitude_raw": 7.35,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      },
+      {
+        "raw_text": "Habitat laténien de Reinach BL — occupation LT C, IIIe-Ier s. av. J.-C.",
+        "commune": "Reinach",
+        "type_mention": "habitat",
+        "periode_mention": "La Tène LT C",
+        "latitude_raw": 47.543,
+        "longitude_raw": 7.597,
+        "source_path": "/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv",
+        "page_number": null,
+        "extraction_method": "csv",
+        "ark_id": null,
+        "context_text": null,
+        "extra": {}
+      }
+    ],
+    "sites": []
+  }
+}

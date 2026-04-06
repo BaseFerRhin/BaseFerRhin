@@ -1,0 +1,175 @@
+# Pipeline ETL
+
+## Vue d'ensemble
+
+Le pipeline traite les sources hétérogènes (Gallica BnF, CSV, PDF) pour produire un inventaire normalisé des sites de l'âge du Fer en 8 étapes séquentielles avec checkpoints.
+
+```
+python -m src --config config.yaml [--start-from STEP]
+```
+
+## Configuration (`config.yaml`)
+
+```yaml
+sources:
+  - path: data/sources/golden_sites.csv
+    type: csv
+
+gallica_queries:
+  - 'dc.title all "carte archéologique Gaule" and dc.title all "Bas-Rhin"'
+  - 'dc.title all "carte archéologique Gaule" and dc.title all "68"'
+  - 'dc.title all "archéologique" and dc.title all "Alsace"'
+  - 'dc.title all "archéologique" and dc.title all "Rhin"'
+
+ocr_quality_threshold: 0.4
+dedup_merge_threshold: 0.85
+dedup_review_threshold: 0.70
+geocoder_cache_path: data/processed/geocoder_cache.json
+output_dir: data/output
+data_dir: data
+log_level: INFO
+```
+
+Modèle Pydantic : `PipelineConfig` (`src/application/config.py`).
+
+## Étapes du pipeline
+
+### 1. DISCOVER
+
+Interroge l'API **SRU de Gallica** (BnF) via `GallicaSRUClient`. Pagination par lots de 50 résultats. Parse le XML pour extraire les documents avec leurs identifiants ARK, titres, auteurs et dates.
+
+**Requêtes configurées :** 4 queries SRU ciblant les Cartes Archéologiques de la Gaule et les publications alsaciennes.
+
+### 2. INGEST
+
+Collecte les chemins de tous les fichiers à traiter :
+- Documents Gallica découverts (ARK → pages)
+- Fichiers locaux déclarés dans `sources[]` (CSV, PDF)
+
+### 3. EXTRACT
+
+Extrait les `RawRecord` depuis chaque source selon son type :
+
+| Extracteur | Format | Méthode |
+|---|---|---|
+| `CSVExtractor` | `.csv`, `.xlsx` | Détection encodage (utf-8, latin-1, cp1252), sniff séparateur, mapping colonnes → `RawRecord` |
+| `PDFExtractor` | `.pdf` | `pdfplumber` page par page : texte + tables dans `extra`, flag `needs_ocr` |
+| `GallicaExtractor` | pages Gallica | Pipeline async (voir ci-dessous) |
+
+**Pipeline Gallica** (async) :
+1. SRU → documents avec ARK leaf `bpt6k*` uniquement
+2. Par page (délai 2s entre requêtes) :
+   - Tentative OCR **Tesseract** via IIIF (image JPEG `full/max`) → `pytesseract fra+deu --psm 1 --oem 1`
+   - Fallback : texte brut via `texteBrut` URL (avec détection CAPTCHA/HTML)
+   - Cache disque : `data/raw/gallica/{ark_path}/f{page}.tesseract.txt`
+3. **Scoring qualité OCR** : ratio tokens reconnus dans un lexique français courant
+4. Filtrage par `ocr_quality_threshold` (défaut 0.4)
+5. **Extraction de mentions** (`GallicaSiteMentionExtractor`) : 3 patterns regex
+   - Forward : commune → type de site
+   - Reverse : type de site → commune
+   - Preposition : "fouilles/découvertes… à COMMUNE"
+   - Dédoublonnage par `(commune, type)`
+
+**Composants Gallica** (13 fichiers) :
+
+| Classe | Rôle |
+|---|---|
+| `GallicaSRUClient` | Recherche SRU paginée |
+| `GallicaCache` | Cache disque + sémaphore HTTP (2 connexions) |
+| `GallicaIIIFClient` | Téléchargement image IIIF (retry tenacity) |
+| `GallicaOCRClient` | Texte brut Gallica (détection CAPTCHA) |
+| `TesseractOCRClient` | OCR Tesseract via Pillow + pytesseract |
+| `OCRQualityScorer` | Score qualité basé sur lexique français |
+| `GallicaSiteMentionExtractor` | Regex extraction communes/types |
+| `GallicaALTOClient` | Parsing XML ALTO (coordonnées blocs texte) |
+| `GallicaExtractor` | Orchestrateur async du pipeline complet |
+| `ExtractorFactory` | Routage `.csv`/`.xlsx` → CSV, `.pdf` → PDF |
+
+### 4. NORMALIZE
+
+Transforme chaque `RawRecord` en `Site` Pydantic normalisé via `SiteNormalizer` :
+
+1. **TypeSiteNormalizer** — alias FR/DE → enum `TypeSite` (8 types + indéterminé)
+2. **PeriodeNormalizer** — patterns FR/DE + regex sous-période → `Periode` + `sous_periode`
+3. **ToponymeNormalizer** — concordance FR/DE (~30 entrées) → commune canonique
+4. Construction du `Site` avec `PhaseOccupation` et `Source`
+
+**Génération des identifiants :**
+- `site_id` = `SITE-{MD5(source_path|page|raw_text[:500])}`
+- `phase_id` = `{site_id}-p1`
+- `source_id` = `{site_id}-src1`
+
+**Mapping `extraction_method` → `TypeSource` :**
+
+| extraction_method | TypeSource |
+|---|---|
+| `gallica_ocr` | `GALLICA_CAG` |
+| `pdf` | `PUBLICATION` |
+| autre (csv, tesseract_iiif) | `TABLEUR` |
+
+### 5. DEDUPLICATE
+
+Détection et fusion des doublons (voir [DOMAIN.md](DOMAIN.md#déduplication-srcdomaindeduplication) pour l'algorithme détaillé).
+
+- Scoring pairwise (rapidfuzz + haversine)
+- Union-Find avec `merge_threshold=0.85`
+- Review queue pour les paires entre 0.70 et 0.85
+- Merge par richesse de données
+
+**Sortie :** `review_queue.json` avec les candidats nécessitant une validation manuelle.
+
+### 6. GEOCODE
+
+Géocode les sites sans coordonnées via `MultiGeocoder` :
+
+| Pays | Chaîne de géocodeurs |
+|---|---|
+| FR | BAN (`api-adresse.data.gouv.fr`) → Nominatim (`fr`) |
+| DE | Nominatim (`de`) |
+| CH | GeoAdmin (`api3.geo.admin.ch`) → Nominatim (`ch`) |
+
+**Cache :** `data/processed/geocoder_cache.json` (clé = commune normalisée).
+
+**Précision :**
+- BAN retourne des centroïdes municipaux → `precision = "centroide"`
+- Nominatim détermine la précision selon `addresstype`/`type` dans la réponse
+
+### 7. VALIDATE
+
+Applique les validateurs de cohérence sur chaque site :
+
+1. **Cohérence chronologique** — datation dans les bornes de la période, sous-période cohérente
+2. **Cohérence géographique** — coordonnées dans la bounding box du Rhin supérieur (47.0–49.5°N, 6.5–9.0°E)
+
+Les warnings sont ajoutés à la `review_queue.json`.
+
+### 8. EXPORT
+
+Produit 3 formats de sortie dans `data/output/` :
+
+| Format | Fichier | Détails |
+|---|---|---|
+| CSV | `sites.csv` | UTF-8 BOM, une ligne par site-phase, colonnes dénormalisées |
+| GeoJSON | `sites.geojson` | EPSG:4326, Point(lon, lat), propriétés sans `phases`/`sources` |
+| SQLite | `sites.sqlite` | Tables `sites`, `phases`, `sources` avec FK |
+
+Affiche les statistiques via `ExportStats` (Rich console) : totaux, ventilation par pays/type/période, taux de géolocalisation.
+
+## Checkpoints et reprise
+
+Chaque étape sauvegarde son état dans `data/processed/{STEP}.json` avec un `input_md5` pour l'idempotence. Le pipeline peut être relancé depuis n'importe quelle étape :
+
+```bash
+python -m src --config config.yaml --start-from NORMALIZE
+```
+
+Le `pipeline_log.json` enregistre chaque début/fin d'étape avec timestamps et compteurs.
+
+## Données de référence
+
+| Fichier | Contenu | Entrées |
+|---|---|---|
+| `gallica_sources.json` | 4 sources Gallica | CAG 67, CAG 68, CAAH, Déchelette |
+| `periodes.json` | Chronologie + patterns | Hallstatt, La Tène, Transition + regex |
+| `types_sites.json` | Alias FR/DE | 8 types × ~6 alias chacun |
+| `toponymes_fr_de.json` | Concordance toponymique | ~30 communes FR/DE |

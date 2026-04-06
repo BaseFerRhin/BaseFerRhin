@@ -1,0 +1,743 @@
+[
+  {
+    "site_id": "golden-de-breisach-001",
+    "nom_site": "Oppidum du Münsterberg (Breisach am Rhein)",
+    "variantes_nom": ["Münsterberg", "Breisach Hochsiedlung"],
+    "pays": "DE",
+    "region_admin": "Baden-Württemberg",
+    "commune": "Breisach am Rhein",
+    "latitude": 48.028,
+    "longitude": 7.58,
+    "precision_localisation": "exact",
+    "type_site": "oppidum",
+    "phases": [
+      {
+        "phase_id": "golden-de-breisach-001-p1",
+        "site_id": "golden-de-breisach-001",
+        "periode": "Hallstatt",
+        "sous_periode": "Ha D",
+        "datation_debut": -650,
+        "datation_fin": -450,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-de-breisach-001-src1",
+        "site_id": "golden-de-breisach-001",
+        "reference": "CAG 68, Breisach",
+        "niveau_confiance": "élevé",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-ch-basel-001",
+    "nom_site": "Oppidum du Münsterhügel (Bâle)",
+    "variantes_nom": ["Münsterhügel", "Basel oppidum"],
+    "pays": "CH",
+    "region_admin": "Basel-Stadt",
+    "commune": "Bâle",
+    "latitude": 47.556,
+    "longitude": 7.588,
+    "precision_localisation": "exact",
+    "type_site": "oppidum",
+    "phases": [
+      {
+        "phase_id": "golden-ch-basel-001-p1",
+        "site_id": "golden-ch-basel-001",
+        "periode": "La Tène",
+        "sous_periode": "LT C",
+        "datation_debut": -150,
+        "datation_fin": -50,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-ch-basel-001-src1",
+        "site_id": "golden-ch-basel-001",
+        "reference": "Atlas archéologique de la Suisse, Bâle",
+        "niveau_confiance": "élevé",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-fr-haguenau-001",
+    "nom_site": "Nécropole à tumuli de la forêt de Haguenau",
+    "variantes_nom": ["Tumuli de Haguenau"],
+    "pays": "FR",
+    "region_admin": "Grand Est",
+    "commune": "Haguenau",
+    "latitude": 48.82,
+    "longitude": 7.79,
+    "precision_localisation": "approx",
+    "type_site": "nécropole",
+    "phases": [
+      {
+        "phase_id": "golden-fr-haguenau-001-p1",
+        "site_id": "golden-fr-haguenau-001",
+        "periode": "Hallstatt",
+        "sous_periode": "Ha C",
+        "datation_debut": -800,
+        "datation_fin": -600,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      },
+      {
+        "phase_id": "golden-fr-haguenau-001-p2",
+        "site_id": "golden-fr-haguenau-001",
+        "periode": "Hallstatt",
+        "sous_periode": "Ha D",
+        "datation_debut": -650,
+        "datation_fin": -450,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-fr-haguenau-001-src1",
+        "site_id": "golden-fr-haguenau-001",
+        "reference": "CAG 67/1, Haguenau forêt",
+        "niveau_confiance": "moyen",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-fr-illfurth-001",
+    "nom_site": "Britzgyberg (Illfurth)",
+    "variantes_nom": ["Habitat du Britzgyberg"],
+    "pays": "FR",
+    "region_admin": "Grand Est",
+    "commune": "Illfurth",
+    "latitude": 47.67,
+    "longitude": 7.23,
+    "precision_localisation": "exact",
+    "type_site": "habitat",
+    "phases": [
+      {
+        "phase_id": "golden-fr-illfurth-001-p1",
+        "site_id": "golden-fr-illfurth-001",
+        "periode": "Hallstatt",
+        "sous_periode": "Ha D",
+        "datation_debut": -600,
+        "datation_fin": -450,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-fr-illfurth-001-src1",
+        "site_id": "golden-fr-illfurth-001",
+        "reference": "Britzgyberg — fouilles programmées",
+        "niveau_confiance": "élevé",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-fr-mso-001",
+    "nom_site": "Mont Sainte-Odile (Oppidum / sanctuaire)",
+    "variantes_nom": ["Ottrott, mont Ste-Odile"],
+    "pays": "FR",
+    "region_admin": "Grand Est",
+    "commune": "Ottrott",
+    "latitude": 48.437,
+    "longitude": 7.404,
+    "precision_localisation": "centroïde",
+    "type_site": "oppidum",
+    "phases": [
+      {
+        "phase_id": "golden-fr-mso-001-p1",
+        "site_id": "golden-fr-mso-001",
+        "periode": "Hallstatt",
+        "sous_periode": "Ha D",
+        "datation_debut": -650,
+        "datation_fin": -450,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      },
+      {
+        "phase_id": "golden-fr-mso-001-p2",
+        "site_id": "golden-fr-mso-001",
+        "periode": "Hallstatt/La Tène",
+        "sous_periode": "Ha D3 / LT A",
+        "datation_debut": -450,
+        "datation_fin": -400,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-fr-mso-001-src1",
+        "site_id": "golden-fr-mso-001",
+        "reference": "CAG 67/2, Ottrott",
+        "niveau_confiance": "moyen",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-fr-wettolsheim-001",
+    "nom_site": "Nécropole hallstattienne de Wettolsheim",
+    "variantes_nom": [],
+    "pays": "FR",
+    "region_admin": "Grand Est",
+    "commune": "Wettolsheim",
+    "latitude": 48.05,
+    "longitude": 7.3,
+    "precision_localisation": "exact",
+    "type_site": "nécropole",
+    "phases": [
+      {
+        "phase_id": "golden-fr-wettolsheim-001-p1",
+        "site_id": "golden-fr-wettolsheim-001",
+        "periode": "Hallstatt",
+        "sous_periode": "Ha D",
+        "datation_debut": -650,
+        "datation_fin": -480,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-fr-wettolsheim-001-src1",
+        "site_id": "golden-fr-wettolsheim-001",
+        "reference": "CAG 68, Wettolsheim",
+        "niveau_confiance": "élevé",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-fr-nordhouse-001",
+    "nom_site": "Habitat laténien de Nordhouse",
+    "variantes_nom": [],
+    "pays": "FR",
+    "region_admin": "Grand Est",
+    "commune": "Nordhouse",
+    "latitude": 48.43,
+    "longitude": 7.71,
+    "precision_localisation": "approx",
+    "type_site": "habitat",
+    "phases": [
+      {
+        "phase_id": "golden-fr-nordhouse-001-p1",
+        "site_id": "golden-fr-nordhouse-001",
+        "periode": "La Tène",
+        "sous_periode": "LT B",
+        "datation_debut": -400,
+        "datation_fin": -200,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-fr-nordhouse-001-src1",
+        "site_id": "golden-fr-nordhouse-001",
+        "reference": "CAG 67/1, Nordhouse",
+        "niveau_confiance": "moyen",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-fr-rosheim-001",
+    "nom_site": "Habitat laténien de Rosheim",
+    "variantes_nom": ["Rosheim, zone artisanale protohistorique"],
+    "pays": "FR",
+    "region_admin": "Grand Est",
+    "commune": "Rosheim",
+    "latitude": 48.5,
+    "longitude": 7.47,
+    "precision_localisation": "approx",
+    "type_site": "habitat",
+    "phases": [
+      {
+        "phase_id": "golden-fr-rosheim-001-p1",
+        "site_id": "golden-fr-rosheim-001",
+        "periode": "La Tène",
+        "sous_periode": "LT C",
+        "datation_debut": -250,
+        "datation_fin": -100,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-fr-rosheim-001-src1",
+        "site_id": "golden-fr-rosheim-001",
+        "reference": "CAG 67/2, Rosheim",
+        "niveau_confiance": "moyen",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-fr-kembs-001",
+    "nom_site": "Dépôt de métaux du Rhin (Kembs)",
+    "variantes_nom": ["Dépôt laténien Kembs"],
+    "pays": "FR",
+    "region_admin": "Grand Est",
+    "commune": "Kembs",
+    "latitude": 47.69,
+    "longitude": 7.5,
+    "precision_localisation": "exact",
+    "type_site": "dépôt",
+    "phases": [
+      {
+        "phase_id": "golden-fr-kembs-001-p1",
+        "site_id": "golden-fr-kembs-001",
+        "periode": "La Tène",
+        "sous_periode": "LT D",
+        "datation_debut": -120,
+        "datation_fin": -50,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-fr-kembs-001-src1",
+        "site_id": "golden-fr-kembs-001",
+        "reference": "Publication dépôt Kembs",
+        "niveau_confiance": "élevé",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-fr-sierentz-001",
+    "nom_site": "Nécropole hallstattienne de Sierentz",
+    "variantes_nom": [],
+    "pays": "FR",
+    "region_admin": "Grand Est",
+    "commune": "Sierentz",
+    "latitude": 47.66,
+    "longitude": 7.45,
+    "precision_localisation": "approx",
+    "type_site": "nécropole",
+    "phases": [
+      {
+        "phase_id": "golden-fr-sierentz-001-p1",
+        "site_id": "golden-fr-sierentz-001",
+        "periode": "Hallstatt",
+        "sous_periode": "Ha D",
+        "datation_debut": -700,
+        "datation_fin": -500,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-fr-sierentz-001-src1",
+        "site_id": "golden-fr-sierentz-001",
+        "reference": "CAG 68, Sierentz",
+        "niveau_confiance": "moyen",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-fr-entzheim-001",
+    "nom_site": "Site protohistorique d'Entzheim",
+    "variantes_nom": [],
+    "pays": "FR",
+    "region_admin": "Grand Est",
+    "commune": "Entzheim",
+    "latitude": 48.55,
+    "longitude": 7.62,
+    "precision_localisation": "approx",
+    "type_site": "indéterminé",
+    "phases": [
+      {
+        "phase_id": "golden-fr-entzheim-001-p1",
+        "site_id": "golden-fr-entzheim-001",
+        "periode": "indéterminé",
+        "datation_debut": -500,
+        "datation_fin": -200,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-fr-entzheim-001-src1",
+        "site_id": "golden-fr-entzheim-001",
+        "reference": "Prospection Entzheim",
+        "niveau_confiance": "faible",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-fr-colmar-001",
+    "nom_site": "Habitat du Colmar centre (protohistoire)",
+    "variantes_nom": ["Colmar, rue des Clefs"],
+    "pays": "FR",
+    "region_admin": "Grand Est",
+    "commune": "Colmar",
+    "latitude": 48.08,
+    "longitude": 7.36,
+    "precision_localisation": "approx",
+    "type_site": "habitat",
+    "phases": [
+      {
+        "phase_id": "golden-fr-colmar-001-p1",
+        "site_id": "golden-fr-colmar-001",
+        "periode": "La Tène",
+        "sous_periode": "LT C",
+        "datation_debut": -200,
+        "datation_fin": -50,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-fr-colmar-001-src1",
+        "site_id": "golden-fr-colmar-001",
+        "reference": "CAG 68, Colmar",
+        "niveau_confiance": "moyen",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-fr-bischoffheim-001",
+    "nom_site": "Tumulus de Bischoffheim",
+    "variantes_nom": [],
+    "pays": "FR",
+    "region_admin": "Grand Est",
+    "commune": "Bischoffsheim",
+    "latitude": 48.48,
+    "longitude": 7.5,
+    "precision_localisation": "approx",
+    "type_site": "tumulus",
+    "phases": [
+      {
+        "phase_id": "golden-fr-bischoffheim-001-p1",
+        "site_id": "golden-fr-bischoffheim-001",
+        "periode": "Hallstatt",
+        "sous_periode": "Ha D",
+        "datation_debut": -650,
+        "datation_fin": -500,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-fr-bischoffheim-001-src1",
+        "site_id": "golden-fr-bischoffheim-001",
+        "reference": "CAG 67/2, Bischoffsheim",
+        "niveau_confiance": "moyen",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-fr-brumath-001",
+    "nom_site": "Habitat hallstattien de Brumath",
+    "variantes_nom": ["Brumatium"],
+    "pays": "FR",
+    "region_admin": "Grand Est",
+    "commune": "Brumath",
+    "latitude": 48.73,
+    "longitude": 7.71,
+    "precision_localisation": "approx",
+    "type_site": "habitat",
+    "phases": [
+      {
+        "phase_id": "golden-fr-brumath-001-p1",
+        "site_id": "golden-fr-brumath-001",
+        "periode": "Hallstatt",
+        "sous_periode": "Ha D",
+        "datation_debut": -650,
+        "datation_fin": -450,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-fr-brumath-001-src1",
+        "site_id": "golden-fr-brumath-001",
+        "reference": "CAG 67/1, Brumath",
+        "niveau_confiance": "élevé",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-fr-strasbourg-001",
+    "nom_site": "Oppidum des Cordeliers (Strasbourg)",
+    "variantes_nom": ["Plateau des Cordeliers"],
+    "pays": "FR",
+    "region_admin": "Grand Est",
+    "commune": "Strasbourg",
+    "latitude": 48.58,
+    "longitude": 7.75,
+    "precision_localisation": "approx",
+    "type_site": "oppidum",
+    "phases": [
+      {
+        "phase_id": "golden-fr-strasbourg-001-p1",
+        "site_id": "golden-fr-strasbourg-001",
+        "periode": "La Tène",
+        "sous_periode": "LT C",
+        "datation_debut": -150,
+        "datation_fin": -50,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-fr-strasbourg-001-src1",
+        "site_id": "golden-fr-strasbourg-001",
+        "reference": "CAG 67/2, Strasbourg",
+        "niveau_confiance": "élevé",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-fr-selestat-001",
+    "nom_site": "Sanctuaire protohistorique de Sélestat",
+    "variantes_nom": [],
+    "pays": "FR",
+    "region_admin": "Grand Est",
+    "commune": "Sélestat",
+    "latitude": 48.26,
+    "longitude": 7.45,
+    "precision_localisation": "centroïde",
+    "type_site": "sanctuaire",
+    "phases": [
+      {
+        "phase_id": "golden-fr-selestat-001-p1",
+        "site_id": "golden-fr-selestat-001",
+        "periode": "La Tène",
+        "sous_periode": "LT B",
+        "datation_debut": -350,
+        "datation_fin": -150,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-fr-selestat-001-src1",
+        "site_id": "golden-fr-selestat-001",
+        "reference": "CAG 68, Sélestat",
+        "niveau_confiance": "moyen",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-fr-saverne-001",
+    "nom_site": "Atelier métallurgique laténien (Saverne)",
+    "variantes_nom": [],
+    "pays": "FR",
+    "region_admin": "Grand Est",
+    "commune": "Saverne",
+    "latitude": 48.74,
+    "longitude": 7.36,
+    "precision_localisation": "approx",
+    "type_site": "atelier",
+    "phases": [
+      {
+        "phase_id": "golden-fr-saverne-001-p1",
+        "site_id": "golden-fr-saverne-001",
+        "periode": "La Tène",
+        "sous_periode": "LT C",
+        "datation_debut": -250,
+        "datation_fin": -100,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-fr-saverne-001-src1",
+        "site_id": "golden-fr-saverne-001",
+        "reference": "CAG 67/1, Saverne",
+        "niveau_confiance": "moyen",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-fr-altkirch-001",
+    "nom_site": "Habitat du Sundgau (Altkirch)",
+    "variantes_nom": [],
+    "pays": "FR",
+    "region_admin": "Grand Est",
+    "commune": "Altkirch",
+    "latitude": 47.62,
+    "longitude": 7.24,
+    "precision_localisation": "approx",
+    "type_site": "habitat",
+    "phases": [
+      {
+        "phase_id": "golden-fr-altkirch-001-p1",
+        "site_id": "golden-fr-altkirch-001",
+        "periode": "Hallstatt",
+        "sous_periode": "Ha D",
+        "datation_debut": -600,
+        "datation_fin": -450,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-fr-altkirch-001-src1",
+        "site_id": "golden-fr-altkirch-001",
+        "reference": "CAG 68, Altkirch",
+        "niveau_confiance": "moyen",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-fr-mulhouse-est-001",
+    "nom_site": "Habitat laténien Mulhouse-Est",
+    "variantes_nom": ["Riedisheim secteur est"],
+    "pays": "FR",
+    "region_admin": "Grand Est",
+    "commune": "Mulhouse",
+    "latitude": 47.76,
+    "longitude": 7.35,
+    "precision_localisation": "approx",
+    "type_site": "habitat",
+    "phases": [
+      {
+        "phase_id": "golden-fr-mulhouse-est-001-p1",
+        "site_id": "golden-fr-mulhouse-est-001",
+        "periode": "La Tène",
+        "sous_periode": "LT D",
+        "datation_debut": -120,
+        "datation_fin": -50,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-fr-mulhouse-est-001-src1",
+        "site_id": "golden-fr-mulhouse-est-001",
+        "reference": "CAG 68, Mulhouse",
+        "niveau_confiance": "moyen",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  },
+  {
+    "site_id": "golden-ch-reinach-001",
+    "nom_site": "Habitat laténien de Reinach BL",
+    "variantes_nom": ["Reinach, site du Rhin"],
+    "pays": "CH",
+    "region_admin": "Basel-Landschaft",
+    "commune": "Reinach",
+    "latitude": 47.543,
+    "longitude": 7.597,
+    "precision_localisation": "approx",
+    "type_site": "habitat",
+    "phases": [
+      {
+        "phase_id": "golden-ch-reinach-001-p1",
+        "site_id": "golden-ch-reinach-001",
+        "periode": "La Tène",
+        "sous_periode": "LT C",
+        "datation_debut": -200,
+        "datation_fin": -80,
+        "mobilier_associe": [],
+        "date_creation": "2024-06-01T10:00:00+00:00",
+        "date_maj": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "golden-ch-reinach-001-src1",
+        "site_id": "golden-ch-reinach-001",
+        "reference": "Archäologie Baselland, Reinach",
+        "niveau_confiance": "moyen",
+        "date_extraction": "2024-06-01T10:00:00+00:00"
+      }
+    ],
+    "date_creation": "2024-06-01T10:00:00+00:00",
+    "date_maj": "2024-06-01T10:00:00+00:00"
+  }
+]

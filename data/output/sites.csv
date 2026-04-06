@@ -1,0 +1,32 @@
+﻿site_id,nom_site,commune,pays,type_site,latitude,longitude,phase_id,periode,sous_periode,datation_debut,datation_fin,sources_count,source_references
+SITE-3e7d2aa8603e1ccb,Bas-Rhin,Bas-Rhin,FR,indéterminé,48.320004,7.705118,SITE-3e7d2aa8603e1ccb-PH1,indéterminé,,,,1,gallica_metadata:12148/bd6t54207173p
+SITE-dacd1a769bbdfb18,Strasbourg,Strasbourg,FR,oppidum,48.58,7.75,SITE-dacd1a769bbdfb18-PH1,La Tène,LT C,,,3,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv;gallica_metadata:12148/bd6t542071728;gallica_metadata:12148/bpt6k1002738n
+SITE-dacd1a769bbdfb18,Strasbourg,Strasbourg,FR,oppidum,48.58,7.75,SITE-f5e1a42d2ca3c8de-PH1,indéterminé,,,,3,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv;gallica_metadata:12148/bd6t542071728;gallica_metadata:12148/bpt6k1002738n
+SITE-732edf76de65203e,Haut-Rhin,Haut-Rhin,FR,indéterminé,47.887571,7.226373,SITE-732edf76de65203e-PH1,indéterminé,,,,1,gallica_metadata:12148/bd6t542071580
+SITE-e7c800b9878d5b12,Biesheim,Biesheim,FR,dépôt,48.03577,7.556811,SITE-e7c800b9878d5b12-PH1,indéterminé,,,,1,gallica_metadata:12148/bpt6k1002738n
+SITE-f701fdf48f5178c3,Colmar,Colmar,FR,habitat,48.08,7.36,SITE-f701fdf48f5178c3-PH1,La Tène,LT C,,,2,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv;gallica_metadata:12148/bpt6k1002738n
+SITE-f701fdf48f5178c3,Colmar,Colmar,FR,habitat,48.08,7.36,SITE-e7c800b9878d5b12-PH1,indéterminé,,,,2,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv;gallica_metadata:12148/bpt6k1002738n
+SITE-b36a6085eb632234,Haguenau,Haguenau,FR,nécropole,48.82,7.79,SITE-b36a6085eb632234-PH1,Hallstatt,Ha C,,,2,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv;gallica_metadata:12148/bpt6k1002738n
+SITE-b36a6085eb632234,Haguenau,Haguenau,FR,nécropole,48.82,7.79,SITE-e7c800b9878d5b12-PH1,indéterminé,,,,2,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv;gallica_metadata:12148/bpt6k1002738n
+SITE-27e3da56ccd725f3,Mulhouse,Mulhouse,FR,habitat,47.76,7.35,SITE-27e3da56ccd725f3-PH1,La Tène,LT D,,,2,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv;gallica_metadata:12148/bpt6k1002738n
+SITE-27e3da56ccd725f3,Mulhouse,Mulhouse,FR,habitat,47.76,7.35,SITE-e7c800b9878d5b12-PH1,indéterminé,,,,2,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv;gallica_metadata:12148/bpt6k1002738n
+SITE-e7c800b9878d5b12,Niederbronn,Niederbronn-les-Bains,FR,dépôt,48.959855,7.641224,SITE-e7c800b9878d5b12-PH1,indéterminé,,,,1,gallica_metadata:12148/bpt6k1002738n
+SITE-eaf3fe9ca930380b,Sélestat,Sélestat,FR,sanctuaire,48.26,7.45,SITE-eaf3fe9ca930380b-PH1,La Tène,LT B,,,2,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv;gallica_metadata:12148/bpt6k1002738n
+SITE-eaf3fe9ca930380b,Sélestat,Sélestat,FR,sanctuaire,48.26,7.45,SITE-e7c800b9878d5b12-PH1,indéterminé,,,,2,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv;gallica_metadata:12148/bpt6k1002738n
+SITE-e7c800b9878d5b12,Wissembourg,Wissembourg,FR,dépôt,49.015263,7.953119,SITE-e7c800b9878d5b12-PH1,indéterminé,,,,1,gallica_metadata:12148/bpt6k1002738n
+SITE-565d090ff67d9f5f,Lorraine,Lorraine,FR,indéterminé,48.721423,7.07644,SITE-565d090ff67d9f5f-PH1,indéterminé,,,,1,gallica_metadata:12148/bpt6k7051449q
+SITE-cb1d5e18aee893ab,Breisach am Rhein,Breisach am Rhein,FR,oppidum,48.028,7.58,SITE-cb1d5e18aee893ab-PH1,Hallstatt,Ha D,,,1,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv
+SITE-378ea3620ebed165,Bâle,Basel,FR,oppidum,47.556,7.588,SITE-378ea3620ebed165-PH1,La Tène,LT C,,,1,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv
+SITE-473d80f6fa49f8be,Illfurth,Illfurth,FR,habitat,47.67,7.23,SITE-473d80f6fa49f8be-PH1,Hallstatt,Ha D,,,1,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv
+SITE-34047eed3df26de6,Ottrott,Ottrott,FR,oppidum,48.437,7.404,SITE-34047eed3df26de6-PH1,Hallstatt,Ha D,,,1,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv
+SITE-caa462e042f2d4d5,Wettolsheim,Wettolsheim,FR,nécropole,48.05,7.3,SITE-caa462e042f2d4d5-PH1,Hallstatt,Ha D,,,1,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv
+SITE-f6a30889496ba198,Nordhouse,Nordhouse,FR,habitat,48.43,7.71,SITE-f6a30889496ba198-PH1,La Tène,LT B,,,1,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv
+SITE-a210b0d6a0f964e6,Rosheim,Rosheim,FR,habitat,48.5,7.47,SITE-a210b0d6a0f964e6-PH1,La Tène,LT C,,,1,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv
+SITE-0158902e68aa986e,Kembs,Kembs,FR,dépôt,47.69,7.5,SITE-0158902e68aa986e-PH1,La Tène,LT D,,,1,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv
+SITE-2ded050bb394f58c,Sierentz,Sierentz,FR,nécropole,47.66,7.45,SITE-2ded050bb394f58c-PH1,Hallstatt,Ha D,,,1,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv
+SITE-1f16f72f4d1d5f67,Entzheim,Entzheim,FR,indéterminé,48.55,7.62,SITE-1f16f72f4d1d5f67-PH1,indéterminé,,,,1,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv
+SITE-e8671993a3c19565,Bischoffsheim,Bischoffsheim,FR,tumulus,48.48,7.5,SITE-e8671993a3c19565-PH1,Hallstatt,Ha D,,,1,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv
+SITE-ba0d8a94086a2f85,Brumath,Brumath,FR,habitat,48.73,7.71,SITE-ba0d8a94086a2f85-PH1,Hallstatt,Ha D,,,1,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv
+SITE-79cae145641808ac,Saverne,Saverne,FR,atelier,48.74,7.36,SITE-79cae145641808ac-PH1,La Tène,LT C,,,1,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv
+SITE-bfedff907e812123,Altkirch,Altkirch,FR,habitat,47.62,7.24,SITE-bfedff907e812123-PH1,Hallstatt,Ha D,,,1,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv
+SITE-979346f0e27ffc5a,Reinach,Reinach,FR,habitat,47.543,7.597,SITE-979346f0e27ffc5a-PH1,La Tène,LT C,,,1,/Users/I0438973/BaseFerRhin/data/sources/golden_sites.csv

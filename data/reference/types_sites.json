@@ -1,0 +1,36 @@
+{
+  "aliases": {
+    "OPPIDUM": {
+      "fr": ["oppidum", "fortification", "enceinte", "fortification de hauteur", "site fortifié", "site de hauteur", "éperon barré"],
+      "de": ["Oppidum", "Höhensiedlung", "Höhenburg", "Befestigung", "befestigte Höhensiedlung", "Ringwall"]
+    },
+    "HABITAT": {
+      "fr": ["habitat", "habitat ouvert", "village", "établissement", "établissement rural", "ferme", "hameau", "occupation"],
+      "de": ["Siedlung", "Gehöft", "Dorf", "offene Siedlung", "ländliche Siedlung", "Wohnplatz"]
+    },
+    "NECROPOLE": {
+      "fr": ["nécropole", "cimetière", "tombe", "sépulture", "inhumation", "incinération", "champ d'urnes", "ensemble funéraire"],
+      "de": ["Gräberfeld", "Nekropole", "Grab", "Bestattung", "Grabhügel", "Hügelgrab", "Urnenfeld", "Friedhof"]
+    },
+    "DEPOT": {
+      "fr": ["dépôt", "trésor", "cachette", "dépôt votif", "dépôt métallique"],
+      "de": ["Hortfund", "Depotfund", "Schatzfund", "Verwahrfund", "Metalldepot"]
+    },
+    "SANCTUAIRE": {
+      "fr": ["sanctuaire", "lieu de culte", "temple", "espace sacré", "enclos cultuel"],
+      "de": ["Heiligtum", "Kultstätte", "Viereckschanze", "Tempel", "Kultplatz"]
+    },
+    "ATELIER": {
+      "fr": ["atelier", "forge", "officine", "atelier métallurgique", "bas fourneau", "zone de production"],
+      "de": ["Werkstatt", "Schmiede", "Verhüttungsplatz", "Produktionsstätte", "Rennofen"]
+    },
+    "VOIE": {
+      "fr": ["voie", "chemin", "route", "passage", "gué"],
+      "de": ["Weg", "Straße", "Verkehrsweg", "Furt", "Altweg"]
+    },
+    "TUMULUS": {
+      "fr": ["tumulus", "tertre", "butte", "tumulus funéraire", "tertre funéraire"],
+      "de": ["Grabhügel", "Hügelgrab", "Tumulus", "Erdhügel"]
+    }
+  }
+}

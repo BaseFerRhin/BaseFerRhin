@@ -1,0 +1,135 @@
+# BaseFerRhin
+
+Inventaire normalisé des sites de l'**âge du Fer** du **Rhin supérieur** — pipeline ETL Python avec extraction OCR Gallica, géocodage multi-fournisseur et interface web interactive.
+
+## Périmètre
+
+### Géographique
+
+| Région | Département/Canton | Pays |
+|---|---|---|
+| Alsace | Bas-Rhin (67), Haut-Rhin (68) | FR |
+| Bade-Wurtemberg | Südbaden | DE |
+| Canton de Bâle | Bâle-Ville, Bâle-Campagne | CH |
+
+### Chronologique
+
+| Période | Datation | Sous-périodes |
+|---|---|---|
+| Hallstatt | env. -800 à -450 | Ha C, Ha D1, Ha D2, Ha D3 |
+| La Tène | env. -450 à -25 | LT A, LT B1, LT B2, LT C1, LT C2, LT D1, LT D2 |
+
+### Types de sites
+
+Oppidum, habitat, nécropole, dépôt, sanctuaire, atelier, voie, tumulus.
+
+## Sources de données
+
+- **Gallica (BnF)** — Carte Archéologique de la Gaule 67/1 et 68, Cahiers alsaciens d'archéologie, ouvrages (Déchelette)
+- **Fichiers locaux** — CSV, Excel, PDF, rapports de fouilles
+
+## Installation
+
+```bash
+pip install -e ".[dev]"
+```
+
+Dépendances optionnelles :
+
+```bash
+pip install -e ".[ui]"     # Interface web Dash
+pip install -e ".[viz]"    # Visualisation Kepler.gl (Jupyter)
+```
+
+Prérequis système pour l'OCR Gallica : `tesseract` avec les packs langue `fra` et `deu`.
+
+## Utilisation
+
+### Pipeline ETL
+
+```bash
+python -m src --config config.yaml
+```
+
+Le pipeline exécute 8 étapes séquentielles avec checkpoints :
+
+```
+DISCOVER → INGEST → EXTRACT → NORMALIZE → DEDUPLICATE → GEOCODE → VALIDATE → EXPORT
+```
+
+Reprise depuis une étape :
+
+```bash
+python -m src --config config.yaml --start-from NORMALIZE
+```
+
+### Interface web
+
+```bash
+python -m src.ui
+# → http://127.0.0.1:8050
+```
+
+Carte interactive, filtres par période/type/pays, frise chronologique et tableau triable.
+
+### Visualisation Kepler.gl
+
+```bash
+python .cursor/skills/kepler-gl-archeo/scripts/visualize.py data/output/sites.geojson
+```
+
+## Exports
+
+| Format | Fichier | Description |
+|---|---|---|
+| GeoJSON | `data/output/sites.geojson` | Points EPSG:4326 (QGIS, Kepler.gl) |
+| CSV | `data/output/sites.csv` | UTF-8 BOM, une ligne par site-phase |
+| SQLite | `data/output/sites.sqlite` | Tables `sites`, `phases`, `sources` avec FK |
+
+## Architecture
+
+```
+src/
+├── domain/              18 fichiers — modèles Pydantic, normalisation, validation, déduplication
+│   ├── models/          Site, PhaseOccupation, Source, RawRecord, 7 enums
+│   ├── normalizers/     Type, période, toponymie (FR/DE), composite
+│   ├── validators/      Cohérence chronologique et géographique
+│   └── deduplication/   Scoring fuzzy, union-find, merge
+├── infrastructure/      25 fichiers — extracteurs, géocodage, persistance
+│   ├── extractors/      Gallica (SRU, IIIF, OCR, Tesseract), CSV, PDF
+│   ├── geocoding/       BAN, Nominatim, GeoAdmin, multi-provider, cache
+│   └── persistence/     Export CSV, GeoJSON, SQLite, stats
+├── application/         5 fichiers — pipeline ETL, config YAML, review queue
+└── ui/                  9 fichiers — Dash app, carte Plotly, frise, filtres
+```
+
+**59 fichiers Python** | **5 modules de test** | **Python ≥ 3.11** | **Hatchling**
+
+## Tests
+
+```bash
+pytest
+```
+
+| Module | Couverture |
+|---|---|
+| `test_models.py` | Modèles, contraintes, validateurs Pydantic |
+| `test_normalizers.py` | Normalisation type/période/toponymie |
+| `test_validators.py` | Cohérence chrono/géo |
+| `test_deduplication.py` | Scoring, merge, review queue |
+| `test_export.py` | Export CSV, GeoJSON, SQLite |
+
+Golden set : 20 sites de référence (`tests/fixtures/golden_sites.json`).
+
+## Documentation
+
+| Document | Contenu |
+|---|---|
+| [Architecture](docs/ARCHITECTURE.md) | Clean Architecture, diagrammes de flux, dépendances, arbre des données |
+| [Domaine](docs/DOMAIN.md) | Modèles Pydantic, enums, normalisation, validation, déduplication |
+| [Pipeline](docs/PIPELINE.md) | 8 étapes ETL, extracteurs Gallica, géocodage, configuration |
+| [Interface web](docs/UI.md) | Application Dash, composants, palettes, thème CSS |
+
+## Licence
+
+MIT

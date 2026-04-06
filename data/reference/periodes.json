@@ -1,0 +1,88 @@
+{
+  "periodes": {
+    "HALLSTATT": {
+      "date_debut": -800,
+      "date_fin": -450,
+      "sous_periodes": {
+        "Ha C": {"date_debut": -800, "date_fin": -620},
+        "Ha D1": {"date_debut": -620, "date_fin": -540},
+        "Ha D2": {"date_debut": -540, "date_fin": -500},
+        "Ha D3": {"date_debut": -500, "date_fin": -450}
+      },
+      "patterns_fr": [
+        "Hallstatt",
+        "hallstattien",
+        "hallstattienne",
+        "premier âge du Fer",
+        "Premier âge du fer",
+        "1er âge du Fer",
+        "Ha C", "Ha D", "Ha D1", "Ha D2", "Ha D3",
+        "Ha D2-D3", "Ha D2/D3",
+        "Hallstatt ancien", "Hallstatt moyen", "Hallstatt final",
+        "Hallstatt récent"
+      ],
+      "patterns_de": [
+        "Hallstatt",
+        "Hallstattzeit",
+        "hallstattzeitlich",
+        "ältere Eisenzeit",
+        "Ältere Eisenzeit",
+        "Ha C", "Ha D", "Ha D1", "Ha D2", "Ha D3",
+        "Frühhallstattzeit", "Späthallstattzeit"
+      ]
+    },
+    "LA_TENE": {
+      "date_debut": -450,
+      "date_fin": -25,
+      "sous_periodes": {
+        "LT A": {"date_debut": -450, "date_fin": -380},
+        "LT B1": {"date_debut": -380, "date_fin": -320},
+        "LT B2": {"date_debut": -320, "date_fin": -260},
+        "LT C1": {"date_debut": -260, "date_fin": -200},
+        "LT C2": {"date_debut": -200, "date_fin": -150},
+        "LT D1": {"date_debut": -150, "date_fin": -80},
+        "LT D2": {"date_debut": -80, "date_fin": -25}
+      },
+      "patterns_fr": [
+        "La Tène",
+        "laténien", "laténienne",
+        "second âge du Fer",
+        "Second âge du fer",
+        "2e âge du Fer", "2nd âge du Fer",
+        "LT A", "LT B", "LT B1", "LT B2",
+        "LT C", "LT C1", "LT C2",
+        "LT D", "LT D1", "LT D2",
+        "La Tène ancienne", "La Tène moyenne", "La Tène finale",
+        "La Tène récente"
+      ],
+      "patterns_de": [
+        "La Tène", "Latène",
+        "Latènezeit", "latènezeitlich",
+        "jüngere Eisenzeit",
+        "Jüngere Eisenzeit",
+        "LT A", "LT B", "LT B1", "LT B2",
+        "LT C", "LT C1", "LT C2",
+        "LT D", "LT D1", "LT D2",
+        "Frühlatènezeit", "Mittellatènezeit", "Spätlatènezeit"
+      ]
+    },
+    "TRANSITION": {
+      "date_debut": -500,
+      "date_fin": -400,
+      "sous_periodes": {
+        "Ha D3 / LT A": {"date_debut": -500, "date_fin": -400}
+      },
+      "patterns_fr": [
+        "transition Hallstatt-La Tène",
+        "Ha D3/LT A",
+        "charnière Ha/LT"
+      ],
+      "patterns_de": [
+        "Übergang Hallstatt-Latène",
+        "Ha D3/LT A",
+        "Hallstatt-Latène-Übergang"
+      ]
+    }
+  },
+  "sub_period_regex": "(?:Ha\\s*[CD](?:\\d)?(?:-[CD]?\\d)?|LT\\s*[A-D](?:\\d)?)"
+}

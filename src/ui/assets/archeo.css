@@ -1,0 +1,166 @@
+:root {
+    --archeo-bg: #0f0f1a;
+    --archeo-surface: #16182d;
+    --archeo-card: #1e2040;
+    --archeo-border: #2a2d50;
+    --archeo-hallstatt: #D95F02;
+    --archeo-latene: #1B9E77;
+    --archeo-accent: #C47D3B;
+    --archeo-text: #e0e0e8;
+    --archeo-muted: #7e80a0;
+}
+
+body {
+    background-color: var(--archeo-bg) !important;
+    color: var(--archeo-text) !important;
+    font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif !important;
+}
+
+.app-container {
+    padding: 0 !important;
+    max-width: 100% !important;
+}
+
+.navbar {
+    background: linear-gradient(135deg, #1a1c35 0%, #0f0f1a 100%) !important;
+    border-bottom: 2px solid var(--archeo-hallstatt) !important;
+    padding: 0.6rem 1.2rem !important;
+}
+
+.card {
+    background-color: var(--archeo-surface) !important;
+    border: 1px solid var(--archeo-border) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+    background-color: var(--archeo-card) !important;
+    border-bottom: 1px solid var(--archeo-border) !important;
+    border-radius: 10px 10px 0 0 !important;
+    padding: 0.6rem 1rem !important;
+}
+
+.sidebar-col {
+    max-height: calc(100vh - 70px);
+    overflow-y: auto;
+    padding-right: 0 !important;
+}
+
+.stat-number {
+    font-size: 2.6rem;
+    font-weight: 800;
+    color: var(--archeo-accent);
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.stat-number-sm {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--archeo-hallstatt);
+}
+
+.stat-label {
+    font-size: 0.88rem;
+    color: var(--archeo-muted);
+}
+
+.period-badge-hallstatt {
+    background-color: rgba(217, 95, 2, 0.15);
+    color: var(--archeo-hallstatt);
+    border: 1px solid var(--archeo-hallstatt);
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.period-badge-latene {
+    background-color: rgba(27, 158, 119, 0.15);
+    color: var(--archeo-latene);
+    border: 1px solid var(--archeo-latene);
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+/* Dash dropdowns */
+.Select-control {
+    background-color: var(--archeo-card) !important;
+    border-color: var(--archeo-border) !important;
+}
+
+.Select-value-label,
+.Select-placeholder {
+    color: var(--archeo-text) !important;
+}
+
+.Select-menu-outer {
+    background-color: var(--archeo-card) !important;
+    border-color: var(--archeo-border) !important;
+}
+
+.Select-option {
+    background-color: var(--archeo-card) !important;
+    color: var(--archeo-text) !important;
+}
+
+.Select-option.is-focused {
+    background-color: var(--archeo-border) !important;
+}
+
+.VirtualizedSelectFocusedOption {
+    background-color: var(--archeo-border) !important;
+}
+
+/* Data table */
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner td,
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner th {
+    border-color: var(--archeo-border) !important;
+}
+
+/* Offcanvas detail panel */
+.offcanvas {
+    background-color: var(--archeo-surface) !important;
+    border-left: 2px solid var(--archeo-hallstatt) !important;
+    color: var(--archeo-text) !important;
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid var(--archeo-border);
+}
+
+.btn-close {
+    filter: invert(1);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--archeo-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--archeo-border);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--archeo-muted);
+}
+
+/* Form elements in dark mode */
+.form-check-input:checked {
+    background-color: var(--archeo-hallstatt) !important;
+    border-color: var(--archeo-hallstatt) !important;
+}
+
+hr {
+    border-color: var(--archeo-border) !important;
+    opacity: 0.5;
+}

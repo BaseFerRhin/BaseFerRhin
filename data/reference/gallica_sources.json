@@ -1,0 +1,97 @@
+{
+  "sources": [
+    {
+      "id": "CAG67_1",
+      "title": "Carte archéologique de la Gaule — 67/1, Le Bas-Rhin",
+      "authors": ["Pascal Flotté", "Matthieu Fuchs"],
+      "year": 2000,
+      "ark": "ark:/12148/bd6t54207173p",
+      "type_source": "gallica_cag",
+      "digitized": false,
+      "geographic_scope": "Bas-Rhin (67) hors Strasbourg",
+      "pages_estimate": 735,
+      "description": "Inventaire archéologique par commune. Référence fondamentale pour le département."
+    },
+    {
+      "id": "CAG67_2",
+      "title": "Carte archéologique de la Gaule — 67/2, Strasbourg",
+      "authors": ["Juliette Baudoux", "Pascal Flotté", "Matthieu Fuchs"],
+      "year": 2002,
+      "ark": "ark:/12148/bd6t542071728",
+      "type_source": "gallica_cag",
+      "digitized": false,
+      "geographic_scope": "Strasbourg et CUS",
+      "pages_estimate": 586,
+      "description": "Volume consacré à Strasbourg et sa communauté urbaine."
+    },
+    {
+      "id": "CAG68",
+      "title": "Carte archéologique de la Gaule — 68, Haut-Rhin",
+      "authors": ["Muriel Zehner"],
+      "year": 1998,
+      "ark": "ark:/12148/bd6t542071580",
+      "type_source": "gallica_cag",
+      "digitized": false,
+      "geographic_scope": "Haut-Rhin (68)",
+      "pages_estimate": 375,
+      "description": "Inventaire du Haut-Rhin, même structure que les autres volumes CAG."
+    },
+    {
+      "id": "MUSEE_ARCHEO_SXB",
+      "title": "Musée archéologique, Strasbourg : l'Alsace des origines au VIIIe siècle",
+      "authors": ["Bernadette Schnitzler"],
+      "year": null,
+      "ark": "ark:/12148/bpt6k33200263",
+      "type_source": "gallica_ouvrage",
+      "digitized": true,
+      "pdf_url": "https://gallica.bnf.fr/ark:/12148/bpt6k33200263.pdf",
+      "iiif_base": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k33200263",
+      "geographic_scope": "Alsace",
+      "pages_estimate": 150,
+      "description": "Guide du musée archéologique de Strasbourg, synthèse chronologique."
+    },
+    {
+      "id": "BRONZES_ALSACE",
+      "title": "Bronzes antiques d'Alsace",
+      "authors": [],
+      "year": null,
+      "ark": "ark:/12148/bpt6k1002738n",
+      "type_source": "gallica_ouvrage",
+      "digitized": true,
+      "pdf_url": "https://gallica.bnf.fr/ark:/12148/bpt6k1002738n.pdf",
+      "iiif_base": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1002738n",
+      "geographic_scope": "Strasbourg, Biesheim, Colmar, Haguenau, Mulhouse, Niederbronn, Sélestat, Wissembourg",
+      "pages_estimate": 200,
+      "description": "Catalogue des bronzes protohistoriques et antiques des musées alsaciens."
+    },
+    {
+      "id": "DECHELETTE_HALLSTATT",
+      "title": "Manuel d'archéologie — Archéologie celtique, Premier âge du fer (Hallstatt)",
+      "authors": ["Joseph Déchelette"],
+      "year": 1913,
+      "ark": "ark:/12148/bpt6k6106092j",
+      "type_source": "gallica_ouvrage",
+      "digitized": true,
+      "pdf_url": "https://gallica.bnf.fr/ark:/12148/bpt6k6106092j.pdf",
+      "iiif_base": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6106092j",
+      "geographic_scope": "Europe (mentions Alsace, vallée du Rhin)",
+      "pages_estimate": 800,
+      "description": "Ouvrage de référence typologie Hallstatt. Chapitres sur les sites rhénans."
+    },
+    {
+      "id": "CAAH",
+      "title": "Cahiers alsaciens d'archéologie, d'art et d'histoire",
+      "authors": [],
+      "year": null,
+      "ark": "ark:/12148/cb343831065",
+      "type_source": "gallica_periodique",
+      "digitized": false,
+      "geographic_scope": "Alsace",
+      "pages_estimate": null,
+      "description": "Périodique annuel (depuis 1957). Articles de fouilles, inventaires, cartes de répartition."
+    }
+  ],
+  "sru_endpoint": "https://gallica.bnf.fr/SRU",
+  "iiif_template": "https://gallica.bnf.fr/iiif/ark:/{ark}/f{page}/full/max/0/default.jpg",
+  "pdf_template": "https://gallica.bnf.fr/ark:/{ark}.pdf"
+}

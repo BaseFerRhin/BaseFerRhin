@@ -7,6 +7,10 @@ from .enums import Pays, PrecisionLocalisation, StatutFouille, TypeSite
 from .phase import PhaseOccupation
 from .source import Source
 
+# Lambert-93 (EPSG:2154) bounds for metropolitan France
+_X_L93_MIN, _X_L93_MAX = 100_000.0, 1_200_000.0
+_Y_L93_MIN, _Y_L93_MAX = 6_000_000.0, 7_200_000.0
+
 
 class Site(BaseModel):
     site_id: str
@@ -15,8 +19,8 @@ class Site(BaseModel):
     pays: Pays
     region_admin: str
     commune: str
-    latitude: Optional[float] = Field(default=None, ge=-90, le=90)
-    longitude: Optional[float] = Field(default=None, ge=-180, le=180)
+    x_l93: Optional[float] = Field(default=None, ge=_X_L93_MIN, le=_X_L93_MAX)
+    y_l93: Optional[float] = Field(default=None, ge=_Y_L93_MIN, le=_Y_L93_MAX)
     precision_localisation: PrecisionLocalisation
     type_site: TypeSite
     description: Optional[str] = None

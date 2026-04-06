@@ -17,6 +17,7 @@ dependencies = [
     "rapidfuzz>=3.0",
     "geopy>=2.4",
     "lxml>=5.0",
+    "pyproj>=3.6",
     "geopandas>=1.0",
     "sqlite-utils>=3.36",
     "rich>=13.0",

@@ -9,7 +9,7 @@ from typing import Any
 
 from geopy.geocoders import Nominatim
 
-from .base import GeoResult
+from .base import GeoResult, wgs84_to_l93
 
 logger = logging.getLogger(__name__)
 
@@ -64,9 +64,10 @@ class NominatimGeocoder:
         prec = "approx"
         if raw.get("addresstype") == "municipality" or raw.get("type") in ("administrative",):
             prec = "centroide"
+        x, y = wgs84_to_l93(float(loc.longitude), float(loc.latitude))
         return GeoResult(
-            latitude=float(loc.latitude),
-            longitude=float(loc.longitude),
+            x_l93=x,
+            y_l93=y,
             precision=prec,
             source_api="nominatim",
             raw_response=raw if isinstance(raw, dict) else {"raw": raw},

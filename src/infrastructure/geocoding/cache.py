@@ -18,8 +18,8 @@ def _key(commune: str, pays: str) -> str:
 
 def _result_to_dict(r: GeoResult) -> dict[str, Any]:
     return {
-        "latitude": r.latitude,
-        "longitude": r.longitude,
+        "x_l93": r.x_l93,
+        "y_l93": r.y_l93,
         "precision": r.precision,
         "source_api": r.source_api,
         "raw_response": r.raw_response,
@@ -27,9 +27,12 @@ def _result_to_dict(r: GeoResult) -> dict[str, Any]:
 
 
 def _dict_to_result(d: dict[str, Any]) -> GeoResult:
+    # Support legacy cache entries with latitude/longitude keys
+    x = d.get("x_l93") or d.get("longitude")
+    y = d.get("y_l93") or d.get("latitude")
     return GeoResult(
-        latitude=float(d["latitude"]),
-        longitude=float(d["longitude"]),
+        x_l93=float(x),
+        y_l93=float(y),
         precision=str(d["precision"]),
         source_api=str(d["source_api"]),
         raw_response=dict(d.get("raw_response") or {}),

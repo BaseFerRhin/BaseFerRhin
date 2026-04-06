@@ -1,10 +1,9 @@
-"""Composite similarity scoring for site deduplication."""
+"""Composite similarity scoring for site deduplication (Lambert-93)."""
 
 from __future__ import annotations
 
 import logging
 import math
-from typing import Final
 
 from rapidfuzz import fuzz
 
@@ -12,17 +11,10 @@ from src.domain.models.site import Site
 
 logger = logging.getLogger(__name__)
 
-_EARTH_RADIUS_KM: Final[float] = 6371.0
 
-
-def _haversine(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
-    """Great-circle distance in kilometers."""
-    p1, p2 = math.radians(lat1), math.radians(lat2)
-    dphi = math.radians(lat2 - lat1)
-    dlmb = math.radians(lon2 - lon1)
-    a = math.sin(dphi / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dlmb / 2) ** 2
-    c = 2 * math.asin(min(1.0, math.sqrt(a)))
-    return _EARTH_RADIUS_KM * c
+def _distance_l93_km(x1: float, y1: float, x2: float, y2: float) -> float:
+    """Euclidean distance in kilometers between two Lambert-93 points."""
+    return math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2) / 1000.0
 
 
 class SimilarityScorer:
@@ -31,16 +23,16 @@ class SimilarityScorer:
     def score(self, site_a: Site, site_b: Site) -> float:
         name_sim = fuzz.token_sort_ratio(site_a.nom_site, site_b.nom_site) / 100.0
         commune_sim = fuzz.token_sort_ratio(site_a.commune, site_b.commune) / 100.0
-        a_geo = site_a.latitude is not None and site_a.longitude is not None
-        b_geo = site_b.latitude is not None and site_b.longitude is not None
+        a_geo = site_a.x_l93 is not None and site_a.y_l93 is not None
+        b_geo = site_b.x_l93 is not None and site_b.y_l93 is not None
         both_geo = a_geo and b_geo
         both_lack = not a_geo and not b_geo
         if both_geo:
-            dist = _haversine(
-                float(site_a.latitude),
-                float(site_a.longitude),
-                float(site_b.latitude),
-                float(site_b.longitude),
+            dist = _distance_l93_km(
+                float(site_a.x_l93),
+                float(site_a.y_l93),
+                float(site_b.x_l93),
+                float(site_b.y_l93),
             )
             geo_sim = 1.0 - min(dist, 50.0) / 50.0
             total = 0.4 * name_sim + 0.3 * commune_sim + 0.3 * geo_sim

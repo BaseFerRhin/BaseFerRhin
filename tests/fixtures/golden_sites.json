@@ -2,12 +2,13 @@
   {
     "site_id": "golden-de-breisach-001",
     "nom_site": "Oppidum du Münsterberg (Breisach am Rhein)",
-    "variantes_nom": ["Münsterberg", "Breisach Hochsiedlung"],
+    "variantes_nom": [
+      "Münsterberg",
+      "Breisach Hochsiedlung"
+    ],
     "pays": "DE",
     "region_admin": "Baden-Württemberg",
     "commune": "Breisach am Rhein",
-    "latitude": 48.028,
-    "longitude": 7.58,
     "precision_localisation": "exact",
     "type_site": "oppidum",
     "phases": [
@@ -33,17 +34,20 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1041202.66,
+    "y_l93": 6779633.17
   },
   {
     "site_id": "golden-ch-basel-001",
     "nom_site": "Oppidum du Münsterhügel (Bâle)",
-    "variantes_nom": ["Münsterhügel", "Basel oppidum"],
+    "variantes_nom": [
+      "Münsterhügel",
+      "Basel oppidum"
+    ],
     "pays": "CH",
     "region_admin": "Basel-Stadt",
     "commune": "Bâle",
-    "latitude": 47.556,
-    "longitude": 7.588,
     "precision_localisation": "exact",
     "type_site": "oppidum",
     "phases": [
@@ -69,17 +73,19 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1044843.4,
+    "y_l93": 6727313.0
   },
   {
     "site_id": "golden-fr-haguenau-001",
     "nom_site": "Nécropole à tumuli de la forêt de Haguenau",
-    "variantes_nom": ["Tumuli de Haguenau"],
+    "variantes_nom": [
+      "Tumuli de Haguenau"
+    ],
     "pays": "FR",
     "region_admin": "Grand Est",
     "commune": "Haguenau",
-    "latitude": 48.82,
-    "longitude": 7.79,
     "precision_localisation": "approx",
     "type_site": "nécropole",
     "phases": [
@@ -116,17 +122,19 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1051491.44,
+    "y_l93": 6868434.93
   },
   {
     "site_id": "golden-fr-illfurth-001",
     "nom_site": "Britzgyberg (Illfurth)",
-    "variantes_nom": ["Habitat du Britzgyberg"],
+    "variantes_nom": [
+      "Habitat du Britzgyberg"
+    ],
     "pays": "FR",
     "region_admin": "Grand Est",
     "commune": "Illfurth",
-    "latitude": 47.67,
-    "longitude": 7.23,
     "precision_localisation": "exact",
     "type_site": "habitat",
     "phases": [
@@ -152,17 +160,19 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1017284.08,
+    "y_l93": 6738457.44
   },
   {
     "site_id": "golden-fr-mso-001",
     "nom_site": "Mont Sainte-Odile (Oppidum / sanctuaire)",
-    "variantes_nom": ["Ottrott, mont Ste-Odile"],
+    "variantes_nom": [
+      "Ottrott, mont Ste-Odile"
+    ],
     "pays": "FR",
     "region_admin": "Grand Est",
     "commune": "Ottrott",
-    "latitude": 48.437,
-    "longitude": 7.404,
     "precision_localisation": "centroïde",
     "type_site": "oppidum",
     "phases": [
@@ -199,7 +209,9 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1025570.88,
+    "y_l93": 6824272.68
   },
   {
     "site_id": "golden-fr-wettolsheim-001",
@@ -208,8 +220,6 @@
     "pays": "FR",
     "region_admin": "Grand Est",
     "commune": "Wettolsheim",
-    "latitude": 48.05,
-    "longitude": 7.3,
     "precision_localisation": "exact",
     "type_site": "nécropole",
     "phases": [
@@ -235,7 +245,9 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1020231.33,
+    "y_l93": 6780901.34
   },
   {
     "site_id": "golden-fr-nordhouse-001",
@@ -244,8 +256,6 @@
     "pays": "FR",
     "region_admin": "Grand Est",
     "commune": "Nordhouse",
-    "latitude": 48.43,
-    "longitude": 7.71,
     "precision_localisation": "approx",
     "type_site": "habitat",
     "phases": [
@@ -271,17 +281,19 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1048212.72,
+    "y_l93": 6824801.43
   },
   {
     "site_id": "golden-fr-rosheim-001",
     "nom_site": "Habitat laténien de Rosheim",
-    "variantes_nom": ["Rosheim, zone artisanale protohistorique"],
+    "variantes_nom": [
+      "Rosheim, zone artisanale protohistorique"
+    ],
     "pays": "FR",
     "region_admin": "Grand Est",
     "commune": "Rosheim",
-    "latitude": 48.5,
-    "longitude": 7.47,
     "precision_localisation": "approx",
     "type_site": "habitat",
     "phases": [
@@ -307,17 +319,19 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1030048.61,
+    "y_l93": 6831538.63
   },
   {
     "site_id": "golden-fr-kembs-001",
     "nom_site": "Dépôt de métaux du Rhin (Kembs)",
-    "variantes_nom": ["Dépôt laténien Kembs"],
+    "variantes_nom": [
+      "Dépôt laténien Kembs"
+    ],
     "pays": "FR",
     "region_admin": "Grand Est",
     "commune": "Kembs",
-    "latitude": 47.69,
-    "longitude": 7.5,
     "precision_localisation": "exact",
     "type_site": "dépôt",
     "phases": [
@@ -343,7 +357,9 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1037388.43,
+    "y_l93": 6741795.36
   },
   {
     "site_id": "golden-fr-sierentz-001",
@@ -352,8 +368,6 @@
     "pays": "FR",
     "region_admin": "Grand Est",
     "commune": "Sierentz",
-    "latitude": 47.66,
-    "longitude": 7.45,
     "precision_localisation": "approx",
     "type_site": "nécropole",
     "phases": [
@@ -379,7 +393,9 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1033831.39,
+    "y_l93": 6738255.16
   },
   {
     "site_id": "golden-fr-entzheim-001",
@@ -388,8 +404,6 @@
     "pays": "FR",
     "region_admin": "Grand Est",
     "commune": "Entzheim",
-    "latitude": 48.55,
-    "longitude": 7.62,
     "precision_localisation": "approx",
     "type_site": "indéterminé",
     "phases": [
@@ -414,17 +428,19 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1040786.62,
+    "y_l93": 6837724.79
   },
   {
     "site_id": "golden-fr-colmar-001",
     "nom_site": "Habitat du Colmar centre (protohistoire)",
-    "variantes_nom": ["Colmar, rue des Clefs"],
+    "variantes_nom": [
+      "Colmar, rue des Clefs"
+    ],
     "pays": "FR",
     "region_admin": "Grand Est",
     "commune": "Colmar",
-    "latitude": 48.08,
-    "longitude": 7.36,
     "precision_localisation": "approx",
     "type_site": "habitat",
     "phases": [
@@ -450,7 +466,9 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1024511.18,
+    "y_l93": 6784475.09
   },
   {
     "site_id": "golden-fr-bischoffheim-001",
@@ -459,8 +477,6 @@
     "pays": "FR",
     "region_admin": "Grand Est",
     "commune": "Bischoffsheim",
-    "latitude": 48.48,
-    "longitude": 7.5,
     "precision_localisation": "approx",
     "type_site": "tumulus",
     "phases": [
@@ -486,17 +502,19 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1032387.95,
+    "y_l93": 6829444.84
   },
   {
     "site_id": "golden-fr-brumath-001",
     "nom_site": "Habitat hallstattien de Brumath",
-    "variantes_nom": ["Brumatium"],
+    "variantes_nom": [
+      "Brumatium"
+    ],
     "pays": "FR",
     "region_admin": "Grand Est",
     "commune": "Brumath",
-    "latitude": 48.73,
-    "longitude": 7.71,
     "precision_localisation": "approx",
     "type_site": "habitat",
     "phases": [
@@ -522,17 +540,19 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1046224.58,
+    "y_l93": 6858092.76
   },
   {
     "site_id": "golden-fr-strasbourg-001",
     "nom_site": "Oppidum des Cordeliers (Strasbourg)",
-    "variantes_nom": ["Plateau des Cordeliers"],
+    "variantes_nom": [
+      "Plateau des Cordeliers"
+    ],
     "pays": "FR",
     "region_admin": "Grand Est",
     "commune": "Strasbourg",
-    "latitude": 48.58,
-    "longitude": 7.75,
     "precision_localisation": "approx",
     "type_site": "oppidum",
     "phases": [
@@ -558,7 +578,9 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1050163.94,
+    "y_l93": 6841622.72
   },
   {
     "site_id": "golden-fr-selestat-001",
@@ -567,8 +589,6 @@
     "pays": "FR",
     "region_admin": "Grand Est",
     "commune": "Sélestat",
-    "latitude": 48.26,
-    "longitude": 7.45,
     "precision_localisation": "centroïde",
     "type_site": "sanctuaire",
     "phases": [
@@ -594,7 +614,9 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1030076.03,
+    "y_l93": 6804821.24
   },
   {
     "site_id": "golden-fr-saverne-001",
@@ -603,8 +625,6 @@
     "pays": "FR",
     "region_admin": "Grand Est",
     "commune": "Saverne",
-    "latitude": 48.74,
-    "longitude": 7.36,
     "precision_localisation": "approx",
     "type_site": "atelier",
     "phases": [
@@ -630,7 +650,9 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1020462.48,
+    "y_l93": 6857725.22
   },
   {
     "site_id": "golden-fr-altkirch-001",
@@ -639,8 +661,6 @@
     "pays": "FR",
     "region_admin": "Grand Est",
     "commune": "Altkirch",
-    "latitude": 47.62,
-    "longitude": 7.24,
     "precision_localisation": "approx",
     "type_site": "habitat",
     "phases": [
@@ -666,17 +686,19 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1018331.58,
+    "y_l93": 6732950.71
   },
   {
     "site_id": "golden-fr-mulhouse-est-001",
     "nom_site": "Habitat laténien Mulhouse-Est",
-    "variantes_nom": ["Riedisheim secteur est"],
+    "variantes_nom": [
+      "Riedisheim secteur est"
+    ],
     "pays": "FR",
     "region_admin": "Grand Est",
     "commune": "Mulhouse",
-    "latitude": 47.76,
-    "longitude": 7.35,
     "precision_localisation": "approx",
     "type_site": "habitat",
     "phases": [
@@ -702,17 +724,19 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1025725.49,
+    "y_l93": 6748930.61
   },
   {
     "site_id": "golden-ch-reinach-001",
     "nom_site": "Habitat laténien de Reinach BL",
-    "variantes_nom": ["Reinach, site du Rhin"],
+    "variantes_nom": [
+      "Reinach, site du Rhin"
+    ],
     "pays": "CH",
     "region_admin": "Basel-Landschaft",
     "commune": "Reinach",
-    "latitude": 47.543,
-    "longitude": 7.597,
     "precision_localisation": "approx",
     "type_site": "habitat",
     "phases": [
@@ -738,6 +762,8 @@
       }
     ],
     "date_creation": "2024-06-01T10:00:00+00:00",
-    "date_maj": "2024-06-01T10:00:00+00:00"
+    "date_maj": "2024-06-01T10:00:00+00:00",
+    "x_l93": 1045603.12,
+    "y_l93": 6725910.57
   }
 ]

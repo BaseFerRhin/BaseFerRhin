@@ -24,7 +24,7 @@ class ExportStats:
         for s in sites:
             by_pays[s.pays.value] += 1
             by_type[s.type_site.value] += 1
-            if s.latitude is not None and s.longitude is not None:
+            if s.x_l93 is not None and s.y_l93 is not None:
                 with_coords += 1
             else:
                 without_coords += 1

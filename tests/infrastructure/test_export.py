@@ -18,6 +18,7 @@ from src.domain.models import (
     Source,
     TypeSite,
 )
+from src.infrastructure.geocoding.base import wgs84_to_l93
 from src.infrastructure.persistence import CSVExporter, GeoJSONExporter, SQLiteRepository
 
 
@@ -28,6 +29,9 @@ def _minimal_site(
     lon: float | None = 7.5,
     phases: list[PhaseOccupation] | None = None,
 ) -> Site:
+    x, y = (None, None)
+    if lat is not None and lon is not None:
+        x, y = wgs84_to_l93(lon, lat)
     return Site(
         site_id=site_id,
         nom_site=f"Site {site_id}",
@@ -35,8 +39,8 @@ def _minimal_site(
         pays=Pays.FR,
         region_admin="Grand Est",
         commune="Testville",
-        latitude=lat,
-        longitude=lon,
+        x_l93=x,
+        y_l93=y,
         precision_localisation=PrecisionLocalisation.EXACT,
         type_site=TypeSite.HABITAT,
         phases=phases or [],

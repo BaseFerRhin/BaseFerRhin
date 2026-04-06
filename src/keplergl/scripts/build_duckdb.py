@@ -46,8 +46,8 @@ def build_database(state: dict) -> None:
             pays             VARCHAR NOT NULL,
             region_admin     VARCHAR NOT NULL,
             commune          VARCHAR NOT NULL,
-            latitude         DOUBLE,
-            longitude        DOUBLE,
+            x_l93            DOUBLE,
+            y_l93            DOUBLE,
             precision_loc    VARCHAR,
             type_site        VARCHAR NOT NULL,
             description      VARCHAR,
@@ -121,8 +121,8 @@ def build_database(state: dict) -> None:
                 site["pays"],
                 site["region_admin"],
                 site["commune"],
-                site.get("latitude"),
-                site.get("longitude"),
+                site.get("x_l93"),
+                site.get("y_l93"),
                 site.get("precision_localisation"),
                 site["type_site"],
                 site.get("description"),
@@ -193,7 +193,7 @@ def build_database(state: dict) -> None:
         CREATE VIEW sites_with_phases AS
         SELECT
             s.site_id, s.nom_site, s.commune, s.pays, s.region_admin,
-            s.latitude, s.longitude, s.precision_loc, s.type_site,
+            s.x_l93, s.y_l93, s.precision_loc, s.type_site,
             s.description, s.surface_m2, s.altitude_m,
             p.phase_id, p.periode, p.sous_periode,
             p.datation_debut, p.datation_fin
@@ -205,13 +205,13 @@ def build_database(state: dict) -> None:
         CREATE VIEW sites_geojson AS
         SELECT
             s.site_id, s.nom_site, s.commune, s.pays, s.region_admin,
-            s.latitude, s.longitude, s.precision_loc, s.type_site,
+            s.x_l93, s.y_l93, s.precision_loc, s.type_site,
             s.description, s.surface_m2, s.altitude_m,
             p.periode, p.sous_periode,
             (SELECT COUNT(*) FROM sources src WHERE src.site_id = s.site_id) AS sources_count
         FROM sites s
         LEFT JOIN phases p ON s.site_id = p.site_id
-        WHERE s.latitude IS NOT NULL AND s.longitude IS NOT NULL
+        WHERE s.x_l93 IS NOT NULL AND s.y_l93 IS NOT NULL
     """)
 
     counts = db.execute("SELECT COUNT(*) FROM sites").fetchone()[0]

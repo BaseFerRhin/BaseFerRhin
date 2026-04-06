@@ -38,16 +38,27 @@ def _from_geojson(path: Path) -> pd.DataFrame:
     import geopandas as gpd
 
     gdf = gpd.read_file(path)
-    return pd.DataFrame(gdf.drop(columns="geometry", errors="ignore"))
+    if "geometry" in gdf.columns:
+        gdf["latitude"] = gdf.geometry.y
+        gdf["longitude"] = gdf.geometry.x
+    df = pd.DataFrame(gdf.drop(columns="geometry", errors="ignore"))
+    return df
 
 
 def _from_golden_json(path: Path) -> pd.DataFrame:
+    from pyproj import Transformer
+    _l93_to_wgs = Transformer.from_crs("EPSG:2154", "EPSG:4326", always_xy=True)
+
     raw: list[dict] = json.loads(path.read_text(encoding="utf-8"))
     rows: list[dict] = []
     for site in raw:
         periodes, sous_periodes = _extract_phases(site.get("phases", []))
         deb, fin = _extract_datation(site.get("phases", []))
         refs = [s.get("reference", "") for s in site.get("sources", [])]
+        x, y = site.get("x_l93"), site.get("y_l93")
+        lat, lon = (None, None)
+        if x is not None and y is not None:
+            lon, lat = _l93_to_wgs.transform(x, y)
         rows.append({
             "site_id": site["site_id"],
             "nom_site": site["nom_site"],
@@ -59,8 +70,8 @@ def _from_golden_json(path: Path) -> pd.DataFrame:
             "commune": site["commune"],
             "pays": site["pays"],
             "region_admin": site.get("region_admin", ""),
-            "latitude": site.get("latitude"),
-            "longitude": site.get("longitude"),
+            "latitude": lat,
+            "longitude": lon,
             "precision_localisation": site.get("precision_localisation", ""),
             "description": site.get("description", ""),
             "altitude_m": site.get("altitude_m"),

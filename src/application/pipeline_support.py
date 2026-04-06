@@ -14,6 +14,7 @@ from src.domain.models.enums import NiveauConfiance, PrecisionLocalisation, Type
 from src.domain.models.raw_record import RawRecord
 from src.domain.validators import validate_chronology, validate_coordinates
 from src.infrastructure.geocoding.ban import BANGeocoder
+from src.infrastructure.geocoding.base import wgs84_to_l93
 
 
 def pack_state(state: dict[str, Any]) -> dict[str, Any]:
@@ -74,15 +75,15 @@ def apply_geocode(state: dict[str, Any], config: PipelineConfig, review: ReviewQ
     cache: dict[str, Any] = json.loads(path.read_text(encoding="utf-8")) if path.is_file() else {}
     geo, out = BANGeocoder(), []
     for site in state["sites"]:
-        if site.latitude is not None and site.longitude is not None or not site.commune.strip():
+        if site.x_l93 is not None and site.y_l93 is not None or not site.commune.strip():
             out.append(site)
             continue
         key = site.commune.strip().lower()
         if key in cache:
-            lat, lon = cache[key]["latitude"], cache[key]["longitude"]
+            x, y = cache[key]["x_l93"], cache[key]["y_l93"]
         elif hit := geo.geocode(site.commune, site.nom_site, site.pays.value):
-            lat, lon = hit.latitude, hit.longitude
-            cache[key] = {"latitude": lat, "longitude": lon}
+            x, y = hit.x_l93, hit.y_l93
+            cache[key] = {"x_l93": x, "y_l93": y}
         else:
             review.add(site.model_dump(mode="json"), "GEOCODE", "ban_lookup_failed")
             out.append(site)
@@ -90,8 +91,8 @@ def apply_geocode(state: dict[str, Any], config: PipelineConfig, review: ReviewQ
         out.append(
             site.model_copy(
                 update={
-                    "latitude": lat,
-                    "longitude": lon,
+                    "x_l93": x,
+                    "y_l93": y,
                     "precision_localisation": PrecisionLocalisation.CENTROIDE,
                 }
             )
@@ -107,6 +108,6 @@ def apply_validate(state: dict[str, Any], review: ReviewQueue) -> dict[str, Any]
         for ph in site.phases:
             for w in validate_chronology(ph):
                 review.add(sd, "VALIDATE", f"chrono:{w.field}:{w.message}")
-        for w in validate_coordinates(site.latitude, site.longitude, site.region_admin):
+        for w in validate_coordinates(site.x_l93, site.y_l93, site.region_admin):
             review.add(sd, "VALIDATE", f"geo:{w.field}:{w.message}")
     return state

@@ -12,6 +12,7 @@ from src.domain.models import (
     Source,
     TypeSite,
 )
+from src.infrastructure.geocoding.base import wgs84_to_l93
 
 
 def _site(
@@ -24,6 +25,9 @@ def _site(
     *,
     sources: list[Source] | None = None,
 ) -> Site:
+    x, y = (None, None)
+    if lat is not None and lon is not None:
+        x, y = wgs84_to_l93(lon, lat)
     return Site(
         site_id=site_id,
         nom_site=nom,
@@ -31,8 +35,8 @@ def _site(
         pays=pays,
         region_admin="Test",
         commune=commune,
-        latitude=lat,
-        longitude=lon,
+        x_l93=x,
+        y_l93=y,
         precision_localisation=PrecisionLocalisation.EXACT,
         type_site=TypeSite.HABITAT,
         sources=sources or [],

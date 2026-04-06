@@ -5,6 +5,7 @@ from src.domain.models.phase import PhaseOccupation
 from src.domain.models.raw_record import RawRecord
 from src.domain.models.site import Site
 from src.domain.models.source import Source
+from src.infrastructure.geocoding.base import wgs84_to_l93
 
 from .periode import PeriodeNormalizer
 from .toponymie import ToponymeNormalizer
@@ -47,6 +48,11 @@ class SiteNormalizer:
                 )
             )
 
+        x_l93: Optional[float] = None
+        y_l93: Optional[float] = None
+        if record.latitude_raw is not None and record.longitude_raw is not None:
+            x_l93, y_l93 = wgs84_to_l93(record.longitude_raw, record.latitude_raw)
+
         return Site(
             site_id=site_id,
             nom_site=record.commune or "Inconnu",
@@ -54,11 +60,11 @@ class SiteNormalizer:
             pays=Pays.FR,
             region_admin="Alsace",
             commune=commune,
-            latitude=record.latitude_raw,
-            longitude=record.longitude_raw,
+            x_l93=x_l93,
+            y_l93=y_l93,
             precision_localisation=(
                 PrecisionLocalisation.EXACT
-                if record.latitude_raw is not None
+                if x_l93 is not None
                 else PrecisionLocalisation.CENTROIDE
             ),
             type_site=type_site,

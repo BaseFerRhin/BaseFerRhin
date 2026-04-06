@@ -1,6 +1,7 @@
 from src.domain.models.enums import Periode
 from src.domain.models.phase import PhaseOccupation
 from src.domain.validators import validate_chronology, validate_coordinates
+from src.infrastructure.geocoding.base import wgs84_to_l93
 
 
 class TestChronologyValidator:
@@ -57,18 +58,21 @@ class TestChronologyValidator:
 
 class TestGeoValidator:
     def test_coordinates_in_region(self):
-        warnings = validate_coordinates(48.58, 7.75, "Alsace")
+        x, y = wgs84_to_l93(7.75, 48.58)
+        warnings = validate_coordinates(x, y, "Alsace")
         assert len(warnings) == 0
 
     def test_coordinates_outside_region(self):
-        warnings = validate_coordinates(52.0, 7.75, "Alsace")
+        x, y = wgs84_to_l93(7.75, 52.0)
+        warnings = validate_coordinates(x, y, "Alsace")
         assert len(warnings) == 1
-        assert "latitude" in warnings[0].field
+        assert "y_l93" in warnings[0].field
 
     def test_none_coordinates_no_warning(self):
         warnings = validate_coordinates(None, None)
         assert len(warnings) == 0
 
-    def test_longitude_outside(self):
-        warnings = validate_coordinates(48.0, 12.0)
-        assert any("longitude" in w.field for w in warnings)
+    def test_x_outside(self):
+        x, y = wgs84_to_l93(12.0, 48.0)
+        warnings = validate_coordinates(x, y)
+        assert any("x_l93" in w.field for w in warnings)

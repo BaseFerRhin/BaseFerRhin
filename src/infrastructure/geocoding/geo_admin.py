@@ -7,7 +7,7 @@ from urllib.parse import quote_plus
 
 import httpx
 
-from .base import GeoResult
+from .base import GeoResult, wgs84_to_l93
 
 logger = logging.getLogger(__name__)
 
@@ -41,9 +41,10 @@ class GeoAdminGeocoder:
             lon = float(attrs["lon"])
         except (KeyError, TypeError, ValueError):
             return None
+        x, y = wgs84_to_l93(lon, lat)
         return GeoResult(
-            latitude=lat,
-            longitude=lon,
+            x_l93=x,
+            y_l93=y,
             precision="approx",
             source_api="geo_admin",
             raw_response={"result": results[0], "payload": data},

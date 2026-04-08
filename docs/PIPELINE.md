@@ -2,9 +2,9 @@
 
 ## Vue d'ensemble
 
-Le pipeline traite les sources hétérogènes (Gallica BnF, CSV, PDF) pour produire un inventaire normalisé des sites de l'âge du Fer en 8 étapes séquentielles avec checkpoints.
+Le pipeline ingère 16 sources hétérogènes (CSV, XLSX, DBF, ODS, DOC, OCR Gallica) pour produire un inventaire normalisé de 503 sites de l'âge du Fer en 8 étapes séquentielles avec checkpoints idempotents.
 
-```
+```bash
 python -m src --config config.yaml [--start-from STEP]
 ```
 
@@ -12,8 +12,17 @@ python -m src --config config.yaml [--start-from STEP]
 
 ```yaml
 sources:
-  - path: data/sources/golden_sites.csv
-    type: csv
+  - path: "RawData/.../LoupBernard_ArkeoGis.csv"
+    type: arkeogis
+  - path: "RawData/.../Patriarche_ageFer.xlsx"
+    type: patriarche
+    options:
+      dbf_path: "RawData/.../ea_fr.dbf"
+  # ... 16 sources au total (voir DATA-SOURCES.md)
+
+filter:
+  chrono: true             # Exclure records hors âge du Fer
+  departments: [67, 68]    # Bas-Rhin et Haut-Rhin
 
 gallica_queries:
   - 'dc.title all "carte archéologique Gaule" and dc.title all "Bas-Rhin"'
@@ -24,157 +33,133 @@ gallica_queries:
 ocr_quality_threshold: 0.4
 dedup_merge_threshold: 0.85
 dedup_review_threshold: 0.70
-geocoder_cache_path: data/processed/geocoder_cache.json
 output_dir: data/output
-data_dir: data
 log_level: INFO
 ```
 
-Modèle Pydantic : `PipelineConfig` (`src/application/config.py`), 10 champs dont `gallica_metadata_path` (défaut `data/sources/gallica_metadata.json`).
+Modèle Pydantic : `PipelineConfig` + `FilterConfig` (`src/application/config.py`).
 
 ## Étapes du pipeline
 
 ### 1. DISCOVER
 
-Interroge l'API **SRU de Gallica** (BnF) via `GallicaSRUClient`. Pagination par lots de 50 résultats. Parse le XML pour extraire les documents avec leurs identifiants ARK, titres, auteurs et dates.
-
-**Requêtes configurées :** 4 queries SRU ciblant les Cartes Archéologiques de la Gaule et les publications alsaciennes.
+Interroge l'API **SRU de Gallica** (BnF) via `GallicaSRUClient`. Pagination par lots de 50. Parse XML pour extraire les identifiants ARK, titres, auteurs. 4 queries configurées ciblant les Cartes Archéologiques de la Gaule et les publications alsaciennes.
 
 ### 2. INGEST
 
-Collecte les données de toutes les sources configurées :
-- **Métadonnées Gallica** (`GallicaMetadataExtractor`) — parse `gallica_metadata.json` pour extraire communes et types depuis les champs `geographic_scope`, `communes_mentioned` et `mentions_found`
-- Documents Gallica découverts (ARK → pages)
-- Fichiers locaux déclarés dans `sources[]` (CSV, PDF)
+Collecte les données de toutes les sources via `ExtractorFactory` :
+
+| Extracteur | Format | Sources |
+|---|---|---|
+| `ArkeoGISExtractor` | CSV | LoupBernard, ADAB 2011 |
+| `PatriarcheExtractor` | XLSX + DBF | Patriarche DRAC + ea_fr.dbf |
+| `DBFExtractor` | DBF | ea_fr.dbf, AFEAF linéaire |
+| `AlsaceBaselExtractor` | XLSX multi-feuilles | Alsace-Basel (4 feuilles FK) |
+| `BdDProtoAlsaceExtractor` | XLSX | BdD Proto Alsace |
+| `NecropoleExtractor` | XLSX | Nécropoles BFIIIb-HaD3 |
+| `InhumationsSilosExtractor` | XLSX | Inhumations en silos |
+| `HabitatsTombesRichesExtractor` | XLSX | Habitats-tombes riches |
+| `AFEAFExtractor` | XLSX | AFEAF funéraire |
+| `ODSExtractor` | ODS | Mobilier sépultures |
+| `_CAGDocExtractor` | DOC | CAG 68 texte (notices) |
+| `DocExtractor` | DOC | CAG 68 index, biblio |
+| `GallicaExtractor` | OCR/SRU | Documents Gallica |
+| `GallicaMetadataExtractor` | JSON | Métadonnées Gallica structurées |
+| `CSVExtractor` | CSV | Golden set (20 sites ref) |
+
+**Filtre chrono/géo** appliqué en fin d'INGEST :
+
+```python
+filter_records(rows, chrono=True, departments={67, 68})
+```
+
+- Exclut les records Bronze pur (fin <= -800)
+- Exclut les textes « âge du Bronze » sans mention Fer
+- Exclut les départements hors périmètre
+- Fait confiance aux sources spécialisées (patriarche, bdd_proto, afeaf…)
+- Logging détaillé par source avec ventilation chrono/geo
+
+**Résultat :** ~2 007 records après filtre.
 
 ### 3. EXTRACT
 
-Extrait les `RawRecord` depuis chaque source selon son type :
-
-| Extracteur | Format | Méthode |
-|---|---|---|
-| `CSVExtractor` | `.csv`, `.xlsx` | Détection encodage (utf-8, latin-1, cp1252), sniff séparateur, mapping colonnes → `RawRecord` |
-| `PDFExtractor` | `.pdf` | `pdfplumber` page par page : texte + tables dans `extra`, flag `needs_ocr` |
-| `GallicaExtractor` | pages Gallica | Pipeline async (voir ci-dessous) |
-
-**Pipeline Gallica** (async) :
-1. SRU → documents avec ARK leaf `bpt6k*` uniquement
-2. Par page (délai 2s entre requêtes) :
-   - Tentative OCR **Tesseract** via IIIF (image JPEG `full/max`) → `pytesseract fra+deu --psm 1 --oem 1`
-   - Fallback : texte brut via `texteBrut` URL (avec détection CAPTCHA/HTML)
-   - Cache disque : `data/raw/gallica/{ark_path}/f{page}.tesseract.txt`
-3. **Scoring qualité OCR** : ratio tokens reconnus dans un lexique français courant
-4. Filtrage par `ocr_quality_threshold` (défaut 0.4)
-5. **Extraction de mentions** (`GallicaSiteMentionExtractor`) : 3 patterns regex
-   - Forward : commune → type de site
-   - Reverse : type de site → commune
-   - Preposition : "fouilles/découvertes… à COMMUNE"
-   - Dédoublonnage par `(commune, type)`
-
-**Composants Gallica et extraction** (14 fichiers) :
-
-| Classe | Fichier | Rôle |
-|---|---|---|
-| `GallicaSRUClient` | `gallica_sru.py` | Recherche SRU paginée (`https://gallica.bnf.fr/SRU`) |
-| `GallicaCache` | `gallica_cache.py` | Cache disque + sémaphore HTTP (2 connexions) |
-| `GallicaIIIFClient` | `gallica_iiif.py` | Téléchargement image IIIF `full/max` (retry tenacity) |
-| `GallicaOCRClient` | `gallica_ocr.py` | Texte brut Gallica via `texteBrut` (détection CAPTCHA) |
-| `OCRQualityScorer` | `gallica_ocr.py` | Score qualité basé sur lexique français |
-| `TesseractOCRClient` | `tesseract_ocr.py` | OCR local Tesseract `fra+deu` via Pillow + pytesseract |
-| `GallicaSiteMentionExtractor` | `gallica_mention_extractor.py` | Regex extraction communes/types (3 patterns) |
-| `GallicaMetadataExtractor` | `gallica_metadata_extractor.py` | Extraction depuis métadonnées structurées JSON |
-| `GallicaALTOClient` | `gallica_alto.py` | Parsing XML ALTO (coordonnées blocs texte) |
-| `GallicaExtractor` | `gallica_extractor.py` | Orchestrateur async du pipeline OCR complet |
-| `ExtractorFactory` | `factory.py` | Routage `.csv`/`.xlsx` → CSV, `.pdf` → PDF |
-| `CSVExtractor` | `csv_extractor.py` | Détection encodage, sniff séparateur, mapping colonnes |
-| `PDFExtractor` | `pdf_extractor.py` | `pdfplumber` page par page : texte + tables |
-| `BaseExtractor` | `base.py` | Classe abstraite (interface) |
+Enrichit les `RawRecord` — extraction de mentions Gallica (patterns regex communes/types), flag `needs_ocr` pour les PDFs.
 
 ### 4. NORMALIZE
 
-Transforme chaque `RawRecord` en `Site` Pydantic normalisé via `SiteNormalizer` :
+Transforme chaque `RawRecord` en `Site` Pydantic via `SiteNormalizer` (composite) :
 
-1. **TypeSiteNormalizer** — alias FR/DE → enum `TypeSite` (8 types + indéterminé)
-2. **PeriodeNormalizer** — patterns FR/DE + regex sous-période → `Periode` + `sous_periode`
-3. **ToponymeNormalizer** — concordance FR/DE (~30 entrées) → commune canonique
-4. Construction du `Site` avec `PhaseOccupation` et `Source`
+1. `TypeSiteNormalizer` — alias FR/DE → enum `TypeSite` (9 types)
+2. `PeriodeNormalizer` — patterns FR/DE + regex sous-période
+3. `DatationParser` — dates composites et hétérogènes
+4. `ToponymeNormalizer` — concordance FR/DE (~30 communes)
+5. Reprojection coordonnées : L93 natif depuis `extra` ou WGS84 → L93
+6. Propagation identifiants externes (Patriarche EA, ArkeoGIS ID, Alsace-Basel ID)
+7. Détermination pays depuis `extra["pays"]`
 
-**Génération des identifiants :**
-- `site_id` = `SITE-{MD5(source_path|page|raw_text[:500])}`
-- `phase_id` = `{site_id}-p1`
-- `source_id` = `{site_id}-src1`
-
-**Mapping `extraction_method` → `TypeSource` :**
-
-| extraction_method | TypeSource |
-|---|---|
-| `gallica_ocr` | `GALLICA_CAG` |
-| `pdf` | `PUBLICATION` |
-| autre (csv, tesseract_iiif, gallica_metadata) | `TABLEUR` |
+**Résultat :** ~1 589 sites.
 
 ### 5. DEDUPLICATE
 
-Détection et fusion des doublons (voir [DOMAIN.md](DOMAIN.md#déduplication-srcdomaindeduplication) pour l'algorithme détaillé).
+Détection et fusion des doublons (voir [DOMAIN.md](DOMAIN.md#déduplication) pour l'algorithme) :
 
-- Scoring pairwise (rapidfuzz + distance euclidienne Lambert-93)
+- **Exact ID match** : Patriarche EA ou ArkeoGIS ID identique → score 1.0
+- Scoring pairwise (rapidfuzz + distance Lambert-93)
 - Union-Find avec `merge_threshold=0.85`
-- Review queue pour les paires entre 0.70 et 0.85
+- Review queue pour paires entre 0.70 et 0.85
 - Merge par richesse de données
 
-**Sortie :** `review_queue.json` avec les candidats nécessitant une validation manuelle.
+**Résultat :** **503 sites** uniques (288 FR, 215 DE).
 
 ### 6. GEOCODE
 
-Géocode les sites sans coordonnées. L'étape GEOCODE dans `pipeline_support.py` utilise directement `BANGeocoder` avec un cache JSON. Le module `MultiGeocoder` est disponible pour un dispatch par pays :
+Géocode les sites sans coordonnées via chaîne multi-pays :
 
-| Pays | Chaîne de géocodeurs |
+| Pays | Géocodeurs |
 |---|---|
-| FR | BAN (`api-adresse.data.gouv.fr`) → Nominatim (`fr`) |
+| FR | BAN (`api-adresse.data.gouv.fr`) → Nominatim |
 | DE | Nominatim (`de`) |
-| CH | GeoAdmin (`api3.geo.admin.ch`) → Nominatim (`ch`) |
+| CH | GeoAdmin (`api3.geo.admin.ch`) → Nominatim |
 
-**Reprojection :** les APIs retournent des coordonnées WGS84 (lat/lon). Chaque géocodeur reprojette automatiquement vers Lambert-93 (EPSG:2154) via `wgs84_to_l93()` dans `GeoResult`.
+Reprojection automatique WGS84 → Lambert-93. Cache JSON persistant.
 
-**Cache :** `data/processed/geocoder_cache.json` (clé = commune normalisée, valeurs `x_l93`/`y_l93`).
-
-**Précision :**
-- BAN retourne des centroïdes municipaux → `precision = "centroide"`
-- Nominatim détermine la précision selon `addresstype`/`type` dans la réponse
+**Résultat :** 500/503 sites géolocalisés.
 
 ### 7. VALIDATE
 
-Applique les validateurs de cohérence sur chaque site :
+Validateurs de cohérence :
+- **Chronologique** — datation dans les bornes de la période
+- **Géographique** — Lambert-93 dans la bounding box Rhin supérieur (x: 930k–1060k, y: 6710k–6990k)
 
-1. **Cohérence chronologique** — datation dans les bornes de la période, sous-période cohérente
-2. **Cohérence géographique** — coordonnées Lambert-93 dans la bounding box du Rhin supérieur (x: 930 000–1 060 000, y: 6 710 000–6 990 000)
-
-Les warnings sont ajoutés à la `review_queue.json`.
+Warnings → `review_queue.json`.
 
 ### 8. EXPORT
 
-Produit 3 formats de sortie dans `data/output/` :
+3 formats dans `data/output/` :
 
 | Format | Fichier | Détails |
 |---|---|---|
-| CSV | `sites.csv` | UTF-8 BOM, une ligne par site-phase, colonnes `x_l93`/`y_l93` (EPSG:2154) |
-| GeoJSON | `sites.geojson` | EPSG:4326 (reprojection auto depuis Lambert-93), propriétés sans `phases`/`sources` |
-| SQLite | `sites.sqlite` | Tables `sites` (`x_l93`/`y_l93`), `phases`, `sources` avec FK |
+| CSV | `sites.csv` | UTF-8 BOM, une ligne par site-phase (802 lignes), coords EPSG:2154 |
+| GeoJSON | `sites.geojson` | EPSG:4326 (reprojection auto L93→WGS84), 500 features |
+| SQLite | `sites.sqlite` | Tables `sites`, `phases`, `sources` avec FK |
 
-Affiche les statistiques via `ExportStats` (Rich console) : totaux, ventilation par pays/type/période, taux de géolocalisation.
+Stats Rich console : 503 sites, 795 phases, 1298 sources, ventilation par pays/type/période.
+
+**DuckDB** (pour Kepler.gl) : généré séparément via `build_duckdb.py`, inclut colonnes `latitude`/`longitude` WGS84.
 
 ## Checkpoints et reprise
 
-Chaque étape sauvegarde son état dans `data/processed/{STEP}.json` avec un `input_md5` pour l'idempotence. Le pipeline peut être relancé depuis n'importe quelle étape :
+Chaque étape sauvegarde dans `data/processed/{STEP}.json` avec `input_md5` pour l'idempotence. Le pipeline skip une étape si le hash d'entrée correspond au checkpoint existant.
 
 ```bash
 python -m src --config config.yaml --start-from NORMALIZE
 ```
 
-Le `pipeline_log.json` enregistre chaque début/fin d'étape avec timestamps et compteurs.
+Le `pipeline_log.json` enregistre chaque début/fin avec timestamps, compteurs et hash MD5.
+
+Pour forcer une re-exécution complète : supprimer les fichiers `data/processed/*.json`.
 
 ## Stratégie OCR Gallica
-
-Le pipeline utilise deux stratégies complémentaires pour extraire du texte des documents Gallica :
 
 ```
 Document (ARK bpt6k*)
@@ -185,19 +170,34 @@ Document (ARK bpt6k*)
     │   3. pytesseract.image_to_string(lang="fra+deu", --psm 1 --oem 1)
     │   4. Cache disque : data/raw/gallica/{ark_path}/f{page}.tesseract.txt
     │
-    └── Stratégie fallback : texteBrut Gallica (si Tesseract désactivé)
+    └── Stratégie fallback : texteBrut Gallica
         1. GallicaOCRClient GET texteBrut URL
-        2. Détection CAPTCHA (réponse HTML au lieu de texte)
-        3. Retry après 10s, abandon après 3 échecs consécutifs
+        2. Détection CAPTCHA (HTML au lieu de texte)
+        3. Retry après 10s, abandon après 3 échecs
 ```
 
-Le sémaphore dans `GallicaCache` limite à 2 connexions HTTP simultanées. Un délai de 2 secondes entre chaque page (`_PAGE_DELAY`) respecte le rate-limiting de Gallica.
+Sémaphore 2 connexions HTTP simultanées. Délai 2s entre pages.
+
+## Composants Gallica (14 fichiers)
+
+| Classe | Fichier | Rôle |
+|---|---|---|
+| `GallicaExtractor` | `gallica_extractor.py` | Orchestrateur async du pipeline OCR |
+| `GallicaSRUClient` | `gallica_sru.py` | Recherche SRU paginée |
+| `GallicaCache` | `gallica_cache.py` | Cache disque + sémaphore HTTP |
+| `GallicaIIIFClient` | `gallica_iiif.py` | Download image IIIF full/max |
+| `GallicaOCRClient` | `gallica_ocr.py` | Texte brut Gallica (fallback) |
+| `OCRQualityScorer` | `gallica_ocr.py` | Score qualité sur lexique français |
+| `TesseractOCRClient` | `tesseract_ocr.py` | OCR local fra+deu |
+| `GallicaSiteMentionExtractor` | `gallica_mention_extractor.py` | 3 patterns regex (commune→type, type→commune, préposition) |
+| `GallicaMetadataExtractor` | `gallica_metadata_extractor.py` | Extraction depuis métadonnées JSON |
+| `GallicaALTOClient` | `gallica_alto.py` | Parsing XML ALTO |
 
 ## Données de référence
 
-| Fichier | Contenu | Entrées |
-|---|---|---|
-| `gallica_sources.json` | 4 sources Gallica | CAG 67, CAG 68, CAAH, Déchelette |
-| `periodes.json` | Chronologie + patterns | Hallstatt, La Tène, Transition + regex |
-| `types_sites.json` | Alias FR/DE | 8 types × ~6 alias chacun |
-| `toponymes_fr_de.json` | Concordance toponymique | ~30 communes FR/DE |
+| Fichier | Contenu |
+|---|---|
+| `data/reference/periodes.json` | Chronologie Hallstatt/La Tène + patterns regex FR/DE |
+| `data/reference/types_sites.json` | 9 types × aliases FR/DE |
+| `data/reference/toponymes_fr_de.json` | Concordance toponymique (~30 communes) |
+| `data/reference/gallica_sources.json` | 4 sources Gallica configurées |

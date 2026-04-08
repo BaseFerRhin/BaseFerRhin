@@ -3,6 +3,7 @@ import {useDispatch} from 'react-redux';
 import KeplerGl from '@kepler.gl/components';
 import {addDataToMap} from '@kepler.gl/actions';
 import {processGeojson} from '@kepler.gl/processors';
+import {theme as keplerDarkTheme} from '@kepler.gl/styles';
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
 import {KEPLER_CONFIG} from './kepler-config';
 import {FREE_MAP_STYLES} from './map-styles';
@@ -10,6 +11,7 @@ import {FREE_MAP_STYLES} from './map-styles';
 const MAPBOX_TOKEN = (import.meta as any).env?.VITE_MAPBOX_TOKEN || 'not-needed';
 
 const ARCHEO_THEME = {
+  ...keplerDarkTheme,
   sidePanelBg: '#1a1a2e',
   sidePanelHeaderBg: '#16213e',
   titleTextColor: '#e8c547',

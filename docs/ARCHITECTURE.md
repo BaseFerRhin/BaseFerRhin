@@ -2,86 +2,150 @@
 
 ## Vue d'ensemble
 
-BaseFerRhin suit une **Clean Architecture** organisée en 4 couches. Chaque couche ne dépend que des couches intérieures.
+BaseFerRhin suit une **Clean Architecture** organisée en 4 couches. Chaque couche ne dépend que des couches intérieures. Le domaine est pur (aucune dépendance infra) ; l'infrastructure implémente les ports définis par le domaine.
 
 ```
 ┌────────────────────────────────────────────────────────────┐
-│                        src/ui/                             │
-│              Dash web app (présentation)                   │
+│                     Présentation                           │
+│         src/ui/ (Dash)  +  src/keplergl/ (React)           │
 ├────────────────────────────────────────────────────────────┤
 │                    src/application/                        │
-│          Pipeline ETL, config, orchestration               │
+│          Pipeline ETL 8 étapes, config YAML,               │
+│          review queue, orchestration                       │
 ├────────────────────────────────────────────────────────────┤
 │                     src/domain/                            │
-│      Modèles Pydantic, normalisation, validation,          │
-│              déduplication, scoring                        │
+│      Modèles Pydantic, normalisation, datation,            │
+│      filtres chrono/géo, validation, déduplication          │
 ├────────────────────────────────────────────────────────────┤
 │                  src/infrastructure/                       │
-│    Extracteurs (Gallica, CSV, PDF), géocodage,             │
-│           persistance (GeoJSON, CSV, SQLite)               │
+│    16 extracteurs (Gallica, ArkeoGIS, Patriarche, CAG…),   │
+│    géocodage multi-pays, reprojection EPSG,                │
+│    persistance (GeoJSON, CSV, SQLite, DuckDB)              │
 └────────────────────────────────────────────────────────────┘
 ```
 
 ## Inventaire du code source
 
-| Couche | Répertoire | Fichiers `.py` | Rôle |
-|--------|------------|---------------:|------|
-| Présentation | `src/ui/` | 9 | Application Dash, carte, filtres |
-| Application | `src/application/` | 5 | Pipeline ETL, config YAML, review queue |
-| Domaine | `src/domain/models/` | 6 | Modèles Pydantic (`Site`, `PhaseOccupation`, `Source`, `RawRecord`) |
-| Domaine | `src/domain/normalizers/` | 5 | Normalisation (type, période, toponymie) |
+| Couche | Répertoire | `.py` | Rôle |
+|--------|------------|------:|------|
+| Présentation | `src/ui/` | 9 | Application Dash, carte Plotly, frise, filtres, callbacks |
+| Présentation | `src/keplergl/` | 1 | Script `build_duckdb.py` (+ app React/Vite 7 TS/JS) |
+| Application | `src/application/` | 5 | Pipeline, config, pipeline_support, review queue |
+| Domaine | `src/domain/models/` | 6 | `Site`, `PhaseOccupation`, `Source`, `RawRecord`, 7 enums |
+| Domaine | `src/domain/normalizers/` | 6 | Type, période, datation, toponymie, composite |
 | Domaine | `src/domain/validators/` | 3 | Cohérence chrono/géo |
-| Domaine | `src/domain/deduplication/` | 4 | Scoring, merge, union-find |
-| Infra | `src/infrastructure/` | 1 | Package init |
-| Infra | `src/infrastructure/extractors/` | 14 | Gallica (SRU, IIIF, OCR, Tesseract, Metadata), CSV, PDF |
-| Infra | `src/infrastructure/geocoding/` | 7 | BAN, Nominatim, GeoAdmin, multi-provider, cache |
-| Infra | `src/infrastructure/persistence/` | 5 | Export CSV/GeoJSON/SQLite, stats |
-| Utilitaire | `src/keplergl/scripts/` | 1 | Conversion DuckDB pour visualisation Kepler.gl |
-| Racine | `src/` | 1 | Point d'entrée CLI (`__main__.py`) |
-| **Total** | | **61** | |
+| Domaine | `src/domain/filters/` | 1 | Filtre chronologique (âge du Fer) et géographique |
+| Domaine | `src/domain/deduplication/` | 4 | Scoring, deduplicator, merger, scorer |
+| Infra | `src/infrastructure/extractors/` | 23 | 16 extracteurs + factory + Gallica (SRU, IIIF, OCR…) |
+| Infra | `src/infrastructure/geocoding/` | 8 | BAN, Nominatim, GeoAdmin, multi-provider, reprojector, cache |
+| Infra | `src/infrastructure/persistence/` | 5 | CSV, GeoJSON, SQLite, stats |
+| Tests | `tests/` | 13 | 140 tests (domain + infrastructure) |
+| **Total** | | **86** | |
 
 ## Pipeline ETL — flux de données
 
 ```
-                    config.yaml
+                    config.yaml (16 sources)
                         │
                         ▼
-┌─────────┐    ┌─────────┐    ┌──────────┐    ┌───────────┐
-│ DISCOVER │───▶│ INGEST  │───▶│ EXTRACT  │───▶│ NORMALIZE │
-│          │    │         │    │          │    │           │
-│ SRU      │    │ Gallica │    │ OCR /    │    │ Type      │
-│ queries  │    │ CSV     │    │ PDF /    │    │ Période   │
-│          │    │ PDF     │    │ CSV      │    │ Toponymie │
-│          │    │ Metadata│    │          │    │           │
-└─────────┘    └─────────┘    └──────────┘    └───────────┘
+┌─────────┐    ┌──────────┐    ┌──────────┐    ┌───────────┐
+│ DISCOVER │───▶│  INGEST  │───▶│ EXTRACT  │───▶│ NORMALIZE │
+│          │    │          │    │          │    │           │
+│ SRU      │    │ Factory  │    │ OCR /    │    │ Type      │
+│ Gallica  │    │ 16 types │    │ Mentions │    │ Période   │
+│          │    │ + filtre │    │          │    │ Toponymie │
+│          │    │ chrono   │    │          │    │ Datation  │
+└─────────┘    └──────────┘    └──────────┘    └───────────┘
                                                     │
                     ┌───────────────────────────────┘
                     ▼
 ┌─────────────┐    ┌──────────┐    ┌──────────┐    ┌────────┐
 │ DEDUPLICATE │───▶│ GEOCODE  │───▶│ VALIDATE │───▶│ EXPORT │
 │             │    │          │    │          │    │        │
-│ Scoring     │    │ BAN      │    │ Chrono   │    │ CSV    │
-│ Union-Find  │    │ Nominatim│    │ Géo      │    │ GeoJSON│
-│ Merge       │    │ GeoAdmin │    │ Review Q │    │ SQLite │
+│ Exact IDs   │    │ BAN      │    │ Chrono   │    │ CSV    │
+│ Scoring     │    │ Nominatim│    │ Géo      │    │ GeoJSON│
+│ Union-Find  │    │ GeoAdmin │    │ Review Q │    │ SQLite │
+│ Merge       │    │ Cache    │    │          │    │ DuckDB │
 └─────────────┘    └──────────┘    └──────────┘    └────────┘
 ```
 
-Chaque étape sauvegarde un checkpoint JSON dans `data/processed/{STEP}.json` avec un hash MD5 pour l'idempotence.
+## Flux de données quantifié
 
-## Flux de données par étape
+| Étape | Entrée | Sortie | Volume (run actuel) |
+|-------|--------|--------|---------------------|
+| DISCOVER | SRU queries | Documents Gallica | ~4 documents |
+| INGEST | 16 sources + filtre chrono/géo | `list[RawRecord]` | **2 007 records** |
+| EXTRACT | RawRecords | RawRecords enrichis | 2 007 |
+| NORMALIZE | RawRecords | `list[Site]` | **1 589 sites** |
+| DEDUPLICATE | Sites | Sites uniques + review | **503 sites** |
+| GEOCODE | Sites sans coords | Sites géocodés | 500/503 avec coords |
+| VALIDATE | Sites | Sites + warnings | 503 |
+| EXPORT | Sites | 3 formats | CSV + GeoJSON + SQLite |
 
-| Étape | Entrée | Sortie | Données |
-|-------|--------|--------|---------|
-| DISCOVER | `config.yaml` | documents Gallica | ARK, titres, auteurs via SRU |
-| INGEST | documents + fichiers locaux + metadata | `list[RawRecord]` | Records bruts (CSV, Gallica metadata, PDF) |
-| EXTRACT | pages/fichiers | `list[RawRecord]` | Texte brut, mentions, coordonnées |
-| NORMALIZE | `list[RawRecord]` | `list[Site]` | Sites Pydantic normalisés |
-| DEDUPLICATE | `list[Site]` | `list[Site]` + review queue | Sites uniques, candidats à revoir |
-| GEOCODE | `list[Site]` | `list[Site]` | Coordonnées ajoutées (BAN/Nominatim) |
-| VALIDATE | `list[Site]` | `list[Site]` + warnings | Alertes chrono/géo |
-| EXPORT | `list[Site]` | `sites.csv`, `sites.geojson`, `sites.sqlite` | 3 formats |
+## ExtractorFactory — routage des 16 types
 
-## Dépendances principales
+```
+ExtractorFactory.get_extractor(path, source_type)
+    │
+    ├── pdf          → PDFExtractor
+    ├── csv / xlsx   → CSVExtractor
+    ├── arkeogis     → ArkeoGISExtractor          (filter_age_du_fer, pays=DE)
+    ├── patriarche   → PatriarcheExtractor         (dbf_path pour coords + chrono)
+    ├── dbf          → DBFExtractor                (column_mapping, encoding cp1252)
+    ├── alsace_basel  → AlsaceBaselExtractor        (multi-feuilles, reprojection EPSG)
+    ├── bdd_proto    → BdDProtoAlsaceExtractor     (colonnes booléennes Fer/Bronze)
+    ├── necropoles   → NecropoleExtractor           (filter_departments)
+    ├── inhumations  → InhumationsSilosExtractor    (agrégation individus→sites)
+    ├── habitats     → HabitatsTombesRichesExtractor (filter_departments, pays)
+    ├── afeaf        → AFEAFExtractor               (header hiérarchique 2 niveaux)
+    ├── ods          → ODSExtractor                  (odfpy)
+    ├── doc          → DocExtractor                  (antiword subprocess)
+    ├── cag_doc      → _CAGDocExtractor              (DocExtractor + CAGNoticeExtractor)
+    └── fallback     → CSVExtractor (par extension)
+```
+
+## Chaîne de filtrage (INGEST)
+
+Après extraction de toutes les sources, le pipeline applique un filtre configurable :
+
+```yaml
+filter:
+  chrono: true           # Exclure records hors âge du Fer
+  departments: [67, 68]  # Bas-Rhin et Haut-Rhin uniquement
+```
+
+Le `chrono_filter` implémente :
+- Détection Fer par regex (Hallstatt, La Tène, eisenzeit…)
+- Exclusion Bronze pur (fin datation <= -800)
+- Exclusion par dates numériques hors intervalle [-800, -25]
+- Confiance implicite pour certaines méthodes (patriarche, bdd_proto…)
+- Logging détaillé par source avec ventilation chrono/geo
+
+## Composant Kepler.gl (standalone)
+
+```
+src/keplergl/
+├── src/
+│   ├── App.tsx              Application React + KeplerGl
+│   ├── kepler-config.ts     Config layers, tooltip, couleurs
+│   ├── map-styles.ts        Styles cartes libres (CARTO, OSM)
+│   ├── store.ts             Redux store pour KeplerGl
+│   └── main.tsx             Point d'entrée React
+├── server/
+│   └── index.js             Express API (DuckDB read-only)
+├── scripts/
+│   └── build_duckdb.py      Pipeline JSON → DuckDB (L93 → WGS84)
+├── data/
+│   └── sites.duckdb         Base générée (503 sites + phases + sources)
+├── package.json             @kepler.gl 3.1.7, deck.gl 8.9, DuckDB
+└── vite.config.ts           Build Vite
+```
+
+API endpoints : `/api/sites`, `/api/sites/geojson`, `/api/phases`, `/api/sources`, `/api/stats`, `/api/site/:siteId`, `/api/query` (SQL explorer read-only).
+
+## Dépendances
+
+### Python (pyproject.toml)
 
 | Bibliothèque | Usage |
 |---|---|
@@ -92,66 +156,42 @@ Chaque étape sauvegarde un checkpoint JSON dans `data/processed/{STEP}.json` av
 | `pytesseract>=0.3` | OCR Tesseract (fra+deu) |
 | `Pillow>=10.0` | Traitement d'image pré-OCR |
 | `rapidfuzz>=3.0` | Scoring fuzzy pour déduplication |
-| `pyproj>=3.6` | Reprojection WGS84 ↔ Lambert-93 (EPSG:2154) |
+| `pyproj>=3.6` | Reprojection WGS84 ↔ Lambert-93 |
 | `geopy>=2.4` | Geocodage (Nominatim, GeoAdmin) |
-| `geopandas>=1.0` | Export GeoJSON (Shapely, reprojection 2154→4326) |
+| `geopandas>=1.0` | Export GeoJSON (reprojection 2154→4326) |
 | `sqlite-utils>=3.36` | Export SQLite |
 | `lxml>=5.0` | Parsing XML (SRU, ALTO) |
-| `rich>=13.0` | Affichage console |
+| `openpyxl>=3.1` | Lecture Excel (Patriarche, thématiques) |
+| `dbfread>=2.0` | Lecture dBASE (ea_fr.dbf, AFEAF) |
+| `odfpy>=1.4` | Lecture ODS (mobilier sépultures) |
+| `rich>=13.0` | Affichage console stats |
 | `pyyaml>=6.0` | Configuration YAML |
-| `openpyxl>=3.1` | Lecture Excel |
 
-### Dépendances optionnelles
+### Node.js (src/keplergl/package.json)
 
-| Groupe | Bibliothèques | Usage |
-|---|---|---|
-| `ui` | `dash>=2.14`, `dash-bootstrap-components>=1.5` | Application web |
-| `viz` | `keplergl>=0.3` | Carte Kepler.gl (Jupyter) |
-| `dev` | `pytest`, `pytest-asyncio`, `respx`, `ruff` | Tests et linting |
+`@kepler.gl/*` 3.1.7, `@deck.gl/*` 8.9.27, `@duckdb/node-api` 1.5.1, React 18, Redux 4, Express 4, Vite 6.
 
-## Arbre des fichiers de données
+## Arbre des données
 
 ```
 data/
 ├── sources/
-│   ├── golden_sites.csv              # 20 sites de référence (entrée pipeline)
-│   ├── gallica_metadata.json          # Métadonnées structurées Gallica (SRU harvest)
-│   ├── gallica_downloads.md           # URLs de téléchargement et instructions
-│   └── pdf/                           # PDFs téléchargés manuellement (CAG 67, 68...)
+│   ├── golden_sites.csv              20 sites de référence
+│   ├── gallica_metadata.json         Métadonnées SRU Gallica
+│   └── gallica_downloads.md          URLs et instructions
 ├── reference/
-│   ├── gallica_sources.json           # 4 sources Gallica (CAG 67, 68, CAAH, Déchelette)
-│   ├── periodes.json                  # Chronologie Hallstatt/La Tène + patterns FR/DE
-│   ├── types_sites.json               # Alias TypeSite FR/DE (8 types)
-│   └── toponymes_fr_de.json           # Concordance toponymique (~30 communes)
+│   ├── periodes.json                 Chronologie + patterns FR/DE
+│   ├── types_sites.json              Alias TypeSite FR/DE (9 types)
+│   ├── toponymes_fr_de.json          Concordance toponymique (~30 entrées)
+│   └── gallica_sources.json          4 sources Gallica configurées
 ├── processed/
-│   ├── {STEP}.json                    # Checkpoints pipeline (8 fichiers)
-│   ├── pipeline_log.json              # Log append-only
-│   ├── geocoder_cache.json            # Cache géocodeur
-│   └── review_queue.json              # Candidats déduplication à revoir
-├── raw/gallica/                       # Cache OCR brut (Tesseract par page IIIF)
+│   ├── {STEP}.json                   8 checkpoints pipeline (idempotents)
+│   ├── pipeline_log.json             Log append-only avec timestamps
+│   ├── geocoder_cache.json           Cache géocodeur JSON
+│   └── review_queue.json             Candidats à validation manuelle
+├── raw/gallica/                      Cache OCR brut par page IIIF
 └── output/
-    ├── sites.csv                      # Export CSV (colonnes x_l93/y_l93, EPSG:2154)
-    ├── sites.geojson                  # Export GeoJSON (reprojection auto → EPSG:4326)
-    └── sites.sqlite                   # Export SQLite (x_l93/y_l93, tables sites/phases/sources)
+    ├── sites.csv                     Export CSV dénormalisé (EPSG:2154)
+    ├── sites.geojson                 Export GeoJSON (EPSG:4326)
+    └── sites.sqlite                  Export SQLite normalisé (3 tables)
 ```
-
-## Script utilitaire Kepler.gl / DuckDB
-
-`src/keplergl/scripts/build_duckdb.py` — convertit l'état du pipeline (`EXPORT.json`) en base DuckDB avec 4 tables (`sites`, `phases`, `sources`, `raw_records`) et 2 vues (`sites_with_phases`, `sites_geojson`). Utilise le module `duckdb` (non listé dans `pyproject.toml`, à installer séparément).
-
-```bash
-python src/keplergl/scripts/build_duckdb.py
-```
-
-## Tests
-
-5 modules de test, 1 fixture JSON (20 sites golden set) :
-
-| Fichier | Couverture |
-|---|---|
-| `tests/domain/test_models.py` | Enums, contraintes PhaseOccupation, Source, Site |
-| `tests/domain/test_normalizers.py` | Normalisation type, période, toponymie |
-| `tests/domain/test_validators.py` | Cohérence chronologique et géographique |
-| `tests/domain/test_deduplication.py` | Scoring, merge, review queue |
-| `tests/infrastructure/test_export.py` | Export CSV, GeoJSON, SQLite (FK) |
-| `tests/fixtures/golden_sites.json` | 20 sites normalisés (golden set) |

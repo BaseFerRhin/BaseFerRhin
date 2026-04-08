@@ -13,6 +13,7 @@ from typing import Any
 from rich.console import Console
 
 from src.application.config import PipelineConfig
+from src.domain.filters.chrono_filter import filter_records
 from src.application.pipeline_support import (
     apply_extract,
     apply_geocode,
@@ -27,10 +28,9 @@ from src.application.review_queue import ReviewQueue
 from src.domain.deduplication.deduplicator import SiteDeduplicator
 from src.domain.models.raw_record import RawRecord
 from src.domain.normalizers import SiteNormalizer
-from src.infrastructure.extractors.csv_extractor import CSVExtractor
+from src.infrastructure.extractors.factory import ExtractorFactory, UnsupportedFormatError
 from src.infrastructure.extractors.gallica_extractor import GallicaExtractor
 from src.infrastructure.extractors.gallica_metadata_extractor import GallicaMetadataExtractor
-from src.infrastructure.extractors.pdf_extractor import PDFExtractor
 from src.infrastructure.persistence import CSVExporter, ExportStats, GeoJSONExporter, SQLiteRepository
 
 logger = logging.getLogger(__name__)
@@ -154,23 +154,35 @@ class Pipeline:
         return {**state, "raw_records": list(state["raw_records"]) + asyncio.run(_run())}
 
     def _ingest(self, state: dict[str, Any], config: PipelineConfig) -> dict[str, Any]:
-        rows, csv_ex, pdf_ex = list(state["raw_records"]), CSVExtractor(), PDFExtractor()
+        rows: list[RawRecord] = list(state["raw_records"])
+        factory = ExtractorFactory()
+
         try:
             meta_ex = GallicaMetadataExtractor()
             rows.extend(meta_ex.extract(config.gallica_metadata_path))
         except Exception as e:  # noqa: BLE001
             self._review.add({"path": str(config.gallica_metadata_path)}, "INGEST", str(e))
+
         for src in config.sources:
-            path, stype = Path(src["path"]), str(src.get("type", "")).lower()
+            path = Path(src["path"])
+            stype = str(src.get("type", "")).lower() or None
+            opts = dict(src.get("options", {}))
             try:
-                if stype in ("csv", "xlsx", "excel"):
-                    rows.extend(csv_ex.extract(path))
-                elif stype == "pdf":
-                    rows.extend(pdf_ex.extract(path))
-                else:
-                    self._review.add(dict(src), "INGEST", f"unknown source type {stype!r}")
+                extractor = factory.get_extractor(path, source_type=stype, **opts)
+                extracted = extractor.extract(path)
+                rows.extend(extracted)
+                logger.info("INGEST %s (%s): %d records", path.name, stype or path.suffix, len(extracted))
+            except UnsupportedFormatError:
+                self._review.add(dict(src), "INGEST", f"unsupported type {stype!r}")
             except Exception as e:  # noqa: BLE001
+                logger.warning("INGEST %s failed: %s", path.name, e)
                 self._review.add(dict(src), "INGEST", str(e))
+
+        fc = config.filter
+        depts = set(fc.departments) if fc.departments else None
+        pays_set = set(fc.pays) if fc.pays else None
+        rows = filter_records(rows, chrono=fc.chrono, departments=depts, pays=pays_set)
+
         return {**state, "raw_records": rows}
 
     def _normalize(self, state: dict[str, Any], config: PipelineConfig) -> dict[str, Any]:

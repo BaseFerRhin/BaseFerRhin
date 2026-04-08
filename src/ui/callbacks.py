@@ -25,10 +25,18 @@ def register_callbacks(app: Dash) -> None:
     def update_views(periodes, types, pays, color_by, data):
         df = pd.DataFrame(data)
         df = _apply_filters(df, periodes, types, pays)
+
+        table_df = df.copy()
+        for col in table_df.columns:
+            if table_df[col].apply(lambda x: isinstance(x, (list, dict))).any():
+                table_df[col] = table_df[col].apply(
+                    lambda x: ", ".join(str(i) for i in x) if isinstance(x, list) else str(x) if isinstance(x, dict) else x
+                )
+
         return (
             build_site_map(df, color_by=color_by),
             build_chronology(df),
-            df.to_dict("records"),
+            table_df.to_dict("records"),
             _build_stats(df),
         )
 

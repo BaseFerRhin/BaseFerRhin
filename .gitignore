@@ -29,10 +29,12 @@ Thumbs.db
 
 # Data (large/generated files)
 data/raw/gallica/
-data/processed/geocoder_cache.json
+data/processed/
 
 # Vite cache
 src/keplergl/node_modules/.vite/
 
 # Cursor
 .cursor/projects/
+
+RawData/*

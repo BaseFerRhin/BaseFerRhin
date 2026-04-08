@@ -7,6 +7,7 @@ import math
 
 from rapidfuzz import fuzz
 
+from src.domain.models.enums import PrecisionLocalisation
 from src.domain.models.site import Site
 
 logger = logging.getLogger(__name__)
@@ -18,9 +19,16 @@ def _distance_l93_km(x1: float, y1: float, x2: float, y2: float) -> float:
 
 
 class SimilarityScorer:
-    """40/30/30 when both have coords; if both lack coords, geo → name (70/30)."""
+    """40/30/30 when both have coords; if both lack coords, geo → name (70/30).
+
+    Exact-match bonus: shared Patriarche EA or ArkeoGIS ID → score = 1.0.
+    Centroid penalty: lower trust for centroid-only coordinates.
+    """
 
     def score(self, site_a: Site, site_b: Site) -> float:
+        if self._has_exact_id_match(site_a, site_b):
+            return 1.0
+
         name_sim = fuzz.token_sort_ratio(site_a.nom_site, site_b.nom_site) / 100.0
         commune_sim = fuzz.token_sort_ratio(site_a.commune, site_b.commune) / 100.0
         a_geo = site_a.x_l93 is not None and site_a.y_l93 is not None
@@ -35,6 +43,8 @@ class SimilarityScorer:
                 float(site_b.y_l93),
             )
             geo_sim = 1.0 - min(dist, 50.0) / 50.0
+            if self._is_centroid(site_a) or self._is_centroid(site_b):
+                geo_sim *= 0.5
             total = 0.4 * name_sim + 0.3 * commune_sim + 0.3 * geo_sim
         elif both_lack:
             total = 0.7 * name_sim + 0.3 * commune_sim
@@ -49,3 +59,24 @@ class SimilarityScorer:
             total,
         )
         return total
+
+    @staticmethod
+    def _has_exact_id_match(a: Site, b: Site) -> bool:
+        a_ids = a.identifiants_externes
+        b_ids = b.identifiants_externes
+
+        ea_a = a_ids.get("patriarche_ea")
+        ea_b = b_ids.get("patriarche_ea")
+        if ea_a and ea_b and ea_a == ea_b:
+            return True
+
+        akg_a = a_ids.get("arkeogis_id")
+        akg_b = b_ids.get("arkeogis_id")
+        if akg_a and akg_b and akg_a == akg_b:
+            return True
+
+        return False
+
+    @staticmethod
+    def _is_centroid(site: Site) -> bool:
+        return site.precision_localisation == PrecisionLocalisation.CENTROIDE

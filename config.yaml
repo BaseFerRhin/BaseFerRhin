@@ -1,8 +1,60 @@
-# Sample BaseFerRhin pipeline configuration (CAG 67 / CAG 68 Gallica SRU)
+# BaseFerRhin pipeline configuration
 
 sources:
   - path: data/sources/golden_sites.csv
     type: csv
+
+  # --- Tier 1: Primary sources ---
+  - path: "RawData/GrosFichiers - Béhague/20250806_LoupBernard_ArkeoGis.csv"
+    type: arkeogis
+  - path: "RawData/GrosFichiers - Béhague/20250806_ADAB2011_ArkeoGis.csv"
+    type: arkeogis
+    options:
+      filter_age_du_fer: true
+  - path: "RawData/GrosFichiers - Béhague/20250806_Patriarche_ageFer.xlsx"
+    type: patriarche
+    options:
+      dbf_path: "RawData/GrosFichiers - Béhague/ea_fr.dbf"
+  - path: "RawData/GrosFichiers - Béhague/ea_fr.dbf"
+    type: dbf
+    options:
+      column_mapping:
+        COMMUNE_PP: commune
+        VESTIGES: type_mention
+        X_DEGRE: longitude_raw
+        Y_DEGRE: latitude_raw
+  - path: "RawData/GrosFichiers - Béhague/Alsace_Basel_AF (1).xlsx"
+    type: alsace_basel
+  - path: "RawData/GrosFichiers - Béhague/BdD_Proto_Alsace (1).xlsx"
+    type: bdd_proto_alsace
+  - path: "RawData/GrosFichiers - Béhague/20250324_necropoles_BFIIIb-HaD3_Als-Lor (1).xlsx"
+    type: necropoles
+    options:
+      filter_departments: [67, 68]
+  - path: "RawData/GrosFichiers - Béhague/20240419_Inhumations silos (1).xlsx"
+    type: inhumations_silos
+  - path: "RawData/GrosFichiers - Béhague/20240425_habitats-tombes riches_Als-Lor (1).xlsx"
+    type: habitats_tombes_riches
+
+  # --- Tier 2: Enrichment sources ---
+  - path: "RawData/GrosFichiers - Béhague/BDD-fun_AFEAF24-total_04.12 (1).xlsx"
+    type: afeaf
+  - path: "RawData/GrosFichiers - Béhague/2026_afeaf_lineaire.dbf"
+    type: dbf
+  - path: "RawData/GrosFichiers - Béhague/20240425_mobilier_sepult_def (1).ods"
+    type: ods
+  - path: "RawData/GrosFichiers - Béhague/cag_68_texte.doc"
+    type: cag_doc
+    options:
+      source_label: cag_68
+  - path: "RawData/GrosFichiers - Béhague/cag_68_index.doc"
+    type: doc
+  - path: "RawData/GrosFichiers - Béhague/cag_68_biblio.doc"
+    type: doc
+
+filter:
+  chrono: true
+  departments: [67, 68]
 
 gallica_queries:
   - 'dc.title all "carte archéologique Gaule" and dc.title all "Bas-Rhin"'

@@ -1,0 +1,1 @@
+/data-science-expert /archaeo-proto-eu /software-architecture avec le projet BASEFERRhin tu peux analyser les data dans @RawData  et me faire un prompt pour openspec pour traiter les donnée et le mettre dans @prompts/BaseFerRhin-RawData.md 

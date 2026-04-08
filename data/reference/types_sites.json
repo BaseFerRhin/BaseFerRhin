@@ -1,36 +1,36 @@
 {
   "aliases": {
     "OPPIDUM": {
-      "fr": ["oppidum", "fortification", "enceinte", "fortification de hauteur", "site fortifié", "site de hauteur", "éperon barré"],
-      "de": ["Oppidum", "Höhensiedlung", "Höhenburg", "Befestigung", "befestigte Höhensiedlung", "Ringwall"]
+      "fr": ["oppidum", "fortification", "enceinte", "fortification de hauteur", "site fortifié", "site de hauteur", "éperon barré", "site perché", "refuge"],
+      "de": ["Oppidum", "Höhensiedlung", "Höhenburg", "Befestigung", "befestigte Höhensiedlung", "Ringwall", "Abschnittsbefestigung", "Burganlage"]
     },
     "HABITAT": {
-      "fr": ["habitat", "habitat ouvert", "village", "établissement", "établissement rural", "ferme", "hameau", "occupation"],
-      "de": ["Siedlung", "Gehöft", "Dorf", "offene Siedlung", "ländliche Siedlung", "Wohnplatz"]
+      "fr": ["habitat", "habitat ouvert", "village", "établissement", "établissement rural", "ferme", "hameau", "occupation", "habitat groupé", "habitat dispersé", "fosse", "fossé", "fond de cabane", "structure d'habitat", "grenier", "silo"],
+      "de": ["Siedlung", "Gehöft", "Dorf", "offene Siedlung", "ländliche Siedlung", "Wohnplatz", "Grubenhütte", "Pfostenbau", "Speicher", "Vorratsgrube"]
     },
     "NECROPOLE": {
-      "fr": ["nécropole", "cimetière", "tombe", "sépulture", "inhumation", "incinération", "champ d'urnes", "ensemble funéraire"],
-      "de": ["Gräberfeld", "Nekropole", "Grab", "Bestattung", "Grabhügel", "Hügelgrab", "Urnenfeld", "Friedhof"]
+      "fr": ["nécropole", "cimetière", "tombe", "sépulture", "inhumation", "incinération", "champ d'urnes", "ensemble funéraire", "tombe plate", "tombe à char", "tombe riche", "enclos funéraire", "crémation", "urne"],
+      "de": ["Gräberfeld", "Nekropole", "Grab", "Bestattung", "Grabhügel", "Hügelgrab", "Urnenfeld", "Friedhof", "Flachgrab", "Wagengrab", "Fürstengrab", "Brandgrab", "Körpergrab", "Grabanlage"]
     },
     "DEPOT": {
-      "fr": ["dépôt", "trésor", "cachette", "dépôt votif", "dépôt métallique"],
-      "de": ["Hortfund", "Depotfund", "Schatzfund", "Verwahrfund", "Metalldepot"]
+      "fr": ["dépôt", "trésor", "cachette", "dépôt votif", "dépôt métallique", "trouvaille isolée", "découverte isolée"],
+      "de": ["Hortfund", "Depotfund", "Schatzfund", "Verwahrfund", "Metalldepot", "Einzelfund", "Lesefund"]
     },
     "SANCTUAIRE": {
-      "fr": ["sanctuaire", "lieu de culte", "temple", "espace sacré", "enclos cultuel"],
-      "de": ["Heiligtum", "Kultstätte", "Viereckschanze", "Tempel", "Kultplatz"]
+      "fr": ["sanctuaire", "lieu de culte", "temple", "espace sacré", "enclos cultuel", "fanum"],
+      "de": ["Heiligtum", "Kultstätte", "Viereckschanze", "Tempel", "Kultplatz", "Opferplatz"]
     },
     "ATELIER": {
-      "fr": ["atelier", "forge", "officine", "atelier métallurgique", "bas fourneau", "zone de production"],
-      "de": ["Werkstatt", "Schmiede", "Verhüttungsplatz", "Produktionsstätte", "Rennofen"]
+      "fr": ["atelier", "forge", "officine", "atelier métallurgique", "bas fourneau", "zone de production", "atelier de potier", "mine", "extraction"],
+      "de": ["Werkstatt", "Schmiede", "Verhüttungsplatz", "Produktionsstätte", "Rennofen", "Töpferofen", "Bergwerk"]
     },
     "VOIE": {
-      "fr": ["voie", "chemin", "route", "passage", "gué"],
-      "de": ["Weg", "Straße", "Verkehrsweg", "Furt", "Altweg"]
+      "fr": ["voie", "chemin", "route", "passage", "gué", "pont"],
+      "de": ["Weg", "Straße", "Verkehrsweg", "Furt", "Altweg", "Brücke"]
     },
     "TUMULUS": {
-      "fr": ["tumulus", "tertre", "butte", "tumulus funéraire", "tertre funéraire"],
-      "de": ["Grabhügel", "Hügelgrab", "Tumulus", "Erdhügel"]
+      "fr": ["tumulus", "tertre", "butte", "tumulus funéraire", "tertre funéraire", "groupe de tumulus", "nécropole tumulaire"],
+      "de": ["Grabhügel", "Hügelgrab", "Tumulus", "Erdhügel", "Hügelgräberfeld"]
     }
   }
 }

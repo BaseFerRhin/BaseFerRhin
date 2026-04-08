@@ -14,6 +14,9 @@ import sys
 from pathlib import Path
 
 import duckdb
+from pyproj import Transformer
+
+_L93_TO_WGS = Transformer.from_crs("EPSG:2154", "EPSG:4326", always_xy=True)
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
@@ -48,6 +51,8 @@ def build_database(state: dict) -> None:
             commune          VARCHAR NOT NULL,
             x_l93            DOUBLE,
             y_l93            DOUBLE,
+            latitude         DOUBLE,
+            longitude        DOUBLE,
             precision_loc    VARCHAR,
             type_site        VARCHAR NOT NULL,
             description      VARCHAR,
@@ -112,8 +117,15 @@ def build_database(state: dict) -> None:
         if site["site_id"] in seen_sites:
             continue
         seen_sites.add(site["site_id"])
+
+        x_l93 = site.get("x_l93")
+        y_l93 = site.get("y_l93")
+        lat, lon = None, None
+        if x_l93 is not None and y_l93 is not None:
+            lon, lat = _L93_TO_WGS.transform(x_l93, y_l93)
+
         db.execute(
-            """INSERT INTO sites VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+            """INSERT INTO sites VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
             [
                 site["site_id"],
                 site["nom_site"],
@@ -121,8 +133,10 @@ def build_database(state: dict) -> None:
                 site["pays"],
                 site["region_admin"],
                 site["commune"],
-                site.get("x_l93"),
-                site.get("y_l93"),
+                x_l93,
+                y_l93,
+                lat,
+                lon,
                 site.get("precision_localisation"),
                 site["type_site"],
                 site.get("description"),

@@ -1,0 +1,55 @@
+{
+  "row_count_raw": 836,
+  "unique_code_national": 836,
+  "address_fill_rate": 0.305,
+  "parsing_failures": [],
+  "georef_strategy_counts": {
+    "matched_golden_commune": 75,
+    "matched_sites_commune": 449,
+    "ban_municipality_centroid": 311,
+    "none": 1
+  },
+  "ban_municipality_note": "BAN utilisé pour les départements 67 et 68 (Alsace) lorsque aucune coordonnée n’est trouvée via golden/sites.",
+  "georef_unresolved": [
+    {
+      "site_id": "PATRIARCHE-17764",
+      "commune": "GINGSHEIM",
+      "numero_ea": "67 158 0006",
+      "georef_note": "ban_no_result"
+    }
+  ],
+  "duplicates_with_golden_or_sites_csv": [],
+  "type_classification_unmapped": {
+    "counts": {
+      "RD 139": 1,
+      "environnement": 3,
+      "Goldblumen": 1,
+      "mobiliers divers": 11,
+      "mur": 1,
+      "outils lithiques": 2,
+      "Rue du Cèdre": 1,
+      "IM BINN": 1,
+      "céramique": 2,
+      "ouvaille ponctuelle": 1,
+      "Schlossberg": 1,
+      "économie": 2,
+      "Vorhart": 1
+    },
+    "fuzzy_dedup_available": true,
+    "fuzzy_dedup_note": null
+  },
+  "type_site_distribution": {
+    "habitat": 390,
+    "tumulus": 170,
+    "indéterminé": 166,
+    "nécropole": 75,
+    "dépôt": 16,
+    "oppidum": 12,
+    "voie": 6,
+    "atelier": 1
+  },
+  "periode_distribution": {
+    "indéterminé": 836
+  },
+  "georef_rate": 0.9988
+}

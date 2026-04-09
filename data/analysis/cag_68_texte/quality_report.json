@@ -1,0 +1,455 @@
+{
+  "source_text": "data/analysis/cag_68_texte/extracted_text.txt",
+  "script": "data/analysis/cag_68_texte/ingest.py",
+  "total_blocs_sites": 863,
+  "refs_comptees_dans_entetes_blocs": 918,
+  "stats_json_total_references_sites": 812,
+  "note_comptage": "stats.json (analyze.py) déduplique les refs par commune et ne matche pas le format (001, 002 AH). ingest.py compte chaque ref listée dans l’en-tête de bloc ; le nombre de blocs et de refs peut être supérieur à 812.",
+  "communes_total": 388,
+  "communes_avec_au_moins_un_bloc": 196,
+  "communes_meta_avec_sites": 194,
+  "lignes_csv_fer": 242,
+  "taux_age_du_fer": 0.2804,
+  "distribution_confiance": {
+    "HIGH": 454,
+    "LOW": 115,
+    "MEDIUM": 294
+  },
+  "distribution_periode": {
+    "VIDE": 321,
+    "GALLO_ROMAIN": 226,
+    "HALLSTATT": 110,
+    "MEROVINGIEN": 66,
+    "LA_TENE": 60,
+    "HALLSTATT_LA_TENE": 41,
+    "PROTOHISTOIRE": 21,
+    "TRANSITION": 10,
+    "BRONZE_FINAL": 4,
+    "MEDIEVAL": 2,
+    "NEOLITHIQUE": 2
+  },
+  "distribution_type_site": {
+    "NECROPOLE": 229,
+    "VIDE": 203,
+    "HABITAT": 187,
+    "TUMULUS": 118,
+    "OPPIDUM": 43,
+    "VOIE": 42,
+    "DEPOT": 27,
+    "SANCTUAIRE": 8,
+    "ATELIER": 6
+  },
+  "communes_avec_sites_sans_segmentation": [],
+  "spot_check_manuel": {
+    "001_algolsheim": {
+      "numero": "001",
+      "nom": "Algols-heim",
+      "blocs": [
+        {
+          "ref": "004 AH; 005 AP",
+          "type_site": "TUMULUS",
+          "periode": "GALLO_ROMAIN",
+          "extrait": "(004  AH,  005  AP)  -  Aux  lieux-dits  Rheingraben  et  Muhlwasen,   entre\nAlgolsheim et Vogelgrün, à droite de  la  route  allant  vers  Breisach,  G.\nEngel en 1892 a découvert …"
+        },
+        {
+          "ref": "004 AP",
+          "type_site": "",
+          "periode": "",
+          "extrait": "(004 AP) - Au sud-ouest de la commune, en 1978, R.  Goguey  a  découvert  un\nenclos  circulaire :  Prospection  aérienne  R.  Goguey.  Information  Carte\nArchéologique, S.R.A. Stra…"
+        },
+        {
+          "ref": "003 AP",
+          "type_site": "HABITAT",
+          "periode": "PROTOHISTOIRE",
+          "extrait": "(003 AP) - Au sud  de  la  commune,  en  1988,  des  alignements  de  fosses\nparallèles   ont   été   signalés.   Ces   structures   sont    probablement\nprotohistoriques :  Prospe…"
+        },
+        {
+          "ref": "002 AH",
+          "type_site": "VOIE",
+          "periode": "GALLO_ROMAIN",
+          "extrait": "(002 AH) - L’existence d’une voie romaine  est  signalée  par  le  maire  de\nVolgelsheim  dans  une  lettre  déposée  aux  archives  allemandes.  Jusqu’à\nprésent nous n’avons  pu  …"
+        },
+        {
+          "ref": "001 AH",
+          "type_site": "VOIE",
+          "periode": "GALLO_ROMAIN",
+          "extrait": "(001 AH) - Au lieu-dit  Härdlte,  le  maire  de  Volgelsheim  communique  la\ndécouverte, vers 1907, d’un sarcophage  en  pierre  qui  pourrait  dater  de\nl’époque romaine ou mérovi…"
+        },
+        {
+          "ref": "007 AH",
+          "type_site": "HABITAT",
+          "periode": "",
+          "extrait": "(007 AH) - Au sud-ouest de la commune, en 1989 J.-J. Wolf  a  découvert  des\nstructures  quadrangulaires  à  angles  arrondis,   peut-être   superposées,\naccompagnées  de  fosses :…"
+        },
+        {
+          "ref": "008 AH",
+          "type_site": "HABITAT",
+          "periode": "",
+          "extrait": "(008 AH) - A l’est de l’ancienne écluse, en 1989, J.-J. Wolf a  localisé  un\nfossé rectiligne et un enclos quadrangulaire :  Prospection  aérienne  J.-J.\nWolf. Information C.A.H.R."
+        }
+      ]
+    },
+    "066_colmar": {
+      "numero": "066",
+      "nom": "Colmar",
+      "blocs": [
+        {
+          "ref": "010 AH",
+          "type_site": "NECROPOLE",
+          "periode": "HALLSTATT",
+          "extrait": "3* (010 AH) - Au lieu-dit Rufacher Huben, rue du 1er  Cuirassier,  en  1948,\nJ. Braun signale la découverte d’une nécropole  hallstattienne.  Les  tombes\nlui ont été décrites par l…"
+        },
+        {
+          "ref": "001 AP; 011 AH",
+          "type_site": "NECROPOLE",
+          "periode": "HALLSTATT",
+          "extrait": "4* (001 AP, 011 AH) - Sur  la  route  de  Rouffach,  de  1970  à  1983,  des\nfouilles ont été entreprises par Ch. Bonnet et S. Plouin.  Elles  ont  livré\n13 fosses  protohistorique…"
+        },
+        {
+          "ref": "011 AP; 011 AH",
+          "type_site": "NECROPOLE",
+          "periode": "TRANSITION",
+          "extrait": "5* (011 AP, 011 AH) - Sur la route de Rouffach, en  1954,  M.  Jehl  et  Ch.\nBonnet ont fouillé 10 inhumations et 2 fosses d’habitat (fig. 54).  Sur  les\n10 tombes, 5  étaient  per…"
+        },
+        {
+          "ref": "038 AH; 039 AH; 046 AH",
+          "type_site": "NECROPOLE",
+          "periode": "HALLSTATT",
+          "extrait": "11* (038 AH, 039 AH, 046 AH) - Au  cimetière  du  Ladhof,  on  mentionne  la\ndécouverte fortuite  de  bracelets  gravés  à  boutons  terminaux  datés  du\nHallstatt D et des  traces…"
+        },
+        {
+          "ref": "049 AH",
+          "type_site": "",
+          "periode": "",
+          "extrait": "12* (049 AH) -  Au  croisement  des  rues  Oberlin  et  Schlumberger,  on  a\ndécouvert en 1906 4 inhumations dont une contenait une paire de bracelets  à\n7 cannelures longitudinale…"
+        },
+        {
+          "ref": "066 AH; 106 AH",
+          "type_site": "TUMULUS",
+          "periode": "GALLO_ROMAIN",
+          "extrait": "13* (066 AH, 106 AH) - Au lieu-dit Oberallmend, 4 tumulus ont  été  signalés\ndans le Journal de  Colmar-Affiches  Alsaciennes,  le  25  avril  1878 ;  un\ncinquième était déjà connu…"
+        },
+        {
+          "ref": "014 AH",
+          "type_site": "TUMULUS",
+          "periode": "HALLSTATT",
+          "extrait": "14* (014 AH) - Lors des travaux de construction  d’un  supermarché  Cora  au\nnord de Colmar, Ch. Bonnet a fouillé un tumulus,  déjà  pillé,  de  53 m  de\ndiamètre. Dans  la  chambr…"
+        },
+        {
+          "ref": "016 AH",
+          "type_site": "HABITAT",
+          "periode": "TRANSITION",
+          "extrait": "17* (016 AH) - Dans le pâté de maisons entre la rue Balzac  et  la  rue  des\nAulnes, en 1969, M. Jehl et Ch. Bonnet ont découvert, lors  de  fouilles  de\nsauvetage,  des  trous  de…"
+        },
+        {
+          "ref": "034 AH",
+          "type_site": "HABITAT",
+          "periode": "HALLSTATT_LA_TENE",
+          "extrait": "18* (034 AH) - A l’emplacement de la  clinique  du  Diaconat,  en  1928,  A.\nGlory mentionnait l’existence de nombreuses fosses (au moins une  vingtaine)\nqu’il datait de l’époque h…"
+        },
+        {
+          "ref": "141 AH",
+          "type_site": "HABITAT",
+          "periode": "HALLSTATT",
+          "extrait": "19* (141 AH) - A proximité de l’école agronomique, rue  de  Herrlisheim,  un\nsondage réalisé par J. Sainty en mai 1994 a livré  une  fosse  datée  de  la\ntransition  Bronze  final-…"
+        },
+        {
+          "ref": "142 AH",
+          "type_site": "",
+          "periode": "HALLSTATT",
+          "extrait": "20* (142 AH) - Au  n° 16,  rue  des  Aulnes,  un  sondage-diagnostic  a  été\neffectué par J. Sainty en 1994.  Il  y  découvrit  une  fosse-silo  d’époque\nhallstattienne à  fond  pl…"
+        },
+        {
+          "ref": "047 AH",
+          "type_site": "HABITAT",
+          "periode": "HALLSTATT",
+          "extrait": "21* (047  AH)  -  Dans  la  rue  Rapp,  M.  Jehl  et  Ch.  Bonnet  signalent\nl’existence d’une occupation hallstattienne : M. Jehl,  Ch.  Bonnet,  1970c,\np. 73, carte."
+        },
+        {
+          "ref": "032 AH",
+          "type_site": "",
+          "periode": "HALLSTATT",
+          "extrait": "22* (032 AH) - Dans la rue  Victor  Hugo,  on  mentionne  la  découverte  de\nquelques tessons du Hallstatt. Musée d’Unterlinden, Colmar :  M.  Jehl,  Ch.\nBonnet, 1970b, p. 55-56, p…"
+        },
+        {
+          "ref": "008 AH; 052 AH; 053 AH; 054 AH",
+          "type_site": "TUMULUS",
+          "periode": "HALLSTATT_LA_TENE",
+          "extrait": "23* (008, 052, 053, 054 AH) -  Au  canton  Herten,  en  1847,  le  maire  de\nRiedwihr a signalé la présence de 3 tumulus . Ces tertres étaient  nommés  .\nUn quatrième tumulus a été…"
+        },
+        {
+          "ref": "035 AH",
+          "type_site": "NECROPOLE",
+          "periode": "HALLSTATT",
+          "extrait": "24* (035 AH) - Rue Charles Koenig,  on  mentionne  la  découverte  d’une  ou\nplusieurs  tombes  à   inhumation   datées   du   Hallstatt   final.   Musée\nd’Unterlinden, Colmar : Au…"
+        },
+        {
+          "ref": "018 AH",
+          "type_site": "NECROPOLE",
+          "periode": "TRANSITION",
+          "extrait": "25* (018 AH) - Au n° 16, avenue Foch, en 1955, Ch. Bonnet  et  M.  Jehl  ont\nfouillé 2 fosses datées du Hallstatt D3-La Tène  I.  La  première  structure\navait un diamètre de 1,20 …"
+        },
+        {
+          "ref": "048 AH",
+          "type_site": "",
+          "periode": "LA_TENE",
+          "extrait": "26* (048 AH) - A l’angle de l’avenue Joffre et de l’avenue  Clémenceau,  Ch.\nBonnet a signalé la découverte de bracelets de La Tène ancienne :  M.  Jehl,\nCh. Bonnet, 1961, p. 37, f…"
+        },
+        {
+          "ref": "051 AH",
+          "type_site": "NECROPOLE",
+          "periode": "LA_TENE",
+          "extrait": "27* (051 AH)  -  Dans  la  rue  Balzac,  en  1979,  Ch.  Bonnet  signale  la\ndécouverte de morceaux de torchis et  de  céramique  de  La  Tène  ancienne.\nMusée  d’Unterlinden,  Col…"
+        },
+        {
+          "ref": "013 AH",
+          "type_site": "DEPOT",
+          "periode": "HALLSTATT_LA_TENE",
+          "extrait": "29* (013 AH) - Lors des travaux de construction de la gare de  marchandises,\nen 1903,  les  ouvriers  découvrirent  une  série  de  lingots  en  fer.  On\ndécouvrit tout d’abord 4  …"
+        },
+        {
+          "ref": "011 AP",
+          "type_site": "VOIE",
+          "periode": "",
+          "extrait": "30* (011 AP) - Une autre série de lingots de ce type  a  été  découverte  au\nlieu-dit Rufacher Huben. Le Musée d’Unterlinden à Colmar en conserve  7.  R.\nForrer en citait 9 dans so…"
+        },
+        {
+          "ref": "017 AH; 031 AH",
+          "type_site": "NECROPOLE",
+          "periode": "LA_TENE",
+          "extrait": "34* (017 AH, 031 AH) - Au lieu-dit  Blieschwihr,  emplacement  d’un  village\nmédiéval disparu (cité en 708),  le  numéro  du  23.09.1875  du  Journal  de\nColmar-Affiches Alsacienne…"
+        },
+        {
+          "ref": "076 AH",
+          "type_site": "",
+          "periode": "GALLO_ROMAIN",
+          "extrait": "35* (076 AH) - Dans les caves du Collège Saint-André, en 1959,  l’abbé  Blum\nsignale à la Direction des Antiquités la  découverte  d’une  stèle  en  grès\nrose avec une inscription …"
+        },
+        {
+          "ref": "033 AH",
+          "type_site": "HABITAT",
+          "periode": "GALLO_ROMAIN",
+          "extrait": "36* (033 AH) - Une portion de voie romaine a été observée rue  Méquillet  et\nrue du 1er Cuirassier. Cette dernière avait  déjà  été  signalée  au  siècle\ndernier  par   A.   Ingold…"
+        },
+        {
+          "ref": "042 AH",
+          "type_site": "NECROPOLE",
+          "periode": "",
+          "extrait": "(042 AH) - A la clinique Sainte-Thérèse, furent découverts quelques  tessons\nde sigillée, ainsi que (043 AH) dans la rue Voltaire : M. Jehl, Ch.  Bonnet,\n1961, fig. 2, n° 2 ; 1970c…"
+        },
+        {
+          "ref": "107 AH",
+          "type_site": "NECROPOLE",
+          "periode": "GALLO_ROMAIN",
+          "extrait": "39* (107 AH) - A la  tuilerie  Reech,  non  loin  de  Horbourg,  F.X.  Kraus\nsignale la découverte en  1878  d’un  sol  dallé  ou  mosaïqué  ()  daté  de\nl’époque romaine. Ce site …"
+        },
+        {
+          "ref": "028 AH",
+          "type_site": "",
+          "periode": "",
+          "extrait": "(028 AH) - Au lieu-dit Canton Dreifinger  et  (105  AH)  au  lieu-dit  Semm,\nquelques monnaies romaines ont été ramassées :  F.X.  Kraus,  1884,  p. 228-\n229 ; - A. Ingold, 1893, p…"
+        },
+        {
+          "ref": "103 AH",
+          "type_site": "NECROPOLE",
+          "periode": "GALLO_ROMAIN",
+          "extrait": "(103 AH)  -  Au  lieu-dit  Rappentanz,  une  monnaie  de  Constantin  a  été\nrecueillie : F.X. Kraus, 1884, p. 228-229 ; - A. Ingold, 1893,  p. 477-478 ;\n- Aug. Scherlen, 1931, p. …"
+        },
+        {
+          "ref": "068 AH",
+          "type_site": "NECROPOLE",
+          "periode": "MEROVINGIEN",
+          "extrait": "44* (068 AH) - Le long de la route d’Ingersheim, on a  découvert,  en  1773,\ndes tombes en dalles de l’époque mérovingienne : A. Ingold,  1893,  p. 475 ;\n- Aug. Scherlen, 1931, p. …"
+        },
+        {
+          "ref": "041 AH",
+          "type_site": "NECROPOLE",
+          "periode": "",
+          "extrait": "46* (041 AH) - Dans la rue de la Cavalerie,  devant  la  place  du  Quartier\nLacarre, et (040 AH) au croisement  des  rues  de  la  Cavalerie  et  de  la\nBrasserie, en 1844 et 1848…"
+        },
+        {
+          "ref": "101 AH",
+          "type_site": "NECROPOLE",
+          "periode": "",
+          "extrait": "47* (101 AH) - Au lieu-dit Ehrlenweg-Hinter Sankt Peter,  en  1842  puis  en\n1885, furent découverts 2 squelettes dont l’un se trouvait  dans  une  tombe\nen dalles. Cette  nécropol…"
+        },
+        {
+          "ref": "104 AH",
+          "type_site": "NECROPOLE",
+          "periode": "MEROVINGIEN",
+          "extrait": "48* (104 AH) - Dans une  gravière,  au  lieu-dit  Viehweg,  en  1852,  on  a\ndécouvert une tombe à inhumation orientée  nord-sud  dans  laquelle  avaient\nété déposées une urne et q…"
+        },
+        {
+          "ref": "015 AH",
+          "type_site": "NECROPOLE",
+          "periode": "MEROVINGIEN",
+          "extrait": "50* (015 AH) Une  importante  nécropole  mérovingienne  datée  des  VIe-VIIe\nsiècles  a  été  localisée  au  Bruckleweg,  rue  Aristide  Briand  en  1902\n(fig. 62). On parle de plu…"
+        },
+        {
+          "ref": "010 AH",
+          "type_site": "NECROPOLE",
+          "periode": "HALLSTATT",
+          "extrait": "54* (010 AH) - Au lieu-dit Rufacher Huben, rue du 1er Cuirassier,  en  1948,\nJ. Braun a découvert, à proximité  des  tombes  hallstattiennes  mentionnées\nsupra, le  squelette  d’un…"
+        },
+        {
+          "ref": "002 AH",
+          "type_site": "NECROPOLE",
+          "periode": "MEROVINGIEN",
+          "extrait": "55* (002 AH) - Sous les  Places  Haslinger  et  Scheurer-Kestner,  un  autre\ncimetière franc a été découvert en 1994, lors de fouilles de  sauvetage.  La\nfouille, dirigée par R. Ni…"
+        },
+        {
+          "ref": "088 AH",
+          "type_site": "",
+          "periode": "",
+          "extrait": "(088 AH) - Au lieu-dit Niederhof-Unterhof,  à  proximité  de  la  Cathédrale\nSaint-Martin, P. Brunel a observé des traces de ce qui  pourrait  être  l’un\ndes premiers noyaux urbain…"
+        },
+        {
+          "ref": "004 AH",
+          "type_site": "NECROPOLE",
+          "periode": "",
+          "extrait": "58* (004 AH) - Dans la rue de l’Ange, en 1978, G. Meyer  et  P.  Brunel  ont\nmis au jour une fosse ayant livré de la céramique des VIII-IXe siècles  apr.\nJ.-C. Non loin de là, 2 to…"
+        },
+        {
+          "ref": "050 AH",
+          "type_site": "",
+          "periode": "",
+          "extrait": "59* (050 AH) - Au nord-est du lieu-dit Gutleuten, on observe  un  réseau  de\nfossés orthogonaux : Prospection  aérienne  M.  Lasserre  et  M.  Gutzwiller\n1986. Information Carte Ar…"
+        }
+      ]
+    },
+    "152_illfurth": {
+      "numero": "152",
+      "nom": "Illfurth",
+      "blocs": [
+        {
+          "ref": "018 AH",
+          "type_site": "",
+          "periode": "PROTOHISTOIRE",
+          "extrait": "2* (018 AH) - Au lieu-dit Lerchenfeld,  en  1994,  B.  Bakaj  a  détecté  un\ngisement  protohistorique.  Son  attribution  culturelle  reste  imprécise :\nProspection au sol B. Baka…"
+        },
+        {
+          "ref": "016 AH",
+          "type_site": "",
+          "periode": "HALLSTATT",
+          "extrait": "3* (016 AH) -  Au  lieu-dit  Gaenwasen,  on  mentionne  la  découverte  d’un\nbracelet probablement hallstattien : Information orale B. Bakaj.-C.A.H.R."
+        },
+        {
+          "ref": "015 AH",
+          "type_site": "",
+          "periode": "HALLSTATT",
+          "extrait": "4* (015 AH) - Au lieu-dit Leimen, en 1995, B. Bakaj a découvert un  gisement\ndans l’entaille d’un talus qui a livré 2 épingles, 1 anneau, 1  fragment  de\nfer de lance et de la céra…"
+        },
+        {
+          "ref": "019 AH",
+          "type_site": "",
+          "periode": "",
+          "extrait": "5* (019 AH) - Au lieu-dit Beim Telegraph, R. Schweitzer  a  photographié  un\nenclos quadrangulaire. Des prospections au sol  permettent  de  dater  cette\nstructure de l’âge du Fer …"
+        },
+        {
+          "ref": "001 AH",
+          "type_site": "OPPIDUM",
+          "periode": "HALLSTATT_LA_TENE",
+          "extrait": "6* (001 AH) - Les  hauteurs  du  Britzgyberg  (alt. :  355-369 m),  au  nord\nd’Illfurth, étaient connues de  longue  date  comme  fortification  de  type\néperon barré. Le site  occ…"
+        },
+        {
+          "ref": "021 AH",
+          "type_site": "NECROPOLE",
+          "periode": "HALLSTATT",
+          "extrait": "7* (021 AH) - Au lieu-dit Haule, découverte  d’une  sépulture  à  inhumation\ndatée de l’époque hallstattienne : Information C.A.H.R."
+        },
+        {
+          "ref": "014 AH",
+          "type_site": "HABITAT",
+          "periode": "LA_TENE",
+          "extrait": "8* (014 AH) - Au lieu-dit Hammen, en 1995, un sondage-diagnostic suivi  d’un\nsauvetage urgent ont permis de mettre au jour un fond de cabane  à  2  trous\nde poteaux. Cet habitat da…"
+        },
+        {
+          "ref": "020 AH",
+          "type_site": "",
+          "periode": "",
+          "extrait": "9* (020 AH) - Au lieu-dit Tanhoelzlestraeng, en 1995, B.  Bakaj  signale  la\ndécouverte d’un second site daté  de  la  même  période.  Des  fragments  de\ncéramiques  tournées  du  …"
+        },
+        {
+          "ref": "002 AH",
+          "type_site": "SANCTUAIRE",
+          "periode": "LA_TENE",
+          "extrait": "10* (002 AH) - Au lieu-dit Schwarzacker, en 1974, R. Schweitzer a  découvert\nun site laténien final et romain lors de prospections au sol. Les  premières\ndécouvertes sont celles d’…"
+        },
+        {
+          "ref": "004 AH",
+          "type_site": "NECROPOLE",
+          "periode": "",
+          "extrait": "11* (004 AH) - Entre le Britzgyberg et le Kueppele-Burgfeld, vers 1850,  une\nurne contenant des monnaies romaines a été découverte. Malheureusement  nous\nn’en connaissons ni le nom…"
+        },
+        {
+          "ref": "011 AH",
+          "type_site": "",
+          "periode": "",
+          "extrait": "12* (011 AH) - Au Kueppele, on découvrit en 1914 un denier de  Nerva  (Musée\nArchéologique de Strasbourg n° 27 262)  et  un  denier  d’Antonin  le  Pieux\n(Musée Historique de Mulho…"
+        },
+        {
+          "ref": "011 AH",
+          "type_site": "",
+          "periode": "",
+          "extrait": "13* (011 AH) - L.-G. Werner signale la découverte, en  1900,  d’une  monnaie\nen or d’Antonin le Pieux trouvée au Kuppelé  ou  au  Britzgy.  Cet  objet  a\ndisparu : L.-G. Werner, 19…"
+        },
+        {
+          "ref": "022 AH",
+          "type_site": "",
+          "periode": "PROTOHISTOIRE",
+          "extrait": "14* (022 AH) - Au lieu-dit Naegeleberg, en 1994-1995, B. Bakaj  a  découvert\nde la céramique protohistorique et romaine : Prospection au  sol  B.  Bakaj.\nInformation C.A.H.R."
+        },
+        {
+          "ref": "001 AP",
+          "type_site": "",
+          "periode": "GALLO_ROMAIN",
+          "extrait": "15* (001 AP) - Au  lieu-dit  Buckenberg,  en  1978,  J.  Lack  mentionne  la\ndécouverte  d’une  implantation  romaine :  Prospection  au  sol  J.   Lack.\nInformation C.A.H.R."
+        },
+        {
+          "ref": "003 AH",
+          "type_site": "HABITAT",
+          "periode": "GALLO_ROMAIN",
+          "extrait": "16* (003 AH) - Au lieu-dit Burnkirch Feld, en 1995, B. Bakaj a  détecté  une\noccupation romaine matérialisée par la découverte de fragments de tegulæ  et\nde céramiques : Prospectio…"
+        },
+        {
+          "ref": "006 AH",
+          "type_site": "NECROPOLE",
+          "periode": "GALLO_ROMAIN",
+          "extrait": "17* (006 AH) - Au nord-ouest de la commune, un chemin vicinal connu sous  le\nnom de Reiniger Strasse serait d’origine romaine. Cette  voie  viendrait  de\nTagolsheim et se dirigerai…"
+        },
+        {
+          "ref": "007 AH",
+          "type_site": "NECROPOLE",
+          "periode": "MEROVINGIEN",
+          "extrait": "19* (007 AH) - Au pied du Britzgyberg, en février et en mai 1914, J.  Knecht\nmentionne la découverte d’un cimetière mérovingien. 3 tombes construites  en\npierres brutes, couvertes …"
+        },
+        {
+          "ref": "008 AH",
+          "type_site": "NECROPOLE",
+          "periode": "",
+          "extrait": "20* (008 AH) -  Au  lieu-dit  Burnkirche,  en  1982,  lors  des  travaux  de\nrestauration  de  l’ancienne  église-mère  Saint-Martin,  R.  Schweitzer   a\nconstaté l’existence de pl…"
+        }
+      ]
+    }
+  },
+  "validation": {
+    "algolsheim_refs_attendues_ordre": [
+      "004 AH; 005 AP",
+      "004 AP",
+      "003 AP",
+      "002 AH",
+      "001 AH",
+      "007 AH",
+      "008 AH"
+    ],
+    "algolsheim_refs_extraites": [
+      "004 AH; 005 AP",
+      "004 AP",
+      "003 AP",
+      "002 AH",
+      "001 AH",
+      "007 AH",
+      "008 AH"
+    ]
+  }
+}

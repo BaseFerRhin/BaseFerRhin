@@ -1,118 +1,880 @@
 [
   {
     "abbreviation": "A.E.A.K.",
-    "full_name": "Anzeiger für  Elsässische  Altertumskunde  (1909-1917) ;  devient"
+    "full_name": "Anzeiger für Elsässische Altertumskunde (1909-1917) ; devient Cahiers d’Archéologie et d’Histoire d’Alsace (1918-1956) puis Cahiers Alsaciens d’Archéologie, d’Art et d’Histoire (depuis 1957). Société pour la conservation des Monuments Historiques, Strasbourg.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Strasbourg",
+    "date_range": "1909-1917; depuis 1957"
   },
   {
     "abbreviation": "A.F.A.N.",
-    "full_name": "Association pour les Fouilles Archéologiques Nationales."
+    "full_name": "Association pour les Fouilles Archéologiques Nationales.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
   },
   {
     "abbreviation": "A.F.E.A.F.",
-    "full_name": "Association Française pour l’Etude de l’Age du Fer  (actes  des"
+    "full_name": "Association Française pour l’Etude de l’Age du Fer (actes des colloques de l’).",
+    "type": "sigle",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
   },
   {
     "abbreviation": "A.L.U.B.",
-    "full_name": "Annales littéraires de l’Université de Besançon."
+    "full_name": "Annales littéraires de l’Université de Besançon.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
   },
   {
     "abbreviation": "A.R.C.H.I.H.W.",
-    "full_name": "Association d’Archéologie et d’Histoire de Horbourg-Wihr."
+    "full_name": "Association d’Archéologie et d’Histoire de Horbourg-Wihr.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
   },
   {
     "abbreviation": "A.S.P.A.W.E.",
-    "full_name": "Association pour la Sauvegarde  du  Patrimoine  Archéologique"
+    "full_name": "Association pour la Sauvegarde du Patrimoine Archéologique de Wittelsheim et Environs.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
   },
   {
     "abbreviation": "A.S.S.P.A.",
-    "full_name": "Annuaire de la Société Suisse de Préhistoire  et  d’Archéologie"
+    "full_name": "Annuaire de la Société Suisse de Préhistoire et d’Archéologie (Jahrbuch der Schweizerischen Gesellschaft für Ur- und Frühgeschichte), Frauenfeld (depuis 1968).",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Frauenfeld",
+    "date_range": "depuis 1968"
+  },
+  {
+    "abbreviation": "Alemannisches Jahrbuch",
+    "full_name": "Alemannisches Jahrbuch, Bühl/Baden, Verlag Konkordia.",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
+  },
+  {
+    "abbreviation": "Alsatia",
+    "full_name": "Alsatia, Jahrbuch für Elsässische Geschichte, Sage, Altertumskunde, Sitte und Sprache und Kunst, Strasbourg.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Strasbourg",
+    "date_range": null
+  },
+  {
+    "abbreviation": "Ann. Ass. Hist. Vallée de la Weiss",
+    "full_name": "Annuaire de l’Association d’Histoire de la Vallée de la Weiss (Kaysersberg, Ammerschwihr, Sigolsheim, Kientzheim ; depuis 1985).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "depuis 1985"
+  },
+  {
+    "abbreviation": "Ann. Colmar",
+    "full_name": "Annuaire de Colmar (1935-1939) ; devient Annuaire de la Société Historique et Littéraire de Colmar (1950-1972).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "1935-1939"
+  },
+  {
+    "abbreviation": "Ann. des Vereins für Nassauische Altertumskunde",
+    "full_name": "Annalen des Vereins für Nassauische Altertumskunde und Geschichteforschung.",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
+  },
+  {
+    "abbreviation": "Ann. Hist. Ville de Mulhouse",
+    "full_name": "Annuaire Historique de la Ville de Mulhouse (depuis 1988) ; suite du Bulletin Historique de la Ville de Mulhouse (1985- 1987).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "1985-1987; depuis 1988"
+  },
+  {
+    "abbreviation": "Ann. Soc. Club Vosgien",
+    "full_name": "Annuaire de la Société historique, littéraire et scientifique du Club Vosgien (1933-1939) ; suite de Jahrbuch für Geschichte, Sprache und Literatur in Elsass-Lothringen (1885-1918), Strasbourg, impr. Alsacienne.",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "1933-1939"
+  },
+  {
+    "abbreviation": "Ann. Soc. Hist. Archéo. Colmar",
+    "full_name": "Annuaire de la Société d’Histoire et d’Archéologie de Colmar (depuis 1973) ; suite de Annuaire de la Société Historique et Littéraire de Colmar (1950-1972).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "1950-1972; depuis 1973"
+  },
+  {
+    "abbreviation": "Ann. Soc. Hist. Hardt et Ried",
+    "full_name": "Annuaire de la Société d’Histoire de la Hardt et du Ried (depuis 1986), Riquewihr, La Petite Imprimerie.",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "depuis 1986"
+  },
+  {
+    "abbreviation": "Ann. Soc. Hist. Hochkirch",
+    "full_name": "Annuaire de la Société d’Histoire de la Hochkirch et de Haute-Alsace (depuis 1982), Sierentz.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Sierentz",
+    "date_range": "depuis 1982"
+  },
+  {
+    "abbreviation": "Ann. Soc. Hist. Litt. Colmar",
+    "full_name": "Annuaire de la Société Historique et Littéraire de Colmar (1950-1972) ; suite de Annuaire de Colmar (1935-1939).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "1950-1972"
+  },
+  {
+    "abbreviation": "Ann. Soc. Hist. Sundgovienne",
+    "full_name": "Annuaire de la Société d’Histoire Sundgovienne (depuis 1994) ; suite de Jahrbuch des Sundgau-Vereins (1933- 1993). 1933-1976, Mulhouse, Alsatia ; 1977-1997, Riedisheim, Alsagraphie.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Riedisheim",
+    "date_range": "1933-1993; depuis 1994"
+  },
+  {
+    "abbreviation": "Ann. Soc. Hist. Thann-Guebwiller",
+    "full_name": "Annuaire de la Société d’Histoire des régions de Thann-Guebwiller (depuis 1948). Suite de Geschicht- und Altertumsverein für die Südvogesen (Dreitalerverein) Kolmar (puis) Mulhouse (puis) Guebwiller (1940-1943). Mulhouse, L’Alsace (société française d’édition de journaux et d’imprimés commerciaux) (depuis 1948).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "1940-1943; depuis 1948"
+  },
+  {
+    "abbreviation": "Ann. Soc. Hist. Val et Munster",
+    "full_name": "Annuaire de la Société d’Histoire du Val et de la ville de Munster (depuis 1958) ; suite de Jahrbuch des Geschichtsvereins für Stadt und Tal Munster (1927-1938). Thonon-les-Bains, impr. Dubouloz.",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "1927-1938; depuis 1958"
+  },
+  {
+    "abbreviation": "Antiqua",
+    "full_name": "Antiqua, Strasbourg.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Strasbourg",
+    "date_range": null
+  },
+  {
+    "abbreviation": "Antiquités Nationales",
+    "full_name": "Antiquités Nationales, revue du Musée des Antiquités Nationales, Saint- Germain-en-Laye.",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
+  },
+  {
+    "abbreviation": "Archäologisches Korrespondenzblatt",
+    "full_name": "Archäologisches Korrespondenzblatt, Römisch-Germanisches Zentralmuseum, Mayence (depuis 1971).",
+    "type": "title",
+    "cross_references": [],
+    "location": "Mayence",
+    "date_range": "depuis 1971"
+  },
+  {
+    "abbreviation": "Archéologia",
+    "full_name": "Archéologia, Dijon.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Dijon",
+    "date_range": null
+  },
+  {
+    "abbreviation": "Archéologie Suisse",
+    "full_name": "Archäologie der Schweiz, Bâle, Société Suisse de Préhistoire et d’Archéologie.",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
   },
   {
     "abbreviation": "B.A.",
-    "full_name": "Bulletin Archéologique, Paris."
+    "full_name": "Bulletin Archéologique, Paris.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Paris",
+    "date_range": null
   },
   {
     "abbreviation": "B.A.R.",
-    "full_name": "British Archaeological Reports, Oxford."
+    "full_name": "British Archaeological Reports, Oxford.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Oxford",
+    "date_range": null
   },
   {
     "abbreviation": "B.E.F.A.R.",
-    "full_name": "Bibliothèque des Ecoles Françaises d’Athènes et de Rome."
+    "full_name": "Bibliothèque des Ecoles Françaises d’Athènes et de Rome.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
   },
   {
     "abbreviation": "B.F.",
-    "full_name": "Badische Fundberichte, Stuttgart."
+    "full_name": "Badische Fundberichte, Stuttgart.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Stuttgart",
+    "date_range": null
   },
   {
     "abbreviation": "B.H.V.M.",
-    "full_name": "Bulletin  Historique  de  la  Ville  de  Mulhouse  (1985-1987) ;"
+    "full_name": "Bulletin Historique de la Ville de Mulhouse (1985-1987) ; devient Annuaire Historique de la Ville de Mulhouse (depuis 1988).",
+    "type": "sigle",
+    "cross_references": [],
+    "location": null,
+    "date_range": "1985-1987; depuis 1988"
   },
   {
     "abbreviation": "B.M.H.M.",
-    "full_name": "Bulletin du Musée Historique de  Mulhouse  (1876-1980) ;  devient"
+    "full_name": "Bulletin du Musée Historique de Mulhouse (1876-1980) ; devient Bulletin du Musée Historique et des Sciences Humaines de Mulhouse (1981- 1985).",
+    "type": "sigle",
+    "cross_references": [],
+    "location": null,
+    "date_range": "1876-1980"
   },
   {
     "abbreviation": "B.M.H.S.H.M.",
-    "full_name": "Bulletin du Musée Historique  et  des  Sciences  Humaines  de"
+    "full_name": "Bulletin du Musée Historique et des Sciences Humaines de Mulhouse (1981-1985) ; devient Bulletin Historique de la Ville de Mulhouse (1985-1987).",
+    "type": "sigle",
+    "cross_references": [],
+    "location": null,
+    "date_range": "1981-1985"
   },
   {
     "abbreviation": "B.R.G.K.",
-    "full_name": "Bericht der Römisch-Germanischen Kommission (depuis 1904),  suite"
+    "full_name": "Bericht der Römisch-Germanischen Kommission (depuis 1904), suite de Bericht über die Fortschritte der Römisch-germanischen Forschungen, Deutsches archäologisches Institut, Mayence.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Mayence",
+    "date_range": "depuis 1904"
   },
   {
     "abbreviation": "B.S.A.V.R.",
-    "full_name": "Bulletin de la Société des Amis  du  Vieux  Riedisheim  (depuis"
+    "full_name": "Bulletin de la Société des Amis du Vieux Riedisheim (depuis 1973).",
+    "type": "sigle",
+    "cross_references": [],
+    "location": null,
+    "date_range": "depuis 1973"
   },
   {
     "abbreviation": "B.S.C.M.H.A.",
-    "full_name": "Bulletin de la Société pour  la  Conservation  des  Monuments"
+    "full_name": "Bulletin de la Société pour la Conservation des Monuments Historiques d’Alsace (1856-1956), Strasbourg.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Strasbourg",
+    "date_range": "1856-1956"
   },
   {
     "abbreviation": "B.S.I.M.",
-    "full_name": "Bulletin de la Société Industrielle de Mulhouse (depuis 1826)."
+    "full_name": "Bulletin de la Société Industrielle de Mulhouse (depuis 1826).",
+    "type": "sigle",
+    "cross_references": [],
+    "location": null,
+    "date_range": "depuis 1826"
   },
   {
     "abbreviation": "B.S.N.A.F.",
-    "full_name": "Bulletin de la Société Nationale  des  Antiquaires  de  France,"
+    "full_name": "Bulletin de la Société Nationale des Antiquaires de France, Paris (depuis 1868).",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Paris",
+    "date_range": "depuis 1868"
   },
   {
     "abbreviation": "B.S.P.F.",
-    "full_name": "Bulletin de la Société Préhistorique Française, Paris."
+    "full_name": "Bulletin de la Société Préhistorique Française, Paris.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Paris",
+    "date_range": null
+  },
+  {
+    "abbreviation": "Bayerische Vorgeschichtsblätter",
+    "full_name": "Bayerische Vorgeschichtsblätter, Munich, Beck.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Beck",
+    "date_range": null
+  },
+  {
+    "abbreviation": "Bericht über die Fortschritte der Römische-germanischen Forschungen",
+    "full_name": "Bericht über die Fortschritte der Römische-germanischen Forschungen, cf. B.R.G.K.",
+    "type": "title",
+    "cross_references": [
+      "B.R.G.K."
+    ],
+    "location": null,
+    "date_range": null
+  },
+  {
+    "abbreviation": "Bull. de liaison des Professeurs d’Histoire et de Géographie",
+    "full_name": "Bull. de liaison des Professeurs d’Histoire et de Géographie, Strasbourg, C.R.D.P.",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
+  },
+  {
+    "abbreviation": "Bull. Liaison Soc. Hist. Archéo. Rouffach",
+    "full_name": "Bulletin de Liaison de la Société d’Histoire et d’Archéologie du canton de Rouffach, Rouffach.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Rouffach",
+    "date_range": null
+  },
+  {
+    "abbreviation": "Bull. Liaison Soc. Hist. Thann-Guebwiller",
+    "full_name": "Bulletin de Liaison des Sociétés d’Histoire de Thann et Guebwiller (1958-1959), Mulhouse.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Mulhouse",
+    "date_range": "1958-1959"
+  },
+  {
+    "abbreviation": "Bull. Soc. Archéo. Riquewihr",
+    "full_name": "Bulletin de la Société d’Archéologie de Riquewihr, Mulhouse.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Mulhouse",
+    "date_range": null
+  },
+  {
+    "abbreviation": "Bull. Soc. Belfort. Emul.",
+    "full_name": "Bulletin de la Société Belfortaine d’Emulation (depuis 1872), Belfort.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Belfort",
+    "date_range": "depuis 1872"
+  },
+  {
+    "abbreviation": "Bull. Soc. Hist. Nat. Colmar",
+    "full_name": "Bulletin de la Société d’Histoire Naturelle de Colmar (depuis 1860).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "depuis 1860"
+  },
+  {
+    "abbreviation": "Bull. Soc. Hist. Huningue",
+    "full_name": "Bulletin de la Société d’Histoire de Huningue et sa région, Huningue.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Huningue",
+    "date_range": null
+  },
+  {
+    "abbreviation": "Bull. Soc. Hist. Sc. Nat. Mulhouse",
+    "full_name": "Bulletin de la Société d’Histoire et de Sciences Naturelles de Mulhouse.",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
+  },
+  {
+    "abbreviation": "Bull. Soc. Schoengauer",
+    "full_name": "Bulletin de la Société Schoengauer de Colmar (depuis 1893), Musée d’Unterlinden, Colmar.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Colmar",
+    "date_range": "depuis 1893"
   },
   {
     "abbreviation": "C.A.A.A.H.",
-    "full_name": "Cahiers Alsaciens d’Archéologie, d’Art  et  d’Histoire  (depuis"
+    "full_name": "Cahiers Alsaciens d’Archéologie, d’Art et d’Histoire (depuis 1957) ; suite de Cahiers d’Archéologie et d’Histoire d’Alsace (1918-1956). Société pour la conservation des Monuments Historiques, Strasbourg.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Strasbourg",
+    "date_range": "1918-1956; depuis 1957"
   },
   {
     "abbreviation": "C.A.H.A.",
-    "full_name": "Cahiers d’Archéologie et d’Histoire d’Alsace (1918-1956) ;  suite"
+    "full_name": "Cahiers d’Archéologie et d’Histoire d’Alsace (1918-1956) ; suite de Anzeiger für Elsässische Altertumskunde (1909-1917). Devient Cahiers Alsaciens d’Archéologie, d’Art et d’Histoire (1957). Société pour la conservation des Monuments Historiques, Strasbourg.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Strasbourg",
+    "date_range": "1918-1956"
   },
   {
     "abbreviation": "C.A.H.R.",
-    "full_name": "Carte  Archéologique  du  Haut-Rhin,  Service  départemental  de"
+    "full_name": "Carte Archéologique du Haut-Rhin, Service départemental de l’Archéologie du Haut-Rhin, Landser.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Landser",
+    "date_range": null
   },
   {
     "abbreviation": "C.A.P.R.A.A.",
-    "full_name": "Cahiers de l’Association pour la Promotion  de  la  Recherche"
+    "full_name": "Cahiers de l’Association pour la Promotion de la Recherche Archéologique en Alsace (depuis 1985), Riedisheim.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Riedisheim",
+    "date_range": "depuis 1985"
   },
   {
     "abbreviation": "C.R.A.S.",
-    "full_name": "Centre de Recherche Archéologique du Sundgau, Kembs."
+    "full_name": "Centre de Recherche Archéologique du Sundgau, Kembs.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Kembs",
+    "date_range": null
   },
   {
     "abbreviation": "C.R.A.V.O.",
-    "full_name": "Centre de Recherche Archéologique du Val d’Oise."
+    "full_name": "Centre de Recherche Archéologique du Val d’Oise.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
+  },
+  {
+    "abbreviation": "Caesarodunum",
+    "full_name": "Caesarodunum, Université de Tours, Institut d’Etudes Latines, Centre de Recherches A. Piganiol (depuis 1967).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "depuis 1967"
+  },
+  {
+    "abbreviation": "Cahiers Archéologiques",
+    "full_name": "Cahiers Archéologiques, Paris (depuis 1945). Chantiers d’Etudes médiévales (depuis 1970) ; suite de Opération Taupe : Chantier d’étude et de Sauvegarde de l’architecture médiévale (1965-1969). Chroniques d’Ingersheim, Société d’Histoire et de Culture d’Ingersheim (1986 à 1994).",
+    "type": "title",
+    "cross_references": [],
+    "location": "Paris",
+    "date_range": "1965-1969; depuis 1970"
+  },
+  {
+    "abbreviation": "Congrès Nat. Soc. Savantes",
+    "full_name": "Congrès National des Sociétés Savantes, Section Archéologie et histoire de l’art, Comité des Travaux Historiques et Scientifiques, Paris.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Paris",
+    "date_range": null
   },
   {
     "abbreviation": "D.A.F.",
-    "full_name": "Documents d’Archéologie Française, M.S.H., Paris."
+    "full_name": "Documents d’Archéologie Française, M.S.H., Paris.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Paris",
+    "date_range": null
   },
   {
     "abbreviation": "D.N.A.",
-    "full_name": "Dernières Nouvelles d’Alsace."
+    "full_name": "Dernières Nouvelles d’Alsace.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
   },
   {
     "abbreviation": "D.R.A.C.",
-    "full_name": "Direction   Régionale   des   Affaires   Culturelles   d’Alsace,"
+    "full_name": "Direction Régionale des Affaires Culturelles d’Alsace, Strasbourg.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Strasbourg",
+    "date_range": null
+  },
+  {
+    "abbreviation": "Dict. comm.",
+    "full_name": "cf. infra, p. 15.",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
+  },
+  {
+    "abbreviation": "Dict. Mon. Hist.",
+    "full_name": "cf. infra, p. 15.",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
+  },
+  {
+    "abbreviation": "Enc. Als.",
+    "full_name": "cf. infra, p. 16.",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
+  },
+  {
+    "abbreviation": "Etudes Celtiques",
+    "full_name": "Etudes Celtiques, Paris (depuis 1936).",
+    "type": "title",
+    "cross_references": [],
+    "location": "Paris",
+    "date_range": "depuis 1936"
+  },
+  {
+    "abbreviation": "Etudes Médiévales",
+    "full_name": "Etudes Médiévales (depuis 1983), Saverne.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Saverne",
+    "date_range": "depuis 1983"
+  },
+  {
+    "abbreviation": "Festschrift des Römisch-Germanischen Zentralmuseum Mainz",
+    "full_name": "Festschrift des Römisch-Germanischen Zentralmuseum Mainz, Mayence.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Mayence",
+    "date_range": null
+  },
+  {
+    "abbreviation": "Gallia",
+    "full_name": "Gallia. Fouilles et monuments archéologiques en France métropolitaine, C.N.R.S., Paris (depuis 1943).",
+    "type": "title",
+    "cross_references": [],
+    "location": "Paris",
+    "date_range": "depuis 1943"
+  },
+  {
+    "abbreviation": "Gallia Préhistoire",
+    "full_name": "Gallia Préhistoire, C.N.R.S., Paris (depuis 1958).",
+    "type": "title",
+    "cross_references": [],
+    "location": "Paris",
+    "date_range": "depuis 1958"
+  },
+  {
+    "abbreviation": "Germania",
+    "full_name": "Germania, Deutschen archäologischen Instituts, Mayence (depuis 1917).",
+    "type": "title",
+    "cross_references": [],
+    "location": "Mayence",
+    "date_range": "depuis 1917"
+  },
+  {
+    "abbreviation": "Jahrbuch der Gesellschaft für Lothringische Geschichte und Altertumskunde",
+    "full_name": "Annuaire de la Société d’Histoire et d’Archéologie de la Lorraine, Rets (1888-1916).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "1888-1916"
+  },
+  {
+    "abbreviation": "Jahrbuch des Geschichtsvereins für Stadt und Tal Munster (1927-1938)",
+    "full_name": "Annuaire de la Société d’Histoire du Val et de la ville de Munster (depuis 1958), Colmar, Alsatia.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Colmar",
+    "date_range": "depuis 1958"
+  },
+  {
+    "abbreviation": "Jahrbuch für Geschichte",
+    "full_name": "Jahrbuch für Geschichte, Sprache und Literatur in Elsass-Lothringen (1885- 1918) ; devient Annuaire de la Société historique, littéraire et scientifique du Club Vosgien (1933-1939).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "1885-1918"
+  },
+  {
+    "abbreviation": "Jh. R.G.Z.M.",
+    "full_name": "Jahrbuch des Römisch-Germanischen Zentralmuseums Mainz, Mayence-Bonn (depuis 1954).",
+    "type": "abbreviation",
+    "cross_references": [],
+    "location": null,
+    "date_range": "depuis 1954"
+  },
+  {
+    "abbreviation": "Jh. S.G.U.",
+    "full_name": "Jahrbuch der Schweizerischen Gesellschaft für Ur- und Frühgeschichte (depuis 1968), suite de Jahrbuch der Schweizerischen Gesellschaft für Urgeschichte (1940-1966), Frauenfeld. cf. A.S.S.P.A.",
+    "type": "abbreviation",
+    "cross_references": [
+      "A.S.S.P.A."
+    ],
+    "location": null,
+    "date_range": "1940-1966; depuis 1968"
+  },
+  {
+    "abbreviation": "Jhrb. Gesch. Altertumv. Südvogesen",
+    "full_name": "Jahrbuch des Geschichts- und Altertumvereins für die Südvogesen (Dreitälerverein) (1940-1943), Colmar, Alsatia. Devient Annuaire de la Société d’Histoire des Régions de Thann- Guebwiller (1948 à nos jours).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "1940-1943"
+  },
+  {
+    "abbreviation": "Jhrb. Sundgau-Vereins",
+    "full_name": "Jahrbuch des Sundgau-Vereins (1933-1993). Devient Annuaire de la Société d’Histoire Sundgovienne (Ann. Soc. Hist. Sundgovienne) à partir de 1994.",
+    "type": "title",
+    "cross_references": [
+      "Ann. Soc. Hist. Sundgovienne"
+    ],
+    "location": null,
+    "date_range": "1933-1993"
+  },
+  {
+    "abbreviation": "Journal de la Société des Sciences",
+    "full_name": "Journal de la Société des Sciences, Agriculture et Art du Bas-Rhin, Strasbourg.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Strasbourg",
+    "date_range": null
+  },
+  {
+    "abbreviation": "Korrespondenzblatt für Anthropologie",
+    "full_name": "Korrespondenzblatt für Anthropologie, Ethnologie und Urgeschichte, Bâle.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Bâle",
+    "date_range": null
+  },
+  {
+    "abbreviation": "M.A.N.",
+    "full_name": "Musée des Antiquités Nationales, Saint-Germain-en-Laye.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Saint-Germain-en-Laye",
+    "date_range": null
+  },
+  {
+    "abbreviation": "M.A.S.",
+    "full_name": "Musée Archéologique de Strasbourg.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
+  },
+  {
+    "abbreviation": "M.S.H.",
+    "full_name": "Maison des Sciences de l’Homme.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
+  },
+  {
+    "abbreviation": "M.S.P.F.",
+    "full_name": "Mémoires de la Société Préhistorique Française, Paris.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Paris",
+    "date_range": null
+  },
+  {
+    "abbreviation": "Mannus-Bucherei",
+    "full_name": "Mannus-Bucherei, Würzburg, puis Leipzig (depuis 1909).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "depuis 1909"
+  },
+  {
+    "abbreviation": "Mémoire Colmarienne",
+    "full_name": "Bulletin de liaison de la Société d’Histoire et d’Archéologie de Colmar (depuis 1979).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "depuis 1979"
+  },
+  {
+    "abbreviation": "Messtischblatt",
+    "full_name": "Cartes d'Etat-Major, Mulhouse.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Mulhouse",
+    "date_range": null
+  },
+  {
+    "abbreviation": "Mi Dorf - Mon village",
+    "full_name": "Blodelsheim, bulletin communal (depuis 1983).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "depuis 1983"
+  },
+  {
+    "abbreviation": "Mitteilungen der Altertumskommission für Westfalen",
+    "full_name": "Mitteilungen der Altertumskommission für Westfalen, Münster (1899-1912).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "1899-1912"
+  },
+  {
+    "abbreviation": "Ogam",
+    "full_name": "Ogam, Amis de la tradition celtique, Rennes (depuis 1949).",
+    "type": "title",
+    "cross_references": [],
+    "location": "Rennes",
+    "date_range": "depuis 1949"
+  },
+  {
+    "abbreviation": "Opération Taupe",
+    "full_name": "Chantier d’étude et de Sauvegarde de l’architecture médiévale (1965-1969) ; devient Chantiers d’Etudes médiévales (depuis 1970).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "1965-1969; depuis 1970"
+  },
+  {
+    "abbreviation": "Prähistorische Zeitschrift",
+    "full_name": "Prähistorische Zeitschrift, Berlin-New York (depuis 1909).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "depuis 1909"
+  },
+  {
+    "abbreviation": "R. Nord",
+    "full_name": "Revue du Nord, Lille.",
+    "type": "abbreviation",
+    "cross_references": [],
+    "location": "Lille",
+    "date_range": null
+  },
+  {
+    "abbreviation": "R.A.",
+    "full_name": "Revue Archéologique, Evry (depuis 1844).",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Evry",
+    "date_range": "depuis 1844"
+  },
+  {
+    "abbreviation": "R.A.C.",
+    "full_name": "Revue Archéologique du Centre (1962-1977). Devient Revue Archéologique du Centre de la France, Vichy (depuis 1978).",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Vichy",
+    "date_range": "1962-1977; depuis 1978"
+  },
+  {
+    "abbreviation": "R.A.E.",
+    "full_name": "Revue Archéologique de l’Est et du Centre-Est, Dijon (depuis 1950).",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Dijon",
+    "date_range": "depuis 1950"
+  },
+  {
+    "abbreviation": "R.A.Pic.",
+    "full_name": "Revue Archéologique de Picardie, Amiens (depuis 1982).",
+    "type": "abbreviation",
+    "cross_references": [],
+    "location": "Amiens",
+    "date_range": "depuis 1982"
+  },
+  {
+    "abbreviation": "R.E.A.",
+    "full_name": "Revue des Etudes Anciennes, Bordeaux (depuis 1899).",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Bordeaux",
+    "date_range": "depuis 1899"
+  },
+  {
+    "abbreviation": "Rev. Als.",
+    "full_name": "Revue d’Alsace (depuis 1834), Colmar-Strasbourg.",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "depuis 1834"
+  },
+  {
+    "abbreviation": "Rev. Cath. Als.",
+    "full_name": "Revue Catholique de l’Alsace (1859-1939), Rixheim- Strasbourg.",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "1859-1939"
+  },
+  {
+    "abbreviation": "S.A.",
+    "full_name": "Saisons d’Alsace. Revue trimestrielle, Strasbourg (depuis 1949).",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Strasbourg",
+    "date_range": "depuis 1949"
+  },
+  {
+    "abbreviation": "S.C.M.H.A.",
+    "full_name": "Société pour la Conservation des Monuments Historiques d’Alsace, Strasbourg.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Strasbourg",
+    "date_range": null
+  },
+  {
+    "abbreviation": "S.D.A.H.R.",
+    "full_name": "Service Départemental d’Archéologie du Haut-Rhin, Landser.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Landser",
+    "date_range": null
+  },
+  {
+    "abbreviation": "S.R.A.",
+    "full_name": "Service Régional de l’Archéologie d’Alsace, Strasbourg.",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Strasbourg",
+    "date_range": null
+  },
+  {
+    "abbreviation": "Saarbrücker Beiträge zum Altertumskunde",
+    "full_name": "Saarbrücker Beiträge zum Altertumskunde, Saarbrück.",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
+  },
+  {
+    "abbreviation": "Vie en Alsace (La)",
+    "full_name": "Vie en Alsace (La), Strasbourg (1923-1980).",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": "1923-1980"
+  },
+  {
+    "abbreviation": "Westdeutsche Zeitschrift für Geschichte und Kunst",
+    "full_name": "Westdeutsche Zeitschrift für Geschichte und Kunst, Trèves.",
+    "type": "title",
+    "cross_references": [],
+    "location": "Trèves",
+    "date_range": null
+  },
+  {
+    "abbreviation": "Z.G.O.R.",
+    "full_name": "Zeitschrift für die Geschichte des Oberrheins, Heidelberg (depuis 1850).",
+    "type": "sigle",
+    "cross_references": [],
+    "location": "Heidelberg",
+    "date_range": "depuis 1850"
+  },
+  {
+    "abbreviation": "Zeitschrift für Schweizerische Archäologie und Kunstgeschichte",
+    "full_name": "Zeitschrift für Schweizerische Archäologie und Kunstgeschichte, Zürich.",
+    "type": "title",
+    "cross_references": [],
+    "location": null,
+    "date_range": null
   }
 ]

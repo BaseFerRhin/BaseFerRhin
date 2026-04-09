@@ -1,0 +1,46 @@
+site_id,nom_site,commune,pays,type_site,x_l93,y_l93,longitude,latitude,periode,sous_periode,datation_debut,datation_fin,source_file,row_count_in_source,notes,match_existing_site_id,is_new
+SITE-846c65dbd7fb56ab,Bergheim - Saulager,Bergheim,FR,habitat,1024887.0,6797044.0,7.374384646862587,48.19273904424394,Transition,Ha D3 / LT A,-500,-400,20240419_Inhumations silos (1).xlsx,3,,,True
+SITE-7cc89e2b60d7f01b,Berstett - Langenberg,Berstett,FR,habitat,1044392.0,6850994.0,7.679412187213024,48.667242798497355,La Tène,LT C1,-260,-200,20240419_Inhumations silos (1).xlsx,2,,,True
+SITE-16e0eb6214619021,Bischoffsheim - Bischenberg,Bischoffsheim,FR,habitat,1032025.0,6829834.0,7.495396534666085,48.483681076822535,Hallstatt,Ha D1,-620,-540,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-355f46c130ae782a,Blaesheim - Lotissement Entrée Est,Blaesheim,FR,habitat,1040545.0,6832941.0,7.6129474887243305,48.50716693240918,Hallstatt,Ha D1,-620,-540,20240419_Inhumations silos (1).xlsx,1,,SITE-355f46c130ae782a,False
+SITE-d9dcb36736b89d8c,Breuschwickersheim - Vogelsgesang,Breuschwickersheim,FR,habitat,1038289.0,6841523.0,7.58920582003619,48.58541786677097,Transition,Ha D3 / LT A,-500,-400,20240419_Inhumations silos (1).xlsx,4,,,True
+SITE-200f7bf536977d5d,Colmar - Les Aubépines,Colmar,FR,habitat,1023863.0,6782512.0,7.349857442492818,48.06268316517148,La Tène,LT B1,-380,-320,20240419_Inhumations silos (1).xlsx,9,,,True
+SITE-02bbafbeeb37b6c1,Dachstein - Geist,Dachstein,FR,habitat,1033692.0,6838638.0,7.524740425416764,48.561894491573966,La Tène,LT A,-450,-380,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-633f31d70e73e834,Didenheim - Kahlberg,Didenheim,FR,habitat,1022216.0,6744716.0,7.300162459348409,47.72385267483919,Hallstatt,Ha D3,-500,-450,20240419_Inhumations silos (1).xlsx,2,,SITE-633f31d70e73e834,False
+SITE-7be2a95db95b7ed8,Dingsheim - Haspelacker - COS 4.1,Dingsheim,FR,habitat,1041952.0,6846403.0,7.642672008822198,48.627314174220366,indéterminé,,,,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-bcdb37394af924e7,"Duntzenheim - Rainwasen, LGV 8-4",Duntzenheim,FR,habitat,1035064.0,6855731.0,7.556663331091372,48.71468102176006,La Tène,LT B1,-380,-320,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-6f5b4eafaf158d5d,Eguisheim - Rte d'Herrlisheim,Eguisheim,FR,habitat,1021102.0,6779910.0,7.310941908740984,48.040665349862415,La Tène,LT C2,-200,-150,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-199c449d850d698e,Entzheim - Aéroparc-Lidl,Entzheim,FR,habitat,1043713.0,6837098.0,7.659080153071918,48.54282555299816,Transition,Ha D3 / LT A,-500,-400,20240419_Inhumations silos (1).xlsx,1,,SITE-199c449d850d698e,False
+SITE-c7512fe5466c153a,Erstein - Grassweg,Erstein,FR,habitat,1042915.0,6824866.0,7.638559202028453,48.43339954004434,indéterminé,,,,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-c7bb40201db1d25b,Ettendorf - Gaentzbruch,Ettendorf,FR,habitat,1036049.0,6867096.0,7.5789814494382295,48.81621391408036,La Tène,LT B1,-380,-320,20240419_Inhumations silos (1).xlsx,4,,SITE-c7bb40201db1d25b,False
+SITE-486664a4adb932a9,Geispolsheim - Schwobenfeld,Geispolsheim,FR,habitat,1043723.0,6836657.0,7.658863102027814,48.53886008120634,La Tène,LT A,-450,-380,20240419_Inhumations silos (1).xlsx,7,,,True
+SITE-8d3922c765a66589,Gougenheim - Gingsheimer Feld,Gougenheim,FR,habitat,1037853.0,6855275.0,7.594146421901421,48.70913375348961,La Tène,LT B1,-380,-320,20240419_Inhumations silos (1).xlsx,2,,SITE-8d3922c765a66589,False
+SITE-d243140f134c54a9,Gougenheim - Steinbrunnen,Gougenheim,FR,habitat,1037050.0,6855282.0,7.583257233466109,48.709616087536865,indéterminé,,,,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-3596060c1b055d82,Goxwiller-Valff - ZAC PAEI,Goxwiller-Valff,FR,habitat,1032466.0,6823746.0,7.496665566283194,48.42877505160205,Hallstatt,Ha D3,-500,-450,20240419_Inhumations silos (1).xlsx,1,,SITE-3596060c1b055d82,False
+SITE-e5218169732dafab,Griesheim sur Souffel - Flaschen,Griesheim sur Souffel,FR,habitat,1023878.0,6782508.0,7.350055545893113,48.06263979258623,indéterminé,,,,20240419_Inhumations silos (1).xlsx,2,,SITE-e5218169732dafab,False
+SITE-d88e2e33c1dc1b77,Schiltigheim - 37 rue d'Adelshoffen,Schiltigheim,FR,habitat,1050157.0,6844789.0,7.752487989880408,48.60843368913151,indéterminé,,,,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-29791e7c913d7331,Hochfelden - RD421,Hochfelden,FR,habitat,1034925.0,6860177.0,7.5582636760236435,48.75467465506456,indéterminé,,,,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-62b64e77d4dcfa7c,Ittenheim - Achenheimer Berg (COS 2-11),Ittenheim,FR,habitat,1039598.0,6842391.0,7.607609754812237,48.59252720627443,Transition,Ha D3 / LT A,-500,-400,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-13c8cbd1e41ba716,"Kolbsheim - Herenweg - COS 2,6",Kolbsheim,FR,habitat,1037553.0,6840045.0,7.578082501661762,48.57252923389938,indéterminé,,,,20240419_Inhumations silos (1).xlsx,1,,SITE-13c8cbd1e41ba716,False
+SITE-398dcded0a5165fb,Marlenheim - Rue du Général De Gaulle,Marlenheim,FR,habitat,1030749.0,6845060.0,7.489866781291321,48.62107824223797,La Tène,LT B1,-380,-320,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-ec6052efab46147a,Meistratzheim - Foegel,Meistratzheim,FR,habitat,1036321.0,6826558.0,7.5508800420042,48.45204545318851,Hallstatt,Ha C,-800,-620,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-283d50c85499c3b0,Meistratzheim - Pfett (station d'épuration),Meistratzheim,FR,habitat,1023878.0,6782508.0,7.350055545893113,48.06263979258623,indéterminé,,,,20240419_Inhumations silos (1).xlsx,3,,,True
+SITE-cbc6d2afaced6e86,"Mittelhausen - Langmatt, LGV 9-3",Mittelhausen,FR,habitat,1040154.0,6854624.0,7.624846399205004,48.702080907300726,Hallstatt,Ha D1,-620,-540,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-80598e5ee9fb074c,Mittelhausen - Liesbuehl Gimbretter Weg (LGV 10-1),Mittelhausen,FR,habitat,1039860.0,6854762.0,7.620967879215451,48.70347473809525,La Tène,LT A,-450,-380,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-c18af872001fa442,Mittelhausen - Vorderen Berg,Mittelhausen,FR,habitat,1039270.0,6854967.0,7.613126748670103,48.705625554087156,La Tène,LT A,-450,-380,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-35019783110e3b5a,Morschwiller-le-Bas - Rocade Ouest,Morschwiller-le-Bas,FR,habitat,1021019.0,6745177.0,7.284552682402222,47.728581165087256,La Tène,LT A,-450,-380,20240419_Inhumations silos (1).xlsx,1,,SITE-35019783110e3b5a,False
+SITE-1f7ab06f8c3ce297,Obernai - Schulbach,Obernai,FR,habitat,1031733.0,6826673.0,7.489021133323181,48.45543967628055,Transition,Ha D3 / LT A,-500,-400,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-85be876972d52828,Rosheim - Leimen,Rosheim,FR,habitat,1029548.0,6831251.0,7.46301444840577,48.497671225385425,Transition,Ha D3 / LT A,-500,-400,20240419_Inhumations silos (1).xlsx,2,,,True
+SITE-998fa83753b86960,Rosheim - Rosenmeer,Rosheim,FR,habitat,1031826.0,6831961.0,7.494345372806096,48.502886349741416,Transition,Ha D3 / LT A,-500,-400,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-e4f6d7a97d3fa467,Souffelweyersheim - Les Sept Arpents,Souffelweyersheim,FR,habitat,1048849.0,6847232.0,7.736764499487638,48.63107546314596,La Tène,LT A,-450,-380,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-9ebd6056be50d758,Strasbourg - Rue des Comtes,Strasbourg,FR,habitat,1047430.0,6842081.0,7.713372860711789,48.585587809004224,La Tène,LT B1,-380,-320,20240419_Inhumations silos (1).xlsx,3,,,True
+SITE-56eba09bd7aa879d,"Ensisheim - Reguisheimer Feld, ZAID, Tranche 3",Ensisheim,FR,habitat,1026143.0,6761946.0,7.365163599541498,47.876754119537125,indéterminé,,,,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-9ba8df0856378fe6,Wettolsheim - Ricoh,Wettolsheim,FR,habitat,1021938.0,6781004.0,7.322946501889153,48.05008429352413,La Tène,LT A,-450,-380,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-fbfbf8a2633e4f19,Wolfisheim - Westermatt,Wolfisheim,FR,habitat,,,,,indéterminé,,,,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-c2b14d98fa1456f0,Colmar - Route de Rouffach,Colmar,FR,habitat,,,,,indéterminé,,,,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-9fd5583b58895949,Didenheim - Kahlberg (diag),Didenheim,FR,habitat,,,,,indéterminé,,,,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-a5108550768226cd,Gundolsheim - Muhlmatt A REMPLIR,Gundolsheim,FR,habitat,,,,,Hallstatt,Ha C,-800,-620,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-3a0400e340298544,Marckolsheim - Schlettstadterfeld,Marckolsheim,FR,habitat,,,,,indéterminé,,,,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-d766f6b88cf805b0,Duntzenheim - LGV inrap,Duntzenheim,FR,habitat,,,,,indéterminé,,,,20240419_Inhumations silos (1).xlsx,1,,,True
+SITE-9f4f12a5aae22212,"Duntzenheim - Ebenheit, LGV stock Nord 2-1",Duntzenheim,FR,habitat,,,,,Hallstatt,Ha D1,-620,-540,20240419_Inhumations silos (1).xlsx,4,,,True
+SITE-5a0669571943372f,Schnersheim - ZA Behlenheimerweg,Schnersheim,FR,habitat,,,,,Hallstatt,Ha D1,-620,-540,20240419_Inhumations silos (1).xlsx,2,,,True

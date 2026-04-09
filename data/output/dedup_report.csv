@@ -1,0 +1,108 @@
+excel_row_index,new_site_id,slug,duplicate_of_site_id,needs_review,status,notes
+0,SITE-0400248a3c367136,breisach am rhein|gundlingen|DE,,False,clean,
+1,SITE-362f15b618c14209,"breisach am rhein|gundlingen, zwolferbuck|DE",,False,clean,
+2,SITE-bfd513551d77b541,breisach am rhein|munsterberg|DE,,False,clean,
+3,SITE-69ee9b73882adcf6,hugelsheim|heiligenbruck|DE,,False,clean,
+4,SITE-b952950261c4d7fd,"ihringen|nachtwaid, tum 1|DE",,False,clean,
+5,SITE-fd07c2fa69bad8ef,ihringen|ihringen|DE,,True,ambiguous_existing,"Plusieurs site_id pour le même slug: SITE-ba979b49d759bd3d, SITE-7ee7da1f31575483, SITE-fcd9f3c9c3dc9a85, SITE-ab640bd47390c1d0, SITE-4b73caf3d3994532"
+6,SITE-b35ec5dabd777535,ihringen-gundlingen|nachtwaid|DE,,False,clean,
+7,SITE-8f699009da96d1b3,"ihringen-gundlingen|nachtwaid-ried, tum 3|DE",,False,clean,
+8,SITE-fccb1e5000f8cc38,kappel am rhein|tum 1|DE,,False,clean,
+9,SITE-2659f70b6f207201,kappel am rhein|tum 3|DE,,False,clean,
+10,SITE-3956f2e22202f8eb,march-buchheim|burgle|DE,,False,clean,
+11,SITE-ef084c58cdaa5087,march-buchheim|kleiner hugel|DE,,False,clean,
+12,SITE-3bf1c3b203d93813,bad-durkheim|bad-durkheim|DE,,False,clean,
+13,SITE-fbd81bcfb8fa3df4,bouxieres-sous-froidemont|le tremble site 7|FR,,False,clean,
+14,SITE-c5b9299faa729ec8,"clayeures|la naguee, le petit fays|FR",,False,clean,
+15,SITE-af8fea4beace0488,"clayeures|la naguee, le petit fays|FR",,True,internal_duplicate_slug,Même slug qu’une autre ligne Excel (index précédent 14)
+16,SITE-861632513af4f323,"clayeures|la naguee, le petit fays|FR",,True,internal_duplicate_slug,Même slug qu’une autre ligne Excel (index précédent 15)
+17,SITE-f81065391005a3d0,"clayeures|la naguee, le petit fays|FR",,True,internal_duplicate_slug,Même slug qu’une autre ligne Excel (index précédent 16)
+18,SITE-f9657256ad3519ff,"clayeures|la naguee, le petit fays|FR",,True,internal_duplicate_slug,Même slug qu’une autre ligne Excel (index précédent 17)
+19,SITE-f9ffe1ca478e4273,"clayeures|la naguee, le petit fays - tum 38, tombe centrale|FR",,False,clean,
+20,SITE-76f99e5516bca859,"clayeures|la naguee, le petit fays, tum 13|FR",,False,clean,
+21,SITE-e74438b3c37a61e5,"diarville|devant giblot, paquis devant giblot|FR",,False,clean,
+22,SITE-909a072a86022872,"diarville|devant giblot, paquis devant giblot|FR",,True,internal_duplicate_slug,Même slug qu’une autre ligne Excel (index précédent 21)
+23,SITE-e155185df4907002,"diarville|devant giblot, paquis devant giblot|FR",,True,internal_duplicate_slug,Même slug qu’une autre ligne Excel (index précédent 22)
+24,SITE-c66bb61ad58b9b80,"diarville|devant giblot, paquis devant giblot|FR",,True,internal_duplicate_slug,Même slug qu’une autre ligne Excel (index précédent 23)
+25,SITE-7895ae3ad9436eea,"diarville|devant giblot, paquis devant giblot|FR",,True,internal_duplicate_slug,Même slug qu’une autre ligne Excel (index précédent 24)
+26,SITE-4e86e92422f13770,"diarville|devant giblot, paquis devant giblot, tum 3, tombe 1|FR",,False,clean,
+27,SITE-58d9db63523dc550,"diarville|devant giblot, paquis devant giblot, tum 7, tombe 1|FR",,False,clean,
+28,SITE-b650608fc432951f,"diarville|devant giblot, paquis devant giblot, tum 2, tombe 1|FR",,False,clean,
+29,SITE-9b64cf972124513d,"diarville|devant giblot, paquis devant giblot, tum 7, tombe 2|FR",,False,clean,
+30,SITE-e48163799153c3c1,haroue|bois de voivre|FR,,False,clean,
+31,SITE-0b0217e5c9640079,haroue|bois de voivre|FR,,True,internal_duplicate_slug,Même slug qu’une autre ligne Excel (index précédent 30)
+32,SITE-45e23373f63457f9,haroue|bois de voivre|FR,,True,internal_duplicate_slug,Même slug qu’une autre ligne Excel (index précédent 31)
+33,SITE-bd1def077269450c,"lesmenils pont-a-mouson|grand bois jure, foret de facq|FR",,False,clean,
+34,SITE-e1a38541f0894bc3,messein - richardmenil|bois de greve|FR,,False,clean,
+35,SITE-f9cb4c63590da827,moncel-sur seille|???|FR,,False,clean,
+36,SITE-f37c54f949772c54,moncel-sur seille|???|FR,,True,internal_duplicate_slug,Même slug qu’une autre ligne Excel (index précédent 35)
+37,SITE-a0dcc6895f1a2e1a,villey-saint-etienne|bois communal cp 13|FR,,False,clean,
+38,SITE-dc5add1de33bb4c5,villey-saint-etienne|bois communal cp 13|FR,,True,internal_duplicate_slug,Même slug qu’une autre ligne Excel (index précédent 37)
+39,SITE-cd76a330bdfd81b0,chaillon|les fonzelles-maucourt|FR,,False,clean,
+40,SITE-563868a7ff4af928,chaillon|les fonzelles-maucourt|FR,,True,internal_duplicate_slug,Même slug qu’une autre ligne Excel (index précédent 39)
+41,SITE-66fa3598dc3faf73,chaillon|les fonzelles-maucourt|FR,,True,internal_duplicate_slug,Même slug qu’une autre ligne Excel (index précédent 40)
+42,SITE-f5b4ae3df7271da6,chaillon|les fonzelles-maucourt|FR,,True,internal_duplicate_slug,Même slug qu’une autre ligne Excel (index précédent 41)
+43,SITE-710a9fe4867b9691,argancy|le clos des pres|FR,,False,clean,
+44,SITE-2ebb02b3c102b31a,cherisey|rayu de la forterie|FR,,False,clean,
+45,SITE-807b20c812a298c1,fameck|rue d'uckange|FR,,False,clean,
+46,SITE-1a1cb8dd8a2d09eb,marsal|les grands pres|FR,,False,clean,
+47,SITE-4e44fcecd16cef03,metz|zac technopole|FR,,False,clean,
+48,SITE-26981d5dbd6ae9d7,mondelange|schemerten - etape 3|FR,,False,clean,
+49,SITE-b56ece77bb1458c9,"nousseviller-saint-nabor|baumbusch, foret de cadenbronn|FR",,False,clean,
+50,SITE-e7c0e4e8036c7e40,ottange|carriere billert|FR,,False,clean,
+51,SITE-a6d31d4ad7c0d265,woippy|zac des chiloux|FR,,False,clean,
+52,SITE-ef000b8c39935b59,"bernolsheim-mommenheim|tum 11, sp 18003|FR",,False,clean,
+53,SITE-2150f2e635b9d399,"brumath/eckwersheim|burgweg rechts, zone de stockage, lgv est|FR",,False,clean,
+54,SITE-34cf5b693345ae9c,duttlenheim|site 1.3 - ampfad et neustrasse|FR,,False,clean,
+55,SITE-087ff9eaa52bb24a,"forstfeld|schiessheck, tombe 2|FR",,False,clean,
+56,SITE-00b4b76ab4d7488f,"forstfeld|schiessheck, tombe 4|FR",,False,clean,
+57,SITE-3d9a5c84dc241d57,"forstfeld|schiessheck, tombe 8|FR",,False,clean,
+58,SITE-b8618e270ff17f11,haguenau|donauberg|FR,,False,clean,
+59,SITE-89578ba2ea5b9f7d,"haguenau|konigsbruck, tum 14, tombe xii|FR",,False,clean,
+60,SITE-03f8e95fb97e4ba7,"haguenau|konigsbruck, tum 17, tombe ii|FR",,False,clean,
+61,SITE-8f20c68944a38a9a,"haguenau|konigsbruck, tum 6, tombe vi|FR",,False,clean,
+62,SITE-70058972e05eb85d,"haguenau|kurzgeland, tum 88, tombe ii|FR",,False,clean,
+63,SITE-2267e4bba86b378a,"haguenau|maegstub a, tum 3, sepulture 1|FR",,False,clean,
+64,SITE-886a7c093569751a,"haguenau|maegstub c, tum 2, tombe ii|FR",,False,clean,
+65,SITE-a207f432a83d3bae,"haguenau|maegstub c, tum 2, tombe iii|FR",,False,clean,
+66,SITE-31ce89b29669c6ea,"haguenau|maegstub c, tum 20, tombe iii|FR",,False,clean,
+67,SITE-2e55d4acd58486b6,"haguenau|maegstub c, tum 4, tombe vii|FR",,False,clean,
+68,SITE-0695468a60fa9d12,"haguenau|schirrheinerweg, tum 6, tombe iii|FR",,False,clean,
+69,SITE-0fabaca4bee78a35,"haguenau-schirrhein|fischerhubel-kurzgeland, tum2, tombe ii|FR",,False,clean,
+70,SITE-c4b6ed68bd3abc84,harthouse|harthouse|FR,,False,clean,
+71,SITE-46b1b8f962fb7809,hatten-seltz|eschenbuch|FR,,False,clean,
+72,SITE-2892708b16aea7ec,"hatten-seltz|eschenbusch (et non hesselbusch), tum 2, tombe iv|FR",,False,clean,
+73,SITE-5fa6b7ee046d3954,"hatten-seltz|niedersand, tumulus 2|FR",,False,clean,
+74,SITE-a74b9f13b78a5b8f,heidolsheim|heidolsheim|FR,SITE-baf2203e57c19a35,False,match_existing_site,Correspondance exacte commune|nom_site|pays avec sites.csv
+75,SITE-6d35bb3a0deac485,hilsenheim|hilsenheim|FR,SITE-52c15ebad648acf3,False,match_existing_site,Correspondance exacte commune|nom_site|pays avec sites.csv
+76,SITE-9c9e8073b982421d,mussig|nachtweide|FR,,False,clean,
+77,SITE-0a0ee614ae3e9ebc,"nordhouse|auf der buerckelmatt, tum 2b, tombe 20|FR",,False,clean,
+78,SITE-dda7c8b52356a2a4,"nordhouse|auf der buerckelmatt, tum 3, tombe 10|FR",,False,clean,
+79,SITE-3d80b06219416aec,"nordhouse|auf der buerckelmatt, tum 3, tombe a|FR",,False,clean,
+80,SITE-3ab732ec8d83556e,"nordhouse|auf der buerckelmatt, tum 4, tombe 4|FR",,False,clean,
+81,SITE-d6e5c1161808fa5f,"nordhouse|auf der buerckelmatt, tum 5, tombe a|FR",,False,clean,
+82,SITE-00e3add8a0b7bb49,obenheim|tumulus 3|FR,,False,clean,
+83,SITE-6f31e2b6d06d7395,obenheim|tumulus 6|FR,,False,clean,
+84,SITE-48f600c8e810f096,"obermodern|tum 1, sepulture 1|FR",,False,clean,
+85,SITE-0b8616c499faf375,"ohlungen|tum 3, tombe i|FR",,False,clean,
+86,SITE-c4489eb52f6662ed,"ohlungen|tum 3, tombe ii|FR",,False,clean,
+87,SITE-25314434785d4c69,"ohlungen|tum 3, tombe xvi|FR",,False,clean,
+88,SITE-3aa9b55640bc748b,"ohnenheim|niederschley, tumulus 9|FR",,False,clean,
+89,SITE-fc33fef89bf7e98a,"selestat|prairie, tum 1, tombe 2|FR",,False,clean,
+90,SITE-1937327ccdb39f8d,"selestat|prairie, tum 1, tombe 6|FR",,False,clean,
+91,SITE-aa70659faa6d44fc,"westhouse|jungholz, tombe 2|FR",,False,clean,
+92,SITE-59c79ca64a7fe252,appenwihr|tumulus 1|FR,,False,clean,
+93,SITE-51d1825ec7477833,appenwihr|tumulus 3|FR,,False,clean,
+94,SITE-4b125ad72a6d8d59,"colmar-riedwihr|herten grassmatt, tum 1|FR",,False,clean,
+95,SITE-721172d3b5dcdc3f,"ensisheim|allmend (tum 21), ens 1|FR",,False,clean,
+96,SITE-e0308e5c5069483f,"ensisheim|allmend (tum 21), ens 2|FR",,False,clean,
+97,SITE-e1f0c6ed7b566145,"herrlisheim-pres-colmar|graviere, fouille 1867, tombe 2|FR",,False,clean,
+98,SITE-e9344264696769ae,illfurth|britzgyberg|FR,,False,clean,
+99,SITE-836efc0158fbcff8,rixheim|hunerhubel|FR,,False,clean,
+100,SITE-c49de7cb786ee7c6,sainte-croix-en-plaine|tombe 10/1|FR,,False,clean,
+101,SITE-4e069b92a75c5743,saint-louis-la-chaussee|lisbuhl|FR,,False,clean,
+102,SITE-2372f13f5fc0f6ec,sausheim|rixheimerfeld|FR,,False,clean,
+103,SITE-12b463dde8c78c21,sundhoffen|foret du kastenwald|FR,,False,clean,
+104,SITE-289ec90dc644f738,marainville-sur-madon|sous le chemin de naviot|FR,,False,clean,
+105,SITE-497a2d534ab97d18,marainville-sur-madon|sous le chemin de naviot|FR,,True,internal_duplicate_slug,Même slug qu’une autre ligne Excel (index précédent 104)
+106,SITE-c822d38157e647df,grandvillars|grand noz|FR,,False,clean,

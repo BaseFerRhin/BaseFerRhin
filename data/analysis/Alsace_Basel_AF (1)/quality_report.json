@@ -1,0 +1,3663 @@
+{
+  "row_count_raw": 1083,
+  "site_count_aggregated": 1070,
+  "expected_row_count": 1083,
+  "expected_max_sites": 1070,
+  "epsg_missing": {
+    "row_indices_excel_order": [
+      715,
+      728,
+      729,
+      730,
+      747,
+      761,
+      768,
+      784
+    ],
+    "id_site_values": [
+      703,
+      716,
+      717,
+      718,
+      735,
+      749,
+      756,
+      772
+    ],
+    "count": 8
+  },
+  "coordinates_suspicious": [
+    {
+      "id_site": 282,
+      "longitude": 7.502028,
+      "latitude": 48619681.0,
+      "epsg": 4326.0
+    }
+  ],
+  "coordinate_conflicts": [
+    {
+      "id_site": 188,
+      "detail": [
+        {
+          "rows": [
+            {
+              "x": 7.586321,
+              "y": 48.580717,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            },
+            {
+              "x": 7.621615,
+              "y": 48.602258,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            }
+          ],
+          "chosen": {
+            "x": 7.586321,
+            "y": 48.580717,
+            "epsg": 4326.0,
+            "date": "2026-03-06T00:00:00"
+          },
+          "signatures": [
+            "(762162, 4860226, 4326.0)",
+            "(758632, 4858072, 4326.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "id_site": 214,
+      "detail": [
+        {
+          "rows": [
+            {
+              "x": 7.53671,
+              "y": 48.719284,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            },
+            {
+              "x": 7.556002,
+              "y": 48.71473,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            }
+          ],
+          "chosen": {
+            "x": 7.53671,
+            "y": 48.719284,
+            "epsg": 4326.0,
+            "date": "2026-03-06T00:00:00"
+          },
+          "signatures": [
+            "(753671, 4871928, 4326.0)",
+            "(755600, 4871473, 4326.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "id_site": 244,
+      "detail": [
+        {
+          "rows": [
+            {
+              "x": 7.601193,
+              "y": 48.708164,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            },
+            {
+              "x": 7.595571,
+              "y": 48.708901,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            }
+          ],
+          "chosen": {
+            "x": 7.601193,
+            "y": 48.708164,
+            "epsg": 4326.0,
+            "date": "2026-03-06T00:00:00"
+          },
+          "signatures": [
+            "(759557, 4870890, 4326.0)",
+            "(760119, 4870816, 4326.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "id_site": 274,
+      "detail": [
+        {
+          "rows": [
+            {
+              "x": 7.730393,
+              "y": 48.655756,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            },
+            {
+              "x": 7.730213,
+              "y": 48.652624,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            }
+          ],
+          "chosen": {
+            "x": 7.730393,
+            "y": 48.655756,
+            "epsg": 4326.0,
+            "date": "2026-03-06T00:00:00"
+          },
+          "signatures": [
+            "(773021, 4865262, 4326.0)",
+            "(773039, 4865576, 4326.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "id_site": 431,
+      "detail": [
+        {
+          "rows": [
+            {
+              "x": 7.332079,
+              "y": 48.031317,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            },
+            {
+              "x": 7.332357,
+              "y": 48.02941,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            }
+          ],
+          "chosen": {
+            "x": 7.332079,
+            "y": 48.031317,
+            "epsg": 4326.0,
+            "date": "2026-03-06T00:00:00"
+          },
+          "signatures": [
+            "(733208, 4803132, 4326.0)",
+            "(733236, 4802941, 4326.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "id_site": 432,
+      "detail": [
+        {
+          "rows": [
+            {
+              "x": 7.356815,
+              "y": 47.872718,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            },
+            {
+              "x": 7.356815,
+              "y": 47.872718,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            },
+            {
+              "x": 7.358437,
+              "y": 47.874093,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            }
+          ],
+          "chosen": {
+            "x": 7.356815,
+            "y": 47.872718,
+            "epsg": 4326.0,
+            "date": "2026-03-06T00:00:00"
+          },
+          "signatures": [
+            "(735844, 4787409, 4326.0)",
+            "(735682, 4787272, 4326.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "id_site": 433,
+      "detail": [
+        {
+          "rows": [
+            {
+              "x": 7.355859,
+              "y": 47.875778,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            },
+            {
+              "x": 7.367207,
+              "y": 47.87407,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            }
+          ],
+          "chosen": {
+            "x": 7.355859,
+            "y": 47.875778,
+            "epsg": 4326.0,
+            "date": "2026-03-06T00:00:00"
+          },
+          "signatures": [
+            "(735586, 4787578, 4326.0)",
+            "(736721, 4787407, 4326.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "id_site": 490,
+      "detail": [
+        {
+          "rows": [
+            {
+              "x": 7.291312,
+              "y": 47.907723,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            },
+            {
+              "x": 7.290697,
+              "y": 47.906714,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            }
+          ],
+          "chosen": {
+            "x": 7.291312,
+            "y": 47.907723,
+            "epsg": 4326.0,
+            "date": "2026-03-06T00:00:00"
+          },
+          "signatures": [
+            "(729131, 4790772, 4326.0)",
+            "(729070, 4790671, 4326.0)"
+          ]
+        }
+      ]
+    },
+    {
+      "id_site": 503,
+      "detail": [
+        {
+          "rows": [
+            {
+              "x": 7.282705,
+              "y": 47.731731,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            },
+            {
+              "x": 7.281596,
+              "y": 47.728546,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            },
+            {
+              "x": 7.281596,
+              "y": 47.728546,
+              "epsg": 4326.0,
+              "date": "2026-03-06T00:00:00"
+            }
+          ],
+          "chosen": {
+            "x": 7.282705,
+            "y": 47.731731,
+            "epsg": 4326.0,
+            "date": "2026-03-06T00:00:00"
+          },
+          "signatures": [
+            "(728270, 4773173, 4326.0)",
+            "(728160, 4772855, 4326.0)"
+          ]
+        }
+      ]
+    }
+  ],
+  "period_inferred_from_text_count": 0,
+  "type_inferred_from_text_count": 162,
+  "duplicates_with_golden_or_sites_csv": [
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-2",
+      "reference_id": "SITE-b9f09b44a05b73c8",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-3",
+      "reference_id": "SITE-396936a59efa0ac6",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-4",
+      "reference_id": "SITE-c09c59ac170854a6",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-4",
+      "reference_id": "SITE-916fdae7df7d7dc9",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 0.522,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-5",
+      "reference_id": "SITE-56cc98df9fd1dacb",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-7",
+      "reference_id": "SITE-460abdf3f4545943",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-8",
+      "reference_id": "SITE-460abdf3f4545943",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-9",
+      "reference_id": "SITE-3ce290774c6d2dd0",
+      "reference_table": "sites.csv",
+      "distance_m": 375.5,
+      "fuzzy_score": 0.667,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-10",
+      "reference_id": "SITE-3ce290774c6d2dd0",
+      "reference_table": "sites.csv",
+      "distance_m": 255.2,
+      "fuzzy_score": 0.667,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-11",
+      "reference_id": "SITE-965255ca72c3a23c",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-13",
+      "reference_id": "SITE-b9c702ca64c6b072",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-15",
+      "reference_id": "SITE-cfc7758f59d99f9c",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 0.5,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-16",
+      "reference_id": "SITE-9771f922f7333705",
+      "reference_table": "sites.csv",
+      "distance_m": 215.5,
+      "fuzzy_score": 0.474,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-18",
+      "reference_id": "SITE-695ee4d9e71f67da",
+      "reference_table": "sites.csv",
+      "distance_m": 185.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-19",
+      "reference_id": "SITE-9a1ebe0d893829d3",
+      "reference_table": "sites.csv",
+      "distance_m": 54.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-20",
+      "reference_id": "SITE-79d164c242ab35e5",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-21",
+      "reference_id": "SITE-c52db06069609cfb",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-24",
+      "reference_id": "SITE-32d530057ab0f5b6",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-25",
+      "reference_id": "SITE-f26ce4776777314a",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 0.476,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-26",
+      "reference_id": "SITE-21984664a041efcc",
+      "reference_table": "sites.csv",
+      "distance_m": 114.3,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-29",
+      "reference_id": "SITE-a3413ee0140bccdd",
+      "reference_table": "sites.csv",
+      "distance_m": 258.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-39",
+      "reference_id": "SITE-d277fea12f2d2b69",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-40",
+      "reference_id": "SITE-1f9d583e70c12359",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 0.621,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-41",
+      "reference_id": "SITE-4a0c42da01c6c83e",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 0.917,
+      "rule": "distance_lt_500m_and_fuzzy_ge_0.85"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-45",
+      "reference_id": "SITE-baf2203e57c19a35",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-47",
+      "reference_id": "SITE-4095292751d8e322",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-48",
+      "reference_id": "SITE-5a4b9b6756088ed3",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-49",
+      "reference_id": "SITE-52c15ebad648acf3",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-50",
+      "reference_id": "SITE-9858666741608d8d",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-54",
+      "reference_id": "SITE-a3ab49ec4d3b0c6f",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 0.645,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-55",
+      "reference_id": "SITE-a3ab49ec4d3b0c6f",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 0.645,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-56",
+      "reference_id": "SITE-a3ab49ec4d3b0c6f",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 0.645,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-57",
+      "reference_id": "SITE-071d674528eb1c42",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-58",
+      "reference_id": "SITE-73313b6ca141f82f",
+      "reference_table": "sites.csv",
+      "distance_m": 252.1,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-59",
+      "reference_id": "SITE-640721aca62f48e3",
+      "reference_table": "sites.csv",
+      "distance_m": 238.7,
+      "fuzzy_score": 0.667,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-59",
+      "reference_id": "SITE-31a6b2a84ee0bcbb",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-60",
+      "reference_id": "SITE-69dba5dd2b602507",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-61",
+      "reference_id": "SITE-458e4a7f54906039",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-63",
+      "reference_id": "SITE-27a5aa2a07b2bc97",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-64",
+      "reference_id": "SITE-846eef9dd8a1297c",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-65",
+      "reference_id": "SITE-4207f4584701b535",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-66",
+      "reference_id": "SITE-deb58393b81f4154",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-67",
+      "reference_id": "SITE-bde33d8d6d59fbf7",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-69",
+      "reference_id": "SITE-317cb7c0ebcd1b45",
+      "reference_table": "sites.csv",
+      "distance_m": 165.1,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-70",
+      "reference_id": "SITE-daf9da072d0401cc",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 0.588,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-71",
+      "reference_id": "SITE-56f3c29a9f0982fc",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 0.645,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-77",
+      "reference_id": "SITE-d8400565cd7d25bf",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-78",
+      "reference_id": "SITE-92c011ba429297d6",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-79",
+      "reference_id": "SITE-92c011ba429297d6",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-82",
+      "reference_id": "SITE-b134492e05d4f0c5",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-83",
+      "reference_id": "SITE-d928737086cc3175",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-90",
+      "reference_id": "SITE-fc389572d3b0eadd",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-98",
+      "reference_id": "SITE-4632c5de79b2a41b",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-99",
+      "reference_id": "SITE-3e6231b82eec061d",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-100",
+      "reference_id": "SITE-3e6231b82eec061d",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-102",
+      "reference_id": "SITE-3682f8b99c89d6d3",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 0.939,
+      "rule": "distance_lt_500m_and_fuzzy_ge_0.85"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-104",
+      "reference_id": "SITE-94cc2d1d6163cda0",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-106",
+      "reference_id": "SITE-18662db047eab73f",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-107",
+      "reference_id": "SITE-1f488b9f02c71b62",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-108",
+      "reference_id": "SITE-1f488b9f02c71b62",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-112",
+      "reference_id": "SITE-78cd2da8fa8286b9",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-113",
+      "reference_id": "SITE-78cd2da8fa8286b9",
+      "reference_table": "sites.csv",
+      "distance_m": 490.6,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-116",
+      "reference_id": "SITE-74264071e6b5b279",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-118",
+      "reference_id": "SITE-90a7aafd6e98ef4f",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 0.941,
+      "rule": "distance_lt_500m_and_fuzzy_ge_0.85"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-122",
+      "reference_id": "SITE-f781998e3a0cbc6e",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-123",
+      "reference_id": "SITE-25a6671d3227f83c",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-124",
+      "reference_id": "SITE-3d3e5493a9a5f812",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-125",
+      "reference_id": "SITE-3d3e5493a9a5f812",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-127",
+      "reference_id": "SITE-e746621a6374015a",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-130",
+      "reference_id": "SITE-b72ed1829eccd9e3",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-134",
+      "reference_id": "SITE-c0a18e01f396801f",
+      "reference_table": "sites.csv",
+      "distance_m": 291.9,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-136",
+      "reference_id": "SITE-24afd1d4f6a10560",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-139",
+      "reference_id": "SITE-02d9bd0dfbed82d7",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-142",
+      "reference_id": "SITE-038ae04426da0c93",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-145",
+      "reference_id": "SITE-038ae04426da0c93",
+      "reference_table": "sites.csv",
+      "distance_m": 244.1,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-148",
+      "reference_id": "SITE-378ea3620ebed165",
+      "reference_table": "sites.csv",
+      "distance_m": 458.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-148",
+      "reference_id": "golden:Bâle:oppidum",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 458.7,
+      "fuzzy_score": 0.444,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-151",
+      "reference_id": "SITE-378ea3620ebed165",
+      "reference_table": "sites.csv",
+      "distance_m": 303.1,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-151",
+      "reference_id": "golden:Bâle:oppidum",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 303.1,
+      "fuzzy_score": 0.444,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-152",
+      "reference_id": "SITE-378ea3620ebed165",
+      "reference_table": "sites.csv",
+      "distance_m": 236.5,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-152",
+      "reference_id": "golden:Bâle:oppidum",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 236.5,
+      "fuzzy_score": 0.444,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-158",
+      "reference_id": "SITE-378ea3620ebed165",
+      "reference_table": "sites.csv",
+      "distance_m": 457.1,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-158",
+      "reference_id": "golden:Bâle:oppidum",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 457.1,
+      "fuzzy_score": 0.444,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-161",
+      "reference_id": "SITE-378ea3620ebed165",
+      "reference_table": "sites.csv",
+      "distance_m": 320.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-161",
+      "reference_id": "golden:Bâle:oppidum",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 320.0,
+      "fuzzy_score": 0.444,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-162",
+      "reference_id": "SITE-378ea3620ebed165",
+      "reference_table": "sites.csv",
+      "distance_m": 289.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-162",
+      "reference_id": "golden:Bâle:oppidum",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 289.7,
+      "fuzzy_score": 0.444,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-183",
+      "reference_id": "SITE-2bc9d8cee391cc9e",
+      "reference_table": "sites.csv",
+      "distance_m": 302.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-185",
+      "reference_id": "SITE-2bc9d8cee391cc9e",
+      "reference_table": "sites.csv",
+      "distance_m": 311.1,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-186",
+      "reference_id": "SITE-2bc9d8cee391cc9e",
+      "reference_table": "sites.csv",
+      "distance_m": 314.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-187",
+      "reference_id": "SITE-2bc9d8cee391cc9e",
+      "reference_table": "sites.csv",
+      "distance_m": 314.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-188",
+      "reference_id": "SITE-ab3cb0cd7622f3aa",
+      "reference_table": "sites.csv",
+      "distance_m": 360.2,
+      "fuzzy_score": 0.35,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-194",
+      "reference_id": "SITE-e88b982fdb0bfd47",
+      "reference_table": "sites.csv",
+      "distance_m": 38.3,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-195",
+      "reference_id": "SITE-384b1494984297e6",
+      "reference_table": "sites.csv",
+      "distance_m": 279.6,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-196",
+      "reference_id": "SITE-355f46c130ae782a",
+      "reference_table": "sites.csv",
+      "distance_m": 32.9,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-200",
+      "reference_id": "SITE-ab3cb0cd7622f3aa",
+      "reference_table": "sites.csv",
+      "distance_m": 311.5,
+      "fuzzy_score": 0.783,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-201",
+      "reference_id": "golden:Brumath:habitat",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 121.6,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-206",
+      "reference_id": "golden:Brumath:habitat",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 121.6,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-216",
+      "reference_id": "SITE-c75eea388c644b24",
+      "reference_table": "sites.csv",
+      "distance_m": 180.6,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-217",
+      "reference_id": "SITE-695ee4d9e71f67da",
+      "reference_table": "sites.csv",
+      "distance_m": 195.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-221",
+      "reference_id": "SITE-79d164c242ab35e5",
+      "reference_table": "sites.csv",
+      "distance_m": 435.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-224",
+      "reference_id": "SITE-199c449d850d698e",
+      "reference_table": "sites.csv",
+      "distance_m": 20.4,
+      "fuzzy_score": 0.552,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-225",
+      "reference_id": "SITE-ccd4b39863e05d77",
+      "reference_table": "sites.csv",
+      "distance_m": 61.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-229",
+      "reference_id": "SITE-c7bb40201db1d25b",
+      "reference_table": "sites.csv",
+      "distance_m": 60.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-233",
+      "reference_id": "SITE-f5cd89c3bafc76e7",
+      "reference_table": "sites.csv",
+      "distance_m": 132.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-234",
+      "reference_id": "SITE-f5cd89c3bafc76e7",
+      "reference_table": "sites.csv",
+      "distance_m": 179.8,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-241",
+      "reference_id": "SITE-0dd4f221448305c0",
+      "reference_table": "sites.csv",
+      "distance_m": 426.5,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-246",
+      "reference_id": "SITE-3596060c1b055d82",
+      "reference_table": "sites.csv",
+      "distance_m": 280.1,
+      "fuzzy_score": 0.75,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-253",
+      "reference_id": "SITE-baf2203e57c19a35",
+      "reference_table": "sites.csv",
+      "distance_m": 65.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-262",
+      "reference_id": "SITE-d830a06ddb9b0b39",
+      "reference_table": "sites.csv",
+      "distance_m": 317.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-264",
+      "reference_id": "SITE-d830a06ddb9b0b39",
+      "reference_table": "sites.csv",
+      "distance_m": 306.4,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-273",
+      "reference_id": "SITE-13c8cbd1e41ba716",
+      "reference_table": "sites.csv",
+      "distance_m": 107.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-274",
+      "reference_id": "SITE-a15fb1223690c125",
+      "reference_table": "sites.csv",
+      "distance_m": 406.4,
+      "fuzzy_score": 0.364,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-276",
+      "reference_id": "SITE-d46a54a2d1f997dc",
+      "reference_table": "sites.csv",
+      "distance_m": 169.4,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-278",
+      "reference_id": "SITE-70f3f7acde82756b",
+      "reference_table": "sites.csv",
+      "distance_m": 139.5,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-279",
+      "reference_id": "SITE-70f3f7acde82756b",
+      "reference_table": "sites.csv",
+      "distance_m": 139.5,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-280",
+      "reference_id": "SITE-70f3f7acde82756b",
+      "reference_table": "sites.csv",
+      "distance_m": 236.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-285",
+      "reference_id": "SITE-fe7d48868b3d9e14",
+      "reference_table": "sites.csv",
+      "distance_m": 79.9,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-291",
+      "reference_id": "SITE-722c832de4af7175",
+      "reference_table": "sites.csv",
+      "distance_m": 246.5,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-293",
+      "reference_id": "SITE-31a6b2a84ee0bcbb",
+      "reference_table": "sites.csv",
+      "distance_m": 365.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-305",
+      "reference_id": "SITE-f15575d17e079983",
+      "reference_table": "sites.csv",
+      "distance_m": 38.3,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-310",
+      "reference_id": "SITE-8e4084bd684e4e19",
+      "reference_table": "sites.csv",
+      "distance_m": 48.3,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-314",
+      "reference_id": "SITE-34047eed3df26de6",
+      "reference_table": "sites.csv",
+      "distance_m": 117.4,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-314",
+      "reference_id": "golden:Ottrott:oppidum",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 117.4,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-340",
+      "reference_id": "SITE-6c852ac68e27c529",
+      "reference_table": "sites.csv",
+      "distance_m": 362.7,
+      "fuzzy_score": 0.667,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-352",
+      "reference_id": "SITE-040b03f0dab16c7c",
+      "reference_table": "sites.csv",
+      "distance_m": 458.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-354",
+      "reference_id": "SITE-040b03f0dab16c7c",
+      "reference_table": "sites.csv",
+      "distance_m": 169.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-355",
+      "reference_id": "SITE-040b03f0dab16c7c",
+      "reference_table": "sites.csv",
+      "distance_m": 113.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-356",
+      "reference_id": "SITE-040b03f0dab16c7c",
+      "reference_table": "sites.csv",
+      "distance_m": 123.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-356",
+      "reference_id": "golden:Strasbourg:oppidum",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 465.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-364",
+      "reference_id": "SITE-af9a0d260c12645f",
+      "reference_table": "sites.csv",
+      "distance_m": 204.5,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-371",
+      "reference_id": "SITE-d59bf072a3c87fbc",
+      "reference_table": "sites.csv",
+      "distance_m": 141.6,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-373",
+      "reference_id": "SITE-bd6f0f32c278791b",
+      "reference_table": "sites.csv",
+      "distance_m": 137.3,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-375",
+      "reference_id": "SITE-1309d5d0190f6bc1",
+      "reference_table": "sites.csv",
+      "distance_m": 215.1,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-378",
+      "reference_id": "SITE-1be639a106d16de7",
+      "reference_table": "sites.csv",
+      "distance_m": 327.5,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-379",
+      "reference_id": "SITE-1be639a106d16de7",
+      "reference_table": "sites.csv",
+      "distance_m": 327.5,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-380",
+      "reference_id": "SITE-bfedff907e812123",
+      "reference_table": "sites.csv",
+      "distance_m": 231.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-380",
+      "reference_id": "golden:Altkirch:habitat",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 231.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-388",
+      "reference_id": "SITE-c3e08c7e65a798cb",
+      "reference_table": "sites.csv",
+      "distance_m": 138.4,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-389",
+      "reference_id": "SITE-c3e08c7e65a798cb",
+      "reference_table": "sites.csv",
+      "distance_m": 430.4,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-390",
+      "reference_id": "SITE-050b71fc4dc2a35e",
+      "reference_table": "sites.csv",
+      "distance_m": 35.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-392",
+      "reference_id": "SITE-0b962eb83286038e",
+      "reference_table": "sites.csv",
+      "distance_m": 50.4,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-393",
+      "reference_id": "SITE-0b962eb83286038e",
+      "reference_table": "sites.csv",
+      "distance_m": 50.4,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-395",
+      "reference_id": "SITE-d928737086cc3175",
+      "reference_table": "sites.csv",
+      "distance_m": 145.1,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-398",
+      "reference_id": "golden:Colmar:habitat",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 131.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-399",
+      "reference_id": "golden:Colmar:habitat",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 131.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-400",
+      "reference_id": "golden:Colmar:habitat",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 131.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-401",
+      "reference_id": "golden:Colmar:habitat",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 131.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-402",
+      "reference_id": "SITE-fc389572d3b0eadd",
+      "reference_table": "sites.csv",
+      "distance_m": 41.3,
+      "fuzzy_score": 0.522,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-403",
+      "reference_id": "golden:Colmar:habitat",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 232.9,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-406",
+      "reference_id": "SITE-64a7cafd012c85cd",
+      "reference_table": "sites.csv",
+      "distance_m": 98.6,
+      "fuzzy_score": 0.667,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-411",
+      "reference_id": "SITE-fcec2860539a2734",
+      "reference_table": "sites.csv",
+      "distance_m": 391.2,
+      "fuzzy_score": 0.643,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-412",
+      "reference_id": "SITE-633f31d70e73e834",
+      "reference_table": "sites.csv",
+      "distance_m": 32.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-413",
+      "reference_id": "SITE-633f31d70e73e834",
+      "reference_table": "sites.csv",
+      "distance_m": 32.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-414",
+      "reference_id": "SITE-633f31d70e73e834",
+      "reference_table": "sites.csv",
+      "distance_m": 366.8,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-416",
+      "reference_id": "SITE-07bc3f99c4b1f6f8",
+      "reference_table": "sites.csv",
+      "distance_m": 202.2,
+      "fuzzy_score": 0.625,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-422",
+      "reference_id": "SITE-2a5355c6971c85c5",
+      "reference_table": "sites.csv",
+      "distance_m": 499.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-443",
+      "reference_id": "SITE-17698c85315b25e7",
+      "reference_table": "sites.csv",
+      "distance_m": 44.4,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-445",
+      "reference_id": "SITE-17698c85315b25e7",
+      "reference_table": "sites.csv",
+      "distance_m": 44.4,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-446",
+      "reference_id": "SITE-17698c85315b25e7",
+      "reference_table": "sites.csv",
+      "distance_m": 44.4,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-450",
+      "reference_id": "SITE-17698c85315b25e7",
+      "reference_table": "sites.csv",
+      "distance_m": 354.6,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-451",
+      "reference_id": "SITE-17698c85315b25e7",
+      "reference_table": "sites.csv",
+      "distance_m": 254.5,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-454",
+      "reference_id": "SITE-17698c85315b25e7",
+      "reference_table": "sites.csv",
+      "distance_m": 453.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-467",
+      "reference_id": "SITE-309c87ef090146a5",
+      "reference_table": "sites.csv",
+      "distance_m": 399.1,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-468",
+      "reference_id": "SITE-ccdfc5ecd725a5bd",
+      "reference_table": "sites.csv",
+      "distance_m": 393.2,
+      "fuzzy_score": 0.667,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-469",
+      "reference_id": "SITE-ccdfc5ecd725a5bd",
+      "reference_table": "sites.csv",
+      "distance_m": 447.6,
+      "fuzzy_score": 0.667,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-470",
+      "reference_id": "SITE-64a7cafd012c85cd",
+      "reference_table": "sites.csv",
+      "distance_m": 407.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-471",
+      "reference_id": "SITE-64a7cafd012c85cd",
+      "reference_table": "sites.csv",
+      "distance_m": 486.3,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-472",
+      "reference_id": "SITE-ccdfc5ecd725a5bd",
+      "reference_table": "sites.csv",
+      "distance_m": 469.5,
+      "fuzzy_score": 0.667,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-479",
+      "reference_id": "SITE-98965bca5e0679e4",
+      "reference_table": "sites.csv",
+      "distance_m": 210.5,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-479",
+      "reference_id": "golden:Kembs:dépôt",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 336.5,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-482",
+      "reference_id": "SITE-e7cabf92623816c7",
+      "reference_table": "sites.csv",
+      "distance_m": 433.8,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-487",
+      "reference_id": "SITE-1cd1cf3755e1e621",
+      "reference_table": "sites.csv",
+      "distance_m": 350.4,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-489",
+      "reference_id": "SITE-1cd1cf3755e1e621",
+      "reference_table": "sites.csv",
+      "distance_m": 408.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-490",
+      "reference_id": "SITE-1cd1cf3755e1e621",
+      "reference_table": "sites.csv",
+      "distance_m": 39.5,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-491",
+      "reference_id": "SITE-1cd1cf3755e1e621",
+      "reference_table": "sites.csv",
+      "distance_m": 390.3,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-493",
+      "reference_id": "SITE-71dc3f1668899e9c",
+      "reference_table": "sites.csv",
+      "distance_m": 168.6,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-494",
+      "reference_id": "SITE-71dc3f1668899e9c",
+      "reference_table": "sites.csv",
+      "distance_m": 384.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-495",
+      "reference_id": "SITE-71dc3f1668899e9c",
+      "reference_table": "sites.csv",
+      "distance_m": 426.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-497",
+      "reference_id": "SITE-71dc3f1668899e9c",
+      "reference_table": "sites.csv",
+      "distance_m": 105.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-503",
+      "reference_id": "SITE-35019783110e3b5a",
+      "reference_table": "sites.csv",
+      "distance_m": 376.5,
+      "fuzzy_score": 0.809,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-507",
+      "reference_id": "SITE-78cd2da8fa8286b9",
+      "reference_table": "sites.csv",
+      "distance_m": 371.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-508",
+      "reference_id": "SITE-c5e004a9ff27cd47",
+      "reference_table": "sites.csv",
+      "distance_m": 178.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-509",
+      "reference_id": "SITE-c5e004a9ff27cd47",
+      "reference_table": "sites.csv",
+      "distance_m": 178.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-510",
+      "reference_id": "SITE-bdd5f28dbaa5c2c4",
+      "reference_table": "sites.csv",
+      "distance_m": 130.1,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-517",
+      "reference_id": "SITE-7c8a6af565c83963",
+      "reference_table": "sites.csv",
+      "distance_m": 309.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-518",
+      "reference_id": "SITE-7c8a6af565c83963",
+      "reference_table": "sites.csv",
+      "distance_m": 309.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-519",
+      "reference_id": "SITE-fc389572d3b0eadd",
+      "reference_table": "sites.csv",
+      "distance_m": 65.8,
+      "fuzzy_score": 0.64,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-520",
+      "reference_id": "SITE-fc389572d3b0eadd",
+      "reference_table": "sites.csv",
+      "distance_m": 65.8,
+      "fuzzy_score": 0.64,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-521",
+      "reference_id": "SITE-fc389572d3b0eadd",
+      "reference_table": "sites.csv",
+      "distance_m": 65.8,
+      "fuzzy_score": 0.64,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-524",
+      "reference_id": "SITE-963eba11251a5a3d",
+      "reference_table": "sites.csv",
+      "distance_m": 268.1,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-540",
+      "reference_id": "SITE-3d3e5493a9a5f812",
+      "reference_table": "sites.csv",
+      "distance_m": 470.6,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-541",
+      "reference_id": "SITE-3d3e5493a9a5f812",
+      "reference_table": "sites.csv",
+      "distance_m": 9.6,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-543",
+      "reference_id": "SITE-3d3e5493a9a5f812",
+      "reference_table": "sites.csv",
+      "distance_m": 34.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-558",
+      "reference_id": "SITE-bfae1f5bd6ad9fb8",
+      "reference_table": "sites.csv",
+      "distance_m": 167.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-559",
+      "reference_id": "SITE-bfae1f5bd6ad9fb8",
+      "reference_table": "sites.csv",
+      "distance_m": 167.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-566",
+      "reference_id": "SITE-156d0d11fe19a0d4",
+      "reference_table": "sites.csv",
+      "distance_m": 341.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-578",
+      "reference_id": "SITE-a367c53b2fafccda",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-579",
+      "reference_id": "SITE-b127be317baecc65",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-584",
+      "reference_id": "SITE-be14c5e624471e7e",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-589",
+      "reference_id": "SITE-949db3195ca6b901",
+      "reference_table": "sites.csv",
+      "distance_m": 70.6,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-590",
+      "reference_id": "SITE-949db3195ca6b901",
+      "reference_table": "sites.csv",
+      "distance_m": 254.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-592",
+      "reference_id": "SITE-949db3195ca6b901",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-593",
+      "reference_id": "SITE-3fec6eb2bd85f008",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-596",
+      "reference_id": "SITE-03bb2c02ec9aea42",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-597",
+      "reference_id": "SITE-03bb2c02ec9aea42",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-602",
+      "reference_id": "SITE-0601ae144ee52358",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-604",
+      "reference_id": "SITE-7606f24eaa77ff00",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-611",
+      "reference_id": "SITE-648964ba53dec59a",
+      "reference_table": "sites.csv",
+      "distance_m": 14.1,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-612",
+      "reference_id": "SITE-648964ba53dec59a",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-613",
+      "reference_id": "SITE-648964ba53dec59a",
+      "reference_table": "sites.csv",
+      "distance_m": 14.1,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-617",
+      "reference_id": "SITE-a259d870c354f208",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-618",
+      "reference_id": "SITE-fc90f4a43835350b",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-621",
+      "reference_id": "SITE-83fb8b52f32909cb",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-626",
+      "reference_id": "SITE-af9e8b2869aabe2b",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-627",
+      "reference_id": "SITE-82d8c837fb93e072",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-644",
+      "reference_id": "SITE-82d8c837fb93e072",
+      "reference_table": "sites.csv",
+      "distance_m": 116.7,
+      "fuzzy_score": 0.933,
+      "rule": "distance_lt_500m_and_fuzzy_ge_0.85"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-645",
+      "reference_id": "SITE-1dcf1f7c003d7268",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-648",
+      "reference_id": "SITE-2f3d1e75c60a1cf8",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-651",
+      "reference_id": "SITE-f9eb5e16ef2ee57d",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-656",
+      "reference_id": "SITE-64cab289607e93b4",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-657",
+      "reference_id": "SITE-64cab289607e93b4",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-658",
+      "reference_id": "SITE-64cab289607e93b4",
+      "reference_table": "sites.csv",
+      "distance_m": 62.5,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-675",
+      "reference_id": "SITE-d3d0576bc78ab618",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-676",
+      "reference_id": "SITE-d3d0576bc78ab618",
+      "reference_table": "sites.csv",
+      "distance_m": 221.8,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-688",
+      "reference_id": "SITE-1d9a3c85f1492f8a",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-689",
+      "reference_id": "SITE-1d9a3c85f1492f8a",
+      "reference_table": "sites.csv",
+      "distance_m": 17.6,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-690",
+      "reference_id": "SITE-9b12ddc9a0da6aea",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-691",
+      "reference_id": "SITE-9b12ddc9a0da6aea",
+      "reference_table": "sites.csv",
+      "distance_m": 218.8,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-695",
+      "reference_id": "SITE-6df4387a87b9eb40",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-700",
+      "reference_id": "SITE-e8671993a3c19565",
+      "reference_table": "sites.csv",
+      "distance_m": 392.8,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-700",
+      "reference_id": "golden:Bischoffsheim:tumulus",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 392.8,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-702",
+      "reference_id": "SITE-91531e93f0f60df4",
+      "reference_table": "sites.csv",
+      "distance_m": 430.4,
+      "fuzzy_score": 0.64,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-702",
+      "reference_id": "golden:Breisach am Rhein:oppidum",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 268.5,
+      "fuzzy_score": 0.64,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-710",
+      "reference_id": "SITE-fa035f01c93ed137",
+      "reference_table": "sites.csv",
+      "distance_m": 75.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-728",
+      "reference_id": "SITE-b56eb0fb857e99fc",
+      "reference_table": "sites.csv",
+      "distance_m": 235.4,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-729",
+      "reference_id": "SITE-d4cc11147718f8a2",
+      "reference_table": "sites.csv",
+      "distance_m": 377.8,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-733",
+      "reference_id": "SITE-52c2439144553ed5",
+      "reference_table": "sites.csv",
+      "distance_m": 349.3,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-737",
+      "reference_id": "SITE-e940c3d151f67c8e",
+      "reference_table": "sites.csv",
+      "distance_m": 429.1,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-737",
+      "reference_id": "SITE-b11928f2d68463ea",
+      "reference_table": "sites.csv",
+      "distance_m": 484.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-742",
+      "reference_id": "SITE-be728e803e66565a",
+      "reference_table": "sites.csv",
+      "distance_m": 126.3,
+      "fuzzy_score": 0.615,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-777",
+      "reference_id": "SITE-3a5f0a603bad6359",
+      "reference_table": "sites.csv",
+      "distance_m": 98.0,
+      "fuzzy_score": 0.667,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-781",
+      "reference_id": "SITE-891485a596c0daec",
+      "reference_table": "sites.csv",
+      "distance_m": 294.0,
+      "fuzzy_score": 0.593,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-787",
+      "reference_id": "SITE-c95e55a126e95aff",
+      "reference_table": "sites.csv",
+      "distance_m": 100.7,
+      "fuzzy_score": 0.526,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-788",
+      "reference_id": "SITE-c95e55a126e95aff",
+      "reference_table": "sites.csv",
+      "distance_m": 219.1,
+      "fuzzy_score": 0.526,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-790",
+      "reference_id": "SITE-c95e55a126e95aff",
+      "reference_table": "sites.csv",
+      "distance_m": 494.4,
+      "fuzzy_score": 0.476,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-793",
+      "reference_id": "SITE-1ceedcf6bdaf7a71",
+      "reference_table": "sites.csv",
+      "distance_m": 58.8,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-793",
+      "reference_id": "SITE-8057338bb34b2c22",
+      "reference_table": "sites.csv",
+      "distance_m": 39.5,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-806",
+      "reference_id": "SITE-2bc9d8cee391cc9e",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-807",
+      "reference_id": "SITE-317cb7c0ebcd1b45",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-808",
+      "reference_id": "SITE-e6b6f58bcb19310d",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-809",
+      "reference_id": "SITE-3dfcd6db64e2dafe",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-811",
+      "reference_id": "SITE-040b03f0dab16c7c",
+      "reference_table": "sites.csv",
+      "distance_m": 489.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-812",
+      "reference_id": "SITE-df10f9c2a9d92b27",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-813",
+      "reference_id": "SITE-ada766ccd5621494",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-814",
+      "reference_id": "SITE-d59bf072a3c87fbc",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-815",
+      "reference_id": "SITE-1309d5d0190f6bc1",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-816",
+      "reference_id": "SITE-2bc9d8cee391cc9e",
+      "reference_table": "sites.csv",
+      "distance_m": 195.4,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-817",
+      "reference_id": "SITE-2bc31d7fbdab85fb",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-820",
+      "reference_id": "SITE-c7bb40201db1d25b",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-821",
+      "reference_id": "SITE-9cbd687ba3278beb",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-822",
+      "reference_id": "SITE-d830a06ddb9b0b39",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-823",
+      "reference_id": "SITE-d46a54a2d1f997dc",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-824",
+      "reference_id": "SITE-73bbbd0a7236f752",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-825",
+      "reference_id": "SITE-4c77f53aef1f4a85",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-827",
+      "reference_id": "SITE-a3413ee0140bccdd",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-828",
+      "reference_id": "SITE-9a5dec6d0801f64e",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-830",
+      "reference_id": "SITE-040b03f0dab16c7c",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-832",
+      "reference_id": "golden:Strasbourg:oppidum",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 341.6,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-836",
+      "reference_id": "SITE-9f3d4b9f04dcf970",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-837",
+      "reference_id": "golden:Brumath:habitat",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 204.8,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-838",
+      "reference_id": "SITE-04416a5d9532995d",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-839",
+      "reference_id": "SITE-395b15ca9b2db6c1",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-840",
+      "reference_id": "SITE-3a7a720b99c8a1ec",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-841",
+      "reference_id": "SITE-0dd4f221448305c0",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-842",
+      "reference_id": "SITE-aee035f933764d89",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-843",
+      "reference_id": "SITE-c5a461341cdc23f5",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-844",
+      "reference_id": "SITE-d6cf0d0f08c2e7fa",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-845",
+      "reference_id": "SITE-a22d095d88297c45",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-846",
+      "reference_id": "SITE-81ad4df65c1c1ce5",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-846",
+      "reference_id": "SITE-37f42ddcc5afe72a",
+      "reference_table": "sites.csv",
+      "distance_m": 440.5,
+      "fuzzy_score": 0.846,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-847",
+      "reference_id": "SITE-c75eea388c644b24",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-849",
+      "reference_id": "SITE-722c832de4af7175",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-850",
+      "reference_id": "SITE-a80c0fe221453220",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-851",
+      "reference_id": "SITE-d7e4f0a17872f69e",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-852",
+      "reference_id": "SITE-0cdca2c455793039",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-853",
+      "reference_id": "SITE-85f35f5b6ce2ea41",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-854",
+      "reference_id": "SITE-30db49cc07ff569c",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-855",
+      "reference_id": "SITE-b00876d2d5f78686",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-856",
+      "reference_id": "SITE-ccd4b39863e05d77",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-857",
+      "reference_id": "SITE-3dfcd6db64e2dafe",
+      "reference_table": "sites.csv",
+      "distance_m": 73.4,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-858",
+      "reference_id": "SITE-5df94a39e0527ce7",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-859",
+      "reference_id": "SITE-1bdeb43063322794",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-860",
+      "reference_id": "SITE-040b03f0dab16c7c",
+      "reference_table": "sites.csv",
+      "distance_m": 475.3,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-860",
+      "reference_id": "golden:Strasbourg:oppidum",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 163.3,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-861",
+      "reference_id": "SITE-8d7bc0f74a9a3568",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-862",
+      "reference_id": "SITE-040b03f0dab16c7c",
+      "reference_table": "sites.csv",
+      "distance_m": 171.5,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-862",
+      "reference_id": "golden:Strasbourg:oppidum",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 456.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-863",
+      "reference_id": "SITE-9be57f6fcadff1cd",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-865",
+      "reference_id": "SITE-646fc306a76a7e6e",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-867",
+      "reference_id": "SITE-87ef9306d4ad6525",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-868",
+      "reference_id": "SITE-1fd6fa1750a85f18",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-869",
+      "reference_id": "SITE-4832af8ac6f01fca",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-870",
+      "reference_id": "SITE-c3e08c7e65a798cb",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-872",
+      "reference_id": "SITE-050b71fc4dc2a35e",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-873",
+      "reference_id": "SITE-8a3c5ccabb9c7578",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-876",
+      "reference_id": "SITE-fc49d22f443f0756",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-878",
+      "reference_id": "SITE-fcec2860539a2734",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-880",
+      "reference_id": "SITE-2a5355c6971c85c5",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-881",
+      "reference_id": "SITE-917c6c12b27d59a6",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-881",
+      "reference_id": "SITE-065a9b60a173ce70",
+      "reference_table": "sites.csv",
+      "distance_m": 210.7,
+      "fuzzy_score": 0.643,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-883",
+      "reference_id": "SITE-6af2200646f9d05a",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-884",
+      "reference_id": "SITE-17698c85315b25e7",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-886",
+      "reference_id": "SITE-17698c85315b25e7",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-887",
+      "reference_id": "SITE-17698c85315b25e7",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-888",
+      "reference_id": "SITE-17698c85315b25e7",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-889",
+      "reference_id": "SITE-e331adec426b5d52",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-890",
+      "reference_id": "SITE-309c87ef090146a5",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-891",
+      "reference_id": "SITE-64a7cafd012c85cd",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-892",
+      "reference_id": "SITE-ccdfc5ecd725a5bd",
+      "reference_table": "sites.csv",
+      "distance_m": 242.5,
+      "fuzzy_score": 0.667,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-895",
+      "reference_id": "SITE-d4cc11147718f8a2",
+      "reference_table": "sites.csv",
+      "distance_m": 3.8,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-896",
+      "reference_id": "SITE-d4cc11147718f8a2",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-897",
+      "reference_id": "SITE-a9f548db119efa7c",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-899",
+      "reference_id": "SITE-98965bca5e0679e4",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-899",
+      "reference_id": "golden:Kembs:dépôt",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 268.1,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-900",
+      "reference_id": "SITE-fe7d48868b3d9e14",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-901",
+      "reference_id": "SITE-111db15ea2351263",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-902",
+      "reference_id": "SITE-770a19e352a36feb",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-903",
+      "reference_id": "SITE-770a19e352a36feb",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-904",
+      "reference_id": "SITE-770a19e352a36feb",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-905",
+      "reference_id": "SITE-c5e004a9ff27cd47",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-906",
+      "reference_id": "SITE-bdd5f28dbaa5c2c4",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-907",
+      "reference_id": "SITE-f15575d17e079983",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-908",
+      "reference_id": "SITE-40875b0112313e2f",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-909",
+      "reference_id": "SITE-7c8a6af565c83963",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-910",
+      "reference_id": "SITE-963eba11251a5a3d",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-912",
+      "reference_id": "SITE-820757c96c9d7ec2",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-913",
+      "reference_id": "SITE-e0e384609db0a4cb",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-914",
+      "reference_id": "SITE-9d456df1cecb066f",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-915",
+      "reference_id": "SITE-6c852ac68e27c529",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-916",
+      "reference_id": "SITE-c9f615ce09dd89ee",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-917",
+      "reference_id": "SITE-2ded050bb394f58c",
+      "reference_table": "sites.csv",
+      "distance_m": 47.9,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-917",
+      "reference_id": "SITE-36c6686353b3677c",
+      "reference_table": "sites.csv",
+      "distance_m": 148.6,
+      "fuzzy_score": 0.64,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-917",
+      "reference_id": "golden:Sierentz:nécropole",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 47.9,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-918",
+      "reference_id": "SITE-6819adeb34fc509e",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-919",
+      "reference_id": "SITE-e039e301ccf12566",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-920",
+      "reference_id": "SITE-e9b657eb18d71cff",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-921",
+      "reference_id": "SITE-156d0d11fe19a0d4",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-923",
+      "reference_id": "SITE-b19b00dea5943222",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-924",
+      "reference_id": "SITE-a08ce02690105316",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-925",
+      "reference_id": "SITE-8f8faf5603909f93",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-926",
+      "reference_id": "SITE-21cb6417495f461d",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-927",
+      "reference_id": "SITE-d830a06ddb9b0b39",
+      "reference_table": "sites.csv",
+      "distance_m": 31.3,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-928",
+      "reference_id": "SITE-9815d90f8044bc40",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-929",
+      "reference_id": "SITE-07b5e32acd1d5b7a",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-930",
+      "reference_id": "SITE-13a27843c82cc0e4",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-935",
+      "reference_id": "SITE-34047eed3df26de6",
+      "reference_table": "sites.csv",
+      "distance_m": 108.9,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-935",
+      "reference_id": "golden:Ottrott:oppidum",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 108.9,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-936",
+      "reference_id": "golden:Rosheim:habitat",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 422.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-939",
+      "reference_id": "SITE-384b1494984297e6",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-940",
+      "reference_id": "SITE-1be639a106d16de7",
+      "reference_table": "sites.csv",
+      "distance_m": 495.7,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-941",
+      "reference_id": "SITE-695ee4d9e71f67da",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-943",
+      "reference_id": "SITE-617600ae7c4a269b",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-944",
+      "reference_id": "SITE-73313b6ca141f82f",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-945",
+      "reference_id": "SITE-bd6f0f32c278791b",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-947",
+      "reference_id": "SITE-1de257bce96c0b0d",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-948",
+      "reference_id": "SITE-92ead723b3398cf1",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-950",
+      "reference_id": "SITE-4c66d7d2ea9782a5",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-951",
+      "reference_id": "SITE-e88b982fdb0bfd47",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-953",
+      "reference_id": "SITE-783696251e864ad4",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-954",
+      "reference_id": "SITE-4be81ffd0b1a9e62",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-955",
+      "reference_id": "SITE-7691900187ff7a64",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-956",
+      "reference_id": "SITE-39a058760faea717",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-959",
+      "reference_id": "SITE-7c8a6af565c83963",
+      "reference_table": "sites.csv",
+      "distance_m": 255.3,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-960",
+      "reference_id": "SITE-7c8a6af565c83963",
+      "reference_table": "sites.csv",
+      "distance_m": 359.6,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-962",
+      "reference_id": "SITE-70f3f7acde82756b",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-965",
+      "reference_id": "SITE-a15fb1223690c125",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-966",
+      "reference_id": "SITE-676abbbe14f5a0bd",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-967",
+      "reference_id": "SITE-695ee4d9e71f67da",
+      "reference_table": "sites.csv",
+      "distance_m": 376.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-969",
+      "reference_id": "SITE-384b1494984297e6",
+      "reference_table": "sites.csv",
+      "distance_m": 154.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-971",
+      "reference_id": "SITE-6c3b2d23157134b4",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-972",
+      "reference_id": "SITE-71dc3f1668899e9c",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-973",
+      "reference_id": "SITE-1309a54cf0624051",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-974",
+      "reference_id": "SITE-640721aca62f48e3",
+      "reference_table": "sites.csv",
+      "distance_m": 157.6,
+      "fuzzy_score": 0.667,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-974",
+      "reference_id": "SITE-31a6b2a84ee0bcbb",
+      "reference_table": "sites.csv",
+      "distance_m": 396.3,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-976",
+      "reference_id": "SITE-472513556198d07a",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-977",
+      "reference_id": "SITE-309c87ef090146a5",
+      "reference_table": "sites.csv",
+      "distance_m": 486.2,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-978",
+      "reference_id": "SITE-3ce290774c6d2dd0",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-979",
+      "reference_id": "SITE-9771f922f7333705",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-980",
+      "reference_id": "SITE-309c87ef090146a5",
+      "reference_table": "sites.csv",
+      "distance_m": 203.8,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-984",
+      "reference_id": "SITE-1602f87434e97930",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-985",
+      "reference_id": "SITE-46d51681656c7e05",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-988",
+      "reference_id": "SITE-52c2439144553ed5",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-992",
+      "reference_id": "SITE-a4e3e42818ca1bfb",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-994",
+      "reference_id": "SITE-040b03f0dab16c7c",
+      "reference_table": "sites.csv",
+      "distance_m": 440.5,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-996",
+      "reference_id": "SITE-8e4084bd684e4e19",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-997",
+      "reference_id": "SITE-f5cd89c3bafc76e7",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-999",
+      "reference_id": "golden:Brumath:habitat",
+      "reference_table": "golden_sites.csv",
+      "distance_m": 331.1,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-1003",
+      "reference_id": "SITE-21984664a041efcc",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-1004",
+      "reference_id": "SITE-4ecdf7f4a011ebe6",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-1006",
+      "reference_id": "SITE-3f0b4c16adcf55c4",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-1008",
+      "reference_id": "SITE-af9a0d260c12645f",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-1009",
+      "reference_id": "SITE-ab3cb0cd7622f3aa",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-1011",
+      "reference_id": "SITE-a367c53b2fafccda",
+      "reference_table": "sites.csv",
+      "distance_m": 275.5,
+      "fuzzy_score": 0.769,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-1012",
+      "reference_id": "SITE-a367c53b2fafccda",
+      "reference_table": "sites.csv",
+      "distance_m": 201.3,
+      "fuzzy_score": 0.769,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-1014",
+      "reference_id": "SITE-dce8c5f613b35529",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-1020",
+      "reference_id": "SITE-3fec6eb2bd85f008",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-1025",
+      "reference_id": "SITE-648964ba53dec59a",
+      "reference_table": "sites.csv",
+      "distance_m": 451.9,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-1028",
+      "reference_id": "SITE-648964ba53dec59a",
+      "reference_table": "sites.csv",
+      "distance_m": 314.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-1029",
+      "reference_id": "SITE-648964ba53dec59a",
+      "reference_table": "sites.csv",
+      "distance_m": 32.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-1034",
+      "reference_id": "SITE-fc90f4a43835350b",
+      "reference_table": "sites.csv",
+      "distance_m": 419.4,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-1056",
+      "reference_id": "SITE-9e483d50af6f2f63",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-1061",
+      "reference_id": "SITE-d3d0576bc78ab618",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-1065",
+      "reference_id": "SITE-ec794c330f375d0f",
+      "reference_table": "sites.csv",
+      "distance_m": 0.0,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    },
+    {
+      "alsace_basel_site_id": "ALSACE-BASEL-AF-1067",
+      "reference_id": "SITE-9b12ddc9a0da6aea",
+      "reference_table": "sites.csv",
+      "distance_m": 218.8,
+      "fuzzy_score": 1.0,
+      "rule": "distance_lt_500m_and_commune"
+    }
+  ],
+  "duplicates_count": 415,
+  "notes": [
+    "EPSG:4326 attendu comme lon=x, lat=y ; EPSG:25832 en mètres UTM 32N.",
+    "La colonne `date` du fichier est une métadonnée de mise à jour — non utilisée pour la chronologie Fer.",
+    "Lecture XLSX : calamine en premier (workbooks avec DV XML invalide), repli openpyxl.",
+    "Dédup T5 : paire retenue si distance < 500 m et (communes compatibles OU fuzzy token_sort ≥ 0,85)."
+  ],
+  "output_csv": "data/analysis/Alsace_Basel_AF (1)/sites_cleaned.csv",
+  "output_report": "data/analysis/Alsace_Basel_AF (1)/quality_report.json"
+}

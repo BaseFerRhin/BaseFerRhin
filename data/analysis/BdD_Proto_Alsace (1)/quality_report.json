@@ -1,0 +1,789 @@
+{
+  "source": "data/input/BdD_Proto_Alsace (1).xlsx",
+  "fer_filter_policy": "Inclure uniquement si LTAB|LTCD|HaD|BF3_HaC==1 OU texte datation (periodes.json + motifs Ha/LT, Bze D, Bze C-D, Bze D-Ha, âge du Fer). Exclure le Bronze ancien/moyen pur sans ces signaux. Sans indicateur Fer : ligne non exportée.",
+  "dropped_columns": [
+    "type_precision",
+    "conservati"
+  ],
+  "patriarche_ea_join": "Non utilisé pour XY : fichier Patriarche sans coordonnées ; EA Proto (float court) incompatible avec Numero_de_l_EA.",
+  "row_count_raw": 1127,
+  "id_unique_raw": 1127,
+  "row_count_after_fer_filter": 673,
+  "type_classification_unmapped": [],
+  "join_spatial_success_count": 415,
+  "duplicates_with_golden_or_sites_csv": 56,
+  "duplicates_detail_sample": [
+    {
+      "id_proto": 254,
+      "matches": [
+        {
+          "candidate": "SITE-184ca99b371501c3",
+          "score": 96,
+          "reason": "fuzzy_key=96"
+        }
+      ]
+    },
+    {
+      "id_proto": 259,
+      "matches": [
+        {
+          "candidate": "SITE-25306cd640de471b",
+          "score": 100,
+          "reason": "fuzzy_key=100"
+        },
+        {
+          "candidate": "SITE-c1fef6d7c4fbaeca",
+          "score": 100,
+          "reason": "fuzzy_key=100"
+        },
+        {
+          "candidate": "SITE-acd065721cf3ed16",
+          "score": 100,
+          "reason": "fuzzy_key=100"
+        }
+      ]
+    },
+    {
+      "id_proto": 262,
+      "matches": [
+        {
+          "candidate": "SITE-b98a82cde14a8de7",
+          "score": 90,
+          "reason": "fuzzy_key=90"
+        }
+      ]
+    },
+    {
+      "id_proto": 264,
+      "matches": [
+        {
+          "candidate": "SITE-b98a82cde14a8de7",
+          "score": 90,
+          "reason": "fuzzy_key=90"
+        }
+      ]
+    },
+    {
+      "id_proto": 265,
+      "matches": [
+        {
+          "candidate": "SITE-b98a82cde14a8de7",
+          "score": 90,
+          "reason": "fuzzy_key=90"
+        }
+      ]
+    },
+    {
+      "id_proto": 286,
+      "matches": [
+        {
+          "candidate": "SITE-b98a82cde14a8de7",
+          "score": 100,
+          "reason": "fuzzy_key=100"
+        }
+      ]
+    },
+    {
+      "id_proto": 288,
+      "matches": [
+        {
+          "candidate": "SITE-b98a82cde14a8de7",
+          "score": 100,
+          "reason": "fuzzy_key=100"
+        }
+      ]
+    },
+    {
+      "id_proto": 289,
+      "matches": [
+        {
+          "candidate": "SITE-b98a82cde14a8de7",
+          "score": 100,
+          "reason": "fuzzy_key=100"
+        }
+      ]
+    },
+    {
+      "id_proto": 360,
+      "matches": [
+        {
+          "candidate": "SITE-e13d9ef206bad441",
+          "score": 80,
+          "reason": "fuzzy_key=80"
+        },
+        {
+          "candidate": "SITE-bbf103e957ad713f",
+          "score": 78,
+          "reason": "fuzzy_key=78"
+        }
+      ]
+    },
+    {
+      "id_proto": 515,
+      "matches": [
+        {
+          "candidate": "SITE-52026dffa1b6782d",
+          "score": 72,
+          "reason": "fuzzy_key=72"
+        }
+      ]
+    },
+    {
+      "id_proto": 516,
+      "matches": [
+        {
+          "candidate": "SITE-52026dffa1b6782d",
+          "score": 72,
+          "reason": "fuzzy_key=72"
+        }
+      ]
+    },
+    {
+      "id_proto": 521,
+      "matches": [
+        {
+          "candidate": "SITE-52026dffa1b6782d",
+          "score": 72,
+          "reason": "fuzzy_key=72"
+        }
+      ]
+    },
+    {
+      "id_proto": 531,
+      "matches": [
+        {
+          "candidate": "SITE-4632c5de79b2a41b",
+          "score": 75,
+          "reason": "fuzzy_key=75"
+        }
+      ]
+    },
+    {
+      "id_proto": 534,
+      "matches": [
+        {
+          "candidate": "SITE-4632c5de79b2a41b",
+          "score": 75,
+          "reason": "fuzzy_key=75"
+        }
+      ]
+    },
+    {
+      "id_proto": 535,
+      "matches": [
+        {
+          "candidate": "SITE-4632c5de79b2a41b",
+          "score": 78,
+          "reason": "fuzzy_key=78"
+        }
+      ]
+    },
+    {
+      "id_proto": 536,
+      "matches": [
+        {
+          "candidate": "SITE-4632c5de79b2a41b",
+          "score": 78,
+          "reason": "fuzzy_key=78"
+        }
+      ]
+    },
+    {
+      "id_proto": 537,
+      "matches": [
+        {
+          "candidate": "SITE-4632c5de79b2a41b",
+          "score": 78,
+          "reason": "fuzzy_key=78"
+        }
+      ]
+    },
+    {
+      "id_proto": 538,
+      "matches": [
+        {
+          "candidate": "SITE-4632c5de79b2a41b",
+          "score": 78,
+          "reason": "fuzzy_key=78"
+        }
+      ]
+    },
+    {
+      "id_proto": 542,
+      "matches": [
+        {
+          "candidate": "SITE-52026dffa1b6782d",
+          "score": 73,
+          "reason": "fuzzy_key=73"
+        }
+      ]
+    },
+    {
+      "id_proto": 662,
+      "matches": [
+        {
+          "candidate": "SITE-881df2fc9a72ebea",
+          "score": 100,
+          "reason": "fuzzy_key=100"
+        }
+      ]
+    },
+    {
+      "id_proto": 684,
+      "matches": [
+        {
+          "candidate": "SITE-1f488b9f02c71b62",
+          "score": 90,
+          "reason": "fuzzy_key=90"
+        }
+      ]
+    },
+    {
+      "id_proto": 691,
+      "matches": [
+        {
+          "candidate": "SITE-7e1fa608867f9fd2",
+          "score": 100,
+          "reason": "fuzzy_key=100"
+        }
+      ]
+    },
+    {
+      "id_proto": 692,
+      "matches": [
+        {
+          "candidate": "SITE-7e1fa608867f9fd2",
+          "score": 100,
+          "reason": "fuzzy_key=100"
+        }
+      ]
+    },
+    {
+      "id_proto": 715,
+      "matches": [
+        {
+          "candidate": "SITE-a548ea91cb536d86",
+          "score": 73,
+          "reason": "fuzzy_key=73"
+        }
+      ]
+    },
+    {
+      "id_proto": 716,
+      "matches": [
+        {
+          "candidate": "SITE-5a4b9b6756088ed3",
+          "score": 77,
+          "reason": "fuzzy_key=77"
+        }
+      ]
+    },
+    {
+      "id_proto": 748,
+      "matches": [
+        {
+          "candidate": "SITE-8acf6ca94eb4b5c2",
+          "score": 83,
+          "reason": "fuzzy_key=83"
+        }
+      ]
+    },
+    {
+      "id_proto": 750,
+      "matches": [
+        {
+          "candidate": "SITE-8acf6ca94eb4b5c2",
+          "score": 83,
+          "reason": "fuzzy_key=83"
+        }
+      ]
+    },
+    {
+      "id_proto": 754,
+      "matches": [
+        {
+          "candidate": "SITE-474df5b641523b2d",
+          "score": 79,
+          "reason": "fuzzy_key=79"
+        }
+      ]
+    },
+    {
+      "id_proto": 784,
+      "matches": [
+        {
+          "candidate": "SITE-c5e6f1c89c24543c",
+          "score": 96,
+          "reason": "fuzzy_key=96"
+        }
+      ]
+    },
+    {
+      "id_proto": 841,
+      "matches": [
+        {
+          "candidate": "SITE-6da15d7be2ff5471",
+          "score": 80,
+          "reason": "fuzzy_key=80"
+        }
+      ]
+    },
+    {
+      "id_proto": 861,
+      "matches": [
+        {
+          "candidate": "SITE-c5d0ea91d7e3fdc3",
+          "score": 76,
+          "reason": "fuzzy_key=76"
+        }
+      ]
+    },
+    {
+      "id_proto": 875,
+      "matches": [
+        {
+          "candidate": "SITE-881df2fc9a72ebea",
+          "score": 100,
+          "reason": "fuzzy_key=100"
+        }
+      ]
+    },
+    {
+      "id_proto": 876,
+      "matches": [
+        {
+          "candidate": "SITE-3936f26266ea500f",
+          "score": 100,
+          "reason": "fuzzy_key=100"
+        }
+      ]
+    },
+    {
+      "id_proto": 877,
+      "matches": [
+        {
+          "candidate": "SITE-88f8a3f54d65534e",
+          "score": 100,
+          "reason": "fuzzy_key=100"
+        }
+      ]
+    },
+    {
+      "id_proto": 886,
+      "matches": [
+        {
+          "candidate": "SITE-31f6bf52ee5eee76",
+          "score": 74,
+          "reason": "fuzzy_key=74"
+        },
+        {
+          "candidate": "SITE-c5d0ea91d7e3fdc3",
+          "score": 74,
+          "reason": "fuzzy_key=74"
+        }
+      ]
+    },
+    {
+      "id_proto": 908,
+      "matches": [
+        {
+          "candidate": "SITE-401ae4e955116d14",
+          "score": 79,
+          "reason": "fuzzy_key=79"
+        },
+        {
+          "candidate": "SITE-5ec4a2c993c6f2da",
+          "score": 79,
+          "reason": "fuzzy_key=79"
+        }
+      ]
+    },
+    {
+      "id_proto": 922,
+      "matches": [
+        {
+          "candidate": "SITE-e5289224e4073942",
+          "score": 86,
+          "reason": "fuzzy_key=86"
+        }
+      ]
+    },
+    {
+      "id_proto": 930,
+      "matches": [
+        {
+          "candidate": "SITE-d78346069ed7c758",
+          "score": 77,
+          "reason": "fuzzy_key=77"
+        }
+      ]
+    },
+    {
+      "id_proto": 988,
+      "matches": [
+        {
+          "candidate": "SITE-e6af738b0e3160a8",
+          "score": 78,
+          "reason": "fuzzy_key=78"
+        }
+      ]
+    },
+    {
+      "id_proto": 990,
+      "matches": [
+        {
+          "candidate": "SITE-65fe0d7281f93cc7",
+          "score": 88,
+          "reason": "fuzzy_key=88"
+        }
+      ]
+    },
+    {
+      "id_proto": 991,
+      "matches": [
+        {
+          "candidate": "SITE-699458caad6d8c87",
+          "score": 88,
+          "reason": "fuzzy_key=88"
+        }
+      ]
+    },
+    {
+      "id_proto": 997,
+      "matches": [
+        {
+          "candidate": "SITE-8dd52da0164a58fb",
+          "score": 100,
+          "reason": "fuzzy_key=100"
+        }
+      ]
+    },
+    {
+      "id_proto": 999,
+      "matches": [
+        {
+          "candidate": "SITE-2fed2e07396e1b89",
+          "score": 88,
+          "reason": "fuzzy_key=88"
+        }
+      ]
+    },
+    {
+      "id_proto": 1000,
+      "matches": [
+        {
+          "candidate": "SITE-bd2af10a165dfc60",
+          "score": 90,
+          "reason": "fuzzy_key=90"
+        }
+      ]
+    },
+    {
+      "id_proto": 1001,
+      "matches": [
+        {
+          "candidate": "SITE-bde33d8d6d59fbf7",
+          "score": 76,
+          "reason": "fuzzy_key=76"
+        }
+      ]
+    },
+    {
+      "id_proto": 1015,
+      "matches": [
+        {
+          "candidate": "SITE-e5289224e4073942",
+          "score": 84,
+          "reason": "fuzzy_key=84"
+        }
+      ]
+    },
+    {
+      "id_proto": 1016,
+      "matches": [
+        {
+          "candidate": "SITE-474df5b641523b2d",
+          "score": 100,
+          "reason": "fuzzy_key=100"
+        }
+      ]
+    },
+    {
+      "id_proto": 1451,
+      "matches": [
+        {
+          "candidate": "SITE-ae9c102d54755f27",
+          "score": 100,
+          "reason": "fuzzy_key=100"
+        }
+      ]
+    },
+    {
+      "id_proto": 1468,
+      "matches": [
+        {
+          "candidate": "SITE-b98a82cde14a8de7",
+          "score": 85,
+          "reason": "fuzzy_key=85"
+        },
+        {
+          "candidate": "SITE-474df5b641523b2d",
+          "score": 75,
+          "reason": "fuzzy_key=75"
+        }
+      ]
+    },
+    {
+      "id_proto": 1490,
+      "matches": [
+        {
+          "candidate": "SITE-f09145ca4bf27904",
+          "score": 75,
+          "reason": "fuzzy_key=75"
+        }
+      ]
+    },
+    {
+      "id_proto": 1550,
+      "matches": [
+        {
+          "candidate": "SITE-3936f26266ea500f",
+          "score": 72,
+          "reason": "fuzzy_key=72"
+        }
+      ]
+    },
+    {
+      "id_proto": 1573,
+      "matches": [
+        {
+          "candidate": "SITE-f03acea0267070c9",
+          "score": 74,
+          "reason": "fuzzy_key=74"
+        }
+      ]
+    },
+    {
+      "id_proto": 1659,
+      "matches": [
+        {
+          "candidate": "SITE-3936f26266ea500f",
+          "score": 77,
+          "reason": "fuzzy_key=77"
+        }
+      ]
+    },
+    {
+      "id_proto": 1670,
+      "matches": [
+        {
+          "candidate": "SITE-ae9c102d54755f27",
+          "score": 100,
+          "reason": "fuzzy_key=100"
+        }
+      ]
+    },
+    {
+      "id_proto": 1671,
+      "matches": [
+        {
+          "candidate": "SITE-31f6bf52ee5eee76",
+          "score": 74,
+          "reason": "fuzzy_key=74"
+        },
+        {
+          "candidate": "SITE-c5d0ea91d7e3fdc3",
+          "score": 74,
+          "reason": "fuzzy_key=74"
+        }
+      ]
+    },
+    {
+      "id_proto": 1686,
+      "matches": [
+        {
+          "candidate": "SITE-a84afa388390d55b",
+          "score": 72,
+          "reason": "fuzzy_key=72"
+        }
+      ]
+    }
+  ],
+  "period_parse_failures_count": 43,
+  "period_parse_failures_sample": [
+    {
+      "datation_1": "Bronze moyen/Bronze final",
+      "datation_2": "Bze C-D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D2"
+    },
+    {
+      "datation_1": "Bronze moyen/Bronze final",
+      "datation_2": "Bze C/D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D2"
+    },
+    {
+      "datation_1": "Bronze moyen/Bronze final",
+      "datation_2": "Bze C/D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze moyen/Bronze final",
+      "datation_2": "Bze C-D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze moyen/Bronze final",
+      "datation_2": "Bze C/D"
+    },
+    {
+      "datation_1": "Bronze moyen/Bronze final",
+      "datation_2": "Bze C/D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze moyen",
+      "datation_2": "Bze C/D1"
+    },
+    {
+      "datation_1": "Bronze ancien/Bronze moyen",
+      "datation_2": "Bze C/D"
+    },
+    {
+      "datation_1": "Bronze moyen",
+      "datation_2": "Bze C/D"
+    },
+    {
+      "datation_1": "Bronze moyen/Bronze final",
+      "datation_2": "Bze C/D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze moyen/Bronze final",
+      "datation_2": "Bze C/D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    },
+    {
+      "datation_1": "Bronze final",
+      "datation_2": "Bze D"
+    }
+  ],
+  "export_row_count": 673,
+  "output_csv": "data/analysis/BdD_Proto_Alsace (1)/sites_cleaned.csv",
+  "output_report": "data/analysis/BdD_Proto_Alsace (1)/quality_report.json",
+  "distribution_type_site_canon": {
+    "HABITAT": 542,
+    "NECROPOLE": 93,
+    "DEPOT": 35,
+    "TUMULUS": 3
+  },
+  "distribution_periode": {
+    "HALLSTATT": 347,
+    "LA_TENE": 283,
+    "(vide)": 43
+  }
+}

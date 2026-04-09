@@ -1,0 +1,195 @@
+{
+  "source_file": "data/input/2026_afeaf_lineaire.dbf",
+  "export_date_iso": "2026-04-09",
+  "pipeline": "archeo-ingest / 2026_afeaf_lineaire",
+  "t1_encoding_tested": "latin-1",
+  "t1_rows_loaded": 27,
+  "t1_columns_raw": [
+    "id",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h"
+  ],
+  "t1_column_mapping": {
+    "a": "pays",
+    "b": "departement",
+    "c": "commune",
+    "d": "lieu_dit",
+    "e": "categorie_source",
+    "f": "chrono_brut",
+    "g": "description",
+    "h": "detail"
+  },
+  "t1_mojibake_fixed": true,
+  "t1_shp_found": false,
+  "t1_related_files": [
+    ".dbf"
+  ],
+  "t2_periode_distribution": {
+    "LA_TENE": 9,
+    "BRONZE_FINAL": 6,
+    "HALLSTATT": 5,
+    "BRONZE": 1,
+    "INDETERMINE_FER": 1,
+    "INDETERMINE": 1,
+    "TRANSITION": 1
+  },
+  "t2_rows_with_dates": 8,
+  "t2_rows_without_dates": 19,
+  "t3_type_distribution": {
+    "HABITAT": 21,
+    "INDETERMINE": 6
+  },
+  "t3_indeterminate_count": 6,
+  "t3_indeterminate_samples": [
+    {
+      "id": 3,
+      "categorie_source": "indice de site",
+      "description": "4 fragments jointifs d'une coupe à bord rentrant"
+    },
+    {
+      "id": 4,
+      "categorie_source": "indice de site",
+      "description": "céramique (bord avec haut de panse imprimé) et silex"
+    },
+    {
+      "id": 5,
+      "categorie_source": "indice de site",
+      "description": "céramique + lame en silex jaune + silex brûlé"
+    },
+    {
+      "id": 23,
+      "categorie_source": "indice de site",
+      "description": "encolure de vase, lèvre éversée et aplatie avec méplat sur la face interne"
+    },
+    {
+      "id": 25,
+      "categorie_source": "indice de site",
+      "description": "28 frag (4 NMI), 3 écuelles et jattes à bord rentrant, diag"
+    }
+  ],
+  "t4_spatial_status": "no_geometry",
+  "t4_invalid_departments": [],
+  "t4_dept_distribution": {
+    "Bas-Rhin": 20,
+    "Haut-Rhin": 7
+  },
+  "t5_potential_duplicates": [
+    {
+      "afeaf_id": 26,
+      "afeaf_commune": "Haguenau",
+      "afeaf_lieu_dit": "Kurzgelaeng",
+      "golden_commune": "Haguenau",
+      "golden_type": "nécropole",
+      "match_criterion": "commune_exacte"
+    },
+    {
+      "afeaf_id": 9,
+      "afeaf_commune": "Marlenheim",
+      "afeaf_lieu_dit": "Frohmatten",
+      "existing_commune": "Marlenheim",
+      "existing_site": "Marlenheim",
+      "match_criterion": "commune_sites_csv"
+    },
+    {
+      "afeaf_id": 12,
+      "afeaf_commune": "Altorf",
+      "afeaf_lieu_dit": "Winkel",
+      "existing_commune": "Altorf",
+      "existing_site": "Altorf",
+      "match_criterion": "commune_sites_csv"
+    },
+    {
+      "afeaf_id": 13,
+      "afeaf_commune": "Dachstein",
+      "afeaf_lieu_dit": "Leffert",
+      "existing_commune": "Dachstein",
+      "existing_site": "Dachstein",
+      "match_criterion": "commune_sites_csv"
+    },
+    {
+      "afeaf_id": 14,
+      "afeaf_commune": "Dachstein",
+      "afeaf_lieu_dit": "Lauen",
+      "existing_commune": "Dachstein",
+      "existing_site": "Dachstein",
+      "match_criterion": "commune_sites_csv"
+    },
+    {
+      "afeaf_id": 15,
+      "afeaf_commune": "Dachstein",
+      "afeaf_lieu_dit": "Lauen",
+      "existing_commune": "Dachstein",
+      "existing_site": "Dachstein",
+      "match_criterion": "commune_sites_csv"
+    },
+    {
+      "afeaf_id": 16,
+      "afeaf_commune": "Marlenheim",
+      "afeaf_lieu_dit": "Kron",
+      "existing_commune": "Marlenheim",
+      "existing_site": "Marlenheim",
+      "match_criterion": "commune_sites_csv"
+    },
+    {
+      "afeaf_id": 17,
+      "afeaf_commune": "Marlenheim",
+      "afeaf_lieu_dit": "Holderstraeng",
+      "existing_commune": "Marlenheim",
+      "existing_site": "Marlenheim",
+      "match_criterion": "commune_sites_csv"
+    },
+    {
+      "afeaf_id": 18,
+      "afeaf_commune": "Furdenheim",
+      "afeaf_lieu_dit": "Maueracker am stein",
+      "existing_commune": "Furdenheim",
+      "existing_site": "Furdenheim",
+      "match_criterion": "commune_sites_csv"
+    },
+    {
+      "afeaf_id": 23,
+      "afeaf_commune": "Wolfisheim",
+      "afeaf_lieu_dit": "Oberer Katzenweg",
+      "existing_commune": "Wolfisheim",
+      "existing_site": "Wolfisheim",
+      "match_criterion": "commune_sites_csv"
+    },
+    {
+      "afeaf_id": 24,
+      "afeaf_commune": "Ungersheim",
+      "afeaf_lieu_dit": "Entenbad",
+      "existing_commune": "Ungersheim",
+      "existing_site": "Ungersheim",
+      "match_criterion": "commune_sites_csv"
+    }
+  ],
+  "t5_duplicate_count": 11,
+  "t5_isolate_count": 16,
+  "t5_isolate_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    19,
+    20,
+    21,
+    22,
+    25,
+    27
+  ],
+  "t6_rows_exported": 27,
+  "t6_unique_sites": 27,
+  "t6_output_file": "data/analysis/2026_afeaf_lineaire/sites_cleaned.csv"
+}

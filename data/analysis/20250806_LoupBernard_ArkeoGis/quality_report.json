@@ -1,0 +1,1294 @@
+{
+  "input_file": "data/input/20250806_LoupBernard_ArkeoGis.csv",
+  "export_date_iso": "2026-04-09T12:35:51Z",
+  "row_count_raw": 116,
+  "site_count_aggregated": 105,
+  "coordinates_out_of_bounds": [],
+  "period_inconsistencies": [],
+  "type_classification_unmapped": [],
+  "duplicates_with_golden_or_sites_csv": [
+    {
+      "site_id": "AKG-25821",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-3620e61987a03eca",
+          "ref_nom": "Albstadt-Laufen",
+          "ref_commune": "Albstadt-Laufen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.222
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25822",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-dfc185e3665690da",
+          "ref_nom": "Bad Krozingen",
+          "ref_commune": "Bad Krozingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.1
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25823",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-4967c8628ffc04e3",
+          "ref_nom": "Hayingen-Indelhausen",
+          "ref_commune": "Hayingen-Indelhausen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.5
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25827",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-70c581ad0d9bdaf6",
+          "ref_nom": "Hundersingen",
+          "ref_commune": "Hundersingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.571
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25828",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-e321c689f7aa4c9a",
+          "ref_nom": "Herbrechtingen",
+          "ref_commune": "Herbrechtingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.316
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25829",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-362c99f1a492e592",
+          "ref_nom": "Asperg",
+          "ref_commune": "Asperg",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.588
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25830",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-ba979b49d759bd3d",
+          "ref_nom": "Ihringen",
+          "ref_commune": "Ihringen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.533
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25831",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-d7a203600cdccbb7",
+          "ref_nom": "Langenenslingen",
+          "ref_commune": "Langenenslingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.4
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25832",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-6a13812057047c85",
+          "ref_nom": "Nagold",
+          "ref_commune": "Nagold",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.118
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25833",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-2cd9410b19c461e2",
+          "ref_nom": "Neuenbürg",
+          "ref_commune": "Neuenbürg",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.3
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25835",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-132da33a3436b92c",
+          "ref_nom": "Singen",
+          "ref_commune": "Singen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 1.0
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25836",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-8104a099e6307270",
+          "ref_nom": "Spaichingen",
+          "ref_commune": "Spaichingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.267
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25837",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-25d1de745060b63f",
+          "ref_nom": "Stuttgart-Feuerbach",
+          "ref_commune": "Stuttgart-Feuerbach",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.231
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25838",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-fb2f9fb0505297de",
+          "ref_nom": "Zwiefalten-Upflamör",
+          "ref_commune": "Zwiefalten-Upflamör",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.229
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25839",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-387018e12095839e",
+          "ref_nom": "Villingen-Schwenningen",
+          "ref_commune": "Villingen-Schwenningen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.293
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25840",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-cba0d4dbe53224e6",
+          "ref_nom": "Balingen",
+          "ref_commune": "Balingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.316
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25841",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-7d4c5ebbc3629c57",
+          "ref_nom": "Kornwestheim-Ludwigsburg",
+          "ref_commune": "Kornwestheim-Ludwigsburg",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.244
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25842",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-c38ee0ff32e843d6",
+          "ref_nom": "Freiberg/Geisingen-Ludwigsburg",
+          "ref_commune": "Freiberg/Geisingen-Ludwigsburg",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.176
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25843",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-eddf3eee8d6f52e4",
+          "ref_nom": "Sachsenheim-Ludwigsburg",
+          "ref_commune": "Sachsenheim-Ludwigsburg",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.513
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25844",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-809ddb4c648cc3f2",
+          "ref_nom": "Stuttgart-Mühlhausen",
+          "ref_commune": "Stuttgart-Mühlhausen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.222
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25846",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-7f62cbd4710f9bc0",
+          "ref_nom": "Stetten",
+          "ref_commune": "Stetten",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.154
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25847",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-17f7a84312c1f43a",
+          "ref_nom": "Breisach",
+          "ref_commune": "Breisach am Rhein",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.211
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25848",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-550709f3a0f951e4",
+          "ref_nom": "Langenau",
+          "ref_commune": "Langenau",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.154
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25849",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-ef4caa0bcd69e04e",
+          "ref_nom": "Stuttgart-Stammheim",
+          "ref_commune": "Stuttgart-Stammheim",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.067
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25852",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-20dceb3329d12d10",
+          "ref_nom": "Hochdorf",
+          "ref_commune": "Hochdorf",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.125
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25853",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-20dceb3329d12d10",
+          "ref_nom": "Hochdorf",
+          "ref_commune": "Hochdorf",
+          "method": "fuzzy_name",
+          "distance_m": 130387.6,
+          "token_sort_ratio": 1.0
+        },
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-b30ef1c148351705",
+          "ref_nom": "Freiburg",
+          "ref_commune": "Freiburg",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.125
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25854",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-8681b9e490ebdfb1",
+          "ref_nom": "Ortenberg",
+          "ref_commune": "Ortenberg",
+          "method": "fuzzy_name",
+          "distance_m": 182808.1,
+          "token_sort_ratio": 0.889
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25855",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-6f56d0c3e5e85cea",
+          "ref_nom": "Rottenburg",
+          "ref_commune": "Rottenburg",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.182
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25856",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-1edbfdb7e10ae911",
+          "ref_nom": "Fellbach",
+          "ref_commune": "Fellbach",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.25
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25857",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-24bcb3bc4591d16c",
+          "ref_nom": "Gundelfingen",
+          "ref_commune": "Gundelfingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.4
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25858",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-041e4ec3f46743e8",
+          "ref_nom": "Egesheim",
+          "ref_commune": "Egesheim",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.235
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25859",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-62f35ed4a30f6d60",
+          "ref_nom": "Grabenstetten",
+          "ref_commune": "Grabenstetten",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.4
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25860",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-267d9cfa6c1f7248",
+          "ref_nom": "Rheinau",
+          "ref_commune": "Rheinau",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.375
+        },
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-595c5088390ef521",
+          "ref_nom": "Altenburg",
+          "ref_commune": "Altenburg",
+          "method": "fuzzy_name",
+          "distance_m": 105154.8,
+          "token_sort_ratio": 1.0
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25861",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-7c7a6b25a23a13ca",
+          "ref_nom": "Calw",
+          "ref_commune": "Calw",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25864",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-ed878514dd57ad75",
+          "ref_nom": "Kirchzarten",
+          "ref_commune": "Kirchzarten",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.3
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25865",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-8bb09ec5db1ce8eb",
+          "ref_nom": "Sasbach",
+          "ref_commune": "Sasbach",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.143
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25867",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-6c32fa4164c567f8",
+          "ref_nom": "Stuttgart-Feuerbach",
+          "ref_commune": "Stuttgart-Feuerbach",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.231
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25868",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-8ec32725792cae2c",
+          "ref_nom": "Konstanz",
+          "ref_commune": "Konstanz",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 1.0
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25869",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-8f79ff2c88ff13a0",
+          "ref_nom": "Oberndorf",
+          "ref_commune": "Oberndorf",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.762
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25870",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-6c095193deb42009",
+          "ref_nom": "Würtingen-Bleichstetten",
+          "ref_commune": "Würtingen-Bleichstetten",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.722
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25871",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-ef0616c83a2f2bcb",
+          "ref_nom": "Dettingen",
+          "ref_commune": "Dettingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.105
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25872",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-6e7a90114ed86b0b",
+          "ref_nom": "Ebingen",
+          "ref_commune": "Ebingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.211
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25873",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-178bee47727f9e17",
+          "ref_nom": "Egesheim",
+          "ref_commune": "Egesheim",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.125
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25874",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-d39a34cdd3b1ddea",
+          "ref_nom": "Fridingen",
+          "ref_commune": "Fridingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.222
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25875",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-0501239c1b98461b",
+          "ref_nom": "Gönningen",
+          "ref_commune": "Gönningen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.118
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25876",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-a39dceba42a2ea08",
+          "ref_nom": "Gomadingen",
+          "ref_commune": "Gomadingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.222
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25877",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-8d75953a0512435c",
+          "ref_nom": "Gosheim",
+          "ref_commune": "Gosheim",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.286
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25878",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-e8e308da0ef5c443",
+          "ref_nom": "Hülben",
+          "ref_commune": "Hülben",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.571
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25879",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-4ce6986743026421",
+          "ref_nom": "Inzigkofen",
+          "ref_commune": "Inzigkofen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.286
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25880",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-831623d771749568",
+          "ref_nom": "Kressbronn",
+          "ref_commune": "Kressbronn",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.4
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25881",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-586e85413172f22f",
+          "ref_nom": "Laufen an der Eyach",
+          "ref_commune": "Laufen an der Eyach",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.333
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25882",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-604d5d6cbe5a8862",
+          "ref_nom": "Offingen",
+          "ref_commune": "Offingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.286
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25883",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-3c8456feb22968ba",
+          "ref_nom": "Onstmettingen",
+          "ref_commune": "Onstmettingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.207
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25884",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-09b3725575db6d72",
+          "ref_nom": "Reusten",
+          "ref_commune": "Reusten",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.125
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25885",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-84f0556fb81e1cc0",
+          "ref_nom": "Reutlingen",
+          "ref_commune": "Reutlingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.125
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25886",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-550568516008bb89",
+          "ref_nom": "Tailfingen",
+          "ref_commune": "Tailfingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.348
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25887",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-692f3c654773c46e",
+          "ref_nom": "Tübingen",
+          "ref_commune": "Tübingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.125
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25888",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-c9b94b06e5d02144",
+          "ref_nom": "Wittlingen",
+          "ref_commune": "Wittlingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.72
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25889",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-ac361fcdecea35f9",
+          "ref_nom": "Wurmlingen",
+          "ref_commune": "Wurmlingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.593
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25890",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-f7fa4b1b751284f3",
+          "ref_nom": "Würtingen",
+          "ref_commune": "Würtingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.3
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25891",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-f04916d2b05306d1",
+          "ref_nom": "Berghülen",
+          "ref_commune": "Berghülen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.3
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25895",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-2b54b22386fa1ee7",
+          "ref_nom": "Grafenberg",
+          "ref_commune": "Grafenberg",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 1.0
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25897",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-dc3be3310580155d",
+          "ref_nom": "Hohenstaufen",
+          "ref_commune": "Hohenstaufen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 1.0
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25898",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-2b54b22386fa1ee7",
+          "ref_nom": "Grafenberg",
+          "ref_commune": "Grafenberg",
+          "method": "fuzzy_name",
+          "distance_m": 26989.3,
+          "token_sort_ratio": 1.0
+        },
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-e8a2dd011b3247e0",
+          "ref_nom": "Kayh",
+          "ref_commune": "Kayh",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.143
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25900",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-31f323aa42723173",
+          "ref_nom": "Owen",
+          "ref_commune": "Owen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.087
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25901",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-d3c0a431929f4728",
+          "ref_nom": "Schwäbisch Hall",
+          "ref_commune": "Schwäbisch Hall",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.091
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25904",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-b1169f3e67bf28e1",
+          "ref_nom": "Verrenberg",
+          "ref_commune": "Verrenberg",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.471
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25906",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-195ac884029bf364",
+          "ref_nom": "Weil der Stadt",
+          "ref_commune": "Weil der Stadt",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.32
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25907",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-2d02b540b17a2150",
+          "ref_nom": "Weilheim",
+          "ref_commune": "Weilheim",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.267
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25908",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-595c5088390ef521",
+          "ref_nom": "Altenburg",
+          "ref_commune": "Altenburg",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.364
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25909",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-099773063eb74d99",
+          "ref_nom": "Anselfingen",
+          "ref_commune": "Anselfingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.381
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25910",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-fffd403a66cdf698",
+          "ref_nom": "Binningen",
+          "ref_commune": "Binningen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.273
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25911",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-61c5a7c0a33f5816",
+          "ref_nom": "Buchheim",
+          "ref_commune": "Buchheim",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.3
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25913",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-50eec587a848229b",
+          "ref_nom": "Immendingen",
+          "ref_commune": "Immendingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.316
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25914",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-d78ca805c6399ec5",
+          "ref_nom": "Istein",
+          "ref_commune": "Istein",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.6
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25915",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-f3e793a0a60ffe46",
+          "ref_nom": "Jechtingen",
+          "ref_commune": "Jechtingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.4
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25916",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-cbd910eb2689f7c6",
+          "ref_nom": "Kirchhofen",
+          "ref_commune": "Kirchhofen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.2
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25917",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-6ceee41821aaf623",
+          "ref_nom": "Lörrach",
+          "ref_commune": "Lörrach",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.143
+        },
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-250f9f295e0961aa",
+          "ref_nom": "Hombourg",
+          "ref_commune": "Hombourg",
+          "method": "fuzzy_name",
+          "distance_m": 17531.9,
+          "token_sort_ratio": 0.933
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25918",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-e940c3d151f67c8e",
+          "ref_nom": "Merdingen",
+          "ref_commune": "Merdingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.296
+        },
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-ced3fe6907f80b86",
+          "ref_nom": "Merdingen",
+          "ref_commune": "Merdingen",
+          "method": "geo+commune",
+          "distance_m": 466.1,
+          "token_sort_ratio": 0.296
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25919",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-bf065a197554b534",
+          "ref_nom": "Munzingen",
+          "ref_commune": "Munzingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.19
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25920",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-46ffd3cdf26b8a1e",
+          "ref_nom": "Riedböhringen",
+          "ref_commune": "Riedböhringen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.261
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25921",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-f328e6d9b9c9ed60",
+          "ref_nom": "Riegel",
+          "ref_commune": "Riegel",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.353
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25922",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-d3f554a27c89210e",
+          "ref_nom": "Windschlaeg",
+          "ref_commune": "Windschlaeg",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.5
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25925",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-564c3a53a07d0a3d",
+          "ref_nom": "Münsingen",
+          "ref_commune": "Münsingen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.286
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25926",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-78aba1a8c127ba52",
+          "ref_nom": "Oggelshausen",
+          "ref_commune": "Oggelshausen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.348
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25927",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-5b178c502edfc188",
+          "ref_nom": "Neckargröningen",
+          "ref_commune": "Neckargröningen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.273
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25928",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-3392616d398b930c",
+          "ref_nom": "Entringen",
+          "ref_commune": "Entringen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.118
+        }
+      ]
+    },
+    {
+      "site_id": "AKG-25929",
+      "matches": [
+        {
+          "ref_source": "sites.csv",
+          "ref_site_id": "SITE-b00fad541219bdc7",
+          "ref_nom": "Mühlhausen",
+          "ref_commune": "Mühlhausen",
+          "method": "geo+commune",
+          "distance_m": 0.0,
+          "token_sort_ratio": 0.211
+        }
+      ]
+    }
+  ],
+  "bibliography_null_count": 1,
+  "notes": [
+    "100% des points sont des centroïdes communaux (CITY_CENTROID=Oui) — confiance spatiale basse par défaut.",
+    "Voir data/analysis/20250806_LoupBernard_ArkeoGis/metadata.json pour le profil source.",
+    "Chevauchements attendus avec l’existant : Breisach am Rhein, Heuneburg."
+  ]
+}

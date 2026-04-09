@@ -1,0 +1,176 @@
+{
+  "generated_for": "ea_fr",
+  "pipeline": [
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6"
+  ],
+  "t1_source": "data/analysis/ea_fr/sample_data.csv",
+  "t1_rows_loaded": 20,
+  "t1_note": "Échantillon CSV uniquement (pas de DBF complet dans le workspace).",
+  "t1_ea_ident_mismatches": [
+    {
+      "row": 6,
+      "ea_natcode": "0112310",
+      "field": "VESTIGES",
+      "structured": "fosse",
+      "ea_ident_segment": "habitat"
+    },
+    {
+      "row": 8,
+      "ea_natcode": "0112311",
+      "field": "VESTIGES",
+      "structured": "fosse",
+      "ea_ident_segment": "habitat"
+    },
+    {
+      "row": 10,
+      "ea_natcode": "0112315",
+      "field": "VESTIGES",
+      "structured": "fosse",
+      "ea_ident_segment": "habitat"
+    },
+    {
+      "row": 13,
+      "ea_natcode": "0112356",
+      "field": "VESTIGES",
+      "structured": "fosse",
+      "ea_ident_segment": "habitat"
+    },
+    {
+      "row": 14,
+      "ea_natcode": "0112356",
+      "field": "VESTIGES",
+      "structured": "four",
+      "ea_ident_segment": "habitat"
+    },
+    {
+      "row": 16,
+      "ea_natcode": "0112360",
+      "field": "VESTIGES",
+      "structured": "fosse",
+      "ea_ident_segment": "habitat"
+    }
+  ],
+  "t1_parser_sample": [
+    {
+      "ident_num": "12087",
+      "numero_entite": "67 150 0014",
+      "commune_nom": "FURDENHEIM",
+      "segment_vide_1": "",
+      "lieu": "44 route de Strasbourg",
+      "periode_texte": "Age du bronze - Age du fer ?",
+      "vestige_texte": "silo"
+    },
+    {
+      "ident_num": "12088",
+      "numero_entite": "67 150 0015",
+      "commune_nom": "FURDENHEIM",
+      "segment_vide_1": "",
+      "lieu": "Holzweg",
+      "periode_texte": "Age du fer",
+      "vestige_texte": "fosse"
+    },
+    {
+      "ident_num": "12092",
+      "numero_entite": "67 150 0019",
+      "commune_nom": "FURDENHEIM",
+      "segment_vide_1": "",
+      "lieu": "village",
+      "periode_texte": "Age du bronze - Age du fer",
+      "vestige_texte": "fosse"
+    }
+  ],
+  "t2_multi_line_natcodes": {
+    "0112310": [
+      "fosse",
+      "habitat"
+    ],
+    "0112311": [
+      "fosse",
+      "habitat"
+    ],
+    "0112315": [
+      "fosse",
+      "habitat"
+    ],
+    "0112356": [
+      "fosse",
+      "four",
+      "habitat"
+    ],
+    "0112360": [
+      "fosse",
+      "habitat"
+    ]
+  },
+  "t2_merge_count": 6,
+  "t2_unique_sites": 14,
+  "t2_fusion_rate_pct": 30.0,
+  "t3_vestige_alias_map_sample": {
+    "oppidum": "OPPIDUM",
+    "fortification": "OPPIDUM",
+    "enceinte": "OPPIDUM",
+    "fortification de hauteur": "OPPIDUM",
+    "site fortifié": "OPPIDUM",
+    "site de hauteur": "OPPIDUM",
+    "éperon barré": "OPPIDUM",
+    "site perché": "OPPIDUM",
+    "refuge": "OPPIDUM",
+    "habitat": "HABITAT",
+    "habitat ouvert": "HABITAT",
+    "village": "HABITAT"
+  },
+  "t4_bbox": {
+    "lon": [
+      7.0,
+      8.0
+    ],
+    "lat": [
+      48.0,
+      49.0
+    ]
+  },
+  "t4_anomalies": [],
+  "t5_commune_matches": [
+    {
+      "ea_natcode": "0112440",
+      "commune_ea": "Geispolsheim",
+      "existing_site_ids_sample": "SITE-ea4d6f0022e7c11b;SITE-ea4d6f0022e7c11b",
+      "n_hits": 2
+    }
+  ],
+  "t5_note": "Rattachement par commune normalisée (pas de matching spatial ni EA_NATCODE dans sites_cleaned).",
+  "t6_output_rows": 14,
+  "t6_output_path": "data/analysis/ea_fr/sites_cleaned.csv",
+  "stats": {
+    "lignes_source": 20,
+    "sites_exportes": 14,
+    "taux_fusion_pct": 30.0,
+    "types_site": {
+      "HABITAT": 12,
+      "NECROPOLE": 1,
+      "ATELIER": 1
+    },
+    "periodes": {
+      "Âge du Bronze – Âge du Fer": 10,
+      "Âge du Fer": 2,
+      "Âge du Fer – Gallo-romain": 2
+    },
+    "confiance": {
+      "MEDIUM": 11,
+      "LOW": 2,
+      "HIGH": 1
+    },
+    "pct_coords_valides": 100.0
+  },
+  "eur_code_mapping": {
+    "EURBRO": "Âge du Bronze (bornes projet approx. -2300 / -800)",
+    "EURFER": "Âge du Fer Hallstatt–La Tène (-800 / -25)",
+    "EURGAL": "Gallo-romain (-25 / 500)",
+    "EURNEO": "Néolithique (approx.)"
+  }
+}

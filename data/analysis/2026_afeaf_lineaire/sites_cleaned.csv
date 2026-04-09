@@ -1,0 +1,28 @@
+site_id,nom_site,commune,departement,pays,type_site,longitude,latitude,x_l93,y_l93,periode,sous_periode,datation_debut,datation_fin,confiance,source,description,detail,id_source_afeaf
+AFEAF_LIN_1,Saalenacker,Bisel,Haut-Rhin,France,HABITAT,,,,,HALLSTATT,,-760.0,-1.0,LOW,AFEAF_lineaire_2026,comblement avec gros charbons de bois et argile rubéfiée à la base,bucher ? fond de cabane 260*134*11,1
+AFEAF_LIN_2,Klein Allmend,Bouxwiller,Haut-Rhin,France,HABITAT,,,,,LA_TENE,,,,LOW,AFEAF_lineaire_2026,2 fossés proches et quasi parallèles céramique dans comblement,"pot panse peignée, double ligne imprimée au poinçon lèvre épaissie plate",2
+AFEAF_LIN_3,Bleimatten,Oltingue,Haut-Rhin,France,INDETERMINE,,,,,LA_TENE,,,,LOW,AFEAF_lineaire_2026,4 fragments jointifs d'une coupe à bord rentrant,au sommet des alluvions anciennes de l'Ill,3
+AFEAF_LIN_4,Bollfeld,Fislis,Haut-Rhin,France,INDETERMINE,,,,,BRONZE_FINAL,,,,LOW,AFEAF_lineaire_2026,céramique (bord avec haut de panse imprimé) et silex,2 autres tranchées proches (3217 et 3219) avec tessons proto,4
+AFEAF_LIN_5,Rittimatten,Fislis,Haut-Rhin,France,INDETERMINE,,,,,BRONZE_FINAL,,,,LOW,AFEAF_lineaire_2026,céramique + lame en silex jaune + silex brûlé,plusieurs tessons dans colluvions entre -60 et -80,5
+AFEAF_LIN_6,"Hanau pk 14,8",Hipsheim,Bas-Rhin,France,HABITAT,,,,,BRONZE,,,,LOW,AFEAF_lineaire_2026,,diagnostic RFF Schneikert 2005,6
+AFEAF_LIN_7,"Hanau pk15,1",Hipsheim,Bas-Rhin,France,HABITAT,,,,,INDETERMINE_FER,,,,LOW,AFEAF_lineaire_2026,,diagnostic RFF Schneikert 2005,7
+AFEAF_LIN_9,Frohmatten,Marlenheim,Bas-Rhin,France,HABITAT,,,,,HALLSTATT,,,,LOW,AFEAF_lineaire_2026,"fouille sauvetage urgent OA3937 Claire Tristan, étude Serge Mentele","bracelet lignite, fibule serpentiforme bronze",9
+AFEAF_LIN_8,Hohgewann,Sand,Bas-Rhin,France,HABITAT,,,,,BRONZE_FINAL,,,,LOW,AFEAF_lineaire_2026,"silo profil  bitronconique ; 0,88 m de prof ; fragments écuelles bord biseauté",diagnostic RFF Schneikert 2005,8
+AFEAF_LIN_10,Bodengewann,Sand,Bas-Rhin,France,HABITAT,,,,,HALLSTATT,,,,LOW,AFEAF_lineaire_2026,un fond de cabane avec jatte à bord digité et une sépulture en silo,la sép en silo (non datée) est à 300 m du fond de cabane,10
+AFEAF_LIN_11,"Niedermatt, pk 12",Lipsheim,Bas-Rhin,France,HABITAT,,,,,BRONZE_FINAL,,,,LOW,AFEAF_lineaire_2026,pk 12 : groupe de 9 structures avec mobilier proto,,11
+AFEAF_LIN_12,Winkel,Altorf,Bas-Rhin,France,HABITAT,,,,,LA_TENE,LT D2,-80.0,-25.0,LOW,AFEAF_lineaire_2026,"four, fosse avec mobilier LT finale ou début GR",schneikert 2008 diag Gazoduc,12
+AFEAF_LIN_13,Leffert,Dachstein,Bas-Rhin,France,HABITAT,,,,,LA_TENE,LT D2,-80.0,-25.0,LOW,AFEAF_lineaire_2026,9 petites fosses avec mobilier LT finale et GR,schneikert 2008 diag Gazoduc,13
+AFEAF_LIN_14,Lauen,Dachstein,Bas-Rhin,France,HABITAT,,,,,INDETERMINE,,,,LOW,AFEAF_lineaire_2026,"ensemble de 8 structures fossés, fosses, TP",schneikert 2008 diag Gazoduc,14
+AFEAF_LIN_15,Lauen,Dachstein,Bas-Rhin,France,HABITAT,,,,,LA_TENE,LT D,-150.0,-25.0,LOW,AFEAF_lineaire_2026,silo 3028 (et 3029 ?) avec mobilier LT Finale,schneikert 2008 diag Gazoduc,15
+AFEAF_LIN_16,Kron,Marlenheim,Bas-Rhin,France,HABITAT,,,,,HALLSTATT,Ha C,-800.0,-620.0,LOW,AFEAF_lineaire_2026,fosse d'extraction de loess 7001 + silo 7003,schneikert 2008 diag Gazoduc,16
+AFEAF_LIN_17,Holderstraeng,Marlenheim,Bas-Rhin,France,HABITAT,,,,,,,,,LOW,AFEAF_lineaire_2026,fosse polylobée et fosses,schneikert 2008 diag Gazoduc,17
+AFEAF_LIN_18,Maueracker am stein,Furdenheim,Bas-Rhin,France,HABITAT,,,,,LA_TENE,LT A,-450.0,-380.0,LOW,AFEAF_lineaire_2026,silo 7034 et silo (ou puits) 7035,schneikert 2008 diag Gazoduc,18
+AFEAF_LIN_19,Gloss,Fessenheim-le-Bas,Bas-Rhin,France,HABITAT,,,,,,,,,LOW,AFEAF_lineaire_2026,fosse 8034,schneikert 2008 diag Gazoduc,19
+AFEAF_LIN_20,Burgweg,Fessenheim-le-Bas,Bas-Rhin,France,HABITAT,,,,,LA_TENE,LT A,-450.0,-380.0,LOW,AFEAF_lineaire_2026,8 silos dont 4 datés,schneikert 2008 diag Gazoduc,20
+AFEAF_LIN_21,Gloss,Fessenheim-le-Bas,Bas-Rhin,France,HABITAT,,,,,TRANSITION,Ha D3/LT A,-500.0,-400.0,LOW,AFEAF_lineaire_2026,"silo avec tessons ""pouvant être datés fin Ha ou déb LT"" fosse GR à côté",schneikert 2008 diag Gazoduc,21
+AFEAF_LIN_22,Burgweg,Fessenheim-le-Bas,Bas-Rhin,France,HABITAT,,,,,LA_TENE,,,,LOW,AFEAF_lineaire_2026,fond de cabane (8026) avec fibule Feugère 4 ou 7,schneikert 2008 diag Gazoduc,22
+AFEAF_LIN_23,Oberer Katzenweg,Wolfisheim,Bas-Rhin,France,INDETERMINE,,,,,,,,,LOW,AFEAF_lineaire_2026,"encolure de vase, lèvre éversée et aplatie avec méplat sur la face interne",Francisco 2011 : déviation de Wolfi* et Oberschaeff*,23
+AFEAF_LIN_24,Entenbad,Ungersheim,Haut-Rhin,France,HABITAT,,,,,BRONZE_FINAL,,,,LOW,AFEAF_lineaire_2026,fosses,Wolf et Viroulet 2005,24
+AFEAF_LIN_25,Loschmatten,Carspach,Haut-Rhin,France,INDETERMINE,,,,,LA_TENE,,,,LOW,AFEAF_lineaire_2026,"28 frag (4 NMI), 3 écuelles et jattes à bord rentrant, diag",Landolt 2008; oa4834,25
+AFEAF_LIN_26,Kurzgelaeng,Haguenau,Bas-Rhin,France,HABITAT,,,,,BRONZE_FINAL,,,,LOW,AFEAF_lineaire_2026,"fosse à galet chauffé + fosse, pas de mobilier",diag ; Logel 2008 ; RD 1063 déviation de Soufflenheim,26
+AFEAF_LIN_27,Stellbrunnen,Mackwiller,Bas-Rhin,France,INDETERMINE,,,,,HALLSTATT,,,,LOW,AFEAF_lineaire_2026,mare + trous de poteau,chosson 2010 ; diag oa4947,27

@@ -1,0 +1,576 @@
+row_index,excel_row_ordinal,commune,nom_site,phase_index,action,site_id,matched_reason,coord_quality,periode,sous_periode
+1,0,Altorf,Lange Stein,0,review,SITE-6e59b236e4655b97,"plusieurs candidats: SITE-916fdae7df7d7dc9,SITE-c09c59ac170854a6",ok,Hallstatt,Ha D1
+1,0,Altorf,Lange Stein,1,review,SITE-6e59b236e4655b97,"plusieurs candidats: SITE-916fdae7df7d7dc9,SITE-c09c59ac170854a6",ok,Hallstatt,Ha D2
+1,0,Altorf,Lange Stein,2,review,SITE-6e59b236e4655b97,"plusieurs candidats: SITE-916fdae7df7d7dc9,SITE-c09c59ac170854a6",ok,Hallstatt,Ha D3
+2,1,Barr,Barr (nécropole non localisée),0,skip_duplicate,SITE-56cc98df9fd1dacb,distance<=55.0m+commune,ok,Hallstatt,Ha C
+3,2,Benfeld,Benfeld (nécropole),0,new,SITE-77109510e70322c4,aucune correspondance,ok,Hallstatt,Ha D1
+4,3,Bernolsheim/Mommenheim,Plateforme dép,0,skip_duplicate,SITE-460abdf3f4545943,distance<=55.0m+commune,ok,Hallstatt,Ha C
+4,4,Bernolsheim/Mommenheim,Plateforme départementale d'activités de Brumath zone 18-23 phase Ha C2-Ha D3./LTA,0,skip_duplicate,SITE-460abdf3f4545943,distance<=55.0m+commune,ok,Hallstatt,Ha C
+4,4,Bernolsheim/Mommenheim,Plateforme départementale d'activités de Brumath zone 18-23 phase Ha C2-Ha D3./LTA,1,skip_duplicate,SITE-460abdf3f4545943,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+4,4,Bernolsheim/Mommenheim,Plateforme départementale d'activités de Brumath zone 18-23 phase Ha C2-Ha D3./LTA,2,merge,SITE-460abdf3f4545943,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+4,4,Bernolsheim/Mommenheim,Plateforme départementale d'activités de Brumath zone 18-23 phase Ha C2-Ha D3./LTA,3,skip_duplicate,SITE-460abdf3f4545943,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+4,4,Bernolsheim/Mommenheim,Plateforme départementale d'activités de Brumath zone 18-23 phase Ha C2-Ha D3./LTA,4,merge,SITE-460abdf3f4545943,distance<=55.0m+commune,ok,Hallstatt,Ha D3 / LT A
+4,5,Bernolsheim/Mommenheim,Plateforme départementale d'activités de Brumath zone 19,0,skip_duplicate,SITE-460abdf3f4545943,distance<=55.0m+commune,ok,Hallstatt,Ha C
+4,5,Bernolsheim/Mommenheim,Plateforme départementale d'activités de Brumath zone 19,1,skip_duplicate,SITE-460abdf3f4545943,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+4,6,Bernolsheim/Mommenheim,Plateforme départementale d'activités de Brumath zone 7,0,new,SITE-af23527080e9645f,aucune correspondance,ok,Hallstatt,Ha D1
+4,6,Bernolsheim/Mommenheim,Plateforme départementale d'activités de Brumath zone 7,1,new,SITE-af23527080e9645f,aucune correspondance,ok,Hallstatt,Ha D2
+4,6,Bernolsheim/Mommenheim,Plateforme départementale d'activités de Brumath zone 7,2,new,SITE-af23527080e9645f,aucune correspondance,ok,Hallstatt,Ha D3
+4,7,Bernolsheim/Mommenheim,Plateforme départementale d'activités de Brumath zone 2,0,new,SITE-010e973c5e57984f,aucune correspondance,ok,Hallstatt,Ha D1
+4,7,Bernolsheim/Mommenheim,Plateforme départementale d'activités de Brumath zone 2,1,new,SITE-010e973c5e57984f,aucune correspondance,ok,Hallstatt,Ha D2
+5,8,Bischoffsheim,Langeschiesse,0,new,SITE-a84afa388390d55b,aucune correspondance,ok,Hallstatt,Ha C
+5,8,Bischoffsheim,Langeschiesse,1,new,SITE-a84afa388390d55b,aucune correspondance,ok,Hallstatt,Ha D1
+6,9,Brumath,groupe nord,0,skip_duplicate,SITE-b9c702ca64c6b072,distance<=55.0m+commune,ok,indéterminé,
+7,10,Brumath,groupe sud (site global),0,new,SITE-535241bc660873a6,aucune correspondance,ok,indéterminé,
+8,11,Brumath/Eckwersheim,"Burgweg Rechts, zone de stockage, LGV Est",0,new,SITE-f0d3c55b6298de9b,aucune correspondance,ok,Hallstatt,Ha C
+8,11,Brumath/Eckwersheim,"Burgweg Rechts, zone de stockage, LGV Est",1,new,SITE-f0d3c55b6298de9b,aucune correspondance,ok,Hallstatt,Ha D1
+8,12,Brumath/Eckwersheim,"Burgweg Rechts, zone de stockage, LGV Est",0,new,SITE-f0d3c55b6298de9b,aucune correspondance,ok,Hallstatt,Ha D1
+8,12,Brumath/Eckwersheim,"Burgweg Rechts, zone de stockage, LGV Est",1,new,SITE-f0d3c55b6298de9b,aucune correspondance,ok,Hallstatt,Ha D2
+9,13,Dachstein,Leffert (à cheval sur la commune d'Ernolsheim Bruche),0,skip_duplicate,SITE-cfc7758f59d99f9c,distance<=55.0m+commune,ok,indéterminé,
+10,14,Dingsheim Stutzheim-Offenheim,Haspelacker et Aufs Dingsheimer Feld COS 4-1,0,new,SITE-2fed2e07396e1b89,aucune correspondance,ok,Hallstatt,Ha D1
+10,14,Dingsheim Stutzheim-Offenheim,Haspelacker et Aufs Dingsheimer Feld COS 4-1,1,new,SITE-2fed2e07396e1b89,aucune correspondance,ok,Hallstatt,Ha D2
+11,15,Duttlenheim,Ampfad et Neustrasse - COS 1.3,0,new,SITE-e6af738b0e3160a8,aucune correspondance,ok,Hallstatt,Ha C
+11,15,Duttlenheim,Ampfad et Neustrasse - COS 1.3,1,new,SITE-e6af738b0e3160a8,aucune correspondance,ok,Hallstatt,Ha D1
+11,16,Duttlenheim,"Ampfad et Neustrasse - COS 1.3, étape 1",0,new,SITE-3845a3f5fa2cd5e5,aucune correspondance,ok,Hallstatt,Ha B2-B3
+12,17,Eckwersheim,"Burgweg Rechts, LGV Est Européenne 2e phase - zone de stockage",0,new,SITE-e5289224e4073942,aucune correspondance,ok,Hallstatt,Ha D1
+12,17,Eckwersheim,"Burgweg Rechts, LGV Est Européenne 2e phase - zone de stockage",1,new,SITE-e5289224e4073942,aucune correspondance,ok,Hallstatt,Ha D2
+13,18,Elsenheim,Elsenheim (nécropole),0,merge,SITE-9a1ebe0d893829d3,distance<=55.0m+commune,ok,Hallstatt,Ha C
+13,18,Elsenheim,Elsenheim (nécropole),1,merge,SITE-9a1ebe0d893829d3,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+14,19,Ergersheim,Ergersheim (nécropole),0,merge,SITE-79d164c242ab35e5,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+14,19,Ergersheim,Ergersheim (nécropole),1,merge,SITE-79d164c242ab35e5,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+14,19,Ergersheim,Ergersheim (nécropole),2,merge,SITE-79d164c242ab35e5,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+15,20,Ernolsheim/Bruche,Ernolsheim/Bruche (nécropole),0,new,SITE-908dab827b91a321,aucune correspondance,ok,Hallstatt,Ha D1
+15,20,Ernolsheim/Bruche,Ernolsheim/Bruche (nécropole),1,new,SITE-908dab827b91a321,aucune correspondance,ok,Hallstatt,Ha C
+16,21,Erstein,Grasweg-PAPE,0,new,SITE-b98a82cde14a8de7,aucune correspondance,ok,Hallstatt,Ha B2-B3
+17,22,Fegersheim,ancienne poste/école,0,merge,SITE-c52db06069609cfb,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+18,23,Fegersheim,"nord village, près de la voie ferrée",0,new,SITE-c3b487860430e89e,aucune correspondance,ok,Hallstatt,Ha D1
+18,23,Fegersheim,"nord village, près de la voie ferrée",1,new,SITE-c3b487860430e89e,aucune correspondance,ok,Hallstatt,Ha D2
+18,23,Fegersheim,"nord village, près de la voie ferrée",2,new,SITE-c3b487860430e89e,aucune correspondance,ok,Hallstatt,Ha D3
+19,24,Fegersheim,Rocade sud de Strasbourg,0,new,SITE-b3aec648a886e68f,aucune correspondance,ok,Hallstatt,Ha C
+20,25,Forstfeld,Schiessheck - étape 2,0,skip_duplicate,SITE-32d530057ab0f5b6,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+20,26,Forstfeld,Schiessheck - étape 3,0,skip_duplicate,SITE-32d530057ab0f5b6,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+20,26,Forstfeld,Schiessheck - étape 3,1,merge,SITE-32d530057ab0f5b6,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+20,27,Forstfeld,Schiessheck - étape indéterminée,0,skip_duplicate,SITE-32d530057ab0f5b6,distance<=55.0m+commune,ok,Hallstatt,Ha D
+21,28,Geispolsheim,Rocade sud de Strasbourg,0,new,SITE-ea4d6f0022e7c11b,aucune correspondance,ok,Hallstatt,Ha D3
+21,28,Geispolsheim,Rocade sud de Strasbourg,1,new,SITE-ea4d6f0022e7c11b,aucune correspondance,ok,La Tène,LT B1
+22,29,Gries (Haguenau),Gries (Haguenau) (nécropole),0,skip_duplicate,SITE-f26ce4776777314a,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+23,30,Griesheim-sur-Souffel,Flaschen (site COS 4-2),0,new,SITE-bd2af10a165dfc60,aucune correspondance,ok,Hallstatt,Ha D1
+23,30,Griesheim-sur-Souffel,Flaschen (site COS 4-2),1,new,SITE-bd2af10a165dfc60,aucune correspondance,ok,Hallstatt,Ha D2
+24,31,Haguenau,Dachshuebel-Birklach,0,new,SITE-184ca99b371501c3,aucune correspondance,ok,Hallstatt,Ha D2
+24,31,Haguenau,Dachshuebel-Birklach,1,new,SITE-184ca99b371501c3,aucune correspondance,ok,Hallstatt,Ha D3
+25,32,Haguenau,Donauberg - étape 1,0,new,SITE-25306cd640de471b,aucune correspondance,ok,Hallstatt,Ha B2-B3
+25,32,Haguenau,Donauberg - étape 1,1,new,SITE-25306cd640de471b,aucune correspondance,ok,Hallstatt,Ha C
+25,33,Haguenau,Donauberg - étape 2,0,new,SITE-c1fef6d7c4fbaeca,aucune correspondance,ok,Hallstatt,Ha D1
+25,34,Haguenau,Donauberg - étape 3,0,new,SITE-acd065721cf3ed16,aucune correspondance,ok,Hallstatt,Ha D2
+25,34,Haguenau,Donauberg - étape 3,1,new,SITE-acd065721cf3ed16,aucune correspondance,ok,Hallstatt,Ha D3
+26,35,Haguenau,Kirchlach - étape 1,0,new,SITE-6e6e20c4d6c21c39,aucune correspondance,ok,Hallstatt,Ha C
+26,36,Haguenau,Kirchlach - étape 2,0,new,SITE-b1573845dec7804b,aucune correspondance,ok,Hallstatt,Ha D1
+26,37,Haguenau,Kirchlach - étape 3,0,new,SITE-0513a5f26b9d6d84,aucune correspondance,ok,Hallstatt,Ha D1
+26,37,Haguenau,Kirchlach - étape 3,1,new,SITE-0513a5f26b9d6d84,aucune correspondance,ok,Hallstatt,Ha D2
+26,37,Haguenau,Kirchlach - étape 3,2,new,SITE-0513a5f26b9d6d84,aucune correspondance,ok,Hallstatt,Ha D3
+27,38,Haguenau,Maegstub - Wiwitzer,0,new,SITE-0788b422c7aed5e3,aucune correspondance,ok,Hallstatt,Ha D1
+27,38,Haguenau,Maegstub - Wiwitzer,1,new,SITE-0788b422c7aed5e3,aucune correspondance,ok,Hallstatt,Ha D2
+28,39,Haguenau,Maegstub A - étape 1,0,new,SITE-bd24f4a68d4d4852,aucune correspondance,ok,Hallstatt,Ha C
+28,40,Haguenau,Maegstub A - étape 2,0,new,SITE-475f8474b5d99495,aucune correspondance,ok,Hallstatt,Ha D1
+28,41,Haguenau,Maegstub A - étape 3,0,new,SITE-74d212e8ba713aca,aucune correspondance,ok,Hallstatt,Ha D2
+28,42,Haguenau,Maegstub B - étape 2,0,new,SITE-2f5f259a6c6edcea,aucune correspondance,ok,Hallstatt,Ha D1
+28,43,Haguenau,Maegstub B - étape 3,0,new,SITE-763d279eec2f7734,aucune correspondance,ok,Hallstatt,Ha D1
+28,43,Haguenau,Maegstub B - étape 3,1,new,SITE-763d279eec2f7734,aucune correspondance,ok,Hallstatt,Ha D2
+29,44,Haguenau,Maegstub C - étape 2,0,new,SITE-d7ec22cddef8d7f7,aucune correspondance,ok,Hallstatt,Ha D1
+29,44,Haguenau,Maegstub C - étape 2,1,new,SITE-d7ec22cddef8d7f7,aucune correspondance,ok,Hallstatt,Ha D2
+29,45,Haguenau,Maegstub C - étape 3,0,new,SITE-a13bd962edd1469d,aucune correspondance,ok,Hallstatt,Ha D3
+29,46,Haguenau,Maegstub D - étape 2,0,new,SITE-1cbc0843437907bc,aucune correspondance,ok,Hallstatt,Ha D1
+29,46,Haguenau,Maegstub D - étape 2,1,new,SITE-1cbc0843437907bc,aucune correspondance,ok,Hallstatt,Ha D2
+29,47,Haguenau,Maegstub D - étape 3,0,new,SITE-6184ed991b9d1020,aucune correspondance,ok,Hallstatt,Ha D3
+30,48,Haguenau,Schelmenhofstatt,0,new,SITE-4b8bcf0741519823,aucune correspondance,ok,Hallstatt,Ha C
+30,48,Haguenau,Schelmenhofstatt,1,new,SITE-4b8bcf0741519823,aucune correspondance,ok,Hallstatt,Ha D1
+31,49,Haguenau,Schirrheinerweg - étape 2,0,new,SITE-de8a9996d6e362e3,aucune correspondance,ok,Hallstatt,Ha D1
+31,50,Haguenau,Schirrheinerweg - étape 3,0,new,SITE-5d61bba6b4ac5ab1,aucune correspondance,ok,Hallstatt,Ha D2
+31,50,Haguenau,Schirrheinerweg - étape 3,1,new,SITE-5d61bba6b4ac5ab1,aucune correspondance,ok,Hallstatt,Ha D3
+32,51,Haguenau,Weissensee-Oberfeld - étape 2,0,new,SITE-884157c08f992b75,aucune correspondance,ok,Hallstatt,Ha D1
+32,51,Haguenau,Weissensee-Oberfeld - étape 2,1,new,SITE-884157c08f992b75,aucune correspondance,ok,Hallstatt,Ha D2
+32,52,Haguenau,Weissensee-Oberfeld - étape 3,0,new,SITE-e40147b0fd256590,aucune correspondance,ok,Hallstatt,Ha D2
+32,52,Haguenau,Weissensee-Oberfeld - étape 3,1,new,SITE-e40147b0fd256590,aucune correspondance,ok,Hallstatt,Ha D3
+33,53,Hangenbieten,nord-ouest de la commune,0,merge,SITE-d277fea12f2d2b69,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+34,54,Harthouse (Haguenau),Harthouse - étape 1,0,merge,SITE-1f9d583e70c12359,distance<=55.0m+commune,ok,Hallstatt,Ha B2-B3
+34,54,Harthouse (Haguenau),Harthouse - étape 1,1,skip_duplicate,SITE-1f9d583e70c12359,distance<=55.0m+commune,ok,Hallstatt,Ha C
+34,55,Harthouse (Haguenau),Harthouse - étape 2,0,skip_duplicate,SITE-1f9d583e70c12359,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+34,56,Harthouse (Haguenau),Harthouse - étape 3,0,skip_duplicate,SITE-1f9d583e70c12359,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+34,56,Harthouse (Haguenau),Harthouse - étape 3,1,merge,SITE-1f9d583e70c12359,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+34,56,Harthouse (Haguenau),Harthouse - étape 3,2,merge,SITE-1f9d583e70c12359,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+34,57,Harthouse (Haguenau),Harthouse - étape indéterminée,0,skip_duplicate,SITE-1f9d583e70c12359,distance<=55.0m+commune,ok,Hallstatt,Ha D
+35,58,Hatten-Seltz,Eichelgarten - étape 1,0,merge,SITE-4a0c42da01c6c83e,distance<=55.0m+commune,ok,Hallstatt,Ha C
+35,59,Hatten-Seltz,Eichelgarten - étape 2,0,skip_duplicate,SITE-4a0c42da01c6c83e,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+35,60,Hatten-Seltz,Eichelgarten - étape 3,0,skip_duplicate,SITE-4a0c42da01c6c83e,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+35,61,Hatten-Seltz,Eschenbusch - étape 2,0,new,SITE-e5d2b5f6fc5650ab,aucune correspondance,ok,Hallstatt,Ha D1
+35,61,Hatten-Seltz,Eschenbusch - étape 2,1,new,SITE-e5d2b5f6fc5650ab,aucune correspondance,ok,Hallstatt,Ha D2
+35,62,Hatten-Seltz,Eschenbusch - étape 3,0,new,SITE-19a8fb7fef44fd6c,aucune correspondance,ok,Hallstatt,Ha D2
+35,62,Hatten-Seltz,Eschenbusch - étape 3,1,new,SITE-19a8fb7fef44fd6c,aucune correspondance,ok,Hallstatt,Ha D3
+36,63,Hatten-Seltz,Hesselbusch - étape 1,0,new,SITE-becab138fed6c436,aucune correspondance,ok,Hallstatt,Ha C
+37,64,Hatten-Seltz,Niedersand - étape 2,0,new,SITE-440386f8eea0b4df,aucune correspondance,ok,Hallstatt,Ha D2
+37,64,Hatten-Seltz,Niedersand - étape 2,1,new,SITE-440386f8eea0b4df,aucune correspondance,ok,Hallstatt,Ha D3
+38,65,Heidolsheim,Bittlich,0,skip_duplicate,SITE-baf2203e57c19a35,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+38,65,Heidolsheim,Bittlich,1,merge,SITE-baf2203e57c19a35,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+38,65,Heidolsheim,Bittlich,2,merge,SITE-baf2203e57c19a35,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+39,66,Heidolsheim,Grosses Ried - Etape 1,0,new,SITE-c311efefcd79837c,aucune correspondance,ok,Hallstatt,Ha C
+39,67,Heidolsheim,Grosses Ried - Etape 2,0,new,SITE-2af242e8aac19c8a,aucune correspondance,ok,Hallstatt,Ha D1
+40,68,Herbsheim,am Steg,0,merge,SITE-4095292751d8e322,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+41,69,Herrlisheim,Auwald,0,skip_duplicate,SITE-5a4b9b6756088ed3,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+41,69,Herrlisheim,Auwald,1,merge,SITE-5a4b9b6756088ed3,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+42,70,Hilsenheim,Willermatt,0,merge,SITE-52c15ebad648acf3,distance<=55.0m+commune,ok,Hallstatt,Ha C
+42,70,Hilsenheim,Willermatt,1,merge,SITE-52c15ebad648acf3,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+42,70,Hilsenheim,Willermatt,2,merge,SITE-52c15ebad648acf3,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+42,70,Hilsenheim,Willermatt,3,merge,SITE-52c15ebad648acf3,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+43,71,Hochfelden,Hochfelden (nécropole),0,merge,SITE-9858666741608d8d,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+43,71,Hochfelden,Hochfelden (nécropole),1,merge,SITE-9858666741608d8d,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+43,71,Hochfelden,Hochfelden (nécropole),2,merge,SITE-9858666741608d8d,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+44,72,Hoenheim,Auf dem Strengweg,0,new,SITE-7909a6ba96919f12,aucune correspondance,ok,Hallstatt,Ha C
+44,72,Hoenheim,Auf dem Strengweg,1,new,SITE-7909a6ba96919f12,aucune correspondance,ok,Hallstatt,Ha D1
+44,72,Hoenheim,Auf dem Strengweg,2,new,SITE-7909a6ba96919f12,aucune correspondance,ok,Hallstatt,Ha D2
+44,72,Hoenheim,Auf dem Strengweg,3,new,SITE-7909a6ba96919f12,aucune correspondance,ok,Hallstatt,Ha D3
+45,73,Hoerdt,Hoerdt (nécropole),0,merge,SITE-9f8e9c0727736036,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+45,73,Hoerdt,Hoerdt (nécropole),1,merge,SITE-9f8e9c0727736036,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+46,74,Ittenheim,Achenheimer Berg (COS 2.11),0,new,SITE-8dd52da0164a58fb,aucune correspondance,ok,Hallstatt,Ha D1
+47,75,Kolbsheim,Knoblochsberg (site COS 2-1),0,new,SITE-65fe0d7281f93cc7,aucune correspondance,ok,Hallstatt,Ha D1
+48,76,Kolbsheim,Kurze Straenge (site COS 2-2),0,new,SITE-699458caad6d8c87,aucune correspondance,ok,Hallstatt,Ha D1
+48,76,Kolbsheim,Kurze Straenge (site COS 2-2),1,new,SITE-699458caad6d8c87,aucune correspondance,ok,Hallstatt,Ha D2
+49,77,Leutenheim (Haguenau),Koenigsbruck groupe 1 - étape 2,0,skip_duplicate,SITE-a3ab49ec4d3b0c6f,distance<=55.0m+commune,ok,Hallstatt,Ha C
+49,77,Leutenheim (Haguenau),Koenigsbruck groupe 1 - étape 2,1,skip_duplicate,SITE-a3ab49ec4d3b0c6f,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+49,77,Leutenheim (Haguenau),Koenigsbruck groupe 1 - étape 2,2,merge,SITE-a3ab49ec4d3b0c6f,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+49,78,Leutenheim (Haguenau),Koenigsbruck groupe 1 - étape 3,0,skip_duplicate,SITE-a3ab49ec4d3b0c6f,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+49,78,Leutenheim (Haguenau),Koenigsbruck groupe 1 - étape 3,1,merge,SITE-a3ab49ec4d3b0c6f,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+49,78,Leutenheim (Haguenau),Koenigsbruck groupe 1 - étape 3,2,merge,SITE-a3ab49ec4d3b0c6f,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+49,79,Leutenheim (Haguenau),Koenigsbruck groupe 1 - étape indéterminée,0,skip_duplicate,SITE-a3ab49ec4d3b0c6f,distance<=55.0m+commune,ok,Hallstatt,Ha D
+50,80,Leutenheim (Haguenau),Koenigsbruck groupe 2 - étape 1,0,merge,SITE-a3ab49ec4d3b0c6f,distance<=55.0m+commune,ok,Hallstatt,Ha B2-B3
+50,80,Leutenheim (Haguenau),Koenigsbruck groupe 2 - étape 1,1,skip_duplicate,SITE-a3ab49ec4d3b0c6f,distance<=55.0m+commune,ok,Hallstatt,Ha C
+50,81,Leutenheim (Haguenau),Koenigsbruck groupe 2 - étape 2,0,skip_duplicate,SITE-a3ab49ec4d3b0c6f,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+50,82,Leutenheim (Haguenau),Koenigsbruck groupe 2 - étape 3,0,skip_duplicate,SITE-a3ab49ec4d3b0c6f,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+50,82,Leutenheim (Haguenau),Koenigsbruck groupe 2 - étape 3,1,merge,SITE-a3ab49ec4d3b0c6f,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+50,82,Leutenheim (Haguenau),Koenigsbruck groupe 2 - étape 3,2,merge,SITE-a3ab49ec4d3b0c6f,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+50,83,Leutenheim (Haguenau),Koenigsbruck groupe 2 - étape indéterminée,0,skip_duplicate,SITE-a3ab49ec4d3b0c6f,distance<=55.0m+commune,ok,Hallstatt,Ha D
+51,84,Mackenheim,Mackenheim (nécropole),0,merge,SITE-071d674528eb1c42,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+52,85,Marmoutier,Kurzaeckerle et Muehlmatten,0,new,SITE-465b614a6e6165cb,aucune correspondance,ok,Hallstatt,Ha D1
+53,86,Mundolsheim,à l'est du château,0,skip_duplicate,SITE-31a6b2a84ee0bcbb,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+55,87,Mussig,"Obere Nachtweide, Obere Plaetze, Ried",0,skip_duplicate,SITE-69dba5dd2b602507,distance<=55.0m+commune,ok,indéterminé,
+55,88,Mussig,"Obere Nachtweide, Obere Plaetze, Ried",0,skip_duplicate,SITE-69dba5dd2b602507,distance<=55.0m+commune,ok,indéterminé,
+55,89,Mussig à vérif fin 90 et 2000,?,0,skip_duplicate,SITE-58fc3f108bb9caef,distance<=55.0m+commune,ok,indéterminé,
+56,90,Niedernai,"Lotissement Les Acacias, rue de Meistratzheim - étape 1",0,skip_duplicate,SITE-458e4a7f54906039,distance<=55.0m+commune,ok,Hallstatt,Ha C
+56,91,Niedernai,"Lotissement Les Acacias, rue de Meistratzheim",0,skip_duplicate,SITE-458e4a7f54906039,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+57,92,Nordhouse,Buerckelmatt - étape 1a,0,new,SITE-64af3717172a2ebb,aucune correspondance,ok,Hallstatt,Ha B2-B3
+57,93,Nordhouse,Buerckelmatt - étape 1b,0,new,SITE-34c0bcc681947bd9,aucune correspondance,ok,Hallstatt,Ha C
+57,94,Nordhouse,Buerckelmatt - étape 2,0,new,SITE-bdfd9d185be75bd1,aucune correspondance,ok,Hallstatt,Ha C
+57,94,Nordhouse,Buerckelmatt - étape 2,1,new,SITE-bdfd9d185be75bd1,aucune correspondance,ok,Hallstatt,Ha D1
+57,95,Nordhouse,Buerckelmatt - étape 3,0,new,SITE-7be9c01096b8958a,aucune correspondance,ok,Hallstatt,Ha D2
+57,95,Nordhouse,Buerckelmatt - étape 3,1,new,SITE-7be9c01096b8958a,aucune correspondance,ok,Hallstatt,Ha D3
+58,96,Obenheim,Taspelmatt,0,merge,SITE-27a5aa2a07b2bc97,distance<=55.0m+commune,ok,Hallstatt,Ha C
+59,97,Oberbetschdorf,étape 2,0,new,SITE-45ab5841a4e9d259,aucune correspondance,bad,Hallstatt,Ha D1
+59,97,Oberbetschdorf,étape 2,1,new,SITE-45ab5841a4e9d259,aucune correspondance,bad,Hallstatt,Ha D2
+60,98,Obermodern,étape 2,0,skip_duplicate,SITE-daf9da072d0401cc,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+61,99,Oberschaeffolsheim/Dingsheim,Rebberg/Stimmelsberg,0,merge,SITE-846eef9dd8a1297c,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+62,100,Ohlungen,étape 2,0,merge,SITE-4207f4584701b535,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+62,101,Ohlungen,étape 3,0,skip_duplicate,SITE-4207f4584701b535,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+63,102,Ohnenheim,Niederschley,0,skip_duplicate,SITE-deb58393b81f4154,distance<=55.0m+commune,ok,Hallstatt,Ha C
+64,103,Pfulgriesheim,"Kammeracker (site COS 4,2bis)",0,merge,SITE-bde33d8d6d59fbf7,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+65,104,Rosheim,"Rittergass, Boerschweg",0,new,SITE-1e8c99719b59f71d,aucune correspondance,ok,Hallstatt,Ha C
+66,105,Schlackendorf,Sambösch,0,skip_duplicate,SITE-4ce019af803a9082,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+67,106,Schaeffersheim,"""La Chênaie""",0,new,SITE-c5e6f1c89c24543c,aucune correspondance,ok,Hallstatt,Ha C
+67,106,Schaeffersheim,"""La Chênaie""",1,new,SITE-c5e6f1c89c24543c,aucune correspondance,ok,Hallstatt,Ha D1
+67,106,Schaeffersheim,"""La Chênaie""",2,new,SITE-c5e6f1c89c24543c,aucune correspondance,ok,Hallstatt,Ha D2
+68,107,Schirrhein (Haguenau),Fischerhuebel-Kurzgelaend - étape 1,0,merge,SITE-56f3c29a9f0982fc,distance<=55.0m+commune,ok,Hallstatt,Ha B2-B3
+68,107,Schirrhein (Haguenau),Fischerhuebel-Kurzgelaend - étape 1,1,skip_duplicate,SITE-56f3c29a9f0982fc,distance<=55.0m+commune,ok,Hallstatt,Ha C
+68,108,Schirrhein (Haguenau),Fischerhuebel-Kurzgelaend - étape 2,0,skip_duplicate,SITE-56f3c29a9f0982fc,distance<=55.0m+commune,ok,Hallstatt,Ha C
+68,108,Schirrhein (Haguenau),Fischerhuebel-Kurzgelaend - étape 2,1,skip_duplicate,SITE-56f3c29a9f0982fc,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+68,108,Schirrhein (Haguenau),Fischerhuebel-Kurzgelaend - étape 2,2,merge,SITE-56f3c29a9f0982fc,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+68,109,Schirrhein (Haguenau),Fischerhuebel-Kurzgelaend - étape 3,0,skip_duplicate,SITE-56f3c29a9f0982fc,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+68,109,Schirrhein (Haguenau),Fischerhuebel-Kurzgelaend - étape 3,1,merge,SITE-56f3c29a9f0982fc,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+68,109,Schirrhein (Haguenau),Fischerhuebel-Kurzgelaend - étape 3,2,merge,SITE-56f3c29a9f0982fc,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+68,110,Schirrhein (Haguenau),Fischerhuebel-Kurzgelaend - étape indéterminée,0,skip_duplicate,SITE-56f3c29a9f0982fc,distance<=55.0m+commune,ok,indéterminé,
+69,111,Schweighouse/Moder,Sablière Quirin - étape 2,0,new,SITE-e13d9ef206bad441,aucune correspondance,ok,Hallstatt,Ha D
+69,112,Schweighouse/Moder,Sablière Quirin - phase ind,0,new,SITE-bbf103e957ad713f,aucune correspondance,ok,indéterminé,
+70,113,Schweighouse/Moder,Schelmenwasen étape 2,0,new,SITE-0d61af0128c21d52,aucune correspondance,ok,Hallstatt,Ha D1
+70,114,Schweighouse/Moder,Schelmenwasen étape 3,0,new,SITE-64051c09f5d062bd,aucune correspondance,ok,Hallstatt,Ha D2
+70,114,Schweighouse/Moder,Schelmenwasen étape 3,1,new,SITE-64051c09f5d062bd,aucune correspondance,ok,Hallstatt,Ha D1
+71,115,Sélestat,"Oberrieth, Oberbütten",0,new,SITE-28020ed40d5f515e,aucune correspondance,ok,Hallstatt,Ha C
+71,115,Sélestat,"Oberrieth, Oberbütten",1,new,SITE-28020ed40d5f515e,aucune correspondance,ok,Hallstatt,Ha D1
+71,115,Sélestat,"Oberrieth, Oberbütten",2,new,SITE-28020ed40d5f515e,aucune correspondance,ok,Hallstatt,Ha D2
+71,115,Sélestat,"Oberrieth, Oberbütten",3,new,SITE-28020ed40d5f515e,aucune correspondance,ok,Hallstatt,Ha D3
+72,116,Seltz,"Eichelgarten/Lotissement Les Genêts (tranche 2), Tum 1 - étape indéterminée",0,new,SITE-1e94c13953a48800,aucune correspondance,ok,indéterminé,
+72,117,Seltz,"Eichelgarten/Lotissement Les Genêts (tranche 2), Tum 1 - étape 1",0,new,SITE-7eaa60c79e9b50b7,aucune correspondance,ok,Hallstatt,Ha C
+73,118,Sessenheim,Goethehügel,0,new,SITE-f58937d241767697,aucune correspondance,ok,Hallstatt,Ha D3
+74,119,Soufflenheim,à l'embranchement desRD 138 et 737,0,new,SITE-c6b7ad53c008bd84,aucune correspondance,ok,Hallstatt,Ha D3
+75,120,Soufflenheim,Golf,0,new,SITE-6da15d7be2ff5471,aucune correspondance,ok,Hallstatt,Ha C
+75,120,Soufflenheim,Golf,1,new,SITE-6da15d7be2ff5471,aucune correspondance,ok,Hallstatt,Ha D1
+76,121,Uhlwiller,bois d'Uhlwiller - étape 2,0,merge,SITE-d8400565cd7d25bf,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+76,121,Uhlwiller,bois d'Uhlwiller - étape 2,1,merge,SITE-d8400565cd7d25bf,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+76,122,Uhlwiller,bois d'Uhlwiller - étape 3,0,skip_duplicate,SITE-d8400565cd7d25bf,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+77,123,Weitbruch,Groupe 2 - étape 1,0,merge,SITE-92c011ba429297d6,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+77,124,Weitbruch,Groupe 2 - étape 2,0,skip_duplicate,SITE-92c011ba429297d6,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+78,125,Westhouse,"""Jungholz""",0,new,SITE-9f8550e2e11f8538,aucune correspondance,ok,indéterminé,
+79,126,Andolsheim-Widensohlen,Husarenbrunne-Dachsbuckel,0,new,SITE-88d765951dcae2dd,aucune correspondance,ok,Hallstatt,Ha C
+79,126,Andolsheim-Widensohlen,Husarenbrunne-Dachsbuckel,1,new,SITE-88d765951dcae2dd,aucune correspondance,ok,Hallstatt,Ha D1
+80,127,Appenwihr,Forêt du Kastenwald,0,merge,SITE-b134492e05d4f0c5,distance<=55.0m+commune,ok,Hallstatt,Ha C
+80,127,Appenwihr,Forêt du Kastenwald,1,merge,SITE-b134492e05d4f0c5,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+80,128,Appenwihr,Forêt du Kastenwald,0,merge,SITE-b134492e05d4f0c5,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+81,129,Brunstatt,Sur le ban communal,0,merge,SITE-d928737086cc3175,distance<=55.0m+commune,ok,Hallstatt,Ha C
+81,129,Brunstatt,Sur le ban communal,1,merge,SITE-d928737086cc3175,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+82,130,Colmar,Au croisement des rues Oberlin et Schlumberger,0,new,SITE-8836db651a8f4bcf,aucune correspondance,ok,Hallstatt,Ha C
+82,130,Colmar,Au croisement des rues Oberlin et Schlumberger,1,new,SITE-8836db651a8f4bcf,aucune correspondance,ok,Hallstatt,Ha D1
+83,131,Colmar,Colmar Nord-Cora,0,new,SITE-d6c5dbefea43226c,aucune correspondance,ok,Hallstatt,Ha C
+83,131,Colmar,Colmar Nord-Cora,1,new,SITE-d6c5dbefea43226c,aucune correspondance,ok,Hallstatt,Ha D1
+84,132,Colmar,Route de Rouffach,0,new,SITE-ae9c102d54755f27,aucune correspondance,ok,Hallstatt,Ha C
+84,132,Colmar,Route de Rouffach,1,new,SITE-ae9c102d54755f27,aucune correspondance,ok,Hallstatt,Ha D1
+85,133,Colmar,rue Charles Koenig,0,new,SITE-31f6bf52ee5eee76,aucune correspondance,ok,indéterminé,
+86,134,Colmar,Rue des Aunes,0,new,SITE-c5d0ea91d7e3fdc3,aucune correspondance,ok,Hallstatt,Ha C
+87,135,Colmar,Rufacher Huben 1 - rue du 1er cuirassier,0,new,SITE-b2aa030063c8228c,aucune correspondance,ok,Hallstatt,Ha C
+87,135,Colmar,Rufacher Huben 1 - rue du 1er cuirassier,1,new,SITE-b2aa030063c8228c,aucune correspondance,ok,Hallstatt,Ha D1
+88,136,Colmar - Riedwihr,"Herten Grassmatt, phase 1",0,merge,SITE-fc389572d3b0eadd,distance<=55.0m+commune,ok,Hallstatt,Ha C
+88,136,Colmar - Riedwihr,"Herten Grassmatt, phase 1",1,merge,SITE-fc389572d3b0eadd,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+88,137,Colmar - Riedwihr,"Herten Grassmatt, phase 2",0,skip_duplicate,SITE-fc389572d3b0eadd,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+89,138,Eguisheim,à l'ouest de l'Altstrasse,0,new,SITE-0838f1f0809e8147,aucune correspondance,ok,Hallstatt,Ha C
+89,138,Eguisheim,à l'ouest de l'Altstrasse,1,new,SITE-0838f1f0809e8147,aucune correspondance,ok,Hallstatt,Ha D1
+90,139,Eguisheim,Kiespfad,0,new,SITE-52026dffa1b6782d,aucune correspondance,ok,Hallstatt,Ha C
+90,139,Eguisheim,Kiespfad,1,new,SITE-52026dffa1b6782d,aucune correspondance,ok,Hallstatt,Ha D1
+91,140,Ensisheim,forêt de l'Allmend,0,new,SITE-49c305f2127ebb15,aucune correspondance,ok,Hallstatt,Ha D2
+91,140,Ensisheim,forêt de l'Allmend,1,new,SITE-49c305f2127ebb15,aucune correspondance,ok,Hallstatt,Ha D3
+92,141,Ensisheim,Forêt de l'Allmend/Heidenbodenweg (groupe nord),0,new,SITE-dd9986af52da53c0,aucune correspondance,ok,Hallstatt,Ha C
+92,141,Ensisheim,Forêt de l'Allmend/Heidenbodenweg (groupe nord),1,new,SITE-dd9986af52da53c0,aucune correspondance,ok,Hallstatt,Ha D1
+93,142,Ensisheim,Forêt de l'Allmend/Heidenbodenweg (groupe sud),0,new,SITE-52a271ea1bd543fb,aucune correspondance,ok,indéterminé,
+94,143,Ensisheim,Forêt de l'Allmend/Hubelwaeldele,0,new,SITE-beb841a45842534c,aucune correspondance,ok,Hallstatt,Ha B2-B3
+94,143,Ensisheim,Forêt de l'Allmend/Hubelwaeldele,1,new,SITE-beb841a45842534c,aucune correspondance,ok,Hallstatt,Ha C
+95,144,Ensisheim,Forêt de l'Allmend/Westerfeld/Heidenbodenweg,0,new,SITE-c2e82893cb2c67df,aucune correspondance,ok,Hallstatt,Ha B2-B3
+95,144,Ensisheim,Forêt de l'Allmend/Westerfeld/Heidenbodenweg,1,new,SITE-c2e82893cb2c67df,aucune correspondance,ok,Hallstatt,Ha C
+96,145,Ensisheim-Réguisheim,ZAID tranches 3 à 5,0,merge,SITE-4632c5de79b2a41b,distance<=55.0m+commune,ok,Hallstatt,Ha B2-B3
+96,145,Ensisheim-Réguisheim,ZAID tranches 3 à 5,1,merge,SITE-4632c5de79b2a41b,distance<=55.0m+commune,ok,Hallstatt,Ha C
+96,145,Ensisheim-Réguisheim,ZAID tranches 3 à 5,2,skip_duplicate,SITE-4632c5de79b2a41b,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+96,146,Ensisheim-Réguisheim,ZAID tranches 3 à 5,0,merge,SITE-4632c5de79b2a41b,distance<=55.0m+commune,ok,Hallstatt,Ha C
+96,146,Ensisheim-Réguisheim,ZAID tranches 3 à 5,1,skip_duplicate,SITE-4632c5de79b2a41b,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+97,147,Herrlisheim-près-Colmar,Gravière,0,new,SITE-a548ea91cb536d86,aucune correspondance,ok,Hallstatt,Ha C
+97,147,Herrlisheim-près-Colmar,Gravière,1,new,SITE-a548ea91cb536d86,aucune correspondance,ok,Hallstatt,Ha D1
+97,147,Herrlisheim-près-Colmar,Gravière,2,new,SITE-a548ea91cb536d86,aucune correspondance,ok,Hallstatt,Ha D2
+97,147,Herrlisheim-près-Colmar,Gravière,3,new,SITE-a548ea91cb536d86,aucune correspondance,ok,Hallstatt,Ha D3
+98,148,Hirtzfelden-Munchhouse-Réguisheim,Forêt de Rothleibe,0,skip_duplicate,SITE-3682f8b99c89d6d3,distance<=55.0m+commune,ok,indéterminé,
+99,149,Hattstatt,Hattstatt (nécropole non localisée),0,skip_duplicate,SITE-3e6231b82eec061d,distance<=55.0m+commune,ok,indéterminé,
+100,150,Hattstatt,collines de Hattstatt-Obermorscwihr,0,skip_duplicate,SITE-3e6231b82eec061d,distance<=55.0m+commune,ok,indéterminé,
+101,151,Houssen,"rue du Cèdre bleu, Lot. Le Cèdre Bleu",0,new,SITE-f09145ca4bf27904,aucune correspondance,ok,Hallstatt,Ha C
+102,152,Jebsheim,Bois de Jebsheim,0,merge,SITE-94cc2d1d6163cda0,distance<=55.0m+commune,ok,Hallstatt,Ha C
+102,152,Jebsheim,Bois de Jebsheim,1,merge,SITE-94cc2d1d6163cda0,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+103,153,Kappelen,Sonnenglitzer,0,merge,SITE-d3663d196642a09e,distance<=55.0m+commune,ok,Hallstatt,Ha D3 / LT A
+104,154,Kembs,Kembs (nécropole),0,new,SITE-a850266ba493cda4,aucune correspondance,ok,Hallstatt,Ha D1
+105,155,Koestlach-Moernach,Kastelberg,0,skip_duplicate,SITE-18662db047eab73f,distance<=55.0m+commune,ok,indéterminé,
+106,156,Biesheim,Himmelreich,0,skip_duplicate,SITE-1f488b9f02c71b62,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+106,156,Biesheim,Himmelreich,1,merge,SITE-1f488b9f02c71b62,distance<=55.0m+commune,ok,Hallstatt,Ha D3 / LT A
+107,157,Biesheim,Les résidences des Tilleuls,0,merge,SITE-1f488b9f02c71b62,distance<=55.0m+commune,ok,Hallstatt,Ha C
+108,158,Mulhouse,Hôpital du hasenrain,0,new,SITE-e81a928080238dbd,aucune correspondance,ok,Hallstatt,Ha C
+108,158,Mulhouse,Hôpital du hasenrain,1,new,SITE-e81a928080238dbd,aucune correspondance,ok,Hallstatt,Ha D1
+109,159,Mulhouse,Rocade Ouest,0,new,SITE-7e1fa608867f9fd2,aucune correspondance,ok,Hallstatt,Ha C
+110,160,Mulhouse,rue de la Bourse,0,new,SITE-7fcdd6c23f6b8c7e,aucune correspondance,ok,Hallstatt,Ha C
+111,161,Niederhergheim,Am Ziegelberg,0,skip_duplicate,SITE-78cd2da8fa8286b9,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+112,162,Niederhergheim,Innere Allmende,0,new,SITE-edfa766aba3a04cc,aucune correspondance,ok,Hallstatt,Ha B2-B3
+113,163,Oberentzen,Gravière Giessen,0,new,SITE-dc3618a69bea2202,aucune correspondance,ok,Hallstatt,Ha C
+113,163,Oberentzen,Gravière Giessen,1,new,SITE-dc3618a69bea2202,aucune correspondance,ok,Hallstatt,Ha D1
+114,164,Pulversheim,Hoell,0,new,SITE-88f8a3f54d65534e,aucune correspondance,ok,Hallstatt,Ha D3
+115,165,Réguisheim,Altstraessle-Mattlaenderfeld,0,skip_duplicate,SITE-74264071e6b5b279,distance<=55.0m+commune,ok,Hallstatt,Ha C
+116,166,Réguisheim,Leimgraben-Leimenbruben,0,new,SITE-497519a7923cccc0,aucune correspondance,ok,Hallstatt,Ha B2-B3
+116,166,Réguisheim,Leimgraben-Leimenbruben,1,new,SITE-497519a7923cccc0,aucune correspondance,ok,Hallstatt,Ha C
+117,167,Reningue,forêt de Vorwald Niederholtz,0,skip_duplicate,SITE-90a7aafd6e98ef4f,distance<=55.0m+commune,ok,indéterminé,
+118,168,Riedisheim,ancienne glaisière Hartmann/Lot. Des œillets,0,new,SITE-777c09b5efdfab9d,aucune correspondance,ok,Hallstatt,Ha D1
+119,169,Riedisheim,"rue des Jonquilles, Wolfsacker",0,new,SITE-8f86cc6e1587befc,aucune correspondance,ok,Hallstatt,Ha C
+120,170,Rixheim,"Hünerhübel - Neumatt Espenhubel, près du Ziehlbrunnen, dans la forêt dite Zührenwald",0,new,SITE-5b853107b43a8be3,aucune correspondance,ok,Hallstatt,Ha C
+120,170,Rixheim,"Hünerhübel - Neumatt Espenhubel, près du Ziehlbrunnen, dans la forêt dite Zührenwald",1,new,SITE-5b853107b43a8be3,aucune correspondance,ok,Hallstatt,Ha D1
+121,171,Rixheim,ZAC Petit Prince,0,new,SITE-881df2fc9a72ebea,aucune correspondance,ok,Hallstatt,Ha C
+122,172,Rorschwihr,Galgenbuckel - Werbreben - Stuempf,0,skip_duplicate,SITE-f781998e3a0cbc6e,distance<=55.0m+commune,ok,Hallstatt,Ha C
+122,172,Rorschwihr,Galgenbuckel - Werbreben - Stuempf,1,merge,SITE-f781998e3a0cbc6e,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+123,173,Rouffach-Niederentzen,RD 18 bis - liaison routière A35/RD83,0,skip_duplicate,SITE-25a6671d3227f83c,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+123,173,Rouffach-Niederentzen,RD 18 bis - liaison routière A35/RD83,1,merge,SITE-25a6671d3227f83c,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+123,173,Rouffach-Niederentzen,RD 18 bis - liaison routière A35/RD83,2,merge,SITE-25a6671d3227f83c,distance<=55.0m+commune,ok,Hallstatt,Ha D3 / LT A
+124,174,Sainte-Croix-en-Plaine,"Jebsen Boden (dont Zone artisanale) - Groupe Nord - 2 fouilles , 1 diagnostic et prospection magnétique en 2009",0,skip_duplicate,SITE-3d3e5493a9a5f812,distance<=55.0m+commune,ok,indéterminé,
+125,175,Sainte-Croix-en-Plaine,Oberes Holzackerfeld (dont Ancien échangeur gendarmerie) - Groupe Sud - 2 fouilles et prospection magnétique en 2009,0,merge,SITE-3d3e5493a9a5f812,distance<=55.0m+commune,ok,Hallstatt,Ha B2-B3
+125,175,Sainte-Croix-en-Plaine,Oberes Holzackerfeld (dont Ancien échangeur gendarmerie) - Groupe Sud - 2 fouilles et prospection magnétique en 2009,1,skip_duplicate,SITE-3d3e5493a9a5f812,distance<=55.0m+commune,ok,Hallstatt,Ha C
+125,175,Sainte-Croix-en-Plaine,Oberes Holzackerfeld (dont Ancien échangeur gendarmerie) - Groupe Sud - 2 fouilles et prospection magnétique en 2009,2,skip_duplicate,SITE-3d3e5493a9a5f812,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+125,175,Sainte-Croix-en-Plaine,Oberes Holzackerfeld (dont Ancien échangeur gendarmerie) - Groupe Sud - 2 fouilles et prospection magnétique en 2009,3,skip_duplicate,SITE-3d3e5493a9a5f812,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+125,175,Sainte-Croix-en-Plaine,Oberes Holzackerfeld (dont Ancien échangeur gendarmerie) - Groupe Sud - 2 fouilles et prospection magnétique en 2009,4,merge,SITE-3d3e5493a9a5f812,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+125,175,Sainte-Croix-en-Plaine,Oberes Holzackerfeld (dont Ancien échangeur gendarmerie) - Groupe Sud - 2 fouilles et prospection magnétique en 2009,5,skip_duplicate,SITE-3d3e5493a9a5f812,distance<=55.0m+commune,ok,La Tène,LT A
+126,176,Saint-Louis,Ritty-Heidenwald,0,new,SITE-dd703656c4935b14,aucune correspondance,ok,Hallstatt,Ha C
+126,176,Saint-Louis,Ritty-Heidenwald,1,new,SITE-dd703656c4935b14,aucune correspondance,ok,Hallstatt,Ha D1
+127,177,Saint-Louis-la-Chaussée,Lisbühl,0,merge,SITE-e746621a6374015a,distance<=55.0m+commune,ok,Hallstatt,Ha C
+128,178,Sausheim,Rixheimerfeld,0,new,SITE-3936f26266ea500f,aucune correspondance,ok,Hallstatt,Ha C
+129,179,Sausheim,"Ruhestätte, rue du Jura",0,new,SITE-ffe1ed0efaa126f6,aucune correspondance,ok,Hallstatt,Ha C
+130,180,Schlierbach,Niedere Stocketen-Kembspfad,0,merge,SITE-b72ed1829eccd9e3,distance<=55.0m+commune,ok,Hallstatt,Ha C
+131,181,Sierentz,Grassweg,0,new,SITE-474df5b641523b2d,aucune correspondance,ok,Hallstatt,Ha C
+131,182,Sierentz,Grassweg,0,new,SITE-474df5b641523b2d,aucune correspondance,ok,Hallstatt,Ha C
+132,183,Sundhoffen,Forêt du Kastenwald-Sieben Lauen,0,new,SITE-2c5c60ad7a74054d,aucune correspondance,ok,Hallstatt,Ha B2-B3
+132,183,Sundhoffen,Forêt du Kastenwald-Sieben Lauen,1,new,SITE-2c5c60ad7a74054d,aucune correspondance,ok,Hallstatt,Ha C
+132,183,Sundhoffen,Forêt du Kastenwald-Sieben Lauen,2,new,SITE-2c5c60ad7a74054d,aucune correspondance,ok,Hallstatt,Ha D1
+132,183,Sundhoffen,Forêt du Kastenwald-Sieben Lauen,3,new,SITE-2c5c60ad7a74054d,aucune correspondance,ok,Hallstatt,Ha D2
+132,183,Sundhoffen,Forêt du Kastenwald-Sieben Lauen,4,new,SITE-2c5c60ad7a74054d,aucune correspondance,ok,Hallstatt,Ha D3
+132,183,Sundhoffen,Forêt du Kastenwald-Sieben Lauen,5,new,SITE-2c5c60ad7a74054d,aucune correspondance,ok,La Tène,LT A
+133,184,Ungersheim,Lehlematten,0,new,SITE-8acf6ca94eb4b5c2,aucune correspondance,ok,Hallstatt,Ha C
+133,184,Ungersheim,Lehlematten,1,new,SITE-8acf6ca94eb4b5c2,aucune correspondance,ok,Hallstatt,Ha D
+133,185,Ungersheim,Lehlematten,0,new,SITE-8acf6ca94eb4b5c2,aucune correspondance,ok,Hallstatt,Ha C
+133,186,Ungersheim,Lehlematten,0,new,SITE-8acf6ca94eb4b5c2,aucune correspondance,ok,Hallstatt,Ha C
+133,187,Ungersheim,Lehlematten,0,new,SITE-8acf6ca94eb4b5c2,aucune correspondance,ok,Hallstatt,Ha D1
+133,188,Ungersheim,Lehlematten,0,new,SITE-8acf6ca94eb4b5c2,aucune correspondance,ok,Hallstatt,Ha C
+135,189,Volgelsheim,Au lotissement des Bouleaux,0,new,SITE-67fadcc2db24f7d7,aucune correspondance,ok,Hallstatt,Ha C
+135,189,Volgelsheim,Au lotissement des Bouleaux,1,new,SITE-67fadcc2db24f7d7,aucune correspondance,ok,Hallstatt,Ha D1
+136,190,Wettolsheim,"Ricoh, phase 1",0,new,SITE-401ae4e955116d14,aucune correspondance,ok,Hallstatt,Ha C
+136,191,Wettolsheim,"Ricoh, phase 2",0,new,SITE-5ec4a2c993c6f2da,aucune correspondance,ok,Hallstatt,Ha C
+136,191,Wettolsheim,"Ricoh, phase 2",1,new,SITE-5ec4a2c993c6f2da,aucune correspondance,ok,Hallstatt,Ha D1
+137,192,Widensohlen,"Forêt du Kastenwald, phase 1",0,skip_duplicate,SITE-24afd1d4f6a10560,distance<=55.0m+commune,ok,Hallstatt,Ha C
+137,193,Widensohlen,"Forêt du Kastenwald, phase 2",0,skip_duplicate,SITE-24afd1d4f6a10560,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+137,194,Widensohlen,"Forêt du Kastenwald, phase 3",0,skip_duplicate,SITE-24afd1d4f6a10560,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+138,195,Wintzenheim,Obersoedlen,0,new,SITE-3bf0779c6dc05e21,aucune correspondance,ok,Hallstatt,Ha D2
+139,196,Wittenheim,Neumatt-Niederweiher,0,new,SITE-b73d8e3db43808a9,aucune correspondance,ok,Hallstatt,Ha C
+139,196,Wittenheim,Neumatt-Niederweiher,1,new,SITE-b73d8e3db43808a9,aucune correspondance,ok,Hallstatt,Ha D1
+139,196,Wittenheim,Neumatt-Niederweiher,2,new,SITE-b73d8e3db43808a9,aucune correspondance,ok,Hallstatt,Ha D2
+139,196,Wittenheim,Neumatt-Niederweiher,3,new,SITE-b73d8e3db43808a9,aucune correspondance,ok,Hallstatt,Ha D3
+140,197,Wolfgantzen,"Forêt du Kastenwald, phase 1",0,skip_duplicate,SITE-02d9bd0dfbed82d7,distance<=55.0m+commune,ok,Hallstatt,Ha C
+140,198,Wolfgantzen,"Forêt du Kastenwald, phase 2",0,merge,SITE-02d9bd0dfbed82d7,distance<=55.0m+commune,ok,Hallstatt,Ha D1
+140,198,Wolfgantzen,"Forêt du Kastenwald, phase 2",1,merge,SITE-02d9bd0dfbed82d7,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+140,198,Wolfgantzen,"Forêt du Kastenwald, phase 2",2,merge,SITE-02d9bd0dfbed82d7,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+141,199,Wolfgantzen,"Projet de ZA communale, RD29",0,new,SITE-d78346069ed7c758,aucune correspondance,ok,Hallstatt,Ha C
+141,199,Wolfgantzen,"Projet de ZA communale, RD29",1,new,SITE-d78346069ed7c758,aucune correspondance,ok,Hallstatt,Ha D1
+1,200,Bezange La Grande,Bois Sainte Marie,0,new,SITE-ec059bb18c9efc43,aucune correspondance,ok,Hallstatt,Ha C
+2,201,Bouxières-Sous-Froidemont,Le Tremble site 7,0,new,SITE-1f44ee3c5060b853,aucune correspondance,ok,Hallstatt,Ha D3
+3,202,Champigneulles,Le Pont de Bouxières,0,new,SITE-f627e13c51c291e6,aucune correspondance,ok,Hallstatt,Ha D3
+4,203,Chaudeney-Sur-Moselle,Bois communal,0,new,SITE-4e27569a184118c4,aucune correspondance,ok,Hallstatt,Ha C
+4,203,Chaudeney-Sur-Moselle,Bois communal,1,new,SITE-4e27569a184118c4,aucune correspondance,ok,Hallstatt,Ha D1
+5,204,Clayeures,"La Naguée, Le Petit Fays",0,new,SITE-7ed703cf77a1d7c9,aucune correspondance,ok,Hallstatt,Ha B2-B3
+5,204,Clayeures,"La Naguée, Le Petit Fays",1,new,SITE-7ed703cf77a1d7c9,aucune correspondance,ok,Hallstatt,Ha C
+5,204,Clayeures,"La Naguée, Le Petit Fays",2,new,SITE-7ed703cf77a1d7c9,aucune correspondance,ok,Hallstatt,Ha D1
+5,205,Clayeures,"La Naguée, Le Petit Fays",0,new,SITE-7ed703cf77a1d7c9,aucune correspondance,ok,Hallstatt,Ha D2
+5,205,Clayeures,"La Naguée, Le Petit Fays",1,new,SITE-7ed703cf77a1d7c9,aucune correspondance,ok,Hallstatt,Ha D3
+6,206,Cutry,Cutry (nécropole),0,new,SITE-8837144d598843b1,aucune correspondance,ok,Hallstatt,Ha D2
+6,206,Cutry,Cutry (nécropole),1,new,SITE-8837144d598843b1,aucune correspondance,ok,Hallstatt,Ha D3
+7,207,Diarville,"Devant Giblot, Pâquis devant Giblot - étape 3",0,new,SITE-cb905d82b8a76850,aucune correspondance,ok,Hallstatt,Ha D2
+7,207,Diarville,"Devant Giblot, Pâquis devant Giblot - étape 3",1,new,SITE-cb905d82b8a76850,aucune correspondance,ok,Hallstatt,Ha D3
+7,208,Diarville,"Devant Giblot, Pâquis devant Giblot - étapes 1-2",0,new,SITE-a012c21b2d433dab,aucune correspondance,ok,Hallstatt,Ha B2-B3
+7,208,Diarville,"Devant Giblot, Pâquis devant Giblot - étapes 1-2",1,new,SITE-a012c21b2d433dab,aucune correspondance,ok,Hallstatt,Ha C
+7,208,Diarville,"Devant Giblot, Pâquis devant Giblot - étapes 1-2",2,new,SITE-a012c21b2d433dab,aucune correspondance,ok,Hallstatt,Ha D1
+8,209,Gondreville,La Croix Sainte Anne/au loup,0,new,SITE-93448e89cf4a67f0,aucune correspondance,ok,Hallstatt,Ha B2-B3
+8,209,Gondreville,La Croix Sainte Anne/au loup,1,new,SITE-93448e89cf4a67f0,aucune correspondance,ok,Hallstatt,Ha C
+9,210,Haroué,Bois de Voivre - étape indéterminée,0,new,SITE-c5a08bd4c475bf88,aucune correspondance,ok,indéterminé,
+9,211,Haroué,Bois de Voivre - étapes 1-2,0,new,SITE-063e4ee55d0275b3,aucune correspondance,ok,Hallstatt,Ha B2-B3
+9,211,Haroué,Bois de Voivre - étapes 1-2,1,new,SITE-063e4ee55d0275b3,aucune correspondance,ok,Hallstatt,Ha C
+9,211,Haroué,Bois de Voivre - étapes 1-2,2,new,SITE-063e4ee55d0275b3,aucune correspondance,ok,Hallstatt,Ha D1
+10,212,Jaillon,Jaillon (nécropole),0,new,SITE-3d6262892c5d3953,aucune correspondance,ok,indéterminé,
+11,213,Laneuvelotte,Le coin du cendrier,0,new,SITE-66466b496c28205d,aucune correspondance,ok,Hallstatt,Ha D2
+11,213,Laneuvelotte,Le coin du cendrier,1,new,SITE-66466b496c28205d,aucune correspondance,ok,Hallstatt,Ha D3
+12,214,Lesmenils Pont-à-Mouson,"Grand Bois Juré, forêt de Facq",0,new,SITE-f3454092a4a51c27,aucune correspondance,ok,Hallstatt,Ha B2-B3
+12,214,Lesmenils Pont-à-Mouson,"Grand Bois Juré, forêt de Facq",1,new,SITE-f3454092a4a51c27,aucune correspondance,ok,Hallstatt,Ha C
+13,215,Limey-Remenauville,"Promenade des Moines, nord village",0,new,SITE-ec23b5c159a9cce3,aucune correspondance,ok,Hallstatt,Ha D1
+14,216,Liverdun,La Garenne - étape 3,0,new,SITE-f7a4501847618cba,aucune correspondance,ok,Hallstatt,Ha D2
+14,216,Liverdun,La Garenne - étape 3,1,new,SITE-f7a4501847618cba,aucune correspondance,ok,Hallstatt,Ha D3
+14,217,Liverdun,La Garenne - étapes 1-2,0,new,SITE-c29cf9b643dc20b7,aucune correspondance,ok,Hallstatt,Ha C
+14,217,Liverdun,La Garenne - étapes 1-2,1,new,SITE-c29cf9b643dc20b7,aucune correspondance,ok,Hallstatt,Ha D1
+15,218,Liverdun,Sablière,0,new,SITE-47bb23452eb54e99,aucune correspondance,ok,Hallstatt,Ha D2
+15,218,Liverdun,Sablière,1,new,SITE-47bb23452eb54e99,aucune correspondance,ok,Hallstatt,Ha D3
+16,219,Malzeville,Côte de Malzeville - Bois de l'Hôpital,0,new,SITE-d3e9b5235639c07d,aucune correspondance,ok,Hallstatt,Ha D1
+17,220,Messein - Richardmenil,Bois de Grève,0,new,SITE-a7306b82aa5a7fce,aucune correspondance,ok,Hallstatt,Ha C
+18,221,Phlin,Au nord du village,0,new,SITE-5d51ef7e55114b3c,aucune correspondance,ok,Hallstatt,Ha D2
+18,221,Phlin,Au nord du village,1,new,SITE-5d51ef7e55114b3c,aucune correspondance,ok,Hallstatt,Ha D3
+19,222,Tomblaine,Le Pré Chenu,0,new,SITE-e692632dce29ac5d,aucune correspondance,ok,Hallstatt,Ha D3
+20,223,Vandieres,Les Cugnots,0,merge,SITE-402d0e4840aa6ba2,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+20,223,Vandieres,Les Cugnots,1,merge,SITE-402d0e4840aa6ba2,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+21,224,Villers-Les-Nancy,Clairlieu,0,new,SITE-8c0435facdb0fe5c,aucune correspondance,ok,Hallstatt,Ha C
+21,224,Villers-Les-Nancy,Clairlieu,1,new,SITE-8c0435facdb0fe5c,aucune correspondance,ok,Hallstatt,Ha D1
+22,225,Villers-Les-Nancy,"Route Forestière, Parc de Brabois",0,new,SITE-dc9c02e84367ec31,aucune correspondance,ok,Hallstatt,Ha C
+23,226,Villey-Saint-Etienne,Bois Communal Cp 13,0,new,SITE-b8dafbd563ec0fde,aucune correspondance,ok,Hallstatt,Ha B2-B3
+23,226,Villey-Saint-Etienne,Bois Communal Cp 13,1,new,SITE-b8dafbd563ec0fde,aucune correspondance,ok,Hallstatt,Ha C
+23,226,Villey-Saint-Etienne,Bois Communal Cp 13,2,new,SITE-b8dafbd563ec0fde,aucune correspondance,ok,Hallstatt,Ha D1
+23,226,Villey-Saint-Etienne,Bois Communal Cp 13,3,new,SITE-b8dafbd563ec0fde,aucune correspondance,ok,Hallstatt,Ha D2
+23,226,Villey-Saint-Etienne,Bois Communal Cp 13,4,new,SITE-b8dafbd563ec0fde,aucune correspondance,ok,Hallstatt,Ha D3
+24,227,Villey-Saint-Etienne,Carrière Solvay,0,new,SITE-4e2c96ab91101148,aucune correspondance,ok,Hallstatt,Ha D2
+24,227,Villey-Saint-Etienne,Carrière Solvay,1,new,SITE-4e2c96ab91101148,aucune correspondance,ok,Hallstatt,Ha D3
+24,228,Amanty,Vallée du Maire,0,new,SITE-8120f6b61e149a1f,aucune correspondance,ok,indéterminé,
+26,229,Beney-en-Woëvre,Beney-en-Woëvre (nécropole),0,new,SITE-1b7c9c39f72ce209,aucune correspondance,ok,Hallstatt,Ha D2
+26,229,Beney-en-Woëvre,Beney-en-Woëvre (nécropole),1,new,SITE-1b7c9c39f72ce209,aucune correspondance,ok,Hallstatt,Ha D3
+27,230,Chaillon,Les Fonzelles-Maucourt,0,merge,SITE-b4ba9b95e69d7189,distance<=55.0m+commune,ok,Hallstatt,Ha D2
+27,230,Chaillon,Les Fonzelles-Maucourt,1,merge,SITE-b4ba9b95e69d7189,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+28,231,Dieue-Sur-Meuse,Thumelou,0,new,SITE-64d682bfdf8012dc,aucune correspondance,ok,Hallstatt,Ha D2
+28,231,Dieue-Sur-Meuse,Thumelou,1,new,SITE-64d682bfdf8012dc,aucune correspondance,ok,Hallstatt,Ha D3
+29,232,Koeur-la-Petite,Fond de Longevaux,0,new,SITE-c19649062e0f66e3,aucune correspondance,ok,Hallstatt,Ha D1
+29,232,Koeur-la-Petite,Fond de Longevaux,1,new,SITE-c19649062e0f66e3,aucune correspondance,ok,Hallstatt,Ha D2
+29,232,Koeur-la-Petite,Fond de Longevaux,2,new,SITE-c19649062e0f66e3,aucune correspondance,ok,Hallstatt,Ha D3
+30,233,Lacroix-sur-Meuse,Lacroix-sur-Meuse (nécropole),0,new,SITE-8d5a4215c1183d50,aucune correspondance,ok,indéterminé,
+31,234,Laimont,Poirier Maraudel,0,new,SITE-ab4634f307ad5c06,aucune correspondance,ok,Hallstatt,Ha D2
+31,234,Laimont,Poirier Maraudel,1,new,SITE-ab4634f307ad5c06,aucune correspondance,ok,Hallstatt,Ha D3
+32,235,Ligny-en-Barrois,La Chiennerie,0,new,SITE-ac6b0eb1438afa20,aucune correspondance,ok,Hallstatt,Ha D2
+32,235,Ligny-en-Barrois,La Chiennerie,1,new,SITE-ac6b0eb1438afa20,aucune correspondance,ok,Hallstatt,Ha D3
+33,236,Loison,Loison (nécropole),0,new,SITE-8324531411faa261,aucune correspondance,ok,Hallstatt,Ha D2
+33,236,Loison,Loison (nécropole),1,new,SITE-8324531411faa261,aucune correspondance,ok,Hallstatt,Ha D3
+34,237,Montzeville,Lambéchamp,0,new,SITE-bee22487af0a944d,aucune correspondance,ok,Hallstatt,Ha C
+35,238,Neuvilly-en-Argonne,Croix Saint-Pierre,0,new,SITE-963b596ebcb58b82,aucune correspondance,ok,Hallstatt,Ha C
+36,239,Pillon,Bord de l'Othain,0,new,SITE-f39da8bf94772302,aucune correspondance,ok,indéterminé,
+37,240,Quincy-Landzecourt,Muret,0,new,SITE-2e628cda9e546810,aucune correspondance,ok,indéterminé,
+38,241,Recicourt,Verrières-en-Hesse,0,new,SITE-12df3b2e1dab3c5c,aucune correspondance,ok,indéterminé,
+39,242,Rigny-Saint-Martin,Chatte,0,new,SITE-73620a28c4d2a2bc,aucune correspondance,ok,indéterminé,
+40,243,Robert-Espagne,Robert-Espagne (nécropole),0,new,SITE-f3ef4673a14eb6f5,aucune correspondance,ok,Hallstatt,Ha D3
+40,243,Robert-Espagne,Robert-Espagne (nécropole),1,new,SITE-f3ef4673a14eb6f5,aucune correspondance,ok,Hallstatt,Ha D3 / LT A
+41,244,Rouvrois-Sur-Meuse,Long Pré,0,new,SITE-41d54e35533259cd,aucune correspondance,ok,indéterminé,
+42,245,Rupt-En-Woevre,Fontaine du Diable,0,new,SITE-14ba47cc94aaa1d5,aucune correspondance,ok,indéterminé,
+43,246,Saint-Hilaire-En-Woevre,Brauze,0,new,SITE-38a73f084e5febd9,aucune correspondance,ok,indéterminé,
+44,247,Saint-Julien-Sous-Les-Côtes,Hache,0,new,SITE-7d21b97b8d77448d,aucune correspondance,ok,indéterminé,
+45,248,Samogneux,Queue du Prillon,0,new,SITE-61fe3a50626836fa,aucune correspondance,ok,Hallstatt,Ha B2-B3
+45,248,Samogneux,Queue du Prillon,1,new,SITE-61fe3a50626836fa,aucune correspondance,ok,Hallstatt,Ha C
+46,249,Saulvaux,Haie Poirier,0,new,SITE-73ff7777f8587847,aucune correspondance,ok,Hallstatt,Ha B2-B3
+46,249,Saulvaux,Haie Poirier,1,new,SITE-73ff7777f8587847,aucune correspondance,ok,Hallstatt,Ha C
+47,250,Saulvaux,La Montée d'Aton,0,new,SITE-96b29215b42a3a26,aucune correspondance,ok,Hallstatt,Ha B2-B3
+47,250,Saulvaux,La Montée d'Aton,1,new,SITE-96b29215b42a3a26,aucune correspondance,ok,Hallstatt,Ha C
+48,251,Sommelone,La Fayssé,0,new,SITE-82d0c48771607084,aucune correspondance,ok,Hallstatt,Ha B2-B3
+48,251,Sommelone,La Fayssé,1,new,SITE-82d0c48771607084,aucune correspondance,ok,Hallstatt,Ha C
+49,252,Sorcy-Saint-Martin,Rond Buisson,0,new,SITE-c9de8e1c96246079,aucune correspondance,ok,Hallstatt,Ha B2-B3
+49,252,Sorcy-Saint-Martin,Rond Buisson,1,new,SITE-c9de8e1c96246079,aucune correspondance,ok,Hallstatt,Ha C
+50,253,Stainville,Saison de la Charme,0,new,SITE-74b34ec23deae2a0,aucune correspondance,ok,Hallstatt,Ha B2-B3
+50,253,Stainville,Saison de la Charme,1,new,SITE-74b34ec23deae2a0,aucune correspondance,ok,Hallstatt,Ha C
+51,254,Tilly-Sur-Meuse,Petit Ban d'Orme,0,new,SITE-1466fe2a39b188b2,aucune correspondance,ok,Hallstatt,Ha B2-B3
+51,254,Tilly-Sur-Meuse,Petit Ban d'Orme,1,new,SITE-1466fe2a39b188b2,aucune correspondance,ok,Hallstatt,Ha C
+52,255,Troyon,Conra,0,new,SITE-55b37a5e17c00454,aucune correspondance,ok,Hallstatt,Ha B2-B3
+52,255,Troyon,Conra,1,new,SITE-55b37a5e17c00454,aucune correspondance,ok,Hallstatt,Ha C
+53,256,Troyon,Grand Pré,0,new,SITE-5bc68950289b0b8d,aucune correspondance,ok,Hallstatt,Ha B2-B3
+53,256,Troyon,Grand Pré,1,new,SITE-5bc68950289b0b8d,aucune correspondance,ok,Hallstatt,Ha C
+54,257,Ugny-Sur-Meuse,Les Lochères,0,new,SITE-f1b905709a8a970c,aucune correspondance,ok,Hallstatt,Ha B2-B3
+54,257,Ugny-Sur-Meuse,Les Lochères,1,new,SITE-f1b905709a8a970c,aucune correspondance,ok,Hallstatt,Ha C
+55,258,Vaucouleurs,Panidons,0,new,SITE-a7e2e0be8728b5bd,aucune correspondance,ok,Hallstatt,Ha B2-B3
+55,258,Vaucouleurs,Panidons,1,new,SITE-a7e2e0be8728b5bd,aucune correspondance,ok,Hallstatt,Ha C
+56,259,Vaucouleurs,Petit Terme,0,new,SITE-3070bfadda72a65e,aucune correspondance,ok,Hallstatt,Ha B2-B3
+56,259,Vaucouleurs,Petit Terme,1,new,SITE-3070bfadda72a65e,aucune correspondance,ok,Hallstatt,Ha C
+57,260,Vaucouleurs,Tusey,0,new,SITE-c2ec5e330f254392,aucune correspondance,ok,Hallstatt,Ha B2-B3
+57,260,Vaucouleurs,Tusey,1,new,SITE-c2ec5e330f254392,aucune correspondance,ok,Hallstatt,Ha C
+58,261,Ville-en-Woëvre,Tombois,0,new,SITE-a80ff67935e1fcd0,aucune correspondance,ok,Hallstatt,Ha D3
+58,261,Ville-en-Woëvre,Tombois,1,new,SITE-a80ff67935e1fcd0,aucune correspondance,ok,Hallstatt,Ha D3 / LT A
+59,262,Villers-Sous-Pareid,Haut de Truie,0,new,SITE-b47fd967ca3a9f74,aucune correspondance,ok,indéterminé,
+60,263,Villiers-Le-Sec,Fosse Cachotte,0,new,SITE-a5ef9a91acfbbeee,aucune correspondance,ok,indéterminé,
+61,264,Woimbey,Le Naquel,0,new,SITE-947f95978c398b44,aucune correspondance,ok,indéterminé,
+62,265,Albestroff,Tangeuwald,0,new,SITE-1773eeee57a26a9f,aucune correspondance,ok,Hallstatt,Ha C
+62,265,Albestroff,Tangeuwald,1,new,SITE-1773eeee57a26a9f,aucune correspondance,ok,Hallstatt,Ha D1
+62,265,Albestroff,Tangeuwald,2,new,SITE-1773eeee57a26a9f,aucune correspondance,ok,Hallstatt,Ha D2
+62,265,Albestroff,Tangeuwald,3,new,SITE-1773eeee57a26a9f,aucune correspondance,ok,Hallstatt,Ha D3
+63,266,Altrippe,Wiedenbruch,0,new,SITE-d1a2837db4210a9c,aucune correspondance,ok,Hallstatt,Ha B2-B3
+63,266,Altrippe,Wiedenbruch,1,new,SITE-d1a2837db4210a9c,aucune correspondance,ok,Hallstatt,Ha C
+63,266,Altrippe,Wiedenbruch,2,new,SITE-d1a2837db4210a9c,aucune correspondance,ok,Hallstatt,Ha D1
+63,266,Altrippe,Wiedenbruch,3,new,SITE-d1a2837db4210a9c,aucune correspondance,ok,Hallstatt,Ha D2
+63,266,Altrippe,Wiedenbruch,4,new,SITE-d1a2837db4210a9c,aucune correspondance,ok,Hallstatt,Ha D3
+64,267,Amneville,Amneville (nécropole),0,new,SITE-4f8df5d0fb79c6dd,aucune correspondance,ok,Hallstatt,Ha B2-B3
+64,267,Amneville,Amneville (nécropole),1,new,SITE-4f8df5d0fb79c6dd,aucune correspondance,ok,Hallstatt,Ha C
+65,268,Argancy,Le Clos Des Prés,0,new,SITE-fbf4801c8cbf2797,aucune correspondance,ok,Hallstatt,Ha C
+66,269,Augny,Derrière la Grange,0,new,SITE-ed92d1c372e50218,aucune correspondance,ok,Hallstatt,Ha B2-B3
+66,269,Augny,Derrière la Grange,1,new,SITE-ed92d1c372e50218,aucune correspondance,ok,Hallstatt,Ha C
+67,270,Baronville,Grand Bois,0,new,SITE-326b21e711ea6fca,aucune correspondance,ok,La Tène,LT C2
+68,271,Bebing,Le Petit Bébing,0,new,SITE-edcf572cb91c2808,aucune correspondance,ok,indéterminé,
+69,272,Betting-Saint-Avold,Galgenberg,0,new,SITE-60f41c8def870326,aucune correspondance,ok,Hallstatt,Ha B2-B3
+69,272,Betting-Saint-Avold,Galgenberg,1,new,SITE-60f41c8def870326,aucune correspondance,ok,Hallstatt,Ha C
+70,273,Cherisey,Rayu de la Forterie,0,new,SITE-f37eb5e210ee5948,aucune correspondance,ok,Hallstatt,Ha B2-B3
+70,273,Cherisey,Rayu de la Forterie,1,new,SITE-f37eb5e210ee5948,aucune correspondance,ok,Hallstatt,Ha C
+70,273,Cherisey,Rayu de la Forterie,2,new,SITE-f37eb5e210ee5948,aucune correspondance,ok,Hallstatt,Ha D1
+71,274,Ennery,Capelle,0,new,SITE-0300ffeeb8f22739,aucune correspondance,ok,Hallstatt,Ha B2-B3
+71,274,Ennery,Capelle,1,new,SITE-0300ffeeb8f22739,aucune correspondance,ok,Hallstatt,Ha C
+71,274,Ennery,Capelle,2,new,SITE-0300ffeeb8f22739,aucune correspondance,ok,Hallstatt,Ha D1
+72,275,Fameck,Rue d'Uckange,0,new,SITE-cb594b587db1a15e,aucune correspondance,ok,Hallstatt,Ha D3
+72,275,Fameck,Rue d'Uckange,1,new,SITE-cb594b587db1a15e,aucune correspondance,ok,Hallstatt,Ha D3 / LT A
+73,276,Grosbliederstroff,Forêt,0,new,SITE-eea7ddaf4d979f03,aucune correspondance,ok,Hallstatt,Ha D1
+73,276,Grosbliederstroff,Forêt,1,new,SITE-eea7ddaf4d979f03,aucune correspondance,ok,Hallstatt,Ha D2
+73,276,Grosbliederstroff,Forêt,2,new,SITE-eea7ddaf4d979f03,aucune correspondance,ok,Hallstatt,Ha D3
+74,277,Grosbliederstroff,Gungling,0,new,SITE-5030174b975668b6,aucune correspondance,ok,Hallstatt,Ha D1
+74,277,Grosbliederstroff,Gungling,1,new,SITE-5030174b975668b6,aucune correspondance,ok,Hallstatt,Ha D2
+75,278,Hagondange,La Ballastière,0,new,SITE-d376c5be79f30f23,aucune correspondance,ok,Hallstatt,Ha D1
+75,278,Hagondange,La Ballastière,1,new,SITE-d376c5be79f30f23,aucune correspondance,ok,Hallstatt,Ha D2
+75,278,Hagondange,La Ballastière,2,new,SITE-d376c5be79f30f23,aucune correspondance,ok,Hallstatt,Ha D3
+76,279,Jouy-Aux-Arches,La Machotte,0,new,SITE-507ade112994fe60,aucune correspondance,ok,Hallstatt,Ha C
+77,280,Kalhausen,"Gare, voie ferrée?",0,new,SITE-6e35dd1c659bef4e,aucune correspondance,ok,Hallstatt,Ha B2-B3
+77,280,Kalhausen,"Gare, voie ferrée?",1,new,SITE-6e35dd1c659bef4e,aucune correspondance,ok,Hallstatt,Ha C
+77,280,Kalhausen,"Gare, voie ferrée?",2,new,SITE-6e35dd1c659bef4e,aucune correspondance,ok,Hallstatt,Ha D1
+77,280,Kalhausen,"Gare, voie ferrée?",3,new,SITE-6e35dd1c659bef4e,aucune correspondance,ok,Hallstatt,Ha D2
+77,280,Kalhausen,"Gare, voie ferrée?",4,new,SITE-6e35dd1c659bef4e,aucune correspondance,ok,Hallstatt,Ha D3
+78,281,Kemplich,Löffelsberg,0,new,SITE-f38ade5bb8d2633f,aucune correspondance,ok,Hallstatt,Ha B2-B3
+78,281,Kemplich,Löffelsberg,1,new,SITE-f38ade5bb8d2633f,aucune correspondance,ok,Hallstatt,Ha C
+79,282,Kerling-les-Sierck,Neuwiese,0,new,SITE-c529b6e1ee0b0375,aucune correspondance,ok,Hallstatt,Ha D2
+79,282,Kerling-les-Sierck,Neuwiese,1,new,SITE-c529b6e1ee0b0375,aucune correspondance,ok,Hallstatt,Ha D3
+80,283,Kirschnaumen,Schirmeter,0,new,SITE-5f64b3cfccf96b56,aucune correspondance,ok,indéterminé,
+81,284,Languinberg,Ferme de M. L'huillier,0,new,SITE-bb157788516baefc,aucune correspondance,ok,indéterminé,
+82,285,Leyviller,Studenwald Dammhütte,0,new,SITE-45130417ad443a21,aucune correspondance,ok,Hallstatt,Ha B2-B3
+82,285,Leyviller,Studenwald Dammhütte,1,new,SITE-45130417ad443a21,aucune correspondance,ok,Hallstatt,Ha C
+83,286,Lixing-les-Saint-Avold,Simeringen Lienering,0,new,SITE-134fd243988d317f,aucune correspondance,ok,indéterminé,
+84,287,Loudrefing,La Tranchée de Rohrbach LGV,0,new,SITE-5049db90c9503ace,aucune correspondance,ok,Hallstatt,Ha D1
+85,288,Manom,Les Etangs,0,new,SITE-e3e0f65ba6ba182d,aucune correspondance,ok,indéterminé,
+86,289,Marsal,Les Grands Prés,0,new,SITE-85513b60f5f4b8b0,aucune correspondance,ok,Hallstatt,Ha C
+86,289,Marsal,Les Grands Prés,1,new,SITE-85513b60f5f4b8b0,aucune correspondance,ok,Hallstatt,Ha D3
+87,290,Marsal,Bensale,0,new,SITE-c9f82bf88908c90a,aucune correspondance,ok,Hallstatt,Ha D2
+87,290,Marsal,Bensale,1,new,SITE-c9f82bf88908c90a,aucune correspondance,ok,Hallstatt,Ha D3
+88,291,Merten,près de Creutzwald,0,new,SITE-bfd8fe8ecd9f9e87,aucune correspondance,ok,Hallstatt,Ha D3
+89,292,Metz,ZAC technopole,0,merge,SITE-ac7c1f0694bf67e3,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+90,293,Mondelange,Schemerten - étape 1,0,merge,SITE-f6b081866a28095e,distance<=55.0m+commune,ok,Hallstatt,Ha C
+90,294,Mondelange,Schemerten - étape 3,0,merge,SITE-f6b081866a28095e,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+91,295,Montigny-Les-Metz,Les Vacons,0,new,SITE-9c581a40f383c3c8,aucune correspondance,ok,Hallstatt,Ha B2-B3
+91,295,Montigny-Les-Metz,Les Vacons,1,new,SITE-9c581a40f383c3c8,aucune correspondance,ok,Hallstatt,Ha C
+92,296,Moyenvic,La Trumchère de Salival,0,new,SITE-a9f0f5c9091bae80,aucune correspondance,ok,indéterminé,
+93,297,Nousseviller-Saint-Nabor,"Baumbusch, forêt de Cadenbronn",0,new,SITE-e3a9f0ef01048a27,aucune correspondance,ok,Hallstatt,Ha C
+94,298,Rimling,Buschenbusch,0,new,SITE-d367b004fc27d2c4,aucune correspondance,ok,indéterminé,
+95,299,Roussy-Le-Village,"Le Diessert, Neuroder, Helsingerwald,",0,new,SITE-995045ef6800a215,aucune correspondance,ok,indéterminé,
+96,300,Rustroff,Buchwaeldchen,0,new,SITE-ef13ea004b7ad70b,aucune correspondance,ok,indéterminé,
+97,301,Sailly-Achatel,Le chêne à la Vierge,0,new,SITE-a2fd9105be0d1866,aucune correspondance,ok,indéterminé,
+98,302,Saint-Avold,Forêt de Steinberg,0,new,SITE-022c4134db7c2721,aucune correspondance,ok,indéterminé,
+99,303,Sarraltroff,Weiherwald,0,new,SITE-e4b3e052cf203442,aucune correspondance,ok,Hallstatt,Ha D2
+99,303,Sarraltroff,Weiherwald,1,new,SITE-e4b3e052cf203442,aucune correspondance,ok,Hallstatt,Ha D3
+100,304,Sarreinsming,Grosswald,0,new,SITE-2751d98793d0e392,aucune correspondance,ok,indéterminé,
+101,305,Schalbach,Kasäcker,0,new,SITE-b739e7d0c3fe8ffb,aucune correspondance,ok,Hallstatt,Ha C
+101,305,Schalbach,Kasäcker,1,new,SITE-b739e7d0c3fe8ffb,aucune correspondance,ok,Hallstatt,Ha D1
+101,305,Schalbach,Kasäcker,2,new,SITE-b739e7d0c3fe8ffb,aucune correspondance,ok,Hallstatt,Ha D2
+102,306,Teterchen,"Auf Löh, Hinter der Muehle, Bichel",0,new,SITE-83d08283d6477a95,aucune correspondance,ok,indéterminé,
+103,307,Veckersviller,Kieleyer,0,new,SITE-dc69028ec21ef836,aucune correspondance,ok,Hallstatt,Ha D3
+104,308,Veckersviller,Spatzmatt,0,new,SITE-24113f0692960320,aucune correspondance,ok,Hallstatt,Ha D3
+105,309,Woippy,Zac des Chiloux,0,merge,SITE-0a99cf4a54502507,distance<=55.0m+commune,ok,Hallstatt,Ha D3
+106,310,Xouaxanges,La Tuilerie/Champs du Renard/La Forge,0,new,SITE-85407e74fa87079f,aucune correspondance,ok,Hallstatt,Ha D2
+106,310,Xouaxanges,La Tuilerie/Champs du Renard/La Forge,1,new,SITE-85407e74fa87079f,aucune correspondance,ok,Hallstatt,Ha D3
+107,311,Ambacourt,Bois d'Ormont,0,new,SITE-a48256c365bd9a43,aucune correspondance,ok,Hallstatt,Ha C
+107,311,Ambacourt,Bois d'Ormont,1,new,SITE-a48256c365bd9a43,aucune correspondance,ok,Hallstatt,Ha D1
+108,312,Ambacourt,Les Taillotes,0,new,SITE-d8b6200d7b77989e,aucune correspondance,ok,Hallstatt,Ha B2-B3
+108,312,Ambacourt,Les Taillotes,1,new,SITE-d8b6200d7b77989e,aucune correspondance,ok,Hallstatt,Ha C
+108,312,Ambacourt,Les Taillotes,2,new,SITE-d8b6200d7b77989e,aucune correspondance,ok,Hallstatt,Ha D1
+109,313,Aulnoy,Bois banal,0,new,SITE-4d44a927886254dc,aucune correspondance,ok,indéterminé,
+110,314,Autigny La Tour,Les Échanées,0,new,SITE-9b9c65b0785dcd2a,aucune correspondance,ok,Hallstatt,Ha D2
+110,314,Autigny La Tour,Les Échanées,1,new,SITE-9b9c65b0785dcd2a,aucune correspondance,ok,Hallstatt,Ha D3
+111,315,Auzainvillers,Le Prieur,0,new,SITE-1ada108fdd07a52a,aucune correspondance,ok,Hallstatt,Ha B2-B3
+111,315,Auzainvillers,Le Prieur,1,new,SITE-1ada108fdd07a52a,aucune correspondance,ok,Hallstatt,Ha C
+111,315,Auzainvillers,Le Prieur,2,new,SITE-1ada108fdd07a52a,aucune correspondance,ok,Hallstatt,Ha D1
+111,315,Auzainvillers,Le Prieur,3,new,SITE-1ada108fdd07a52a,aucune correspondance,ok,Hallstatt,Ha D2
+112,316,Beaufremont,Naburnessart,0,new,SITE-8c02980f1338f931,aucune correspondance,ok,indéterminé,
+113,317,Bouxurulles,Bois du Mont - étape 3,0,new,SITE-4ea10fbb2cdb5d7b,aucune correspondance,ok,Hallstatt,Ha D2
+113,317,Bouxurulles,Bois du Mont - étape 3,1,new,SITE-4ea10fbb2cdb5d7b,aucune correspondance,ok,Hallstatt,Ha D3
+113,318,Bouxurulles,Bois du Mont - étapes 1-2,0,new,SITE-7d31ee116c4fbf2c,aucune correspondance,ok,Hallstatt,Ha B2-B3
+113,318,Bouxurulles,Bois du Mont - étapes 1-2,1,new,SITE-7d31ee116c4fbf2c,aucune correspondance,ok,Hallstatt,Ha C
+113,318,Bouxurulles,Bois du Mont - étapes 1-2,2,new,SITE-7d31ee116c4fbf2c,aucune correspondance,ok,Hallstatt,Ha D1
+114,319,Bouzemont,Haut des Faux,0,new,SITE-dbbde0baf5c99e03,aucune correspondance,ok,indéterminé,
+115,320,Chaumousey,Bois de Trusey - étape 1,0,new,SITE-220740283330a383,aucune correspondance,ok,Hallstatt,Ha B2-B3
+115,321,Chaumousey,Bois de Trusey - étapes 2-3,0,new,SITE-c13b8586fc2a9dfe,aucune correspondance,ok,Hallstatt,Ha D1
+115,321,Chaumousey,Bois de Trusey - étapes 2-3,1,new,SITE-c13b8586fc2a9dfe,aucune correspondance,ok,Hallstatt,Ha D2
+115,321,Chaumousey,Bois de Trusey - étapes 2-3,2,new,SITE-c13b8586fc2a9dfe,aucune correspondance,ok,Hallstatt,Ha D3
+116,322,Contrexeville,Bois d'Hazeau - étape 1,0,new,SITE-01caf62123dec145,aucune correspondance,ok,Hallstatt,Ha C
+116,323,Contrexeville,Bois d'Hazeau - étapes 2-3,0,new,SITE-2819d23bb23e6eac,aucune correspondance,ok,Hallstatt,Ha D1
+116,323,Contrexeville,Bois d'Hazeau - étapes 2-3,1,new,SITE-2819d23bb23e6eac,aucune correspondance,ok,Hallstatt,Ha D2
+116,323,Contrexeville,Bois d'Hazeau - étapes 2-3,2,new,SITE-2819d23bb23e6eac,aucune correspondance,ok,Hallstatt,Ha D3
+117,324,Damas-Aux-Bois,Bois de Voivre,0,new,SITE-4635d38b008c0a83,aucune correspondance,ok,Hallstatt,Ha C
+118,325,Dombrot-Le-Sec,"Les Moncel, Bois David",0,new,SITE-7d05a919c49a1517,aucune correspondance,ok,Hallstatt,Ha B2-B3
+118,325,Dombrot-Le-Sec,"Les Moncel, Bois David",1,new,SITE-7d05a919c49a1517,aucune correspondance,ok,Hallstatt,Ha C
+118,325,Dombrot-Le-Sec,"Les Moncel, Bois David",2,new,SITE-7d05a919c49a1517,aucune correspondance,ok,Hallstatt,Ha D1
+119,326,Girmont,Girmont (nécropole),0,new,SITE-89c6cf7bc6e4187a,aucune correspondance,ok,Hallstatt,Ha D1
+120,327,Liffol Le Grand,La Goulotte,0,new,SITE-ca8a48564ac2d3cb,aucune correspondance,ok,indéterminé,
+121,328,Marainville-sur-Madon,Sous le chemin de Naviot,0,new,SITE-32e940b01f59fcf0,aucune correspondance,ok,Hallstatt,Ha C
+121,328,Marainville-sur-Madon,Sous le chemin de Naviot,1,new,SITE-32e940b01f59fcf0,aucune correspondance,ok,Hallstatt,Ha D1
+122,329,Martigny-Les-Bains,Bois de Courchepied,0,new,SITE-b87bdf872e79573a,aucune correspondance,ok,Hallstatt,Ha B2-B3
+123,330,Martigny-Les-Gerbonvaux,Château Gaillard,0,new,SITE-02909993df8eef29,aucune correspondance,ok,Hallstatt,Ha B2-B3
+124,331,Médonville,Au Grand Bois,0,new,SITE-ec65ef33a5b20f48,aucune correspondance,ok,Hallstatt,Ha C
+124,331,Médonville,Au Grand Bois,1,new,SITE-ec65ef33a5b20f48,aucune correspondance,ok,Hallstatt,Ha D1
+125,332,Norroy,Bois du Rond Buisson,0,new,SITE-2a19dc6c9e187209,aucune correspondance,ok,Hallstatt,Ha C
+125,332,Norroy,Bois du Rond Buisson,1,new,SITE-2a19dc6c9e187209,aucune correspondance,ok,Hallstatt,Ha D1
+126,333,Pierrefite,La Croix Ballot B,0,new,SITE-f9d4a1e539ed808e,aucune correspondance,ok,Hallstatt,Ha C
+126,333,Pierrefite,La Croix Ballot B,1,new,SITE-f9d4a1e539ed808e,aucune correspondance,ok,Hallstatt,Ha D1
+127,334,Pont-les-Bonfays,Bois Saint Michel,0,new,SITE-44f6e54c9b077589,aucune correspondance,ok,Hallstatt,Ha C
+127,334,Pont-les-Bonfays,Bois Saint Michel,1,new,SITE-44f6e54c9b077589,aucune correspondance,ok,Hallstatt,Ha D1
+128,335,Saint-Ouen -Les Parey,Bois Communal,0,new,SITE-39278fec0a42704b,aucune correspondance,ok,Hallstatt,Ha C
+128,335,Saint-Ouen -Les Parey,Bois Communal,1,new,SITE-39278fec0a42704b,aucune correspondance,ok,Hallstatt,Ha D1
+129,336,Sauville,Bois ce Chesnois -Forêt de Lochets,0,new,SITE-8bd6cd16487ba034,aucune correspondance,ok,Hallstatt,Ha D1
+129,336,Sauville,Bois ce Chesnois -Forêt de Lochets,1,new,SITE-8bd6cd16487ba034,aucune correspondance,ok,Hallstatt,Ha D2
+129,336,Sauville,Bois ce Chesnois -Forêt de Lochets,2,new,SITE-8bd6cd16487ba034,aucune correspondance,ok,Hallstatt,Ha D3
+130,337,Vittel,Bois de la Voivre,0,new,SITE-aaf027fcfde18a94,aucune correspondance,ok,Hallstatt,Ha C
+130,337,Vittel,Bois de la Voivre,1,new,SITE-aaf027fcfde18a94,aucune correspondance,ok,Hallstatt,Ha D1
+131,338,Moncel-sur Seille,???,0,new,SITE-5cfa1b3c8c2d7eff,aucune correspondance,ok,Hallstatt,Ha C
+131,338,Moncel-sur Seille,???,1,new,SITE-5cfa1b3c8c2d7eff,aucune correspondance,ok,Hallstatt,Ha D1

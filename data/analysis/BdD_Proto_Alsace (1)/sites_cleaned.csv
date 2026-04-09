@@ -1,0 +1,698 @@
+site_id,id_proto,commune,lieu_dit,type_site,type_site_canon,periode,sous_periode,datation_1_brut,datation_2_brut,longitude,latitude,x_l93,y_l93,statut_fouille,confiance,source,bibliographie,structures_resume,remarques,ea,oa
+PROTO-ALS-231,231,Gerstheim,Lotissement Bancalis,habitat,HABITAT,,,Bronze moyen/Bronze final,Bze C-D,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,"Châtelet 2003, Hardt P. 2015",fosse à galets chauffés,"10 fosses à galets chauffés, 1,2h fouillés",,671540017
+PROTO-ALS-233,233,Gerstheim,Lotissement Oberfeld,habitat,HABITAT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.694275,48.37848,1047391.775185505,6819015.698468924,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Thomas 2015,fosse,-,,6358
+PROTO-ALS-234,234,Gingsheim,"LGV Est-Européenne, 2e phase ?Steinbrunnen, Aschenbuckel",habitat,HABITAT,,,Bronze final,Bze D,7.587274,48.710373,1037340.1722460678,6855383.16510573,fouille,LOW,BdD_Proto_Alsace_xlsx,"Michler, 2011","Fosse, fosse de combustion",-,,5250
+PROTO-ALS-236,236,Furdenheim,Gruen/complexe judo-basket,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2-B1,7.564058,48.617119,1036233.7340500074,6844933.905752265,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Pierrevelcin 2015,crémation,6 fosses,,6099
+PROTO-ALS-237,237,Furdenheim,Gruen/complexe judo-basket,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.564058,48.617119,1036233.7340500074,6844933.905752265,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Pierrevelcin 2015,Fosse,6 fosses,,6099
+PROTO-ALS-239,239,Furdenheim,"Maison de la santé et du citoyen, Rue du Stade",habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.563396,48.617384,1036183.3172439942,6844960.498474641,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Cony 2017,"fosse, fosse polylobée",3 st.,,16954
+PROTO-ALS-242,242,Geispolsheim,Schlossgarten,habitat,HABITAT,HALLSTATT,,Bronze final,Ha B1,7.6396408000000005,48.512731,1042477.0165491512,6833673.901984403,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Goepfert 2012,"fosse, fosse polylobée, fosse-silo",18 st.,,671520045
+PROTO-ALS-243,243,Geispolsheim,Sablière Rietsch,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha A1,7.682549,48.53469,1045495.9353772369,6836297.614955775,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,"Beck 1980, Roscio 2018",crémation,-,,-
+PROTO-ALS-244,244,Haguenau,Fischereck,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha A1,7.84954,48.858109,1055594.9516778977,6872931.08288469,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Roscio 2018,-,nan,,-
+PROTO-ALS-247,247,Haguenau,Kürzgeland,funéraire,NECROPOLE,,,Bronze final,Bze D,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,Schaeffer 1926,inhumation,"Tum 5, Tum 21, Tum 23",,-
+PROTO-ALS-248,248,Hessenheim,Lot. Route de Sélestat,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2,7.546874,48.207538,1037589.293628207,6799409.659511877,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Fleischer F. 2014,"Fosse, puits",-,,5367
+PROTO-ALS-249,249,Hessenheim,Lot. Route de Sélestat,habitat,HABITAT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.546874,48.207538,1037589.293628207,6799409.659511877,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Fleischer F. 2014,"Fosse, puits, trou de poteau",Un bâtiment à 8 trous de poteau,,5367
+PROTO-ALS-252,252,Goxwiller,ZAC PAEI,habitat,HABITAT,HALLSTATT,,Bronze final,Ha B1,7.4975495,48.431225,1032515.781210908,6824021.605733899,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Goepfert 2013,"fosse, fosse polylobée",7 st.,,671640008
+PROTO-ALS-254,254,Haguenau,Dachshoebel-Birklach,funéraire,NECROPOLE,,,Bronze final,Bze D,7.816195946,48.83730988,1053294.000019262,6870472.999451247,fouille,LOW,BdD_Proto_Alsace_xlsx,Schaeffer 1926,crémation,tum19,,-
+PROTO-ALS-255,255,Haguenau,Beckenmatt,funéraire,NECROPOLE,,,Bronze final,Bze D,7.90027,48.830658,1059499.3063909817,6870114.225758256,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Roscio 2018,crémation,"T25-5, T13-2, T4-2, 1 inci et 2 sep indet",,-
+PROTO-ALS-259,259,Haguenau,Donauberg,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha A1,7.972803012,48.83674155,1064771.0000096136,6871121.999478763,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Roscio 2018,inhumation,"T55-1, 1 sep indet",,671800009
+PROTO-ALS-262,262,Erstein,Grassweg PAE,habitat,HABITAT,,,Bronze final,Bze D2,7.636515,48.426524,1042808.9015900929,6824094.187497633,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Croutsch, 2008",Fosse; puits,-,,4779
+PROTO-ALS-264,264,Erstein,Grassweg PAE,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2-B1,7.636515,48.426524,1042808.9015900929,6824094.187497633,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Croutsch, 2008",crémation,-,,4779
+PROTO-ALS-265,265,Erstein,Grassweg PAE,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.636515,48.426524,1042808.9015900929,6824094.187497633,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Croutsch, 2008","Fosse, puits",-,,4779
+PROTO-ALS-270,270,Ernolsheim s/Bruche,COS 2-7,habitat,HABITAT,HALLSTATT,,Bronze final,Ha B1,7.573247,48.576444,1037171.6746984331,6840458.807521319,fouille,LOW,BdD_Proto_Alsace_xlsx,"Cony, à paraitre",fosse,1 st,,16940
+PROTO-ALS-271,271,Ernolsheim s/Bruche,COS 2-7,habitat,HABITAT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.573247,48.576444,1037171.6746984331,6840458.807521319,fouille,LOW,BdD_Proto_Alsace_xlsx,"Cony, à paraitre",fosse-cellier,1 st,,16940
+PROTO-ALS-272,272,Entzheim-Geispolsheim,Aéroparc-Lidl,habitat,HABITAT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.659303,48.542934,1043728.7099956009,6837111.004611943,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Landolt M. et al. 2008,"Fosse, dépôt, fosse-silo, trou de poteau, fosse à galets chauffés",57 st.,,4752
+PROTO-ALS-274,274,Erstein,Gravière nord,mobilier,DEPOT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.668536,48.432165,1045136.6303390905,6824859.615746882,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,"Lambach, Schnitzler CAAAH 1987 fig.2","point mobilier, habitat",épée type rixheim,,67130039
+PROTO-ALS-275,275,Entzheim-Geispolsheim,Aéroparc-Lidl,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha A1,7.659303,48.542934,1043728.7099956009,6837111.004611943,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Landolt M. et al. 2008,crémation,57 st.,,4752
+PROTO-ALS-276,276,Fegersheim,Ohnheim/Lotissement Gentil Home Est II,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha B1,7.698575,48.48831,1046983.6043500061,6831221.260905926,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Roscio M., 2006, Treffort J.-M, Boës E., 2001",crémation,-,,671370024
+PROTO-ALS-282,282,Furdenheim,Gruen/complexe judo-basket,habitat,HABITAT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.564058,48.617119,1036233.7340500074,6844933.905752265,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Pierrevelcin 2015,Fosse,1 fosse,,6099
+PROTO-ALS-283,283,Furdenheim,Gruen/complexe judo-basket,habitat,HABITAT,,,Bronze moyen/Bronze final,Bze C/D,7.564058,48.617119,1036233.7340500074,6844933.905752265,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Pierrevelcin 2015,Fosse,1 fosse,,6099
+PROTO-ALS-286,286,Erstein,Grasweg-PAPE,habitat,HABITAT,,,Bronze final,Bze D2,7.639509,48.432045,1042993.9764345614,6824719.820089791,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Croutsch 2016,"Fosse, puits, fosse polylobée","4 fosses, 2 puits",,5964
+PROTO-ALS-288,288,Erstein,Grasweg-PAPE,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2-B1,7.639509,48.432045,1042993.9764345614,6824719.820089791,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Croutsch 2016,inhumation,"49 fosses, 3 puits",,5964
+PROTO-ALS-289,289,Erstein,Grasweg-PAPE,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.639509,48.432045,1042993.9764345614,6824719.820089791,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Croutsch 2016,"Fosse, puits , fosse polylobée, fosse atelier","49 fosses, 3 puits",,5964
+PROTO-ALS-293,293,"Dingsheim, Griesheim-sur-Souffel, Pfulgriesheim, Stutzheim-Offenheim, Truchtersheim-Pfettisheim","Contournement ouest de Strasbourg, Tronçon 4 : A355",habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.641618,48.642583,1041774.7318444515,6848092.995799182,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Croutsch 2017,"fosse, fosse polylobée",3 st.,,16640
+PROTO-ALS-296,296,"Dingsheim, Stutzheim-Offenheim",Cos 4-1,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,Habsaque-Sudour à paraitre,"fosse, fosse polylobée",19 st.,,16898
+PROTO-ALS-297,297,"Dingsheim, Stutzheim-Offenheim",Cos 4-1,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha A1,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,Habsaque-Sudour à paraitre,inhumation,1 sep en fosse,,16898
+PROTO-ALS-302,302,Brumath,Les Tilleuls,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D- Ha A1,7.708745,48.730715,1046127.6958234529,6858166.609716608,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Thévenin 1978, Roscio 2018",crémation,-,,-
+PROTO-ALS-306,306,"Dingsheim, Griesheim-sur-Souffel, Pfulgriesheim, Stutzheim-Offenheim, Truchtersheim-Pfettisheim","Contournement ouest de Strasbourg, Tronçon 4 : A355",habitat,HABITAT,,,Bronze moyen/Bronze final,Bze C/D,7.641618,48.642583,1041774.7318444515,6848092.995799182,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Croutsch 2017,fosse,2 st.,,16640
+PROTO-ALS-308,308,Eckwersheim,"Burgweg links, Kuemmling, Spiessmatt",habitat,HABITAT,,,Bronze final,Bze D,7.690618,48.691932,1045052.7888679784,6853782.982784371,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Châtelet 2018,"fosse, fond de cabane",-,,5301
+PROTO-ALS-309,309,Eckwersheim,Burgwegrechts ? LGV EE,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha A2,7.691786592,48.69127343,1045143.0000118058,6853715.000047648,fouille,LOW,BdD_Proto_Alsace_xlsx,"Féliu C. à paraître, Boisseau et al. 2009, Féliu 2014",-,"Tumuli, 4 ha fouillés",,671190010
+PROTO-ALS-310,310,Eckwersheim,Lotissement auf die Niedermatten,habitat,HABITAT,,,Bronze final,Bze D,7.7011,48.67997,1045902.0899585809,6852501.278257999,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Croutsch 2019,fosse,-,,17136
+PROTO-ALS-311,311,Eckwersheim,"Burgweg links, Kuemmling, Spiessmatt",habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2/B1,7.690618,48.691932,1045052.7888679784,6853782.982784371,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Châtelet 2018,fosse,-,,5301
+PROTO-ALS-315,315,"Eckwersheim, Geudertheim, Vendenheim","Contournement Ouest de Strasbourg, Tronçon 6 : A355",habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.726356,48.694133,1047663.9926813485,6854184.013088191,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Steiner 2017,"Fosse, trou de poteau",-,,16643
+PROTO-ALS-318,318,"Duttlenheim, Duppigheim, Innenheim",Fuchsgewann/Oberfeld. Raccordement A35-A352,habitat,HABITAT,,,Bronze moyen/Bronze final,Bze C-D,7.5947776,48.523,1039102.7898999269,6834619.862413509,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Lefranc 2007 (raccordement de la voie rapide du Piémont des Vosges à l'autoroute A352),"fosse, vase de stockage",6 fosses,,671080006
+PROTO-ALS-332,332,Achenheim,Tuileries Schaeffer,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha A1,7.624216,48.579162,1040907.5070831531,6840979.295744063,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,"Beck 1980, Roscio 2018",-,nan,,-
+PROTO-ALS-334,334,Achenheim,Grube Eugen,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2,7.624216,48.579162,1040907.5070831531,6840979.295744063,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,"Forrer 1914, Roscio 2018",-,nan,,-
+PROTO-ALS-336,336,Achenheim,Oberschaeffolsheim/Wolfisheim,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2,7.63926,48.58277,1041991.7579505034,6841444.756069191,,MEDIUM,BdD_Proto_Alsace_xlsx,"Piningre 1988, Nicolas T. 2007, Francisco et al. 2011, Tremblay Cormier 2013",vase de stockage,-,,-
+PROTO-ALS-339,339,Bernolsheim-Mommenheim,PDA,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2-B1,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,"Fleischer F., Leprovost C. à paraître",crémation,-,,"5569, 5645, 6111, 5985"
+PROTO-ALS-340,340,Bernolsheim-Mommenheim,PDA,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha A1,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,"Fleischer F., Leprovost C. à paraître","inhumation, crémation",-,,"5569, 5645, 6111, 5985"
+PROTO-ALS-349,349,Bergbieten,"Pferchelmatten, en limite du Dorfgraben",habitat,HABITAT,HALLSTATT,Ha C,âge du Bronze,Ha B2/B3/Ha C,7.455194,48.574889,1028487.0925044748,6839788.625870531,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Boisseau 2015,vase de stockage,-,,5836
+PROTO-ALS-353,353,Bernolsheim-Mommenheim,PDA,habitat,HABITAT,HALLSTATT,,Bronze final,Bze D-Ha A1,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,"Fleischer F., Leprovost C. à paraître","Fosse, concentration de mobilier, dépôt",-,,"5569, 5645, 6111, 5985"
+PROTO-ALS-358,358,"Scherwiller, Châtenois",PAEI du Giessen,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.42742,48.274461,1028312.8590693835,6806331.794414984,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Werlé 2006,"fosse, paléosol",-,,4685
+PROTO-ALS-360,360,Schweighouse-sur-Moder,Sablière Quirin,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha A1,7.749563,48.82906,1048467.1945114278,6869261.262706576,signalement,LOW,BdD_Proto_Alsace_xlsx,"Forrer 1937, Unz 1973",-,plusieurs tombes à incinération,,-
+PROTO-ALS-362,362,Sermersheim,Grubeck,habitat,HABITAT,,,Bronze final,Bze D,7.5389566,48.35583,1036055.2181216497,6815830.279280178,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Hamm 1997,Fosse-silo,"2 fosses-silo, 400m2",,674640008
+PROTO-ALS-363,363,Rosheim,Roetter Brunnen,habitat,HABITAT,,,Bronze moyen/Bronze final,Bze C/D,7.464161,48.492117,1029667.45794808,6830639.358344981,,MEDIUM,BdD_Proto_Alsace_xlsx,-,fosse,-,,-
+PROTO-ALS-364,364,Rosheim,ZAC du Fehrel,habitat,HABITAT,,,Bronze moyen/Bronze final,Bze C/D,7.493742,48.508242,1031747.6372469894,6832552.845766151,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Koziol 2015,"fosse, fosse-silo",-,,6273
+PROTO-ALS-368,368,Roeschwoog,Dammbockel,mobilier,DEPOT,HALLSTATT,,Bronze final,Ha B1,8.031733,48.823857,1069179.1168327462,6869966.084160395,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Koziol 2010,"point mobilier, habitat",découvert dans une Gravière,,-
+PROTO-ALS-371,371,Strasbourg,"4, Haute Montée",mobilier,DEPOT,,,Bronze final,Bze D,7.745717,48.584291,1049819.934261553,6842079.895113343,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Forrer 1925-26,"point mobilier, habitat",-,,-
+PROTO-ALS-372,372,Strasbourg,"3, rue du 22 nov",mobilier,DEPOT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.741547,48.582894,1049522.241776014,6841906.406093842,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Forrer 1925-26,"point mobilier, habitat",-,,-
+PROTO-ALS-373,373,Strasbourg,Rue des étudiants,mobilier,DEPOT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.748412,48.584054,1050019.934146347,6842065.538463162,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Forrer 1925-26,"point mobilier, habitat",-,,-
+PROTO-ALS-374,374,Strasbourg,Banque de France,mobilier,DEPOT,,,Bronze final,Bze D,7.7492,48.584821,1050072.8247033434,6842154.144248547,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Forrer 1925-26,"point mobilier, habitat",-,,-
+PROTO-ALS-383,383,Strasbourg,Koenigshoffen/Lot. Chemin du cuivre,habitat,HABITAT,HALLSTATT,,Bronze final,Ha B1,7.709283,48.583549,1047142.3971483578,6841836.763110089,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Michler M. 2007,fosse,"4 fosses,
+Fouille SU Baudoux, Kohl Pierrez",,-
+PROTO-ALS-385,385,Strasbourg,"18, rue du 22 nov",mobilier,DEPOT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.742465,48.582825,1049590.291015624,6841902.813128932,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Forrer 1925-26,"point mobilier, habitat",-,,-
+PROTO-ALS-387,387,Oberschaeffolsheim,Lotissement RD 45,habitat,HABITAT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.64465,48.583806,1042381.863262492,6841583.085930083,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Griselin 2016,fosse,-,,6464
+PROTO-ALS-391,391,Pfulgriesheim,"Hammeracker - A355, COS site 4.5",habitat,HABITAT,,,Bronze moyen,Bze C/D1,7.655263,48.648457,1042739.809109638,6848804.047821603,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Perrin 2020,"fosse, concentration de mobilier",-,,16901
+PROTO-ALS-393,393,Reichshoffen,Kapellenfeld/ 13 rue des cigognes,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2,7.670655,48.93048,1042017.9752218013,6880173.838104434,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,"Thévenin 1970, 1972",crémation,-,,673880032
+PROTO-ALS-395,395,Obernai,Lotissement le Parc des Roselières,habitat,HABITAT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.503011,48.461695,1032726.0830943985,6827426.063607584,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Logel 2006,"fosse, fosse polylobée, concentration de mobilier, puits",-,,4776
+PROTO-ALS-396,396,Obernai,Kuttergaessel,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.503907,48.457666,1032817.747657931,6826982.712042943,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Ferrier 2010,fosse,-,,5344
+PROTO-ALS-398,398,Obernai,Lotissement le Parc des Roselières,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha A1,7.503011,48.461695,1032726.0830943985,6827426.063607584,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Logel 2006,inhumation,-,,4776
+PROTO-ALS-400,400,Obernai,avenue Gail,mobilier,DEPOT,HALLSTATT,,Bronze final,Ha A1,7.503011,48.461695,1032726.0830943985,6827426.063607584,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Logel 2006,"point mobilier, habitat",-,,-
+PROTO-ALS-401,401,Oberschaeffolsheim,Lotissement la Chapelle,habitat,HABITAT,,,Bronze ancien/Bronze moyen,Bze C/D,7.64598,48.588337,1042450.17152235,6842091.689721353,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,"Lasserre, 1999, p. 21 et fig. 1, Lasserre et Adam, 2007, Jeunesse, Denaire, 2010",puits,"1 bassin d'accès à l'eau ?
+3,4ha sondé",,673500005
+PROTO-ALS-408,408,Rosheim,Rittergass/Boerschweg,habitat,HABITAT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.456683032,48.49097121,1029122.9999962983,6830480.999898355,fouille,LOW,BdD_Proto_Alsace_xlsx,Michler 2014,fosse,8 st.,,5631
+PROTO-ALS-414,414,Reichstett-Mundolsheim-Souffelweyersheim,Rue Ampère,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.7285137,48.64165,1048171.7224901582,6848369.084813111,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Treffort et Le Meur, 2000, Michler 2007, Lasserre 2007",fosse,20 st.,,673090024
+PROTO-ALS-415,415,Roeschwoog,-,mobilier,DEPOT,HALLSTATT,,Bronze final,Ha B1,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Frey 1928-29,"point mobilier, habitat",-,,-
+PROTO-ALS-419,419,Meistratzheim,Station d'épuration,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.55526,48.462501,1036577.3206512376,6827736.946896358,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Murer A. et al, 2010",fosse,-,,672860011
+PROTO-ALS-422,422,Meistratzheim,Foegel,habitat,HABITAT,,,Bronze moyen,Bze C/D,7.55024145,48.45184485,1036275.1430154378,6826533.0187547365,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Véber C., 2008",-,21 st.,,672860009
+PROTO-ALS-428,428,Marckolsheim,Schlettstadterweg,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.542446,48.173595,1037477.7809590371,6795624.684135501,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Goepfert 2016,"fosse, puits, fosse à galets chauffés",-,,672810016
+PROTO-ALS-431,431,Marlenheim,Im gewinkel,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.525891,48.611456,1033461.1325056101,6844143.531905874,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Haegel B., Kill R. 1985, Haegel B., Kill R. 1989, Pascutto 2007","Fosse, four","15 st., 1 four, 300m2 fouillé",,672820004
+PROTO-ALS-434,434,Marlenheim,"La Peupleraie, tranche 4",habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.50255,48.627591,1031641.0428079849,6845836.065125146,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Abert 2015,"Foyé, niveau de sol, fosse-silo, Vase de stockage",lambeau de sol d'ahabitation ? Cf Fouille Antea. Lot de peson en place,,6456
+PROTO-ALS-435,435,Niedernai,Lotissement les Acacias,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A1,7.51900604,48.44512754,1034012.0000613857,6825654.9993487215,fouille,LOW,BdD_Proto_Alsace_xlsx,Thomas 2014,"fosse, paléosol",-,,5990
+PROTO-ALS-441,441,Obernai,"Schulbach, Nouvel hôpital",habitat,HABITAT,HALLSTATT,,Bronze final,Ha B1,7.488695,48.456218,1031704.0096523846,6826758.006850978,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Ferrier 2013,Fosse,-,,5553
+PROTO-ALS-450,450,Mussig,"Mittelweide, lotissement communal de l'Illwald",habitat,HABITAT,HALLSTATT,,Bronze final,Ha B1,7.511573,48.22684,1034848.6830886069,6801401.010600783,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Thomas 2010,fosse,1 fosse,,5188
+PROTO-ALS-451,451,Holtzheim,Almatt ? ZA,habitat,HABITAT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.6526265,48.561584,1043114.6487329653,6839151.613384424,fouille,LOW,BdD_Proto_Alsace_xlsx,-,fosse,3 fosses,,672120014
+PROTO-ALS-455,455,Holtzheim,Parc Joffre II,habitat,HABITAT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.658301,48.561083,1043535.9213687999,6839120.687968021,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Pierrevelcin à paraitre,fosse dépôt céramique,1 fosse,,16555
+PROTO-ALS-458,458,Holtzheim,Parc Joffre II,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.658301,48.561083,1043535.9213687999,6839120.687968021,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Pierrevelcin à paraitre,fosse,1 fosse,,16555
+PROTO-ALS-469,469,Lingolsheim,Sablières Modernes,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2-B1,7.6732826,48.54624,1044737.0802240002,6837538.819543247,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,-,inhumation,-,,672670012
+PROTO-ALS-470,470,Lingolsheim,Sablières Modernes,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.6732826,48.54624,1044737.0802240002,6837538.819543247,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,-,fosse,-,,672670012
+PROTO-ALS-472,472,Lingolsheim,Ancienne Sablière Lienhardt,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2,7.681744,48.554457,1045306.3994359253,6838487.639956446,,MEDIUM,BdD_Proto_Alsace_xlsx,Forrer 1937,crémation,Nécropole à incinérations,,-
+PROTO-ALS-473,473,Marckolsheim,Schlettstadterweg,habitat,HABITAT,,,Bronze moyen/Bronze final,Bze C/D,7.542446,48.173595,1037477.7809590371,6795624.684135501,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Goepfert 2016,"puits, trou de poteau",-,,672810016
+PROTO-ALS-477,477,Ingwiller,-,mobilier,DEPOT,,,Bronze final,Bze D,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Faudel-Bleicher 1883-85,"point mobilier, habitat",2 MCU,,-
+PROTO-ALS-489,489,Habsheim,-,mobilier,DEPOT,HALLSTATT,,Bronze final,Bze D-Ha A1,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-492,492,Ensisheim,"Reguisheimerfeld, RD 201 tr. 2",habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.355859,47.875778,1025454.4933618142,6761799.314326551,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Pierrevelcin 2016,Fosse-silo,-,,5943
+PROTO-ALS-499,499,Habsheim,"Lotissement Lobedia II, Landsererweg",funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha A1,7.417525,47.719978,1031025.1236046755,6744771.6226531,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 2003,crémation,-,,-
+PROTO-ALS-508,508,Habsheim,-,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2,,,,,,LOW,BdD_Proto_Alsace_xlsx,Dabek 2017,inhumation,-,,-
+PROTO-ALS-513,513,Habsheim,Pfannenstiel 1,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.403696,47.72321,1029969.9145900524,6745072.269305971,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Dabek 2017,fosse,-,,040AH
+PROTO-ALS-515,515,Eguisheim,Oberfeld,mobilier,DEPOT,HALLSTATT,,Bronze final,Bze D-Ha A2,7.309543,48.0392105,1021006.7244012175,6779742.882824225,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-516,516,Eguisheim,Oberfeld,funéraire,NECROPOLE,,,Bronze final,Bze D,7.309543,48.0392105,1021006.7244012175,6779742.882824225,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,crémation,-,,-
+PROTO-ALS-517,517,Eguisheim,Muhlengarten,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2,7.31095,48.043018,1021088.3359565961,6780171.081855527,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,crémation,-,,-
+PROTO-ALS-519,519,Eguisheim,Buhl,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2,7.312127,48.038152,1021205.428895321,6779635.940398069,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1970,crémation,-,,-
+PROTO-ALS-520,520,Eguisheim,Buhl,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2,7.312127,48.038152,1021205.428895321,6779635.940398069,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,"Zumstein 1964-65, Gutmann 1902",crémation,-,,-
+PROTO-ALS-521,521,Eguisheim,Oberfeld,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2,7.309543,48.0392105,1021006.7244012175,6779742.882824225,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,crémation,-,,-
+PROTO-ALS-522,522,Eguisheim,Oben am Herrenweg,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2,7.312782,48.040297,1021241.1581124561,6779876.612512964,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,crémation,-,,-
+PROTO-ALS-526,526,Eguisheim,Tuilerie Malsbachacker,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.312971,48.044087,1021232.2291607412,6780297.917557358,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,"Geis, Schaeffer 1927","Fosse, fosse-silo, fond de cabane",-,,-
+PROTO-ALS-531,531,Ensisheim,Reguisheimer Feld-ZAID tranche 1,habitat,HABITAT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.363244,47.87279,1026024.0498656181,6761498.277702727,fouille,LOW,BdD_Proto_Alsace_xlsx,"Pichot et al., 2017",fosse,-,,5758
+PROTO-ALS-534,534,Ensisheim,Reguisheimer Feld-ZAID tranche 2,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.363244,47.87279,1026024.0498656181,6761498.277702727,fouille,LOW,BdD_Proto_Alsace_xlsx,"Pichot et al., 2017","fosse, fosse-silo, fosse polylobée, vase de stockage, concentration de mobilier",15 fosses,,5942
+PROTO-ALS-535,535,Ensisheim,Reguisheimer Feld-ZAID tranche 3,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2-B1,7.363244,47.87279,1026024.0498656181,6761498.277702727,fouille,LOW,BdD_Proto_Alsace_xlsx,Roth-Zehner en cours ?,crémation,"incinération, enclos ?",,16774
+PROTO-ALS-536,536,Ensisheim,Reguisheimer Feld-ZAID tranche 3,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.363244,47.87279,1026024.0498656181,6761498.277702727,fouille,LOW,BdD_Proto_Alsace_xlsx,Roth-Zehner en cours ?,"fosse, fosse-silo","incinération, enclos ?",,16774
+PROTO-ALS-537,537,Ensisheim,Reguisheimer Feld-ZAID tranche 3,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha B2/B3,7.363244,47.87279,1026024.0498656181,6761498.277702727,fouille,LOW,BdD_Proto_Alsace_xlsx,Roth-Zehner en cours ?,crémation,"landgraben, incinération",,16774
+PROTO-ALS-538,538,Ensisheim,Reguisheimer Feld-ZAID tranche 3,habitat,HABITAT,HALLSTATT,,Bronze final,Bze D-Ha B2/B3,7.363244,47.87279,1026024.0498656181,6761498.277702727,fouille,LOW,BdD_Proto_Alsace_xlsx,Roth-Zehner en cours ?,"fosse, fosse-silo","landgraben, incinération",,16774
+PROTO-ALS-540,540,Eguisheim,Village Ziegelgarten,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2,7.306528,48.043249,1020757.903866729,6780178.7414588295,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,habitat,-,,-
+PROTO-ALS-542,542,Eguisheim,Niederwald,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2,7.332218,48.0303635,1022747.9470554746,6778853.665921371,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Bachellerie 2021,"Puits, paléosol",-,,17260
+PROTO-ALS-544,544,Ensisheim,"Reguisheimer feld/THK, 1ere tr",funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha A1,7.356815,47.872718,1025544.6004971357,6761463.764876081,fouille,LOW,BdD_Proto_Alsace_xlsx,"Zehner, Bakaj 2001, Prouin 2007",crémation,86 incinérations BzeC-Ha A1,,2394
+PROTO-ALS-548,548,Colmar,Lotissement les terrasses du Diaconat,habitat,HABITAT,HALLSTATT,,Bronze final,Ha B1,7.3434467,48.061325,1023394.4761632172,6782335.0258895,fouille,LOW,BdD_Proto_Alsace_xlsx,"Lasserre 1990, Maise, Lasserre 2005","fosse, fosse-silo",75 st. Dont 36 fosses-silo,,680660218
+PROTO-ALS-549,549,Colmar,"Rufachen Ruben, Lotissement Les Jardins des Aubépines",habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.348855302,48.0624318,1023790.0000430082,6782479.999213332,fouille,LOW,BdD_Proto_Alsace_xlsx,Roth-Zehner et al. 2008,Fosse-silo,-,,4811
+PROTO-ALS-553,553,Colmar-Houssen,Base de Loisirs/ Gravière,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2,7.3740745,48.115524,1025339.0939814292,6788474.718860997,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Roth-Zenher, Denaire 2009, Veber et al. 2007",crémation,enclos et cercles funéraires,,681460011
+PROTO-ALS-557,557,Colmar,-,mobilier,DEPOT,HALLSTATT,,Bronze final,Ha A1,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-558,558,Colmar,-,mobilier,DEPOT,HALLSTATT,,Bronze final,Ha A2,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",deux découvertes isolées à Colmar datées du Ha A2,,-
+PROTO-ALS-560,560,Colmar,Cavalerie,mobilier,DEPOT,HALLSTATT,,Bronze final,Ha A1-A2,7.359368,48.0807245,1024459.7478459543,6784552.879316845,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-561,561,Colmar,Lotissement les terrasses du Diaconat,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2,7.3434467,48.061325,1023394.4761632172,6782335.0258895,fouille,LOW,BdD_Proto_Alsace_xlsx,"Lasserre 1990, Maise, Lasserre 2005",fosse,"1 fosse, 3,5h sondés, 6000 m² fouillé",,680660218
+PROTO-ALS-562,562,Colmar,Cavalerie,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A1-A2,7.359368,48.0807245,1024459.7478459543,6784552.879316845,,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,crémation,"Cavalerie T.1 (Bf II a), Cavalerie T.2 (Bf IIb)
+au moins 3 MCU",,-
+PROTO-ALS-563,563,Didenheim,Gallenberg,habitat,HABITAT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.302165,47.720842,1022384.1198129687,6744390.171843131,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Gallia 1968,"Fosse, foyer",-,,001AP
+PROTO-ALS-568,568,Durrenentzen,-,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A1,,,,,,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,crémation,-,,-
+PROTO-ALS-573,573,Dessenheim,"Buttermilch, tranche 1",habitat,HABITAT,,,Bronze final,Bze D,7.451306,47.971877,1031976.8447976231,6772858.2789584,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Schneikert 2018,"fosse à galets chauffés, paléosol",-,,16615
+PROTO-ALS-574,574,Colmar-Houssen,Base de Loisirs/ Gravière,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2-B2/B3,7.3740745,48.115524,1025339.0939814292,6788474.718860997,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Roth-Zehner 2009,crémation,-,,-
+PROTO-ALS-581,581,Wiwersheim,ZAC du Kochersberg,habitat,HABITAT,,,Bronze final,Bze D,7.5990047,48.643764,1038632.9231859802,6848040.4719358515,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Rohmer 2005,"fosse, paléosol","inhumation dans la fosse domestique
+1,15 ha sondé",,4623
+PROTO-ALS-582,582,Wingersheim,-,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Forrer 1937,crémation,Nécropole à inci,,-
+PROTO-ALS-583,583,Wiwersheim,ZAC du Kochersberg,habitat,HABITAT,,,Bronze final,Bze D,7.5990047,48.643764,1038632.9231859802,6848040.4719358515,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Latron 2008,fosse,"Une seule fosse avérée et mobilier ""intrusif""",,4810
+PROTO-ALS-584,584,Wiwersheim,ZAC du Kochersberg,funéraire,NECROPOLE,,,Bronze final,Bze D,7.5990047,48.643764,1038632.9231859802,6848040.4719358515,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Rohmer 2005,inhumation,"inhumation dans la fosse domestique
+1,15 ha sondé",,4623
+PROTO-ALS-585,585,Algolsheim,Brunnenzug,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha A2,7.558736,48.005554,1039764.2078592259,6777051.3831372345,,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,-,-,,-
+PROTO-ALS-591,591,Westhouse,Altmatt,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.5627365,48.40002,1037530.2174585506,6820835.31892668,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Hamm 2002, Lasserre, Adam 2007",fosse,1 puits + 46st de datations diverses,,675260007
+PROTO-ALS-593,593,Westhouse,Eichenloch,habitat,HABITAT,,,Bronze final,Bze D,7.563122366666668,48.39504256666667,1037590.6843244943,6820284.636505087,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Lasserre et Adam, 2007, Lasserre, 1999, p. 19, 21 et fig. 2, Lasserre 1996, p. 14-15","fosse, fosse à galets chauffés",3 st.,,675260009
+PROTO-ALS-595,595,Bischwihr,Muehlaecker,habitat,HABITAT,,,Bronze moyen/Bronze final,Bze C/D,7.44010929,48.10247698,1030327.0402243254,6787301.2217896255,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Vergnaud et al. 2013,"Fosse, trou de poteau",-,,68360003
+PROTO-ALS-598,598,Bollwiller,-,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A1,,,,,,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,crémation,-,,-
+PROTO-ALS-600,600,Bruebach,Am Talberg,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2,7.35865,47.700355,1026738.1482799205,6742349.592076251,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Voegtlin 1999,-,1 fosse,,-
+PROTO-ALS-603,603,Altkirch,-,mobilier,DEPOT,HALLSTATT,,Bronze final,Bze D-Ha A2,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-604,604,Algolsheim,Oberfeld,funéraire,NECROPOLE,,,Bronze final,Bze D,7.558736,48.005554,1039764.2078592259,6777051.3831372345,,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,-,-,,-
+PROTO-ALS-605,605,Battenheim,Lisière de la forêt de la Hardt,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A1,7.405581,47.811168,1029566.0410325619,6754837.669668745,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Schweitzer 1989, p. 42",fosse à galets chauffés,-,,-
+PROTO-ALS-607,607,Bennwihr,-,funéraire,NECROPOLE,,,Bronze final,Bze D,,,,,,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,crémation,"Tombe I et II
+5MCU",,-
+PROTO-ALS-609,609,Biesheim,-,mobilier,DEPOT,HALLSTATT,,Bronze final,Bze D-Ha A2,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-610,610,Bernwiller,Rohracker et Scheracker,habitat,HABITAT,,,Bronze final,Bze D,7.20026853,47.69523425,1014907.0343700894,6741137.998570874,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Lack 1986,fosse,1 fosse,,680310012
+PROTO-ALS-617,617,Saint-Croix-en-Plaine,ZA IIIe tr,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2-B1,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,-,crémation,14 enclos circulaires dont certains petits (2-3m de diam),,682950027
+PROTO-ALS-620,620,Rorschwihr,Nord village,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A1,7.362501,48.217338,1023854.3341281877,6799724.860565956,,MEDIUM,BdD_Proto_Alsace_xlsx,Bonnet 1972,crémation,crémation 1 et 2,,-
+PROTO-ALS-621,621,Rouffach,Gallbuhl,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A1,7.299383,47.957033,1020747.6439034797,6770583.431539818,,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,crémation,-,,-
+PROTO-ALS-622,622,Rouffach,Allbühl,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A1,7.299383,47.957033,1020747.6439034797,6770583.431539818,,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,crémation,-,,-
+PROTO-ALS-623,623,Rouffach,Issenbreitfeld,mobilier,DEPOT,,,Bronze final,Bze D,7.299383,47.957033,1020747.6439034797,6770583.431539818,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-624,624,Rouffach,-,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A1,,,,,,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,crémation,Inc. 3,,-
+PROTO-ALS-625,625,Rouffach,"RD 18bis, Liaison A35-RD83 tranche 1",habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.333546,47.954754,1023307.6542549036,6770469.894247889,prospection,LOW,BdD_Proto_Alsace_xlsx,Chosson 2010,trou de poteau,-,,5194
+PROTO-ALS-631,631,Schweighouse- Thann,"LGV Rhin-Rhône : Kleinfeld, grunacker",mobilier,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.180654,47.747769,1013128.9653847298,6746888.596727389,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Landolt 2017,"point mobilier, habitat",-,,5877
+PROTO-ALS-633,633,Sierentz,ZAC Hoell,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha A1,7.4397984,47.667694,1033018.8569801811,6739065.539432224,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Roth-Zehner 2007,crémation,-,,683090027
+PROTO-ALS-643,643,Oberhergheim,Biederlingerfeld,mobilier,DEPOT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.395757,47.967692,1027864.202121909,6772161.876605652,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-644,644,Oberentzen,-,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,crémation,-,,-
+PROTO-ALS-648,648,Ottmarsheim,-,mobilier,DEPOT,HALLSTATT,,Bronze final,Ha A1,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-655,655,Niederhergheim,"Grösser Plän, Gravière",habitat,HABITAT,,,Bronze final,Bze D,7.44488,47.979469,1031450.639097433,6773673.5721502695,prospection,LOW,BdD_Proto_Alsace_xlsx,Latron 2011,fosse,-,,5613
+PROTO-ALS-661,661,Rixheim,Gravière,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2-B1,7.396826,47.744372,1029324.8236514365,6747391.136722183,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,crémation,"crémation 1, 2, 3, 4",,-
+PROTO-ALS-662,662,Rixheim,Zac le Petit Prince,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.419012,47.747232,1030967.0633899494,6747801.164031407,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Murer, 2007, p; 66, 67, 70-75","fosse, fosse-silo, fosse polylobée, trou de poteau",Ha A1 ??,,682780046
+PROTO-ALS-663,663,Rixheim,Gravière,mobilier,DEPOT,,,Bronze final,Bze D,7.396826,47.744372,1029324.8236514365,6747391.136722183,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-664,664,Rixheim,Gravière,mobilier,DEPOT,HALLSTATT,,Bronze final,Ha A2,7.396826,47.744372,1029324.8236514365,6747391.136722183,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-665,665,Rodern,Schaenzel,mobilier,DEPOT,HALLSTATT,,Bronze final,Ha A1-A2,7.324655,48.240376,1020907.4626384682,6802126.895976294,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-666,666,Rixheim,Gypsboden,habitat,HABITAT,HALLSTATT,,Bronze final,Ha B1,7.388776,47.732958,1028792.9438469966,6746091.399580484,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Voegtlin 1984,fosse,-,,-
+PROTO-ALS-668,668,Richwiller,-,funéraire,NECROPOLE,,,Bronze final,Bze D,,,,,,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,crémation,Tumulus ?,,-
+PROTO-ALS-670,670,Riedisheim,-,funéraire,NECROPOLE,,,Bronze final,Bze D,,,,,,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,crémation,-,,-
+PROTO-ALS-675,675,Merxheim,Trummelmatten,habitat,HABITAT,HALLSTATT,,Bronze final,Ha B1,7.286868,47.906255,1020121.0747391238,6764898.661578286,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Treffort, Dumont 2000",Fosse-silo,"6 fosses-silo
+9000m2 sondés
+3000m2 fouillés",,-
+PROTO-ALS-676,676,Merxheim,Oberbrey 1 et Breyl,habitat,HABITAT,HALLSTATT,,Bronze final,Ha B1,7.286015,47.910781,1020030.155553106,6765397.373524238,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,"Bonnet, Plouin-Mantzer, 1979",fosse,-,,-
+PROTO-ALS-680,680,Merxheim,"Winter, rue de Réguisheim/rue de Verdun, lotissement Wintergarten",habitat,HABITAT,HALLSTATT,,Bronze final,Ha B1,7.296204,47.909765,1020796.3418750665,6765325.991186037,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Michler 2016,fosse,-,,6517
+PROTO-ALS-682,682,Meyenheim,-,mobilier,DEPOT,HALLSTATT,,Bronze final,Ha A1-A2,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-684,684,Kunheim,Les Résidences des Tilleuls,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2-B1,7.536648486,48.07056508,1037705.0000795278,6784168.999138198,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Treffort et Gatto 2000, Rault 2011",crémation,"2 enclos circulaires
+2,4 ha sondés
+7200m2",,681720015
+PROTO-ALS-689,689,Merxheim,Groupe scolaire,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2,7.291681,47.911095,1020450.9152818484,6765455.191558756,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,"Bonnet, Plouin-Mantzer, 1979",fosse,-,,-
+PROTO-ALS-690,690,Merxheim,Saefflenhaeg,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2,7.300964,47.902845,1021193.2795862536,6764577.559650571,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,"Bonnet, Plouin-Mantzer, 1979",fosse,-,,-
+PROTO-ALS-691,691,Mulhouse,Rocade Ouest,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2,7.284580047,47.72858917,1021021.0000378358,6745177.999322018,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Bakaj et al. 2002, Lefranc et al. 1996","Fosse-silo, fosse polylobée, fond de cabane","13 fosses silo, 5 fosses polylobées",,-
+PROTO-ALS-692,692,Mulhouse,Rocade Ouest,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2,7.284580047,47.72858917,1021021.0000378358,6745177.999322018,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Bakaj et al. 2002, Lefranc et al. 1996",crémation,-,,-
+PROTO-ALS-694,694,Mulhouse,Ratzadoerfle Brüstlein,habitat,HABITAT,HALLSTATT,,Bronze final/Hallstatt,-,7.310754,47.737215,1022927.8399340352,6746241.675902203,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,"Werner 1920, Normand 1981, Duval et al. 1974",dépôt,14 objets en bronze dont 10 fibules de l'époque hallstattienne cf fibula a navicella,,009AH
+PROTO-ALS-695,695,Mulhouse-Morschwiller-le-Bas,"Grossaecker, Ungeheuer hoelzle, ZAC Parc des Collines 1-Projet IKEA (phase 2)",habitat,HABITAT,HALLSTATT,,Bronze final,Ha B1,7.281596,47.728546,1020797.9003097612,6745161.082607146,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Schneikert 2013,"fosse, fosse-silo",3 st.,,6064
+PROTO-ALS-702,702,Meyenheim,rue du vignoble,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.358501,47.914205,1025416.1320416634,6766073.518910079,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Werlé 2004,Fosse-silo,-,,-
+PROTO-ALS-705,705,Mulhouse,rue Alfred Kastler,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A1,7.285396,47.742048,1021000.9608240931,6746674.455725308,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Chosson 2020,fosse,-,,17486
+PROTO-ALS-710,710,Houssen,Obere Maettle,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2-B1,7.377271,48.1173,1025565.6673644901,6788684.958449057,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,"Bonnet, Plouin, 1995, p.97-99, Müller, 1996, Forrer 1925, p. 38-42",crémation,-,,-
+PROTO-ALS-715,715,Herrlisheim-près-Colmar,Village Ziegelgarten,mobilier,HABITAT,HALLSTATT,,Bronze final,Bze D-Ha A1,7.33075,48.017944,1022714.3462465086,6777469.639373879,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Koch 2016,"point mobilier, habitat",épingle réutilisée dans contexte médiéval,,16541
+PROTO-ALS-716,716,Herrlisheim,-,funéraire,NECROPOLE,,,Bronze final,Bze D,,,,,,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,crémation,-,,-
+PROTO-ALS-717,717,Horbourg-Wihr,-,mobilier,DEPOT,HALLSTATT,,Bronze final,Ha A1-A2,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-719,719,Horbourg-Wihr,"Schlossfeld, Le Parc des Césars, Rues des Antonins, des Césars, du château",habitat,HABITAT,HALLSTATT,,Bronze final,Ha A1-B2,7.39959,48.075064,1027485.3433580274,6784090.852499094,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Le Martret 2013,concentration de mobilier,-,,5376
+PROTO-ALS-720,720,Horbourg-Wihr,-,mobilier,DEPOT,,,Bronze final,Bze D,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-723,723,Illzach,-,mobilier,DEPOT,HALLSTATT,,Bronze final,Ha A1,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-733,733,Illfurth,Sebelen/Lotissement le vieux vignoble,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2,7.255654,47.679367,1019150.4220887109,6739600.01201297,,MEDIUM,BdD_Proto_Alsace_xlsx,-,fosse,1 fosse,,681520023
+PROTO-ALS-739,739,Wolfgantzen,Route Neuf-Brisach,mobilier,DEPOT,,,Bronze final,Bze D,7.501608,48.027324,1035373.2408273206,6779222.331957493,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Bonnet 1972,"point mobilier, habitat",-,,-
+PROTO-ALS-740,740,Wolfgantzen,Katzenroth,mobilier,DEPOT,,,Bronze final,Bze D,7.501608,48.027324,1035373.2408273206,6779222.331957493,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-741,741,Wolfgantzen,déviation RN 415,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.5026555,48.032764,1035416.7433137521,6779830.314869611,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Lasserre, 1999, Plouin, 2007, p. 128","fosse, fosse-silo, fosse polylobée","9 fosses, dont 5 silo et 2 fosses polylobées",,683790005
+PROTO-ALS-743,743,Zillisheim,Hoell-Faubourg de Mulhouse,habitat,HABITAT,HALLSTATT,,Bronze final,Bronze D - Ha A2,7.303654,47.697068,1022639.4779542884,6741758.806915958,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Chosson 2020,"Fosse, paléosol",nan,,17401
+PROTO-ALS-745,745,Turkheim,-,mobilier,DEPOT,HALLSTATT,,Bronze final,Bze D-Ha A2,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-746,746,Uffholtz,"Salle Espérance, rue de Thann, rue du Bourg",habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.175993,47.819837,1012356.9085204457,6754866.244756527,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Schneikert 2015,concentration de mobilier,-,,6429
+PROTO-ALS-748,748,Ungersheim,Lehlematten/Bioscope,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Ha A2-B1,7.297159695,47.8605637,1021165.000044083,6759870.998952436,fouille,LOW,BdD_Proto_Alsace_xlsx,"Châtelet 2006, Zehner et al. 2002",crémation,-,,4465
+PROTO-ALS-750,750,Ungersheim,Lehlematten/Bioscope,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha A1,7.297159695,47.8605637,1021165.000044083,6759870.998952436,fouille,LOW,BdD_Proto_Alsace_xlsx,"Châtelet 2006, Zehner et al. 2003",crémation,-,,4465
+PROTO-ALS-754,754,Sierentz,"Grassweg, Schluck",funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha A1,7.452111442,47.66920367,1033932.0000323195,6739284.999785566,prospection,LOW,BdD_Proto_Alsace_xlsx,Schneikert 2020,crémation,-,,17259
+PROTO-ALS-755,755,Sierentz,Sandgrube,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.447003,47.669626,1033546.6040554199,6739310.255413103,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Wolf 1987, Wolf 1989, Wolf 1996",fosse à galets chauffés,-,,-
+PROTO-ALS-756,756,Spechbach-le-Bas,Spechbacherweg,habitat,HABITAT,,,Bronze final,Bze D,7.224023,47.675452,1016803.801119783,6739038.301075856,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Lack 1988, p. 61-66",fosse à galets chauffés,-,,-
+PROTO-ALS-757,757,Sigolsheim,-,mobilier,DEPOT,HALLSTATT,,Bronze final,Ha A1-A2,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-760,760,Wintzenheim,Sonnenbuckel,mobilier,DEPOT,HALLSTATT,,Bronze final,Ha A2,7.289888,48.073075,1019339.7692667523,6783420.839646802,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,"point mobilier, habitat",-,,-
+PROTO-ALS-765,765,Wittelsheim,Langenzug,funéraire,NECROPOLE,,,Bronze final,Bze D,7.240589,47.809209,1017247.3518962499,6753944.574042322,,MEDIUM,BdD_Proto_Alsace_xlsx,Zumstein 1964-65,crémation,-,,-
+PROTO-ALS-768,768,Ungersheim,Desserte routière du Bioscope et de l'Ecomusée,funéraire,NECROPOLE,HALLSTATT,,Bronze final,Bze D-Ha A1,7.292693,47.86434,1020808.6937454201,6760271.816389632,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Lefranc 2008,-,-,,4938
+PROTO-ALS-769,769,Ungersheim,Desserte routière du Bioscope et de l'Ecomusée,habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2,7.292693,47.86434,1020808.6937454201,6760271.816389632,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Lefranc 2008,-,-,,4938
+PROTO-ALS-775,775,Wettolsheim,"10 rue de la 5e Division Blindée, lotissement Le Clos Driesbach",habitat,HABITAT,HALLSTATT,,Bronze final,Ha A2-B1,7.299919,48.05782,1020178.0097391515,6781768.727952881,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Latron 2011,fosse,-,,5652
+PROTO-ALS-776,776,Neubois,Le Frankenbourg / Schlossberg,habitat,HABITAT,LA_TENE,,La Tène finale,,7.324984,48.295214,1020598.1891455736,6808213.90695536,fouille,LOW,BdD_Proto_Alsace_xlsx,Féliu 2020,nan,nan,,
+PROTO-ALS-777,777,Zimmersheim,Knabenboden,habitat,HABITAT,LA_TENE,,La Tène finale,,7.387721,47.720462,1028791.0955065317,6744700.791149513,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,nan,nan,,
+PROTO-ALS-778,778,Ungersheim,Thurwald,habitat,HABITAT,LA_TENE,,La Tène finale,,7.308399,47.876474,1021907.7703177114,6761681.986169304,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,nan,nan,,
+PROTO-ALS-779,779,Turckheim,nan,mobilier,HABITAT,LA_TENE,,La Tène finale,,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zehner 1998,mobilier,nan,,
+PROTO-ALS-780,780,Bischwihr,Muehlacker,habitat,HABITAT,LA_TENE,,La Tène finale,,7.44010929,48.10247698,1030327.0402243254,6787301.2217896255,fouille,LOW,BdD_Proto_Alsace_xlsx,Vergnaud 2013,fosses,nan,,
+PROTO-ALS-781,781,Matzenheim,Les berges du Panama,habitat,HABITAT,LA_TENE,,La Tène finale,,7.627276,48.395317,1042329.7402176679,6820591.292009807,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"fossés, bâtiments, fosses",nan,,
+PROTO-ALS-782,782,Westhouse,Eichenloch,habitat,HABITAT,LA_TENE,,La Tène finale,,7.563122366666668,48.39504256666667,1037590.6843244943,6820284.636505087,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"structure isolée, fosse",nan,,
+PROTO-ALS-783,783,Bourgheim,Burggartenreben,habitat,HABITAT,LA_TENE,,La Tène finale,,7.4966558,48.4171755,1032538.6631456038,6822458.701865598,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"fours de potiers, fosses, bâtiments",nan,,
+PROTO-ALS-784,784,Schaeffersheim,La Chênaie,habitat,HABITAT,LA_TENE,,La Tène finale,,7.626775052,48.43188571,1042054.6851741578,6824646.907101762,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"fossé, bâtiments, puits, fosses, ateliers",nan,,
+PROTO-ALS-785,785,Erstein,Krebsrott,habitat,HABITAT,LA_TENE,,La Tène finale,,7.668064,48.432618,1045098.8018318288,6824907.818360197,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,fosses,nan,,
+PROTO-ALS-786,786,Ottrot,Mont-Saint-Odile,habitat,HABITAT,LA_TENE,,La Tène finale,,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,Kulturschichte,nan,,
+PROTO-ALS-787,787,Meistratzheim,Foegel,habitat,HABITAT,LA_TENE,,La Tène finale,,7.55024145,48.45184485,1036275.1430154378,6826533.0187547365,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"fossé, puits, bâtiments, four de potier",nan,,
+PROTO-ALS-788,788,Obernai,Neuen Brunnen,habitat,HABITAT,LA_TENE,,La Tène finale,,7.510225,48.468155,1033217.5503205671,6828173.398568801,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2017,"fossé, bâtiments, caves, ateliers",nan,,
+PROTO-ALS-789,789,Hindisheim,Borot,habitat,HABITAT,LA_TENE,,La Tène finale,,7.627356499999999,48.460784155,1041909.4849138029,6827856.173400797,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,fossés,nan,,
+PROTO-ALS-790,790,Rosheim,Molsheimer Gasse,habitat,HABITAT,LA_TENE,,La Tène finale,,7.468379,48.50364,1029906.1681931395,6831935.838771236,,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"structure isolée, fosses",nan,,
+PROTO-ALS-791,791,Illkirch-Graffenstaden,près de la ferme Schafhardt,mobilier,HABITAT,LA_TENE,,La Tène finale,,7.731711,48.50745,1049300.3163505227,6833491.192426646,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-792,792,Grandfontaine,Le Donon,habitat,HABITAT,LA_TENE,,La Tène finale,,7.1641777,48.5124074,1007416.8082976004,6831681.35039696,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,rempart,nan,,
+PROTO-ALS-793,793,Geispolsheim,nan,mobilier,HABITAT,LA_TENE,,La Tène finale,,,,,,,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-794,794,Duttlenheim,Loewlen,habitat,HABITAT,LA_TENE,,La Tène finale,,7.563651,48.528827,1036770.7422313952,6835133.312191754,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"fossé, fosses",nan,,
+PROTO-ALS-795,795,Lingolsheim,Sablière Freysz,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,7.671497,48.545279,1044611.8309345746,6837424.382161889,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,1 incinération,nan,,
+PROTO-ALS-796,796,Holtzheim,Altmatt,habitat,HABITAT,LA_TENE,,La Tène finale,,7.6555812,48.55924783,1043347.5980518726,6838905.2029590905,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"structure isolée, puits, fosses",nan,,
+PROTO-ALS-797,797,Holtzheim,Rosenweg,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,7.6551584,48.5592751,1043316.2742071375,6838906.3908594595,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,1 incinération,nan,,
+PROTO-ALS-798,798,Strasbourg-Koenigshoffen,Rue Constantin,funéraire,NECROPOLE,LA_TENE,LT D2,La Tène finale,LT D2,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,1 incinération,nan,,
+PROTO-ALS-799,799,Strasbourg,Place Saint-Thomas,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,7.74536,48.579869,1049823.175422384,6841587.612354697,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,nécropole,nan,,
+PROTO-ALS-800,800,Strasbourg-Koenigshoffen,Rue Gerlinde,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,incinération,nan,,
+PROTO-ALS-801,801,Strasbourg,Ile Saint-Jean,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,7.738395,48.580469,1049306.3393106803,6841623.3594570905,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,nan,nan,,
+PROTO-ALS-802,802,Strasbourg,Place Sainte-Marguerite,habitat,HABITAT,LA_TENE,,La Tène finale,,7.737388,48.580561,1049231.5808624856,6841629.114383388,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"fours de potier, fosses",nan,,
+PROTO-ALS-803,803,Achenheim,La tuilerie d’Achenheim-Bas,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,7.6369369,48.5807689,1041833.7592937204,6841212.620603485,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,1 incinération,nan,,
+PROTO-ALS-804,804,Strasbourg,nan,mobilier,HABITAT,LA_TENE,,La Tène finale,,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-805,805,Strasbourg-Koenigshoffen,Rue des Comtes,funéraire,NECROPOLE,LA_TENE,,La Tène moyenne,,,,,,prospection,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,inhumations en silo,nan,,
+PROTO-ALS-806,806,Achenheim,Auf den Ziegelhof,habitat,HABITAT,LA_TENE,,La Tène finale,,7.63526012,48.58213211,1041701.3985811977,6841356.648404154,,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"fosses, silos, bâtiments",nan,,
+PROTO-ALS-807,807,Strasbourg,Rue du 22 novembre,habitat,HABITAT,LA_TENE,,La Tène finale,,7.741926,48.582875,1049550.2728661734,6841905.975377664,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"structure isolée, fosse",nan,,
+PROTO-ALS-808,808,Strasbourg,"3, Rue du Dôme",mobilier,HABITAT,LA_TENE,,La Tène finale,,7.74951,48.58409,1050100.5328804057,6842074.401019447,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-809,809,Strasbourg,"14, rue de la Nuée bleue",funéraire,NECROPOLE,LA_TENE,,La Tène finale,,7.747698,48.585061,1049960.6395839471,6842174.118696317,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,nécropole à incinération,nan,,
+PROTO-ALS-810,810,Eckbolsheim,Seeland,habitat,HABITAT,LA_TENE,,La Tène finale,,7.6862821,48.58998239,1045406.472862321,6842449.827147983,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"structure isolée, puits",nan,,
+PROTO-ALS-811,811,Eckbolsheim,Heidengebreit,habitat,HABITAT,LA_TENE,,La Tène finale,,7.6844817,48.5953938,1045238.2601904402,6843042.480268501,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"fossés (enclos), fosses, trous de poteau, cave",nan,,
+PROTO-ALS-812,812,Schiltigheim,croisement des routes de Brumath et Bischheim,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,7.741452,48.5975,1049417.8051212044,6843526.802185223,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,1 incinération,nan,,
+PROTO-ALS-813,813,Schiltigheim,Schaefacker,habitat,HABITAT,LA_TENE,,La Tène finale,,7.708334,48.607462,1046914.104625249,6844486.276882497,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"structure isolée, fosse",nan,,
+PROTO-ALS-814,814,Ittenheim,Complexe sportif,habitat,HABITAT,LA_TENE,,La Tène finale,,7.5951387,48.6096098,1038569.4233242616,6844233.304664736,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Lefranc 2007,structure isolée,nan,,
+PROTO-ALS-815,815,Hurtigheim,Musaubreite,habitat,HABITAT,LA_TENE,,La Tène finale,,7.60941326,48.61323372,1039596.4741395006,6844696.795502995,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"structure isolée, fosse",nan,,
+PROTO-ALS-816,816,Bischheim,"37, route de Bischwiller",funéraire,NECROPOLE,LA_TENE,,La Tène moyenne,,7.7524347,48.61480328,1050110.4853991908,6845495.598784938,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,inhumations,nan,,
+PROTO-ALS-817,817,Marlenheim,Maison Apprederis,habitat,HABITAT,LA_TENE,,La Tène finale,,7.48748,48.620719,1030575.6340250976,6845010.13183408,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"bâtiments, puits, caves",nan,,
+PROTO-ALS-818,818,Hoenheim,Glaisière  Ihl,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,nan,nan,,
+PROTO-ALS-819,819,Souffelweyersheim,Briqueteries Alsaciennes,mobilier,HABITAT,LA_TENE,,La Tène finale,,7.752548,48.631249,1050008.8470460344,6847321.103842184,,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-820,820,Mundolsheim-Hausbergen,Gare de marchandise,habitat,HABITAT,LA_TENE,,La Tène finale,,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,"structure isolée, fosses",nan,,
+PROTO-ALS-821,821,Wasselonne,Kreuzfarthweg,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,7.4463405,48.63976878,1027429.0708843668,6846953.159644961,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,1 incinération,nan,,
+PROTO-ALS-822,822,Wiwersheim,ZA du Kochersberg,habitat,HABITAT,LA_TENE,,La Tène finale,,7.5990047,48.643764,1038632.9231859802,6848040.4719358515,fouille,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,fosses,nan,,
+PROTO-ALS-823,823,La Wantzenau,Kirchacker,habitat,HABITAT,LA_TENE,,La Tène finale,,7.820781,48.656642,1054855.5278272699,6850443.516776389,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"trous de poteau, fosses",nan,,
+PROTO-ALS-824,824,La Wantzenau,Kirchacker,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,7.820781,48.656642,1054855.5278272699,6850443.516776389,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,1 incinération,nan,,
+PROTO-ALS-825,825,Vendenheim,Nachtweid,habitat,HABITAT,LA_TENE,,La Tène finale,,7.7218488,48.6684429,1047503.5385309432,6851313.1089338,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"fossé, fosses, puits, trous de poteau",nan,,
+PROTO-ALS-826,826,Hœrdt,nan,mobilier,HABITAT,LA_TENE,,La Tène finale,,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-827,827,Brumath,Forêt,funéraire,TUMULUS,LA_TENE,,La Tène moyenne,,7.692538,48.7017127,1045129.2781180765,6854876.867970132,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,tombes dans tumulus,nan,,
+PROTO-ALS-828,828,Thal,nan,mobilier,HABITAT,LA_TENE,,La Tène finale,,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-829,829,Mittelhausen,Vierbruckgraben,mobilier,HABITAT,LA_TENE,,La Tène finale,,7.61690105,48.7066764,1039540.435453584,6855099.857045246,,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-830,830,Hohatzenheim,près de l'église,mobilier,HABITAT,LA_TENE,,La Tène finale,,7.6166127,48.71247,1039481.6149509513,6855741.652916544,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-831,831,Duntzenheim,"Rainwasen, LGV EE 8.4",habitat,HABITAT,LA_TENE,,La Tène finale,,7.5528059,48.714883,1034779.3729391161,6855737.05741801,fouille,LOW,BdD_Proto_Alsace_xlsx,"Véber, féliu 2017","fossé, bâtiments, silos, fosses",nan,,
+PROTO-ALS-832,832,Brumath,Stephansfeld,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,7.710552,48.7199811,1046331.5180020654,6856983.236707347,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,nan,nan,,
+PROTO-ALS-834,834,Brumath,nan,mobilier,HABITAT,LA_TENE,,La Tène finale,,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-835,835,Monswiller,Zornhof,mobilier,HABITAT,LA_TENE,,La Tène finale,,7.3789186,48.7490674,1021795.7058508517,6858808.761248458,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-836,836,Saverne / Ottersthal,Fossé des Pandours,habitat,HABITAT,LA_TENE,,La Tène finale,,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,"rempart, ateliers, bâtiments, fosses",nan,,
+PROTO-ALS-837,837,Saint-Jean-Saverne,Mont-Saint-Michel,mobilier,HABITAT,LA_TENE,,La Tène finale,,7.3644419,48.7752807,1020571.923257179,6861659.955441316,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-838,838,Ernolsheim-lès-Saverne,Heidenstadt,habitat,HABITAT,LA_TENE,,La Tène finale,,7.3658874,48.7819898,1020636.7642596839,6862410.651720436,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2011,rempart,nan,,
+PROTO-ALS-839,839,Schirrhein,Kirchlach,funéraire,TUMULUS,LA_TENE,,La Tène finale,,7.907123404,48.805660274999994,1060174.0693792184,6867371.288361678,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,tombes dans tumulus,nan,,
+PROTO-ALS-840,840,Ettendorf,Gaentzenbruch,funéraire,NECROPOLE,LA_TENE,,La Tène moyenne,,7.5791698,48.81577021,1036065.6669181858,6867047.548646223,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,nan,nan,,
+PROTO-ALS-841,841,Soufflenheim,Biltz,mobilier,HABITAT,LA_TENE,,La Tène moyenne,,7.961106,48.820273,1064029.0919632541,6869240.466512634,,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-842,842,Schweighouse-Sur-Moder,Ancienne Sablière Quirin,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,7.749563,48.82906,1048467.1945114278,6869261.262706576,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,nécropole à incinération,nan,,
+PROTO-ALS-843,843,Obermodern-Zutzendorf,nan,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,1 incinération,nan,,
+PROTO-ALS-844,844,Eschbach,Laubbuehl,habitat,HABITAT,LA_TENE,,La Tène finale,,7.722738,48.8741091,1046202.0228646368,6874143.471847046,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,fosses,nan,,
+PROTO-ALS-845,845,Eschbach,Wasserloch,habitat,HABITAT,LA_TENE,,La Tène finale,,7.7548078,48.8769014,1048531.393192204,6874594.4874726515,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,fosses,nan,,
+PROTO-ALS-846,846,Mietesheim,im Bruehl,funéraire,TUMULUS,LA_TENE,,La Tène finale,,7.6594199,48.8797506,1041528.896375678,6874493.945940953,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,nivellement d'un tertre,nan,,
+PROTO-ALS-847,847,Seltz,nan,mobilier,HABITAT,LA_TENE,,La Tène finale,,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-848,848,Seltz,Eglise,habitat,HABITAT,LA_TENE,,La Tène finale,,8.107902,48.893719,1074257.745838854,6878076.96872519,,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,fosses,nan,,
+PROTO-ALS-849,849,Hatten,Rothsmatt,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,8.000836,48.896084,1066406.9423486802,6877837.278141316,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,1 crémation,nan,,
+PROTO-ALS-850,850,Hatten,Rothsmatt,habitat,HABITAT,LA_TENE,,La Tène finale,,8.000836,48.896084,1066406.9423486802,6877837.278141316,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"fossés, bâtiments, fosses",nan,,
+PROTO-ALS-851,851,Seltz,Hesselbusch,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,8.074129,48.899343,1071746.4453630704,6878541.516217808,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,vase,nan,,
+PROTO-ALS-852,852,Sarrewerden,en bordure de la RD 8,habitat,HABITAT,LA_TENE,,La Tène finale,,7.08708057,48.9286171,999336.1956563321,6877597.011983074,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2015,"fossé, trous de poteau, bâtiments",nan,,
+PROTO-ALS-853,853,Diemeringen,nan,mobilier,HABITAT,LA_TENE,,La Tène finale,,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-854,854,Sarre-Union,nan,mobilier,HABITAT,LA_TENE,,La Tène finale,,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-855,855,Domfessel,Lampertsaecker,mobilier,HABITAT,LA_TENE,,La Tène finale,,7.1627063,48.9505141,1004741.6005978013,6880317.987984738,,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,"habitat, pas de structure, uniquement du mobilier découvert en surface",nan,,
+PROTO-ALS-856,856,Niederbronn-les-Bains,nan,mobilier,HABITAT,LA_TENE,,La Tène finale,,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-857,857,Vœllerdingen,Lutterbacherhof,mobilier,HABITAT,LA_TENE,,La Tène finale,,7.1233008,48.98055062,1001685.1115784176,6883502.320865321,,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-858,858,Dehlingen,Gurtelbach,mobilier,HABITAT,LA_TENE,,La Tène finale,,7.1976583,48.99044842,1007061.9796123381,6884888.133114094,,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-859,859,Oermingen,Busmauer,mobilier,HABITAT,LA_TENE,,La Tène finale,,7.1372726,48.9981267,1002604.071311835,6885507.721290889,,MEDIUM,BdD_Proto_Alsace_xlsx,Féliu 2008,mobilier,nan,,
+PROTO-ALS-860,860,Illfurth,Schwartzacker,habitat,HABITAT,LA_TENE,,La Tène finale,,7.27245,47.68006,1020404.6379331173,6739744.912534574,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,nan,nan,,
+PROTO-ALS-861,861,Colmar,Jardin des Aubépines,habitat,HABITAT,LA_TENE,,La Tène finale,,7.3453055,48.063379999999995,1023520.1741711246,6782570.659736002,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Roth-Zehner 2008,"réseau de fossés, fosses, en bas de pente, en zone inondable",nan,,
+PROTO-ALS-862,862,Bettendorf,nan,mobilier,HABITAT,LA_TENE,,La Tène finale,,,,,,,LOW,BdD_Proto_Alsace_xlsx,Zehner 1998,mobilier,nan,,
+PROTO-ALS-863,863,Dannemarie,nan,dépôt,DEPOT,LA_TENE,,La Tène finale,,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zehner 1998,mobilier,nan,,
+PROTO-ALS-864,864,Sierentz,Landstrasse/Sandgrube/ZAC Hoell,habitat,HABITAT,LA_TENE,,La Tène finale,,7.449743,47.659606,1033814.5998184053,6738210.372512793,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,nan,nan,,
+PROTO-ALS-865,865,Illfurth,Naegelberg,habitat,HABITAT,LA_TENE,,La Tène finale,,7.2724,47.680057,1020400.9099588477,6739744.376834967,,MEDIUM,BdD_Proto_Alsace_xlsx,"plusieurs opérations, vérifier",nan,nan,,
+PROTO-ALS-866,866,Kembs,nan,mobilier,HABITAT,LA_TENE,,La Tène finale,,,,,,,LOW,BdD_Proto_Alsace_xlsx,Zehner 1998,mobilier,nan,,
+PROTO-ALS-867,867,Didenheim,ZAC des Collines,habitat,HABITAT,LA_TENE,,La Tène finale,,7.286061,47.72495,1021153.7870649232,6744780.289322541,fouille,LOW,BdD_Proto_Alsace_xlsx,Mamie 2009,"fossé, puits, bâtiments",nan,,
+PROTO-ALS-868,868,Habsheim,Hinter dem Dorf,mobilier,HABITAT,LA_TENE,,La Tène finale,,7.41618,47.72875,1030869.96288218,6745739.066559258,,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,habitat,nan,,
+PROTO-ALS-869,869,Habsheim,Landsererweg,habitat,HABITAT,LA_TENE,,La Tène finale,,7.41618,47.72875,1030869.96288218,6745739.066559258,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,nan,nan,,
+PROTO-ALS-871,871,Habsheim,Winling,mobilier,HABITAT,LA_TENE,,La Tène finale,,7.41618,47.72875,1030869.96288218,6745739.066559258,,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,"habitat, mobilier",nan,,
+PROTO-ALS-872,872,Habsheim,Katzenpfad,habitat,HABITAT,LA_TENE,,La Tène finale,,7.442849,47.744898,1032765.0670754106,6747642.435018782,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,fosses,nan,,
+PROTO-ALS-873,873,Rixheim,Ristel,mobilier,HABITAT,LA_TENE,,La Tène finale,,7.397719,47.746707,1029377.1994726048,6747653.890383944,,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,habitat,nan,,
+PROTO-ALS-875,875,Rixheim,ZAC Le Petit Prince,habitat,HABITAT,LA_TENE,,La Tène finale,,7.419012,47.747232,1030967.0633899494,6747801.164031407,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Schneikert 2005,nan,nan,,
+PROTO-ALS-876,876,Sausheim,Rixheimerfeld,habitat,HABITAT,LA_TENE,,La Tène finale,,7.375784,47.787529,1027484.7977184262,6752091.257725764,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,puits,nan,,
+PROTO-ALS-877,877,Pulversheim,Hoell,habitat,HABITAT,LA_TENE,,La Tène finale,,7.2941341925,47.839421425,1021066.7893531886,6757513.009860963,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,zehner 1998,enclos quadrangulaire,nan,,
+PROTO-ALS-878,878,Ensisheim,Lotissement EDF,habitat,HABITAT,LA_TENE,,La Tène finale,,7.353214,47.865867,1025317.7496124466,6760688.844439314,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-879,879,Ensisheim,THK 2000,habitat,HABITAT,LA_TENE,,La Tène finale,,7.356666,47.87408,1025525.1328069957,6761614.256939831,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,nan,vaste site avec fossés d'enclos,nan,,
+PROTO-ALS-880,880,Hirtzfelden,Munchhauser Strasse,habitat,HABITAT,LA_TENE,,La Tène finale,,7.445403,47.911633,1031913.7354418902,6766149.883707215,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Werlé 2001,nan,nan,,
+PROTO-ALS-881,881,Dessenheim,nan,mobilier,HABITAT,LA_TENE,,La Tène finale,,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,"Forrer 1925, Zehner 1998",mobilier,nan,,
+PROTO-ALS-883,883,Biesheim,Oedenbourg,habitat,HABITAT,LA_TENE,LT D2,La Tène finale,LT D2b,7.557772,48.039733,1039473.3331006716,6780839.008398363,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,"fond de cabane, céramique",nan,,
+PROTO-ALS-884,884,Eguisheim,Carrefour des Oignons,habitat,HABITAT,LA_TENE,,La Tène finale,,7.323077,48.045547,1021975.2996368676,6780501.078399029,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,"Violot 1987, Zehner 1998","fosses, paléosol",nan,,
+PROTO-ALS-885,885,Colmar,Fronholz,habitat,HABITAT,LA_TENE,,La Tène finale,,7.385715,48.051682,1026597.8592785464,6781439.042111315,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,nan,nan,,
+PROTO-ALS-886,886,Colmar,rue Balzac,habitat,HABITAT,LA_TENE,,La Tène finale,,7.347851,48.06442,1023703.1418412642,6782696.488653091,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,nan,nan,,
+PROTO-ALS-887,887,Horbourg-Wihr,Schlossfeld,habitat,HABITAT,LA_TENE,,La Tène finale,,7.39959,48.075064,1027485.3433580274,6784090.852499094,prospection,LOW,BdD_Proto_Alsace_xlsx,Le Martret 2012,"fossé, palissade, fosses",nan,,
+PROTO-ALS-888,888,Houssen,"Gravière, Base de loisirs",habitat,HABITAT,LA_TENE,,La Tène finale,,7.373007,48.114997,1025263.0174082823,6788411.845154817,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Véber 2007,nan,nan,,
+PROTO-ALS-889,889,Houssen,Lotissement Les Jardins,habitat,HABITAT,LA_TENE,,La Tène finale,,7.379693,48.12307,1025710.0746723585,6789335.18591995,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Latron 2005,nan,nan,,
+PROTO-ALS-890,890,Houssen,Lotissement Le Château d’Eau,habitat,HABITAT,LA_TENE,,La Tène finale,,7.375144,48.12451,1025363.2576633648,6789476.21478319,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Roth-Zehner 2010,nan,nan,,
+PROTO-ALS-891,891,Houssen,Tiergarten,habitat,HABITAT,LA_TENE,,La Tène finale,,7.379169,48.126087,1025652.5608100612,6789667.791782413,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Roth-Zehner 2015,"fossés, fosses",nan,,
+PROTO-ALS-893,893,Illhaeusern,Niedere Eilach,mobilier,HABITAT,LA_TENE,,La Tène finale,,7.433538,48.183928,1029330.7043396442,6796311.346594919,,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,mobilier,nan,,
+PROTO-ALS-894,894,Bergheim,nan,mobilier,HABITAT,LA_TENE,,La Tène finale,,,,,,,LOW,BdD_Proto_Alsace_xlsx,"Forrer 1925, Zehner 1998",mobilier,nan,,
+PROTO-ALS-895,895,Scherwiller,ZAC du Giessen,habitat,HABITAT,LA_TENE,,La Tène finale,,7.424078,48.272075,1028080.144368729,6806053.13405606,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Flotté 2008,nan,nan,,
+PROTO-ALS-896,896,Benfeld,Ehl,habitat,HABITAT,LA_TENE,,La Tène finale,,7.604778,48.3718275,1040819.3819897239,6817887.535165196,,MEDIUM,BdD_Proto_Alsace_xlsx,"Flotté, Fuchs 2000","habitat groupé, fosses, silos...",nan,,
+PROTO-ALS-897,897,Benfeld,Parc d'Activités des Nations,habitat,HABITAT,LA_TENE,,La Tène finale,,7.596571,48.379336,1040164.0785657526,6818685.306548834,prospection,MEDIUM,BdD_Proto_Alsace_xlsx,Schneikert 2004,"structure isolée, puits",nan,,
+PROTO-ALS-898,898,Meistratzheim,"Laengelstein, SIVOM de l’Ehn",habitat,HABITAT,LA_TENE,,La Tène finale,,7.555941,48.461942,1036631.1654676159,6827677.815803247,fouille,LOW,BdD_Proto_Alsace_xlsx,Roth-Zehner 2010,nan,nan,,
+PROTO-ALS-899,899,Michelbach-le-Bas,nan,mobilier,HABITAT,LA_TENE,,La Tène finale,,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zehner 1998,mobilier,nan,,
+PROTO-ALS-900,900,Mulhouse,commune,dépôt,DEPOT,LA_TENE,,La Tène finale,,7.33549,47.749633,1024703.2940519507,6747720.753405897,signalement,LOW,BdD_Proto_Alsace_xlsx,"Forrer 1925, Zehner 1998",mobilier,nan,,
+PROTO-ALS-902,902,Mulhouse,Dornac,mobilier,HABITAT,LA_TENE,,La Tène finale,,7.33549,47.749633,1024703.2940519507,6747720.753405897,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,"Forrer 1925, Zehner 1998",mobilier,nan,,
+PROTO-ALS-903,903,Oberentzen,nan,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zehner 1998,fibule provenant d'une incinération,nan,,
+PROTO-ALS-904,904,Oberhergheim,Forêt communale,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,7.396211,47.966562,1027905.0166131523,6772038.390907468,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,fibule de Nauheim,nan,,
+PROTO-ALS-905,905,Saint-Louis,nan,dépôt,DEPOT,LA_TENE,,La Tène finale,,,,,,signalement,LOW,BdD_Proto_Alsace_xlsx,Zehner 1998,mobilier,nan,,
+PROTO-ALS-906,906,Spechbach-le-Bas,commune,mobilier,HABITAT,LA_TENE,,La Tène finale,,7.229019,47.671572,1017201.2214967054,6738627.90314907,signalement,LOW,BdD_Proto_Alsace_xlsx,Mériel 1997,mobilier,nan,,
+PROTO-ALS-907,907,Wettolsheim,Koenigsbreite,mobilier,HABITAT,LA_TENE,,La Tène finale,,7.304285,48.056872,1020508.5260453473,6781681.249070468,signalement,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,mobilier,nan,,
+PROTO-ALS-908,908,Wettolsheim,Ricoh,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,7.3230334195,48.05009736,1021944.3869949454,6781005.804221076,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Zehner 1998,nan,nan,,
+PROTO-ALS-909,909,Wittelsheim,nan,mobilier,HABITAT,LA_TENE,,La Tène finale,,,,,,,LOW,BdD_Proto_Alsace_xlsx,Zehner 1998,mobilier,nan,,
+PROTO-ALS-920,920,Mittelhausen,"LGV EE, site 9.3",habitat,HABITAT,LA_TENE,,La Tène finale,,7.614224,48.705337,1039352.4785525581,6854939.688241983,fouille,LOW,BdD_Proto_Alsace_xlsx,Thomas2013,nan,nan,,
+PROTO-ALS-921,921,Steinbourg,"Altenberg, LGV EE",habitat,HABITAT,LA_TENE,,La Tène finale,,7.42063334,48.77804709,1024677.7353761772,6862196.653593484,fouille,LOW,BdD_Proto_Alsace_xlsx,Gervreau 2016,nan,nan,,
+PROTO-ALS-922,922,Eckwersheim,Burgweg Links,habitat,HABITAT,LA_TENE,,La Tène finale,,7.688351,48.6913,1044890.3886269727,6853702.937470366,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Châtelet 2018,fosses,nan,,
+PROTO-ALS-923,923,Duntzenheim,"LGV EE, stock nord",funéraire,NECROPOLE,LA_TENE,,La Tène finale,,7.53671,48.719284,1033569.0081568576,6856157.437588858,fouille,LOW,BdD_Proto_Alsace_xlsx,Féliu 2011,nan,nan,,
+PROTO-ALS-924,924,Duntzenheim,Sonnenrain,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,Reutenauer 2017,fosses,nan,,
+PROTO-ALS-927,927,Steinbourg,"Altenberg, LGV EE",funéraire,NECROPOLE,LA_TENE,,La Tène finale,,7.42063334,48.77804709,1024677.7353761772,6862196.653593484,fouille,LOW,BdD_Proto_Alsace_xlsx,Gervreau 2016,nan,nan,,
+PROTO-ALS-928,928,Sierentz,ZAC Hoell / Sandgrube,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.4397984,47.667694,1033018.8569801811,6739065.539432224,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-929,929,Wolfisheim,ZAC du Herrenwasser  /  Westermatt,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-930,930,Wolfgantzen,Za Communale Rd 29,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.511940685,48.02483381,1036158.0000056055,6778989.999566306,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-931,931,Hatten,Z.I. / Rothsmatt,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,8.000836,48.896084,1066406.9423486802,6877837.278141316,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-932,932,Ensisheim,THK / Reguisheimer Feld,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.356666,47.87408,1025525.1328069957,6761614.256939831,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-933,933,Mundolsheim,Stradtweg,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-934,934,Bischoffsheim,Staetten (zone 2),habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-935,935,Bergheim,Saulager / ZA Muehlbach,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.3718,48.1925,1024696.7037781477,6797006.842960358,,LOW,BdD_Proto_Alsace_xlsx,nan,Zone ensillage,nan,,
+PROTO-ALS-936,936,Ittenheim,Rue de l’érable / Complexe sportif,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.5959535,48.609863,1038627.7524716035,6844264.89953737,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-937,937,Eckbolsheim,Parc d'Activités / Zénith / Rue des Frères Lumière,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.6861897,48.594227,1045371.6826445905,6842920.464511435,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-938,938,Obernai,Nouvel hôpital  /  Schulbalch,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.488695,48.456218,1031704.0096523846,6826758.006850978,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-939,939,Ottrot,Mont-Sainte-Odile / Hohenburg,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-940,940,Sainte-Croix-en-Plaine,Marbach Acker,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-941,941,Marlenheim,Maison de retraite Sainte Famille / Maison Apprederis,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.48748,48.620719,1030575.6340250976,6845010.13183408,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-942,942,Bischwihr,Lotissement Muelhaecker,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.439704,48.102305,1030297.9940082422,6787280.444550976,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-943,943,Osthouse,Lot. Zorn de Bulach,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-944,944,Bischoffsheim,Lot. AFUA du Stade,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.5019,48.4833,1032507.2323502082,6829819.0741156805,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-945,945,Dietwiller,Lot. « Les Jardins de la Tour » / Route de Schlierbach,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-946,946,Rosheim,Lot. « Leimen »,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.462323,48.49756,1029497.6963094554,6831235.770254367,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-947,947,Marlenheim,Lot. « Le Domaine de la couronne d’Or » (5143) / Route de Nordheim,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.502011,48.619514,1031652.5531157458,6844937.319146384,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-948,948,Marlenheim,Lot. « Le Clos du Marlenberg » / In der Hofstatt,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.502011,48.619514,1031652.5531157458,6844937.319146384,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-949,949,Ettendorf,Lot. « Gaensbruch I et II »,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,Zone ensillage,nan,,
+PROTO-ALS-950,950,Brumath,Lot. « Édouard Manet »,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-951,951,Landser,Lot. « Chalendon » / Les Clapiers,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-952,952,Achenheim,Loessière anc. Schaeffer / Auf den Ziegelhof [Occup. 2],habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.63526012,48.58213211,1041701.3985811977,6841356.648404154,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-953,953,Achenheim,Loessière anc. Schaeffer / Auf den Ziegelhof [Occup. 1],habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.63526012,48.58213211,1041701.3985811977,6841356.648404154,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-954,954,Duntzenheim,Lochabwand,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-955,955,Duntzenheim,"LGV EE / Zone de stockage Nord 2, Sect. 1",habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.5417943,48.7131,1033981.9521885294,6855492.5195672205,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-961,961,Gougenheim,LGV / Steinbrunnen,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.601193,48.708164,1038376.8973997933,6855197.538192718,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-962,962,Niedersteinbach,Le Maimont,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.7074046,49.0524574,1043897.654784054,6893874.510773718,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-963,963,Neubois,Le Frankenbourg / Schlossberg,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.324984,48.295214,1020598.1891455736,6808213.90695536,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-964,964,Illfurth,Le Britzgyberg et les Hauts de Buergelen,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.2717,47.6767,1020368.6328407018,6739369.115036252,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-965,965,Entzheim,In der Klamm,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.642978,48.544125,1042517.9831931046,6837172.234356992,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-966,966,Mittelschaeffolsheim,"Gute Abwand, LGV EE",habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-967,967,Gundolsheim,"Gundolsheim I et II, Muhlmatt",habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-968,968,Mittelhausen,"Gugenheimer Abwand / Langmatt / Tronçon H, site 9.3 / LGV EE",habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.60247551,48.70796571,1038472.3920697214,6855181.026333561,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-969,969,Houssen,Gravière Orsa-Granulat / Base de Loisirs,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.373007,48.114997,1025263.0174082823,6788411.845154817,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-970,970,Houssen,Gravière Orsa-Granulat / Base de Loisirs,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.373007,48.114997,1025263.0174082823,6788411.845154817,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-971,971,Rosheim,Gare,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-972,972,Meistratzheim,Foegel,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.55024145,48.45184485,1036275.1430154378,6826533.0187547365,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-973,973,Vendenheim,Entrepôt Atlas-Fly,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-974,974,Stutzheim- Offenheim,Entre Beblenheim et Offenheim,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-975,975,Wolfgantzen,Déviation RN 415,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.5026555,48.032764,1035416.7433137521,6779830.314869611,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-976,976,Marlenheim,Contournement Sud,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-977,977,Elsenheim,Bruehli,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-978,978,Geispolsheim,Bruechel I,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-979,979,Bischwiller,Bruchwald / Hanhoffen/ ORSA Granulats [Occup. 2],habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-980,980,Rosheim,AFUA Rittergass / Boerschweg,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,7.456683032,48.49097121,1029122.9999962983,6830480.999898355,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-981,981,Geispolsheim,Schlossgarten,habitat,HABITAT,LA_TENE,,La Tène finale,,7.6396408000000005,48.512731,1042477.0165491512,6833673.901984403,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Goepfert 2012,"structure isolée, puits",nan,,
+PROTO-ALS-982,982,Gertsheim,Uber den Grassweg,habitat,HABITAT,LA_TENE,,La Tène finale,,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,"Carbillet, Cicutta 2014","structure isolée, puits",nan,,
+PROTO-ALS-983,983,Wasselonne,rue Pierre Heili,habitat,HABITAT,LA_TENE,,La Tène finale,,,,,,prospection,LOW,BdD_Proto_Alsace_xlsx,Nilles 2018,fosses,nan,,
+PROTO-ALS-984,984,Weyersheim,Rohr,habitat,HABITAT,LA_TENE,,La Tène finale,,7.842522,48.701894,1056145.5274898952,6855563.000998113,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Chosson 2019,"fossés, trous de poteau",nan,,
+PROTO-ALS-985,985,Berstett,"rive droite du Muhlbaechel, COS 5-9",habitat,HABITAT,HALLSTATT,Ha C,Ha C-D,,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-986,986,Berstett,"Langenberg, COS 5-6",habitat,HABITAT,LA_TENE,LT A,"LT A-C1, La Tène finale",,7.684379,48.669624,1044741.4192805584,6851279.942705282,fouille,LOW,BdD_Proto_Alsace_xlsx,Féliu 2020,"fossés, tranchée de palissade",nan,,
+PROTO-ALS-987,987,Krautergersheim,lot. Nord,habitat,HABITAT,LA_TENE,,La Tène finale,,7.567906,48.479785,1037399.5805196561,6829708.984068636,prospection,LOW,BdD_Proto_Alsace_xlsx,Steiner 2016,"quelques structures, 1 paléosol",nan,,
+PROTO-ALS-988,988,Duttlenheim,"Am Pfad, Neue Strasse, COS 1-3",funéraire,NECROPOLE,HALLSTATT,Ha C,Bz final - Ha C-D,,7.58108139,48.52547287,1038077.1819264039,6834835.562705086,fouille,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-989,989,Duttlenheim,Neubruch; COS 1-6,habitat,HABITAT,HALLSTATT,Ha D,Ha D,,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,Pranyies 2019,nan,nan,,
+PROTO-ALS-990,990,Kolbsheim,"knoblochsberg, COS 2-1",funéraire,NECROPOLE,HALLSTATT,Ha D,Ha D,,7.574630633,48.56394895,1037354.0000134297,6839077.999998186,fouille,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-991,991,Kolbsheim,"Kurze Straenge, COS 2-2",funéraire,NECROPOLE,HALLSTATT,Ha D,Ha D,,7.575008434,48.56671867,1037364.0000038355,6839386.9999144375,fouille,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-993,993,Kolbsheim,"Herrenweg, COS 2-6","habitat, funéraire",HABITAT,HALLSTATT,Ha C,Ha C-D,,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-994,994,Ernolsheim,Neugraben,habitat,HABITAT,HALLSTATT,Ha C,Ha C,,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-995,995,"Osthoffen, Breuschwickersheim","Niederweiher, Geisenbuckel",habitat,HABITAT,HALLSTATT,Ha C-D1,Ha C-D1,,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-996,996,Breuschwickersheim,"Vogelsgesang, COS 2-9",habitat,HABITAT,LA_TENE,Ha C,"Ha C-D, LT A-B, La Tène finale",,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,fouille F. Ruzzu,nan,nan,,
+PROTO-ALS-997,997,Ittenheim,Achenheimer Berg,habitat,HABITAT,HALLSTATT,Ha D2,Ha D2,,7.607609755,48.5925272,1039598.0000545022,6842390.999304468,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-998,998,Ittenheim,Eselacker,habitat,HABITAT,HALLSTATT,Ha C-D1,Ha C-D1,,7.621408,48.603177,1040544.5698387919,6843632.345056569,fouille,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-999,999,"Dingsheim, Offenheim","Haspelacker, Aufs Dingsheimer Feld, COS 4-1","habitat, funéraire",HABITAT,LA_TENE,Ha C,"Ha C - LT A-B, La Tène finale",,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,fouille A. Habasque-Sudour,nan,nan,,
+PROTO-ALS-1000,1000,Griesheim-sur-Souffel,"Flaschen, COS 4-2","habitat, funéraire",HABITAT,LA_TENE,Ha D,"Ha D, HA D1, Ha D3-LT A, LT A-B, La Tène finale",,7.644345217,48.63497991,1042025.0000329607,6847260.998957157,fouille,LOW,BdD_Proto_Alsace_xlsx,fouille S. Goepfert,nan,nan,,
+PROTO-ALS-1001,1001,Pfulgriesheim,"Hammerhacker, COS 4-5",habitat,HABITAT,LA_TENE,Ha C-D1,"Ha C-D1, La Tène finale",,7.655263,48.648457,1042739.809109638,6848804.047821603,fouille,LOW,BdD_Proto_Alsace_xlsx,fouille B. Perrin,nan,nan,,
+PROTO-ALS-1002,1002,Vendenheim,Bruehl,habitat,HABITAT,LA_TENE,Ha C,"Ha C-D, LT A-B, Augustéen",,7.7102,48.6702,1046635.6198239797,6851456.908688644,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1003,1003,Eckwersheim,"Kleine Breite, COS 5-2",habitat,HABITAT,HALLSTATT,Ha D3,BF IIIa - Ha D3,,7.6810653,48.6683852,1044505.9971416057,6851127.996625575,fouille,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1004,1004,Eckwersheim,"Niefernweg, COS 5-4",habitat,HABITAT,LA_TENE,LT A,LT A-B,,7.6995,48.6832,1045763.1429221584,6852852.739734255,fouille,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1005,1005,Vendenheim,"rive droite du Muhlbaechel, COS 5-5",habitat,HABITAT,LA_TENE,,La Tène finale,,7.7102,48.6702,1046635.6198239797,6851456.908688644,fouille,LOW,BdD_Proto_Alsace_xlsx,Lefranc 2019,nan,nan,,
+PROTO-ALS-1006,1006,Vendenheim,"Betsch, Aue, COS 6-2","habitat, funéraire",HABITAT,LA_TENE,,"La Tène finale, Augustéen",,7.71781,48.677417,1047147.0822123748,6852291.277483651,fouille,LOW,BdD_Proto_Alsace_xlsx,Habasque-Sudour 2019,nan,nan,,
+PROTO-ALS-1007,1007,Vendenheim,Isperlach,habitat,HABITAT,HALLSTATT,Ha C,BF IIIb - Ha C-D,,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1008,1008,Gazoduc,nan,habitat,HABITAT,LA_TENE,LT A,LT A-B,,,,,,prospection,LOW,BdD_Proto_Alsace_xlsx,Féliu 2021,"fonds de cabanes, palissades",nan,,
+PROTO-ALS-1009,1009,Algolsheim,nan,habitat,HABITAT,LA_TENE,,La Tène finale,,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,en cours,palissade,nan,,
+PROTO-ALS-1010,1010,Rittershoffen,Réseau de chaleur,habitat,HABITAT,LA_TENE,,La Tène finale,,,,,,prospection,LOW,BdD_Proto_Alsace_xlsx,Higelin 2015,fossé,nan,,6316
+PROTO-ALS-1011,1011,Hatten,Réseau de chaleur,funéraire,NECROPOLE,LA_TENE,,La Tène finale,,,,,,prospection,LOW,BdD_Proto_Alsace_xlsx,Higelin 2015,crémation + édicule,nan,,6316
+PROTO-ALS-1012,1012,Kesseldorf,Réseau de chaleur,habitat,HABITAT,LA_TENE,,La Tène finale,,,,,,prospection,LOW,BdD_Proto_Alsace_xlsx,Higelin 2015,"structure isolée, fosse",nan,,6316
+PROTO-ALS-1013,1013,Kesseldorf,Réseau de chaleur,habitat,HABITAT,LA_TENE,,"La Tène finale, Augustéen",,,,,,prospection,LOW,BdD_Proto_Alsace_xlsx,Higelin 2015,"fosses, fours",nan,,6316
+PROTO-ALS-1014,1014,Colmar,"4, rue André Kiener",habitat,HABITAT,LA_TENE,,La Tène finale,,7.369381,48.097189,1025103.043851012,6786420.945182545,prospection,LOW,BdD_Proto_Alsace_xlsx,Lefranc 2021,"structure isolée, puits",nan,,
+PROTO-ALS-1015,1015,Eckwersheim,Burgweg Rechts,habitat,HABITAT,LA_TENE,,La Tène finale,,7.692384796,48.692009215,1045182.0956506801,6853799.274373527,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Boisseau 2009,fosses,nan,,
+PROTO-ALS-1016,1016,Sierentz,Grassweg,habitat,HABITAT,LA_TENE,,La Tène finale,,7.449498221,47.667728835000005,1033745.4304283112,6739110.356461754,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,fouille S. Goepfert en cours,"fossés, bâtiments, fosse",nan,,
+PROTO-ALS-1017,1017,Hoerdt,Birken,habitat,HABITAT,LA_TENE,,La Tène finale,,,,,,fouille,LOW,BdD_Proto_Alsace_xlsx,Roth-Zehner 2016,Fosses à galets chauffés,nan,,
+PROTO-ALS-1018,1018,Weyersheim,Rohr,habitat,HABITAT,HALLSTATT,Ha C,Ha C,,7.842522,48.701894,1056145.5274898952,6855563.000998113,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Rault 2018,"trou de poteau, fosses",nan,,
+PROTO-ALS-1019,1019,Wilwisheim,Krautland,"habitat, funéraire",HABITAT,LA_TENE,,La Tène finale,,7.5168333,48.74826095,1031924.9486239408,6859290.128410003,fouille,MEDIUM,BdD_Proto_Alsace_xlsx,Keller 2020,nan,nan,,
+PROTO-ALS-1437,1437,Achenheim,Loessière anc. Schaeffer / Auf den Ziegelhof [Occup. 1],habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.63526012,48.58213211,1041701.3985811977,6841356.648404154,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1438,1438,Altorf,Winkel (zone 4),habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1439,1439,Artzenheim,Extension lotissement les Violettes (5610),habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1440,1440,Artzenheim,Lot. « Les Violettes 6 »,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,9.0,
+PROTO-ALS-1441,1441,Benfeld,Rue du Châtelet,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1442,1442,Bergbieten,Pferchelmatten,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.455586,48.574662,1028517.3876611363,6839765.0616614185,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,11.0,
+PROTO-ALS-1443,1443,Birkenwald,Golf de la Sommerau,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,3.0,
+PROTO-ALS-1444,1444,Bischoffsheim,Bruehling 2001-2008,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1445,1445,Bischoffsheim,Staetten (zone 3),habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1446,1446,Bischoffsheim,"Wassersuft (zone 2, section 42)",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1447,1447,Bischoffsheim,"Niederstraeng / Wassersuff / Wassersuft (zone
+4) / Riedweg (zone 2)",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1448,1448,Bischwiller,Bruchwald / Hanhoffen/ ORSA Granulats [Occup. 2],habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1449,1449,Bischwiller,Gravière « Orsa Granulats » / Hanhoffen,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,6.0,
+PROTO-ALS-1450,1450,Brumath,Hôpital La Grafenbourg,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,112.0,
+PROTO-ALS-1451,1451,Colmar,Route de Rouffach,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.337235545,48.06189632,1022929.0000761154,6782372.999036473,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1452,1452,Colmar,Biopôle / IUT / Rue d'Herrlisheim,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.343654722,48.06442635,1023391.0000500472,6782679.999077378,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,141.0,
+PROTO-ALS-1453,1453,Colmar,Jardins des Aubépines / Terrasses du Diaconat,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.348855302,48.0624318,1023790.0000430082,6782479.999213332,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,218.0,
+PROTO-ALS-1454,1454,Colmar,Jardins des Aubépines / Terrasses du Diaconat / Rufacher Huben,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.348855302,48.0624318,1023790.0000430082,6782479.999213332,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1455,1455,Dachstein,Gazoduc,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,17.0,
+PROTO-ALS-1456,1456,Didenheim,Lot. « Les Jardins d’Alsace »,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1457,1457,Dingsheim,Auf die Musau I,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,1.0,
+PROTO-ALS-1458,1458,Dingsheim,Baumäcker / Oben am Mühlrain / Kreuzweg,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,12.0,
+PROTO-ALS-1459,1459,Dossenheim-Kochersberg,Lot. « Pfarrgarten »,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1460,1460,Duppigheim,Niederfeld,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1461,1461,Eckbolsheim,Parc d'Activités / Zénith / Rue des Frères Lumière,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.6861897,48.594227,1045371.6826445905,6842920.464511435,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1462,1462,Eckwersheim,1A Impasse de la Mairie / Burgweg Links,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.688351,48.6913,1044890.3886269727,6853702.937470366,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,7.0,
+PROTO-ALS-1463,1463,Eguisheim,Carrefour RN83/ RD14,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.323079,48.041058,1022002.7456163533,6780002.9929445805,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,53.0,
+PROTO-ALS-1464,1464,Ensisheim,Ratfeld / Ratfeld am Kanal,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.375896,47.848688,1027116.7818926086,6758876.664293916,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,33.0,
+PROTO-ALS-1465,1465,Ernolsheim-sur- Bruche,"Zone 6, 10",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1466,1466,Ernolsheim-sur- Bruche,Zone 23,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1467,1467,Ernolsheim-sur- Bruche,Zone 8,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1468,1468,Erstein,Grasweg,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.639509,48.432045,1042993.9764345614,6824719.820089791,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,65.0,
+PROTO-ALS-1469,1469,Eschentzwiller,Im Brang,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,14.0,
+PROTO-ALS-1470,1470,Furdenheim,Spiessmatt,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1471,1471,Geispolsheim,Lot. « Le Moulin de l’Ehn »,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,20.0,
+PROTO-ALS-1472,1472,Geispolsheim,Sablière Oesch,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.6617,48.542625,1043907.3641302879,6837087.151346227,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,41.0,
+PROTO-ALS-1473,1473,Gougenheim,Tiergarten,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,7.0,
+PROTO-ALS-1474,1474,Gougenheim,Beim Burgweg,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,8.0,
+PROTO-ALS-1475,1475,Gougenheim,LGV / Steinbrunnen,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.601193,48.708164,1038376.8973997933,6855197.538192718,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1476,1476,Griesheim-près- Molsheim,Bohnergewann / Wasserfall 1 / Langgewann (zone 2),habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1477,1477,Gundolsheim,"Gundolsheim I, Muhlmatt",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,1.0,
+PROTO-ALS-1478,1478,Gundolsheim,"Gundolsheim I et II, Muhlmatt",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1479,1479,Hangenbieten,Près de la loessière Jeuch,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.618976,48.546104,1040736.4909990176,6837288.009239103,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,8.0,
+PROTO-ALS-1480,1480,Hangenbieten,Village,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1481,1481,Hattstatt,Ziegelscheuer / Lot. « Les Residences du Vignoble »,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.296264,48.009033,1020200.9508186248,6776340.505525354,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,10.0,
+PROTO-ALS-1482,1482,Hindisheim,Eberschal et Borot,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.61551,48.452877,1041086.5071121377,6826927.502466441,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,17.0,
+PROTO-ALS-1483,1483,Hipsheim,Spitzacker,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,8.0,
+PROTO-ALS-1484,1484,Hochfelden,Nordenbruchgra ben,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.557781,48.766899,1034811.1651321403,6861531.860158341,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,30.0,
+PROTO-ALS-1485,1485,Houssen,Cora,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.368809,48.128117,1024870.461524928,6789850.367530912,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,5.0,
+PROTO-ALS-1486,1486,Houssen,Lot. « Les Jardins »,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.38380333,48.1242763,1026008.0000058901,6789485.999321851,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,6.0,
+PROTO-ALS-1487,1487,Houssen,Gravière Orsa-Granulat / Base de Loisirs,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.373007,48.114997,1025263.0174082823,6788411.845154817,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1488,1488,Houssen,Gravière Orsa-Granulat / Base de Loisirs,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.373007,48.114997,1025263.0174082823,6788411.845154817,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1489,1489,Houssen,Lot. du Château d'Eau,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.38380333,48.1242763,1026008.0000058901,6789485.999321851,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,14.0,
+PROTO-ALS-1490,1490,Houssen,Lot. « Le Cèdre Bleu »,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.38380333,48.1242763,1026008.0000058901,6789485.999321851,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,15.0,
+PROTO-ALS-1491,1491,Ingenheim,Auf dem Gaensberg,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,2.0,
+PROTO-ALS-1492,1492,Innenheim,"Bruehling / Bruehling (Zone 2, 3, 4)",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1493,1493,Ittenheim,Reben,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1494,1494,Ittenheim,Rue de l’érable / Complexe sportif,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.5959535,48.609863,1038627.7524716035,6844264.89953737,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1495,1495,Krautergershei m,Oberfeld (zone 1),habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1496,1496,Krautergershei m,Oberfeld (zone 3),habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1497,1497,Krautergershei m,"Oberfeld (zone 4, 6)",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1498,1498,Krautergershei m,"Oberfeld (zone 5, 6) / Rives de l'Ehn",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1499,1499,Lampertheim,Strendfeld / Domaine du Kolbsenbach,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.69004345,48.64867536,1045296.0485582165,6848979.810425829,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,17.0,
+PROTO-ALS-1500,1500,Landser,Schlierbacherweg / Rue du Rhin,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.385137,47.686902,1028804.6242827066,6740967.170375473,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,681740006.0,
+PROTO-ALS-1501,1501,Leutenheim,Heidenberg / Hexenberg,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,8.001251,48.837933,1066846.5823486,6871386.007125105,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1502,1502,Lingolsheim,Sablière Freyss,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.671497,48.545279,1044611.8309345746,6837424.382161889,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,1.0,
+PROTO-ALS-1503,1503,Lingolsheim,Sablières Modernes,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.6732826,48.54624,1044737.0802240002,6837538.819543247,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,12.0,
+PROTO-ALS-1504,1504,Lutterbach,"Langer Zug, Galgenbach, Kalkofen, Oberfeld (5594) /
+Établissement pénitencier",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,10.0,
+PROTO-ALS-1505,1505,Marlenheim,Le long de la route de Fessenheim / Auf Langen,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.502011,48.619514,1031652.5531157458,6844937.319146384,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,16.0,
+PROTO-ALS-1506,1506,Marlenheim,Lot. « Le Clos du Marlenberg » / In der Hofstatt,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.502011,48.619514,1031652.5531157458,6844937.319146384,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1507,1507,Marlenheim,Maison de retraite Sainte Famille / Maison Apprederis,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.48748,48.620719,1030575.6340250976,6845010.13183408,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1508,1508,Marlenheim,Contournement Sud,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1509,1509,Marlenheim,Lot. « Le Domaine de la couronne d’Or » (5143) / Route de Nordheim,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.502011,48.619514,1031652.5531157458,6844937.319146384,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1510,1510,Marlenheim,Gazoduc,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1511,1511,Marlenheim,"Lot. « Le Domaine de la couronne
+d’Or » (5143) /
+Route de Nordheim",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.502011,48.619514,1031652.5531157458,6844937.319146384,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,57.0,
+PROTO-ALS-1512,1512,Marlenheim,Ballien,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1513,1513,Marlenheim,Zone 13,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1514,1514,Marlenheim,Zone 22,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1515,1515,Matzenheim,"Fliethmatt / Lot. ""Les Berges du Panama""",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.627276,48.395317,1042329.7402176679,6820591.292009807,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1516,1516,Meistratzheim,Foegel,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.55024145,48.45184485,1036275.1430154378,6826533.0187547365,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1517,1517,Meistratzheim,Pfett (zone 1) / Pfeff (zone 2),habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.546882366816094,48.44882591178126,1036046.4850138273,6826183.698149674,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1518,1518,Meistratzheim,Sivom de l'Ehn/ Pfett,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1519,1519,Meistratzheim,Voegel,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.54996,48.45201,1036253.3089107452,6826550.147362268,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1520,1520,Meistratzheim,Voegel (zone 1),habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1521,1521,Merxheim,Bergholz Feld,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,2.0,
+PROTO-ALS-1522,1522,Merxheim,Zapfenloch,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,11.0,
+PROTO-ALS-1523,1523,Merxheim,Breit,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,12.0,
+PROTO-ALS-1524,1524,Mittelhausen,Breitnung,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,5.0,
+PROTO-ALS-1525,1525,Molsheim,Dompeter Gebreit,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1526,1526,Mommenheim,"ZAC  /
+Brumather Strasse",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,11.0,
+PROTO-ALS-1527,1527,Morschwiller- le-Bas,Simlisberg,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,1.0,
+PROTO-ALS-1528,1528,Mundolsheim,Strengfeld,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,4.0,
+PROTO-ALS-1529,1529,Neewiller-près- Lauterbourg,Vogelgesang / Sud du village / N63,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,1.0,
+PROTO-ALS-1530,1530,Niedernai,Foegel (zone 2),habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,5.0,
+PROTO-ALS-1531,1531,Niedernai,"Foegel (zone 1,
+3)",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,5.0,
+PROTO-ALS-1532,1532,Niedernai,Foegel (zone 3),habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,5.0,
+PROTO-ALS-1533,1533,Obernai,Gewannen,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1534,1534,Obernai,Kirblach (zone 1),habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,56.0,
+PROTO-ALS-1535,1535,Obernai,Strassburgze Pfad/PAEI,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1536,1536,Odratzheim,Lot. « Hinter den Garten »,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,6.0,
+PROTO-ALS-1537,1537,Osthouse,Lot. Zorn de Bulach,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,14.0,
+PROTO-ALS-1538,1538,Pfulgriesheim,Meyeracker / Unter Stadtklamm,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.669637,48.639247,1043857.3672050881,6847844.407655631,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,1.0,
+PROTO-ALS-1539,1539,Reguisheim,Parc d'Activites de l'Ill,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,13.0,
+PROTO-ALS-1540,1540,Rosheim,Hengbauemel,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.487154,48.505737,1031277.6218028484,6832247.175924951,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,8.0,
+PROTO-ALS-1541,1541,Rosheim,Bischengasse,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1542,1542,Rosheim,"Bischenabwand (zone 1, 2, 3)",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.4945035,48.50309,1031836.3743632154,6831984.265983022,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,50.0,
+PROTO-ALS-1543,1543,Rosheim,Gruenwegfeld,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1544,1544,Rosheim,Lerchental (zone 1),habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1545,1545,Rosheim,"Scnelzellmatt (zone 2, 4)",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1546,1546,Rouffach,Gallbühl,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.299383,47.957033,1020747.6439034797,6770583.431539818,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1547,1547,Rouffach,Rd 18Bis - Rd83,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.333546,47.954754,1023307.6542549036,6770469.894247889,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,38.0,
+PROTO-ALS-1548,1548,Sainte-Croix- en-Plaine,"Parc d'Activite de Sainte Croix- En-Plaine, Oberer Katzis",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,17.0,
+PROTO-ALS-1549,1549,Sainte-Croix-en-Plaine,Marbach Acker,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1550,1550,Sausheim,"Rd 55,
+Wittenheimerfel d",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,14.0,
+PROTO-ALS-1551,1551,Sélestat,Riedwasen / Extension de la SALM,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,76.0,
+PROTO-ALS-1552,1552,Sermersheim,Lange Graeben,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,9.0,
+PROTO-ALS-1553,1553,Soufflenheim,FAIRWAY VILLAGE,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,11.0,
+PROTO-ALS-1554,1554,Soufflenheim,Lot. « Roedern »,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,13.0,
+PROTO-ALS-1555,1555,Strasbourg,Rue des Capucins  / Hohberg,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.742465,48.582825,1049590.291015624,6841902.813128932,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,851.0,
+PROTO-ALS-1556,1556,Strasbourg,"Kassius auf Neubrunnenweg
+/ Lot. artisanal ""Chemin du Cuivre"" / Koenigshoffen",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.709283,48.583549,1047142.3971483578,6841836.763110089,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,854.0,
+PROTO-ALS-1557,1557,Strasbourg,43 rue de Kegeneck,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.711947,48.5994575,1047233.0673673673,6843613.873592143,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,866.0,
+PROTO-ALS-1558,1558,Strasbourg,ENA / 1 Rue Sainte Marguerite,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.736649,48.58137,1049171.776852845,6841715.619983782,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,1150.0,
+PROTO-ALS-1559,1559,Valff,Blasiusfeld (zone 1),habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1560,1560,Valff,Langfeld (zone 1),habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1561,1561,Vendenheim,Entrepôt Atlas-Fly,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1562,1562,Wasselonne,Caserne de Gendarmerie,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,21.0,
+PROTO-ALS-1563,1563,Wettolsheim,"Carrefour des Noyers / RD1, RN83",habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.3332122,48.0535622,1022680.5408268489,6781431.807331603,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,16.0,
+PROTO-ALS-1564,1564,Wintzenheim,Schwindelberg / Untere Krumme Acker,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,8.0,
+PROTO-ALS-1565,1565,Wintzenheim,Linsenbrunnen/ Hohlandsberg,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.270689,48.06032,1017988.6144363477,6781928.017837593,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1566,1566,Wolfisheim,ZAC du Herrenwasser  /  Westermatt,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1567,1567,Entzheim,In der Klamm,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.642978,48.544125,1042517.9831931046,6837172.234356992,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1568,1568,Ottrot,Mont-Sainte-Odile / Hohenburg,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1569,1569,Rosheim,AFUA Rittergass / Boerschweg,habitat,HABITAT,HALLSTATT,Ha C,BF3b-HaC,,7.456683032,48.49097121,1029122.9999962983,6830480.999898355,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1570,1570,Gambsheim,Gravière et sablière Veltz- Vix,habitat,HABITAT,LA_TENE,LT A,"LTAB, HaD",,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1571,1571,Westhouse,Altmatt,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.5627365,48.40002,1037530.2174585506,6820835.31892668,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1572,1572,Walheim,Rue Luemschwiller,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,4.0,
+PROTO-ALS-1573,1573,Wettolsheim,Usine Ricoh,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.323099789,48.05015076,1021948.99999322,6781012.000044362,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,14.0,
+PROTO-ALS-1574,1574,Wettolsheim,Usine Ricoh 2,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.323099789,48.05015076,1021948.99999322,6781012.000044362,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,3.0,
+PROTO-ALS-1575,1575,Weyersheim,Lot. « Les hauts de la Zorn » / Rue de la Gare,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,675290019.0,
+PROTO-ALS-1576,1576,Wolfisheim,Hunsrücken,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1577,1577,Zellwiller,Pfegfeld,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1578,1578,Schwindratzhei m,Au nord du ban communal,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1579,1579,Souffelweyersheim,Lot. « Les Sept Arpents »,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.7323,48.6339,1048501.7885779189,6847525.735305162,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1580,1580,Sierentz,"Landstrasse, Sandgrube, Hochkirch, Scholl, Hochstraessle, Tiergarten",habitat,HABITAT,LA_TENE,LT A,LTAB,,7.448918,47.664629,1033721.3492355755,6738764.05701974,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,13.0,
+PROTO-ALS-1581,1581,Stutzheim- Offenheim,11 rue des Églantiers / Lange Straenge ?,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,3.0,
+PROTO-ALS-1582,1582,Stutzheim- Offenheim,Hengstweg,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,2.0,
+PROTO-ALS-1583,1583,Vendenheim,"Zone industrielle
+/ Mittelfeld",habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,8.0,
+PROTO-ALS-1584,1584,Rixheim,Brunnenberg,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1585,1585,Rosheim,Sablière Helmbacher / Sandgrube,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,36.0,
+PROTO-ALS-1586,1586,Rosheim,"Renecka, ZAC Rosenmeer",habitat,HABITAT,LA_TENE,LT A,LTAB,,7.493742,48.508242,1031747.6372469894,6832552.845766151,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1587,1587,Rosheim,Mittelweg,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.4843,48.4996,1031105.8648127071,6831554.106054179,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1588,1588,Rosheim,Schnelzellmatt (zone 1),habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1589,1589,Rosheim,Lotissement Sainte Odile,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1590,1590,Rouffach,Rd 18Bis - Rd 83,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.333546,47.954754,1023307.6542549036,6770469.894247889,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,37.0,
+PROTO-ALS-1591,1591,Rosheim,AFUA Rittergass / Boerschweg,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.456683032,48.49097121,1029122.9999962983,6830480.999898355,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1592,1592,Rosheim,Snelzellmatt,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1593,1593,Sainte-Croix- en-Plaine,Jebsen Boden,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,32.0,
+PROTO-ALS-1594,1594,Niedersteinbach,Le Maimont,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.7074046,49.0524574,1043897.654784054,6893874.510773718,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1595,1595,Obernai,Kurzen Leh (1) / Nevenbrunnen / Runz (zone 2) ou Kurze leh / Weyeracker,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1596,1596,Obernai,Sandgrub,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1597,1597,Obernai,Strassburgze Pfad/PAEI,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1598,1598,Orschwiller,Aire de repos du Haut- Koenigsbourg,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,12.0,
+PROTO-ALS-1599,1599,Pfulgriesheim,Lot. communal  / Langgarten et Buetzel,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.6731,48.6429,1044088.0533049337,6848264.902092506,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,8.0,
+PROTO-ALS-1600,1600,Pfulgriesheim,Lot. communal  /  Langgarten et Buetzel,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.6731,48.6429,1044088.0533049337,6848264.902092506,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1601,1601,Pfaffenheim,Station d'épuration,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1602,1602,Ottrot,Mont Sainte Odile,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,3.0,
+PROTO-ALS-1603,1603,Ottrot,Mont-Sainte-Odile / Hohenburg,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1604,1604,Reichstett,Schamli,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,3.0,
+PROTO-ALS-1605,1605,Riedisheim,Ober Dem Marxweg,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,20.0,
+PROTO-ALS-1606,1606,Riedisheim,Am Habserweg,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,7.0,
+PROTO-ALS-1607,1607,Riedisheim,"Centre Culturel, Seeboden",habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,10.0,
+PROTO-ALS-1608,1608,Riedisheim,Schoffelberg,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1609,1609,Riedisheim,Lurbitinnen,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1610,1610,Meistratzheim,Pfeff (zone 2),habitat,HABITAT,LA_TENE,LT A,LTAB,,7.546882366816094,48.44882591178126,1036046.4850138273,6826183.698149674,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1611,1611,Meistratzheim,"Pfeff (zone 2, 3)",habitat,HABITAT,LA_TENE,LT A,LTAB,,7.546882366816094,48.44882591178126,1036046.4850138273,6826183.698149674,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1612,1612,Meistratzheim,Voegel (zone 1),habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1613,1613,Meistratzheim,Voegel,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.54996,48.45201,1036253.3089107452,6826550.147362268,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1614,1614,Merxheim,"Lot.
+« Trummelmatte n »",habitat,HABITAT,LA_TENE,LT A,LTAB,,7.286868,47.906255,1020121.0747391238,6764898.661578286,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,19.0,
+PROTO-ALS-1615,1615,Mittelhausen,"Vorderen Berg / Tronçon H, site 9.5 / LGV EE",habitat,HABITAT,LA_TENE,LT A,LTAB,,7.614224,48.705337,1039352.4785525581,6854939.688241983,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1616,1616,Mittelhausen,Liesbuehl / Gimbretter Weg,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.6317,48.7102,1040604.5810671942,6855554.67682998,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1617,1617,Mittelhausen,Kellen / Neun Quellen / LGV EE 9-4,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.614224,48.705337,1039352.4785525581,6854939.688241983,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1618,1618,Mittelhausen,Vorderen Berg,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.614224,48.705337,1039352.4785525581,6854939.688241983,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1619,1619,Morschwiller- le-Bas,Rocade ouest de Mulhouse,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,8.0,
+PROTO-ALS-1620,1620,Mommenheim,A35 (A340?),habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1621,1621,Mulhouse,Moenchberg,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,66.0,
+PROTO-ALS-1622,1622,Mundolsheim,Nordfeld,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1623,1623,Mundolsheim,Pelzstücke,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1624,1624,Neubois,Le Frankenbourg / Schlossberg,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.324984,48.295214,1020598.1891455736,6808213.90695536,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1625,1625,Krautergershei m,"Oberfeld (zone 3, 5)",habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1626,1626,Lampertheim,Strendfeld / Domaine du Kolbsenbach,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.69004345,48.64867536,1045296.0485582165,6848979.810425829,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,17.0,
+PROTO-ALS-1627,1627,Lampertheim,Loewen,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,9.0,
+PROTO-ALS-1628,1628,Landser,"Lot.
+« Chalendon » / Les Clapiers",habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,16.0,
+PROTO-ALS-1629,1629,Landser,Schemm,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,12.0,
+PROTO-ALS-1630,1630,Littenheim,Rappelrain / Sandgrasse / Pappelntal /Auf den Sand,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,10.0,
+PROTO-ALS-1631,1631,Marlenheim,Lot. « La Peupleraie II »,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1632,1632,Marlenheim,Gazoduc,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,56.0,
+PROTO-ALS-1633,1633,Meistratzheim,Foegel,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.55024145,48.45184485,1036275.1430154378,6826533.0187547365,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,9.0,
+PROTO-ALS-1634,1634,Marlenheim,Zone 6,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1635,1635,Marlenheim,Zone 2,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1636,1636,Hilsenheim,"Zone d’Activités
+/ Route de Mutterholtz",habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,17.0,
+PROTO-ALS-1637,1637,Hindisheim,Niederhamm (IGN),habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,13.0,
+PROTO-ALS-1638,1638,Illhaeusern,Niedere Eilache,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.433538,48.183928,1029330.7043396442,6796311.346594919,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,3.0,
+PROTO-ALS-1639,1639,Illfurth,Le Britzgyberg et les Hauts de Buergelen,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.2717,47.6767,1020368.6328407018,6739369.115036252,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1640,1640,Illzach,"Rue de l'Ecole,Rue de Kingersheim, Am Weiher",habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,14.0,
+PROTO-ALS-1641,1641,Illzach,Am Weier,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,1.0,
+PROTO-ALS-1642,1642,Kienheim,Route de Reitwiller à Gougenheim,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,1.0,
+PROTO-ALS-1643,1643,Kingersheim,ZAC des Dahlias,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.3319507,47.79738,1024147.5940898361,6753003.256843376,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,16.0,
+PROTO-ALS-1644,1644,Furdenheim,Gazoduc,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.543035,48.61371,1034708.4773321745,6844466.234797513,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,9.0,
+PROTO-ALS-1645,1645,Geispolsheim,À 40 m. au nord du ruisseau de l’Altbach,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,13.0,
+PROTO-ALS-1646,1646,Furdenheim,LGV,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1647,1647,Gougenheim,Beim Burgweg,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,8.0,
+PROTO-ALS-1648,1648,Gougenheim,Bolland / Vier Laengen / Schmalmatt,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,6.0,
+PROTO-ALS-1649,1649,Griesheim-près- Molsheim,Wasserfall 2,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1650,1650,Habsheim,Angel,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.411439,47.728751,1030515.1203135876,6745719.322318526,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,5.0,
+PROTO-ALS-1651,1651,Habsheim,Alsburg,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,2.0,
+PROTO-ALS-1652,1652,Habsheim,Winling,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.41618,47.72875,1030869.96288218,6745739.066559258,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,3.0,
+PROTO-ALS-1653,1653,Habsheim,Lobelia II,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1654,1654,Habsheim,Spiegel,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,24.0,
+PROTO-ALS-1655,1655,Habsheim,Steinengaessle / Rolissen,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,16.0,
+PROTO-ALS-1656,1656,Habsheim,Kappelenacker,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,23.0,
+PROTO-ALS-1657,1657,Hatten,Z.I. / Rothsmatt,habitat,HABITAT,LA_TENE,LT A,LTAB,,8.000836,48.896084,1066406.9423486802,6877837.278141316,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1658,1658,Ensisheim,THK / Reguisheimer Feld,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.356666,47.87408,1025525.1328069957,6761614.256939831,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1659,1659,Ensisheim,Reguisheimer Feld,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.363244,47.87279,1026024.0498656181,6761498.277702727,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,49.0,
+PROTO-ALS-1660,1660,Ernolsheim-sur- Bruche,"Zone 10, 11",habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1661,1661,Ergersheim,Abbaye,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.5173,48.5788,1033036.424897382,6840482.856506158,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1662,1662,Entzheim,In der Klamm,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.642978,48.544125,1042517.9831931046,6837172.234356992,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1663,1663,Entzheim,Sablière Oesch,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,1.0,
+PROTO-ALS-1664,1664,Erstein,Krebsrott,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.668064,48.432618,1045098.8018318288,6824907.818360197,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,11.0,
+PROTO-ALS-1665,1665,Ernolsheim-sur- Bruche,"Zone 12, 13",habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1666,1666,Ettendorf,Lot. « Gaensbruch I et II »,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1667,1667,Fessenheim,Rue du Bourg,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,17.0,
+PROTO-ALS-1668,1668,Brunstatt,Burn ??,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1669,1669,Colmar,16 avenue Foch,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.354472,48.071315,1024153.3518005782,6783488.707495296,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,18.0,
+PROTO-ALS-1670,1670,Colmar,Route de Rouffach,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.337235545,48.06189632,1022929.0000761154,6782372.999036473,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1671,1671,Colmar,Rue Balzac,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.347851,48.06442,1023703.1418412642,6782696.488653091,,MEDIUM,BdD_Proto_Alsace_xlsx,nan,nan,nan,51.0,
+PROTO-ALS-1672,1672,Dachstein,Zone 1,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1673,1673,Dachstein,Geist,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1674,1674,Didenheim,Rocade ouest,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,16.0,
+PROTO-ALS-1675,1675,Dossenheim- Kochersberg,Kraulächer,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,3.0,
+PROTO-ALS-1676,1676,Didenheim,Kalhlberg,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.299737,47.723823,1022184.3308130878,6744710.971837673,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1677,1677,Altorf,"Winkel (zone 5
+et 6)",habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1678,1678,Altorf,Winkel (zone 13),habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1679,1679,Achenheim,Loessière anc. Schaeffer / Auf den Ziegelhof [Occup. 2],habitat,HABITAT,LA_TENE,LT A,LTAB,,7.63526012,48.58213211,1041701.3985811977,6841356.648404154,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1680,1680,Altorf,Winkel (zone 6),habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1681,1681,Bergheim,Saulager / ZA Muehlbach,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.3718,48.1925,1024696.7037781477,6797006.842960358,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1682,1682,Bischoffsheim,"RN 422 /
+Maison Schlepp",habitat,HABITAT,LA_TENE,LT A,"LTAB, HaD",,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,18.0,
+PROTO-ALS-1683,1683,Bernolsheim,Dans le talus de la voie rapide RD4,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,7.0,
+PROTO-ALS-1684,1684,Bischoffsheim,Rue du Stade / Lot. Les Parcs de l’Europe / Société TFP,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.5019,48.4833,1032507.2323502082,6829819.0741156805,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1685,1685,Bischoffsheim,Riedweg (zone 1),habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1686,1686,Bischoffsheim,Eselhurst,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1687,1687,Bischwihr,Lotissement Muelhaecker,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.439704,48.102305,1030297.9940082422,6787280.444550976,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1688,1688,Bischoffsheim,Vogelgesang,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1689,1689,Bischoffsheim,Staetten (zone 4),habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,,
+PROTO-ALS-1690,1690,Bruebach,"Auf der Ebene, Auf dem Burner",habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,1.0,
+PROTO-ALS-1691,1691,Brinckheim,Strutberg,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,1.0,
+PROTO-ALS-1692,1692,Bruebach,Rennwasen am Rotlauben,habitat,HABITAT,LA_TENE,LT A,LTAB,,7.35865,47.700355,1026738.1482799205,6742349.592076251,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,23.0,
+PROTO-ALS-1693,1693,Bruebach,Renwasen,habitat,HABITAT,LA_TENE,LT A,LTAB,,,,,,,LOW,BdD_Proto_Alsace_xlsx,nan,nan,nan,5.0,

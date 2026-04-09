@@ -1,0 +1,8876 @@
+[
+  {
+    "numero": "001",
+    "nom": "Algols-heim",
+    "sites": [
+      {
+        "ref": "004 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "003 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "voie",
+      "fossé"
+    ],
+    "nb_sites": 6,
+    "longueur_texte": 4116
+  },
+  {
+    "numero": "002",
+    "nom": "Altenach",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 369
+  },
+  {
+    "numero": "003",
+    "nom": "Altenbach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "004",
+    "nom": "Altkirch",
+    "sites": [
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "four"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 3131
+  },
+  {
+    "numero": "005",
+    "nom": "Ammerschwihr",
+    "sites": [
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Protohistoire",
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "oppidum",
+      "four"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 2267
+  },
+  {
+    "numero": "006",
+    "nom": "Ammerzwiller",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 562
+  },
+  {
+    "numero": "007",
+    "nom": "Andolsheim",
+    "sites": [
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "habitat",
+      "voie",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 5,
+    "longueur_texte": 3264
+  },
+  {
+    "numero": "008",
+    "nom": "Appenwihr",
+    "sites": [
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "002 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "003 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "004 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "005 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "006 AP",
+        "type_code": "AP"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze moyen",
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "oppidum",
+      "voie",
+      "four",
+      "fossé",
+      "menhir"
+    ],
+    "nb_sites": 6,
+    "longueur_texte": 12394
+  },
+  {
+    "numero": "009",
+    "nom": "Artzenheim",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "012 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "voie",
+      "villa",
+      "four",
+      "fossé"
+    ],
+    "nb_sites": 12,
+    "longueur_texte": 4048
+  },
+  {
+    "numero": "010",
+    "nom": "Aspach",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1011
+  },
+  {
+    "numero": "011",
+    "nom": "Aspach-le-Bas",
+    "sites": [
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "voie",
+      "villa",
+      "fossé",
+      "motte"
+    ],
+    "nb_sites": 5,
+    "longueur_texte": 3346
+  },
+  {
+    "numero": "012",
+    "nom": "Aspach-le-Haut",
+    "sites": [
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 1447
+  },
+  {
+    "numero": "013",
+    "nom": "Attenschwiller",
+    "sites": [],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 425
+  },
+  {
+    "numero": "014",
+    "nom": "Aubure",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 487
+  },
+  {
+    "numero": "015",
+    "nom": "Baldersheim",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "voie",
+      "villa",
+      "four",
+      "fossé"
+    ],
+    "nb_sites": 8,
+    "longueur_texte": 4992
+  },
+  {
+    "numero": "016",
+    "nom": "Balgau",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "voie",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 7,
+    "longueur_texte": 2969
+  },
+  {
+    "numero": "017",
+    "nom": "Ballersdorf",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "villa",
+      "four"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 1627
+  },
+  {
+    "numero": "018",
+    "nom": "Balschwiller",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "habitat",
+      "villa",
+      "four",
+      "sanctuaire"
+    ],
+    "nb_sites": 6,
+    "longueur_texte": 3054
+  },
+  {
+    "numero": "019",
+    "nom": "Baltzenheim",
+    "sites": [
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1118
+  },
+  {
+    "numero": "020",
+    "nom": "Bantzenheim",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "voie",
+      "villa",
+      "dépôt"
+    ],
+    "nb_sites": 5,
+    "longueur_texte": 7274
+  },
+  {
+    "numero": "021",
+    "nom": "Bartenheim",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1171
+  },
+  {
+    "numero": "022",
+    "nom": "Battenheim",
+    "sites": [
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "012 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Protohistoire",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "fossé",
+      "motte"
+    ],
+    "nb_sites": 9,
+    "longueur_texte": 5639
+  },
+  {
+    "numero": "023",
+    "nom": "Beblenheim",
+    "sites": [
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "habitat",
+      "voie",
+      "villa",
+      "four",
+      "dépôt",
+      "menhir"
+    ],
+    "nb_sites": 5,
+    "longueur_texte": 2751
+  },
+  {
+    "numero": "024",
+    "nom": "Bellemagny",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 233
+  },
+  {
+    "numero": "025",
+    "nom": "Bendorf",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "voie",
+      "villa",
+      "four"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 588
+  },
+  {
+    "numero": "026",
+    "nom": "Bennwihr",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 2005
+  },
+  {
+    "numero": "027",
+    "nom": "Berentzwiller",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "028",
+    "nom": "Bergheim",
+    "sites": [
+      {
+        "ref": "002 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "015 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "019 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "012 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "013 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "014 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "voie",
+      "villa",
+      "four",
+      "dépôt",
+      "fossé",
+      "motte",
+      "menhir"
+    ],
+    "nb_sites": 10,
+    "longueur_texte": 8724
+  },
+  {
+    "numero": "029",
+    "nom": "Bergholtz",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "nécropole",
+      "habitat",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1328
+  },
+  {
+    "numero": "030",
+    "nom": "Bergholtzzell",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 204
+  },
+  {
+    "numero": "031",
+    "nom": "Bernwiller",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 740
+  },
+  {
+    "numero": "032",
+    "nom": "Berrwiller",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 665
+  },
+  {
+    "numero": "033",
+    "nom": "Bettendorf",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1397
+  },
+  {
+    "numero": "034",
+    "nom": "Bettlach",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "voie",
+      "villa",
+      "sanctuaire"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 1582
+  },
+  {
+    "numero": "035",
+    "nom": "Biederthal",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 435
+  },
+  {
+    "numero": "036",
+    "nom": "Biesheim",
+    "sites": [
+      {
+        "ref": "014 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "021 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "022 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "020 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "019 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AP",
+        "type_code": "AP"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "voie",
+      "villa",
+      "four",
+      "fossé",
+      "sanctuaire"
+    ],
+    "nb_sites": 14,
+    "longueur_texte": 26020
+  },
+  {
+    "numero": "037",
+    "nom": "Bilzheim",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "four"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1261
+  },
+  {
+    "numero": "038",
+    "nom": "Bischwihr",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "039",
+    "nom": "Bisel",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "040",
+    "nom": "Bitschwiller-Les-Thann",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "041",
+    "nom": "Blodelsheim",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "voie",
+      "villa",
+      "four",
+      "fossé",
+      "sanctuaire"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 2627
+  },
+  {
+    "numero": "042",
+    "nom": "Blotzheim",
+    "sites": [
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "voie",
+      "villa",
+      "four",
+      "motte"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 4696
+  },
+  {
+    "numero": "043",
+    "nom": "Bollwiller",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "016 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 2103
+  },
+  {
+    "numero": "044",
+    "nom": "Bonhomme (Le)",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 254
+  },
+  {
+    "numero": "045",
+    "nom": "Bourbach-le-Bas",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 432
+  },
+  {
+    "numero": "046",
+    "nom": "Bourbach-le-Haut",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "047",
+    "nom": "Bourgfelden",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "048",
+    "nom": "Bourtzwiller. Rattachée à Mulhouse (n° 224)",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 0
+  },
+  {
+    "numero": "049",
+    "nom": "Bouxwiller",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "habitat",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1004
+  },
+  {
+    "numero": "050",
+    "nom": "Bréchaumont",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 284
+  },
+  {
+    "numero": "051",
+    "nom": "Breitenbach-Haut-Rhin",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "052",
+    "nom": "Bretten",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "053",
+    "nom": "Brinighoffen. Devenue Saint-Bernard (n° 081).",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 0
+  },
+  {
+    "numero": "054",
+    "nom": "Brinckheim",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène"
+    ],
+    "types_mentionnes": [
+      "four"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 624
+  },
+  {
+    "numero": "055",
+    "nom": "Bruebach",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "habitat",
+      "voie",
+      "four",
+      "silo",
+      "fossé",
+      "atelier"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 3778
+  },
+  {
+    "numero": "056",
+    "nom": "Brunstatt",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "voie",
+      "fossé"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 4432
+  },
+  {
+    "numero": "057",
+    "nom": "Buethwiller",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "058",
+    "nom": "Buhl",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "059",
+    "nom": "Burnhaupt-le-Bas",
+    "sites": [
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "habitat",
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 2679
+  },
+  {
+    "numero": "060",
+    "nom": "Burnhaupt-le-Haut",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "voie"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 1192
+  },
+  {
+    "numero": "061",
+    "nom": "Buschwiller",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 215
+  },
+  {
+    "numero": "062",
+    "nom": "Carspach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 170
+  },
+  {
+    "numero": "063",
+    "nom": "Cernay",
+    "sites": [
+      {
+        "ref": "022 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 3373
+  },
+  {
+    "numero": "064",
+    "nom": "Chalampé",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 615
+  },
+  {
+    "numero": "065",
+    "nom": "Chavannes-sur-l’Etang",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 388
+  },
+  {
+    "numero": "066",
+    "nom": "Colmar",
+    "sites": [
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "049 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "014 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "016 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "034 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "141 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "142 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "047 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "032 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "035 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "018 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "048 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "051 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "013 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "017 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "076 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "033 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "042 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "043 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "107 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "028 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "105 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "103 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "068 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "041 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "040 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "101 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "104 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "015 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "088 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "050 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Néolithique",
+      "Bronze moyen",
+      "Bronze final",
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "voie",
+      "villa",
+      "four",
+      "dépôt",
+      "silo",
+      "fossé",
+      "atelier",
+      "menhir"
+    ],
+    "nb_sites": 34,
+    "longueur_texte": 37452
+  },
+  {
+    "numero": "067",
+    "nom": "Courtavon",
+    "sites": [
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [],
+    "nb_sites": 1,
+    "longueur_texte": 330
+  },
+  {
+    "numero": "068",
+    "nom": "Dannemarie",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "dépôt"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 1642
+  },
+  {
+    "numero": "069",
+    "nom": "Dessenheim",
+    "sites": [
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "voie",
+      "villa",
+      "four",
+      "dépôt",
+      "fossé"
+    ],
+    "nb_sites": 6,
+    "longueur_texte": 4320
+  },
+  {
+    "numero": "070",
+    "nom": "Didenheim",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "villa"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 1431
+  },
+  {
+    "numero": "071",
+    "nom": "Diefmatten",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "072",
+    "nom": "Dietwiller",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 2263
+  },
+  {
+    "numero": "073",
+    "nom": "Dolleren",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "074",
+    "nom": "Durlinsdorf",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 1812
+  },
+  {
+    "numero": "075",
+    "nom": "Durmenach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "076",
+    "nom": "Durrenentzen",
+    "sites": [
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze final",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "voie",
+      "villa",
+      "dépôt"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 2927
+  },
+  {
+    "numero": "077",
+    "nom": "Eglingen",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "078",
+    "nom": "Eguisheim",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "047 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "019 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "015 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "038 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "039 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "025 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "017 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "051 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "012 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "050 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "013 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "041 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "014 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "040 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "028 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "022 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Néolithique",
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "voie",
+      "villa",
+      "four",
+      "dépôt",
+      "fossé",
+      "motte"
+    ],
+    "nb_sites": 22,
+    "longueur_texte": 31886
+  },
+  {
+    "numero": "079",
+    "nom": "Elbach",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "tumulus",
+      "oppidum",
+      "villa"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 929
+  },
+  {
+    "numero": "080",
+    "nom": "Emlingen",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "081",
+    "nom": "Enschingen. Devenue Saint-Bernard (n° 081)",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 0
+  },
+  {
+    "numero": "082",
+    "nom": "Ensisheim",
+    "sites": [
+      {
+        "ref": "013 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "021 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "015 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "014 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "023 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze final",
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "voie",
+      "villa",
+      "four",
+      "silo"
+    ],
+    "nb_sites": 13,
+    "longueur_texte": 27715
+  },
+  {
+    "numero": "083",
+    "nom": "Eschbach-au-Val",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "084",
+    "nom": "Eschentzwiller",
+    "sites": [
+      {
+        "ref": "005 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze final",
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "voie",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 4402
+  },
+  {
+    "numero": "085",
+    "nom": "Eteimbes",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "habitat",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 368
+  },
+  {
+    "numero": "086",
+    "nom": "Falkwiller",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "087",
+    "nom": "Feldbach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "088",
+    "nom": "Feldkirch",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 343
+  },
+  {
+    "numero": "089",
+    "nom": "Fellering",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "090",
+    "nom": "Ferrette",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "motte"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 729
+  },
+  {
+    "numero": "091",
+    "nom": "Fessenheim",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "016 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "013 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "014 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "012 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "015 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "voie",
+      "villa",
+      "fossé",
+      "motte"
+    ],
+    "nb_sites": 14,
+    "longueur_texte": 3035
+  },
+  {
+    "numero": "092",
+    "nom": "Fislis",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "093",
+    "nom": "Flaxlanden",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 1678
+  },
+  {
+    "numero": "094",
+    "nom": "Folgensbourg",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 986
+  },
+  {
+    "numero": "095",
+    "nom": "Fortschwihr",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "096",
+    "nom": "Franken",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 894
+  },
+  {
+    "numero": "097",
+    "nom": "Fréland",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 311
+  },
+  {
+    "numero": "098",
+    "nom": "Friesen",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "voie",
+      "villa",
+      "four",
+      "dépôt",
+      "fossé",
+      "sanctuaire",
+      "atelier"
+    ],
+    "nb_sites": 5,
+    "longueur_texte": 24217
+  },
+  {
+    "numero": "099",
+    "nom": "Froeningen",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "nécropole",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1352
+  },
+  {
+    "numero": "100",
+    "nom": "Fulleren",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 707
+  },
+  {
+    "numero": "101",
+    "nom": "Galfingue",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "voie"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 529
+  },
+  {
+    "numero": "102",
+    "nom": "Geishouse",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "103",
+    "nom": "Geispitzen",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "voie",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 3000
+  },
+  {
+    "numero": "104",
+    "nom": "Geiswasser",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "105",
+    "nom": "Gildwiller",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 97
+  },
+  {
+    "numero": "106",
+    "nom": "Goldbach-Altenbach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "107",
+    "nom": "Gommersdorf",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "108",
+    "nom": "Grentzingen",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "109",
+    "nom": "Griesbach-au-Val",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "110",
+    "nom": "Grussenheim",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "voie",
+      "villa",
+      "four",
+      "fossé"
+    ],
+    "nb_sites": 5,
+    "longueur_texte": 10635
+  },
+  {
+    "numero": "111",
+    "nom": "Gueberschwihr",
+    "sites": [
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "oppidum",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 2088
+  },
+  {
+    "numero": "112",
+    "nom": "Guebwiller",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 4061
+  },
+  {
+    "numero": "113",
+    "nom": "Guémar",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [],
+    "nb_sites": 1,
+    "longueur_texte": 634
+  },
+  {
+    "numero": "114",
+    "nom": "Guevenatten",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 305
+  },
+  {
+    "numero": "115",
+    "nom": "Guewenheim",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 292
+  },
+  {
+    "numero": "116",
+    "nom": "Gundolsheim",
+    "sites": [
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze final",
+      "Hallstatt",
+      "Protohistoire",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "habitat",
+      "villa",
+      "four",
+      "fossé"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 4252
+  },
+  {
+    "numero": "117",
+    "nom": "Gunsbach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "118",
+    "nom": "Habsheim",
+    "sites": [
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "012 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "016 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "023 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "024 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "019 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "014 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "013 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "015 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "018 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "020 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "021 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "022 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Néolithique",
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "voie",
+      "villa",
+      "four",
+      "silo",
+      "fossé"
+    ],
+    "nb_sites": 20,
+    "longueur_texte": 19599
+  },
+  {
+    "numero": "119",
+    "nom": "Hagenbach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "120",
+    "nom": "Hagenthal-le-Bas",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 2301
+  },
+  {
+    "numero": "121",
+    "nom": "Hagenthal-le-Haut",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "oppidum",
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 1006
+  },
+  {
+    "numero": "122",
+    "nom": "Hartmannswiller",
+    "sites": [
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "oppidum",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 6054
+  },
+  {
+    "numero": "123",
+    "nom": "Hattstatt",
+    "sites": [
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa",
+      "four"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 3751
+  },
+  {
+    "numero": "124",
+    "nom": "Hausgauen",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "125",
+    "nom": "Hecken",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "126",
+    "nom": "Hégenheim",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 2082
+  },
+  {
+    "numero": "127",
+    "nom": "Heidwiller",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1575
+  },
+  {
+    "numero": "128",
+    "nom": "Heimersdorf",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 505
+  },
+  {
+    "numero": "129",
+    "nom": "Heimsbrunn",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "130",
+    "nom": "Heiteren",
+    "sites": [
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "oppidum",
+      "voie",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 8,
+    "longueur_texte": 4431
+  },
+  {
+    "numero": "131",
+    "nom": "Heiwiller",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 601
+  },
+  {
+    "numero": "132",
+    "nom": "Helfrantzkirch",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 842
+  },
+  {
+    "numero": "133",
+    "nom": "Henflingen",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 469
+  },
+  {
+    "numero": "134",
+    "nom": "Herrlisheim-près-Colmar",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze final",
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 8755
+  },
+  {
+    "numero": "135",
+    "nom": "Hésingue",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "villa",
+      "dépôt"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 364
+  },
+  {
+    "numero": "136",
+    "nom": "Hettenschlag",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "137",
+    "nom": "Hindlingen",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "138",
+    "nom": "Hirsingue",
+    "sites": [
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "oppidum",
+      "voie",
+      "villa",
+      "motte"
+    ],
+    "nb_sites": 7,
+    "longueur_texte": 4570
+  },
+  {
+    "numero": "139",
+    "nom": "Hirtzbach",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "voie",
+      "dépôt"
+    ],
+    "nb_sites": 6,
+    "longueur_texte": 3010
+  },
+  {
+    "numero": "140",
+    "nom": "Hirtzfelden",
+    "sites": [
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "oppidum",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 2311
+  },
+  {
+    "numero": "141",
+    "nom": "Hochstatt",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1566
+  },
+  {
+    "numero": "142",
+    "nom": "Hohrod",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "143",
+    "nom": "Holtzwihr",
+    "sites": [
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      }
+    ],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "tumulus"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 536
+  },
+  {
+    "numero": "144",
+    "nom": "Hombourg",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "villa",
+      "silo",
+      "motte"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 1543
+  },
+  {
+    "numero": "145",
+    "nom": "Horbourg-Wihr",
+    "sites": [
+      {
+        "ref": "012 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "036 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "019 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "029 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "021 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "035 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "014 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "048 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "049 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "024 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "050 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "026 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "052 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "013 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "017 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "022 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "027 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "041 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "042 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "044 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "020 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "039 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "031 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "025 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "040 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "045 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "voie",
+      "villa",
+      "four",
+      "dépôt",
+      "fossé",
+      "sanctuaire",
+      "atelier",
+      "menhir"
+    ],
+    "nb_sites": 29,
+    "longueur_texte": 60161
+  },
+  {
+    "numero": "146",
+    "nom": "Houssen",
+    "sites": [
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Néolithique",
+      "Bronze final",
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "voie",
+      "villa",
+      "four",
+      "dépôt",
+      "fossé"
+    ],
+    "nb_sites": 5,
+    "longueur_texte": 10936
+  },
+  {
+    "numero": "147",
+    "nom": "Hunawihr",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "148",
+    "nom": "Hundsbach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "149",
+    "nom": "Huningue",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 1272
+  },
+  {
+    "numero": "150",
+    "nom": "Husseren-les-Châteaux",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "motte"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 322
+  },
+  {
+    "numero": "151",
+    "nom": "Husseren-Wesserling",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "152",
+    "nom": "Illfurth",
+    "sites": [
+      {
+        "ref": "018 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "016 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "015 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "019 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "021 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "014 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "020 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "022 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "voie",
+      "four",
+      "fossé",
+      "atelier"
+    ],
+    "nb_sites": 17,
+    "longueur_texte": 20815
+  },
+  {
+    "numero": "153",
+    "nom": "Illhaeusern",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "fossé"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 738
+  },
+  {
+    "numero": "154",
+    "nom": "Illzach",
+    "sites": [
+      {
+        "ref": "004 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "voie",
+      "villa",
+      "four",
+      "dépôt",
+      "fossé",
+      "atelier"
+    ],
+    "nb_sites": 5,
+    "longueur_texte": 17554
+  },
+  {
+    "numero": "155",
+    "nom": "Ingersheim",
+    "sites": [
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Néolithique",
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "habitat",
+      "villa"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 3270
+  },
+  {
+    "numero": "156",
+    "nom": "Issenheim",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 1423
+  },
+  {
+    "numero": "157",
+    "nom": "Jebsheim",
+    "sites": [
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "voie",
+      "villa",
+      "four",
+      "atelier"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 3125
+  },
+  {
+    "numero": "158",
+    "nom": "Jettingen",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1169
+  },
+  {
+    "numero": "159",
+    "nom": "Jungholtz",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "160",
+    "nom": "Kappelen",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze final",
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 2853
+  },
+  {
+    "numero": "161",
+    "nom": "Katzenthal",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 585
+  },
+  {
+    "numero": "162",
+    "nom": "Kaysersberg",
+    "sites": [
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "voie",
+      "dépôt"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 1598
+  },
+  {
+    "numero": "163",
+    "nom": "Kembs",
+    "sites": [
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "voie",
+      "villa",
+      "four",
+      "fossé",
+      "atelier"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 21148
+  },
+  {
+    "numero": "164",
+    "nom": "Kientzheim",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 3819
+  },
+  {
+    "numero": "165",
+    "nom": "Kiffis",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "oppidum",
+      "silo",
+      "fossé",
+      "motte"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 1915
+  },
+  {
+    "numero": "166",
+    "nom": "Kingersheim",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "voie",
+      "villa",
+      "dépôt"
+    ],
+    "nb_sites": 8,
+    "longueur_texte": 3449
+  },
+  {
+    "numero": "167",
+    "nom": "Kirchberg",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 449
+  },
+  {
+    "numero": "168",
+    "nom": "Knoeringue",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 1856
+  },
+  {
+    "numero": "169",
+    "nom": "Koestlach",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 6,
+    "longueur_texte": 8794
+  },
+  {
+    "numero": "170",
+    "nom": "Koetzingue",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "voie",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 7,
+    "longueur_texte": 5402
+  },
+  {
+    "numero": "171",
+    "nom": "Kruth",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 1,
+    "longueur_texte": 422
+  },
+  {
+    "numero": "172",
+    "nom": "Kunheim",
+    "sites": [
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "012 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "013 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "014 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "villa",
+      "fossé",
+      "atelier"
+    ],
+    "nb_sites": 12,
+    "longueur_texte": 7753
+  },
+  {
+    "numero": "173",
+    "nom": "Labaroche",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "villa",
+      "motte"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 495
+  },
+  {
+    "numero": "174",
+    "nom": "Landser",
+    "sites": [
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "002 AP",
+        "type_code": "AP"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze final",
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "habitat",
+      "villa",
+      "four"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 1529
+  },
+  {
+    "numero": "175",
+    "nom": "Lapoutroie",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 960
+  },
+  {
+    "numero": "176",
+    "nom": "Largitzen",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa",
+      "four"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1253
+  },
+  {
+    "numero": "177",
+    "nom": "Lautenbach",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Mérovingien"
+    ],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 473
+  },
+  {
+    "numero": "178",
+    "nom": "Lautenbachzell",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "179",
+    "nom": "Lauw",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "180",
+    "nom": "Leimbach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "181",
+    "nom": "Levoncourt",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 375
+  },
+  {
+    "numero": "182",
+    "nom": "Leymen",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa",
+      "dépôt",
+      "motte"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 1378
+  },
+  {
+    "numero": "183",
+    "nom": "Liebenswiller",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "184",
+    "nom": "Liebsdorf",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "motte"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 689
+  },
+  {
+    "numero": "185",
+    "nom": "Lièpvre",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "186",
+    "nom": "Ligsdorf",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "four"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 380
+  },
+  {
+    "numero": "187",
+    "nom": "Linsdorf",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "habitat"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 675
+  },
+  {
+    "numero": "188",
+    "nom": "Linthal",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "189",
+    "nom": "Logelheim",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 383
+  },
+  {
+    "numero": "190",
+    "nom": "Lucelle",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "191",
+    "nom": "Luemschwiller",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 376
+  },
+  {
+    "numero": "192",
+    "nom": "Valdieu-Lutran",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "193",
+    "nom": "Luttenbach-près-Munster",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "194",
+    "nom": "Lutter",
+    "sites": [
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "habitat",
+      "villa",
+      "four"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 4131
+  },
+  {
+    "numero": "195",
+    "nom": "Lutterbach",
+    "sites": [
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "villa",
+      "dépôt"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 4840
+  },
+  {
+    "numero": "196",
+    "nom": "Magny",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "197",
+    "nom": "Magstatt-le-Bas",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "fossé"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1341
+  },
+  {
+    "numero": "198",
+    "nom": "Magstatt-le-Haut",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 598
+  },
+  {
+    "numero": "199",
+    "nom": "Malmerspach",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 1047
+  },
+  {
+    "numero": "200",
+    "nom": "Manspach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "201",
+    "nom": "Masevaux",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 628
+  },
+  {
+    "numero": "202",
+    "nom": "Mertzen",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [],
+    "nb_sites": 1,
+    "longueur_texte": 312
+  },
+  {
+    "numero": "203",
+    "nom": "Merxheim",
+    "sites": [
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze final",
+      "Hallstatt",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 10,
+    "longueur_texte": 6724
+  },
+  {
+    "numero": "204",
+    "nom": "Metzeral",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "205",
+    "nom": "Meyenheim",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "012 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze final",
+      "Hallstatt",
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 8,
+    "longueur_texte": 4490
+  },
+  {
+    "numero": "206",
+    "nom": "Michelbach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "207",
+    "nom": "Michelbach-le-Bas",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 220
+  },
+  {
+    "numero": "208",
+    "nom": "Michelbach-le-Haut",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "209",
+    "nom": "Mittelwihr",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "habitat",
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 2558
+  },
+  {
+    "numero": "210",
+    "nom": "Mittlach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "211",
+    "nom": "Mitzach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "212",
+    "nom": "Moernach",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Hallstatt"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "oppidum"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 2861
+  },
+  {
+    "numero": "213",
+    "nom": "Mollau",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "214",
+    "nom": "Montreux-Jeune",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "215",
+    "nom": "Montreux-Vieux",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "216",
+    "nom": "Moos",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "217",
+    "nom": "Moosch",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "villa",
+      "dépôt"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 271
+  },
+  {
+    "numero": "218",
+    "nom": "Morschwiller-le-Bas",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 2357
+  },
+  {
+    "numero": "219",
+    "nom": "Mortzwiller",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "220",
+    "nom": "Moyen-Muespach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "221",
+    "nom": "Muespach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "222",
+    "nom": "Muespach-le-Haut",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 443
+  },
+  {
+    "numero": "223",
+    "nom": "Muhlbach-sur-Munster",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "224",
+    "nom": "Mulhouse",
+    "sites": [
+      {
+        "ref": "052 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "056 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "057 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "049 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "059 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "062 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "053 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "054 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze final",
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "voie",
+      "four",
+      "dépôt"
+    ],
+    "nb_sites": 15,
+    "longueur_texte": 16978
+  },
+  {
+    "numero": "225",
+    "nom": "Munchhouse",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "voie"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 793
+  },
+  {
+    "numero": "226",
+    "nom": "Munster",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 847
+  },
+  {
+    "numero": "227",
+    "nom": "Muntzenheim",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "voie",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 5,
+    "longueur_texte": 1855
+  },
+  {
+    "numero": "228",
+    "nom": "Munwiller",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "voie",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 6,
+    "longueur_texte": 2679
+  },
+  {
+    "numero": "229",
+    "nom": "Murbach",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 2498
+  },
+  {
+    "numero": "230",
+    "nom": "Nambsheim",
+    "sites": [
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "002 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Néolithique",
+      "Protohistoire",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 5,
+    "longueur_texte": 1378
+  },
+  {
+    "numero": "231",
+    "nom": "Neuf-Brisach",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "oppidum",
+      "voie",
+      "dépôt"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 2615
+  },
+  {
+    "numero": "232",
+    "nom": "Neuwiller",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "233",
+    "nom": "Niederbruck",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "234",
+    "nom": "Niederentzen",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 711
+  },
+  {
+    "numero": "235",
+    "nom": "Niederhergheim",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 788
+  },
+  {
+    "numero": "236",
+    "nom": "Niederlarg",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "237",
+    "nom": "Niedermorschwihr",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "238",
+    "nom": "Niffer",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "voie",
+      "fossé"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 1353
+  },
+  {
+    "numero": "239",
+    "nom": "Oberbruck",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "240",
+    "nom": "Oberdorf",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "tumulus",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 496
+  },
+  {
+    "numero": "241",
+    "nom": "Oberentzen",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Néolithique",
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 2875
+  },
+  {
+    "numero": "242",
+    "nom": "Oberhergheim",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "012 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "voie",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 5,
+    "longueur_texte": 2803
+  },
+  {
+    "numero": "243",
+    "nom": "Oberlarg",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 450
+  },
+  {
+    "numero": "244",
+    "nom": "Obermorschwihr",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "nécropole"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 724
+  },
+  {
+    "numero": "245",
+    "nom": "Obermorschwiller",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 848
+  },
+  {
+    "numero": "246",
+    "nom": "Obersaasheim",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "voie",
+      "fossé"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 917
+  },
+  {
+    "numero": "247",
+    "nom": "Oderen",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "dépôt"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 1441
+  },
+  {
+    "numero": "248",
+    "nom": "Oltingue",
+    "sites": [
+      {
+        "ref": "006 AP",
+        "type_code": "AP"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "oppidum",
+      "voie",
+      "villa",
+      "four"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1728
+  },
+  {
+    "numero": "249",
+    "nom": "Orbey",
+    "sites": [
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 1,
+    "longueur_texte": 496
+  },
+  {
+    "numero": "250",
+    "nom": "Orschwihr",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "251",
+    "nom": "Osenbach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "252",
+    "nom": "Ostheim",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "villa",
+      "menhir"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 1451
+  },
+  {
+    "numero": "253",
+    "nom": "Ottmarsheim",
+    "sites": [
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "voie"
+    ],
+    "nb_sites": 6,
+    "longueur_texte": 4829
+  },
+  {
+    "numero": "254",
+    "nom": "Petit-Landau",
+    "sites": [
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "oppidum",
+      "voie",
+      "fossé",
+      "motte"
+    ],
+    "nb_sites": 8,
+    "longueur_texte": 2767
+  },
+  {
+    "numero": "255",
+    "nom": "Pfaffenheim",
+    "sites": [
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "014 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 1779
+  },
+  {
+    "numero": "256",
+    "nom": "Pfastatt",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa",
+      "four"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 3668
+  },
+  {
+    "numero": "257",
+    "nom": "Pfetterhouse",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "258",
+    "nom": "Pulversheim",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "oppidum",
+      "voie",
+      "villa",
+      "four",
+      "fossé"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 4380
+  },
+  {
+    "numero": "259",
+    "nom": "Raedersdorf",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 368
+  },
+  {
+    "numero": "260",
+    "nom": "Raedersheim",
+    "sites": [
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Protohistoire",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 6,
+    "longueur_texte": 2321
+  },
+  {
+    "numero": "261",
+    "nom": "Rammersmatt",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "262",
+    "nom": "Ranspach",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "tumulus",
+      "fossé",
+      "motte"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 362
+  },
+  {
+    "numero": "263",
+    "nom": "Ranspach-le-Bas",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "264",
+    "nom": "Ranspach-le-Haut",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "265",
+    "nom": "Rantzwiller",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "habitat",
+      "voie",
+      "villa",
+      "four",
+      "dépôt",
+      "motte",
+      "atelier"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 7055
+  },
+  {
+    "numero": "266",
+    "nom": "Réguisheim",
+    "sites": [
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "012 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Néolithique",
+      "Bronze final",
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "voie",
+      "villa",
+      "dépôt",
+      "fossé"
+    ],
+    "nb_sites": 8,
+    "longueur_texte": 11452
+  },
+  {
+    "numero": "267",
+    "nom": "Reiningue",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "La Tène"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 3799
+  },
+  {
+    "numero": "268",
+    "nom": "Retzwiller",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "tumulus",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 259
+  },
+  {
+    "numero": "269",
+    "nom": "Ribeauvillé",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "012 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze final",
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa",
+      "dépôt",
+      "motte",
+      "menhir"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 4703
+  },
+  {
+    "numero": "270",
+    "nom": "Richwiller",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 668
+  },
+  {
+    "numero": "271",
+    "nom": "Riedisheim",
+    "sites": [
+      {
+        "ref": "018 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "024 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "021 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "020 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "015 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "014 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "016 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "019 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "017 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze final",
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "voie",
+      "villa",
+      "four",
+      "dépôt",
+      "fossé"
+    ],
+    "nb_sites": 16,
+    "longueur_texte": 14851
+  },
+  {
+    "numero": "345",
+    "nom": "375 apr. J.-C. (groupes 2  et  4  de  W.  Hübener).  La  prospection  de",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "022 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "habitat",
+      "voie",
+      "villa",
+      "four",
+      "fossé"
+    ],
+    "nb_sites": 6,
+    "longueur_texte": 9616
+  },
+  {
+    "numero": "272",
+    "nom": "Riedwihr",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "tumulus"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 174
+  },
+  {
+    "numero": "273",
+    "nom": "Riespach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "274",
+    "nom": "Rimbach-près-Guebwiller",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "275",
+    "nom": "Rimbach-près-Masevaux",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 520
+  },
+  {
+    "numero": "276",
+    "nom": "Rimbachzell",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 283
+  },
+  {
+    "numero": "277",
+    "nom": "Riquewihr",
+    "sites": [
+      {
+        "ref": "027 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "026 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "016 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "motte"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 1367
+  },
+  {
+    "numero": "278",
+    "nom": "Rixheim",
+    "sites": [
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "voie",
+      "dépôt",
+      "fossé",
+      "atelier"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 8065
+  },
+  {
+    "numero": "279",
+    "nom": "Roderen",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "280",
+    "nom": "Rodern",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "281",
+    "nom": "Roggenhouse",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "282",
+    "nom": "Romagny",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "283",
+    "nom": "Rombach-le-Franc",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "284",
+    "nom": "Roppentzwiller",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 468
+  },
+  {
+    "numero": "285",
+    "nom": "Rorschwihr",
+    "sites": [
+      {
+        "ref": "002 AP",
+        "type_code": "AP"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "La Tène"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "villa",
+      "four"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 2056
+  },
+  {
+    "numero": "286",
+    "nom": "Rosenau",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "287",
+    "nom": "Rouffach",
+    "sites": [
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "016 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "015 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "017 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "012 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "006 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "013 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "voie",
+      "villa",
+      "four",
+      "silo",
+      "fossé",
+      "motte",
+      "menhir"
+    ],
+    "nb_sites": 11,
+    "longueur_texte": 16095
+  },
+  {
+    "numero": "288",
+    "nom": "Ruederbach",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 260
+  },
+  {
+    "numero": "289",
+    "nom": "Ruelisheim",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 6,
+    "longueur_texte": 1458
+  },
+  {
+    "numero": "290",
+    "nom": "Rustenhart",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 429
+  },
+  {
+    "numero": "291",
+    "nom": "Rumersheim-le-Haut",
+    "sites": [
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "oppidum",
+      "voie",
+      "villa",
+      "four",
+      "dépôt",
+      "fossé",
+      "motte"
+    ],
+    "nb_sites": 9,
+    "longueur_texte": 10501
+  },
+  {
+    "numero": "292",
+    "nom": "Saint-Amarin",
+    "sites": [
+      {
+        "ref": "012 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "dépôt"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 1572
+  },
+  {
+    "numero": "081",
+    "nom": "Saint-Bernard.  Fusion  des  anciennes  communes  de  Brinighoffen  et",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 112
+  },
+  {
+    "numero": "293",
+    "nom": "Saint-Cosme",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 311
+  },
+  {
+    "numero": "294",
+    "nom": "Sainte-Croix-aux-Mines",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 1429
+  },
+  {
+    "numero": "295",
+    "nom": "Sainte-Croix-en-Plaine",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "017 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "016 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "015 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze final",
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "voie",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 10,
+    "longueur_texte": 5545
+  },
+  {
+    "numero": "296",
+    "nom": "Saint-Hippolyte",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "016 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 1901
+  },
+  {
+    "numero": "297",
+    "nom": "Saint-Louis",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "012 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze final",
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "voie",
+      "four",
+      "dépôt",
+      "fossé",
+      "atelier"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 11032
+  },
+  {
+    "numero": "298",
+    "nom": "Sainte-Marie-aux-Mines",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "299",
+    "nom": "Saint-Ulrich",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "villa",
+      "motte"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 462
+  },
+  {
+    "numero": "300",
+    "nom": "Sausheim",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "013 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze ancien",
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "oppidum",
+      "four",
+      "dépôt",
+      "fossé"
+    ],
+    "nb_sites": 13,
+    "longueur_texte": 8871
+  },
+  {
+    "numero": "301",
+    "nom": "Schlierbach",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 2755
+  },
+  {
+    "numero": "302",
+    "nom": "Schweighouse-Thann",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "voie"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 427
+  },
+  {
+    "numero": "303",
+    "nom": "Schwoben",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "304",
+    "nom": "Sentheim",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa",
+      "dépôt"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 1505
+  },
+  {
+    "numero": "305",
+    "nom": "Seppois-le-Bas",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 567
+  },
+  {
+    "numero": "306",
+    "nom": "Seppois-le-Haut",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "dépôt"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 1447
+  },
+  {
+    "numero": "307",
+    "nom": "Sewen",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "308",
+    "nom": "Sickert",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "309",
+    "nom": "Sierentz",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Néolithique",
+      "Bronze moyen",
+      "Bronze final",
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "voie",
+      "villa",
+      "four",
+      "dépôt",
+      "silo",
+      "fossé",
+      "sanctuaire",
+      "atelier"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 13796
+  },
+  {
+    "numero": "310",
+    "nom": "Sigolsheim",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa",
+      "four"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 2352
+  },
+  {
+    "numero": "311",
+    "nom": "Sondernach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "312",
+    "nom": "Sondersdorf",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "313",
+    "nom": "Soppe-le-Bas",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "314",
+    "nom": "Soppe-le-Haut",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "voie",
+      "villa",
+      "four"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 891
+  },
+  {
+    "numero": "315",
+    "nom": "Soultz-Haut-Rhin",
+    "sites": [
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "voie",
+      "villa",
+      "dépôt",
+      "motte"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 3893
+  },
+  {
+    "numero": "316",
+    "nom": "Soultzbach-les-Bains",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "317",
+    "nom": "Soultzeren",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "318",
+    "nom": "Soultzmatt",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 947
+  },
+  {
+    "numero": "319",
+    "nom": "Spechbach-le-Bas",
+    "sites": [
+      {
+        "ref": "002 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 1064
+  },
+  {
+    "numero": "320",
+    "nom": "Spechbach-le-Haut",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 337
+  },
+  {
+    "numero": "321",
+    "nom": "Staffelfelden",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "habitat",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 2049
+  },
+  {
+    "numero": "322",
+    "nom": "Steinbach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "323",
+    "nom": "Steinbrunn-le-Bas",
+    "sites": [
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 3727
+  },
+  {
+    "numero": "324",
+    "nom": "Steinbrunn-le-Haut",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "voie"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1443
+  },
+  {
+    "numero": "325",
+    "nom": "Steinsoultz",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "326",
+    "nom": "Sternenberg",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "327",
+    "nom": "Stetten",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "328",
+    "nom": "Storckensohn",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "329",
+    "nom": "Stosswihr",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 524
+  },
+  {
+    "numero": "330",
+    "nom": "Stueth",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "331",
+    "nom": "Sundhoffen",
+    "sites": [
+      {
+        "ref": "031 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze moyen",
+      "Bronze final",
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "villa",
+      "four",
+      "dépôt"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 5561
+  },
+  {
+    "numero": "332",
+    "nom": "Tagolsheim",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "habitat",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 2838
+  },
+  {
+    "numero": "333",
+    "nom": "Tagsdorf",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 489
+  },
+  {
+    "numero": "334",
+    "nom": "Thann",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "habitat",
+      "villa",
+      "dépôt",
+      "motte"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 654
+  },
+  {
+    "numero": "335",
+    "nom": "Thannenkirch",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "oppidum"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1809
+  },
+  {
+    "numero": "336",
+    "nom": "Traubach-le-Bas",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "337",
+    "nom": "Traubach-le-Haut",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 390
+  },
+  {
+    "numero": "338",
+    "nom": "Turckheim",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "habitat",
+      "voie",
+      "villa",
+      "four",
+      "dépôt",
+      "sanctuaire"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 11171
+  },
+  {
+    "numero": "339",
+    "nom": "Ueberkumen. Rattachée à Balschwiller (n° 018)",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 0
+  },
+  {
+    "numero": "340",
+    "nom": "Ueberstrass",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 568
+  },
+  {
+    "numero": "341",
+    "nom": "Uffheim",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 835
+  },
+  {
+    "numero": "342",
+    "nom": "Uffholtz",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "tumulus",
+      "voie"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 818
+  },
+  {
+    "numero": "343",
+    "nom": "Ungersheim",
+    "sites": [
+      {
+        "ref": "012 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "016 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "017 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "013 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "La Tène",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "voie",
+      "villa",
+      "four",
+      "fossé",
+      "atelier"
+    ],
+    "nb_sites": 10,
+    "longueur_texte": 7108
+  },
+  {
+    "numero": "344",
+    "nom": "Urbès",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 1132
+  },
+  {
+    "numero": "345",
+    "nom": "Urschenheim",
+    "sites": [
+      {
+        "ref": "002 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "003 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "006 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "004 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "005 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "voie",
+      "four",
+      "fossé"
+    ],
+    "nb_sites": 6,
+    "longueur_texte": 1656
+  },
+  {
+    "numero": "346",
+    "nom": "Valdieu. Rattachée à Lutran (n° 192)",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 0
+  },
+  {
+    "numero": "347",
+    "nom": "Vieux-Ferrette",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "348",
+    "nom": "Vieux-Thann",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "tumulus",
+      "habitat",
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 649
+  },
+  {
+    "numero": "349",
+    "nom": "Village-Neuf",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "350",
+    "nom": "Voegtlinshofen",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "351",
+    "nom": "Vogelgrun",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "352",
+    "nom": "Volgelsheim",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze final",
+      "Hallstatt",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 7,
+    "longueur_texte": 5898
+  },
+  {
+    "numero": "147",
+    "nom": "148, 191-192, 206, 208, pl. 49, n° 1-11 ; - M. Châtelet, 1997, II.",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      }
+    ],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "fossé"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 463
+  },
+  {
+    "numero": "353",
+    "nom": "Wahlbach",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 621
+  },
+  {
+    "numero": "354",
+    "nom": "Walbach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "355",
+    "nom": "Waldighofen",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "356",
+    "nom": "Walheim",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 348
+  },
+  {
+    "numero": "357",
+    "nom": "Waltenheim",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "habitat",
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 904
+  },
+  {
+    "numero": "358",
+    "nom": "Wasserbourg",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "359",
+    "nom": "Wattwiller",
+    "sites": [
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 2637
+  },
+  {
+    "numero": "360",
+    "nom": "Weckolsheim",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Protohistoire",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "villa"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 799
+  },
+  {
+    "numero": "361",
+    "nom": "Wegscheid",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "362",
+    "nom": "Wentzwiller",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 443
+  },
+  {
+    "numero": "363",
+    "nom": "Werentzhouse",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "364",
+    "nom": "Westhalten",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 281
+  },
+  {
+    "numero": "365",
+    "nom": "Wettolsheim",
+    "sites": [
+      {
+        "ref": "004 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "019 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Néolithique",
+      "Bronze final",
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "voie",
+      "villa",
+      "four",
+      "dépôt",
+      "silo",
+      "fossé",
+      "motte",
+      "atelier",
+      "menhir"
+    ],
+    "nb_sites": 7,
+    "longueur_texte": 19917
+  },
+  {
+    "numero": "366",
+    "nom": "Wickerschwihr",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1276
+  },
+  {
+    "numero": "367",
+    "nom": "Widensohlen",
+    "sites": [
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "villa"
+    ],
+    "nb_sites": 3,
+    "longueur_texte": 4209
+  },
+  {
+    "numero": "368",
+    "nom": "Wihr-au-Val",
+    "sites": [
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 841
+  },
+  {
+    "numero": "369",
+    "nom": "Wihr-en-Plaine. Rattachée à Horbourg (n° 145)",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 0
+  },
+  {
+    "numero": "370",
+    "nom": "Wildenstein",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "371",
+    "nom": "Willer",
+    "sites": [],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "habitat",
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 0,
+    "longueur_texte": 792
+  },
+  {
+    "numero": "372",
+    "nom": "Willer-sur-Thur",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "373",
+    "nom": "Winkel",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "374",
+    "nom": "Wintzenheim",
+    "sites": [
+      {
+        "ref": "002 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze moyen",
+      "Bronze final",
+      "Hallstatt",
+      "La Tène",
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "villa",
+      "four",
+      "dépôt",
+      "motte"
+    ],
+    "nb_sites": 8,
+    "longueur_texte": 10918
+  },
+  {
+    "numero": "375",
+    "nom": "Wittelsheim",
+    "sites": [
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "voie",
+      "villa",
+      "four",
+      "dépôt",
+      "silo",
+      "fossé",
+      "atelier",
+      "menhir"
+    ],
+    "nb_sites": 9,
+    "longueur_texte": 32516
+  },
+  {
+    "numero": "376",
+    "nom": "Wittenheim",
+    "sites": [
+      {
+        "ref": "002 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "008 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "009 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "011 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "014 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "013 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "006 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "010 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "012 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Hallstatt",
+      "La Tène",
+      "Protohistoire",
+      "Gallo-romain",
+      "Mérovingien",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "voie",
+      "villa",
+      "fossé"
+    ],
+    "nb_sites": 14,
+    "longueur_texte": 12109
+  },
+  {
+    "numero": "377",
+    "nom": "Wittersdorf",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 736
+  },
+  {
+    "numero": "378",
+    "nom": "Wolfersdorf",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "379",
+    "nom": "Wolfgantzen",
+    "sites": [
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "005 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "004 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Bronze moyen",
+      "Bronze final",
+      "Hallstatt",
+      "Protohistoire",
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "nécropole",
+      "habitat",
+      "oppidum",
+      "voie",
+      "villa",
+      "dépôt",
+      "silo",
+      "fossé",
+      "atelier"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 4863
+  },
+  {
+    "numero": "380",
+    "nom": "Wolschwiller",
+    "sites": [
+      {
+        "ref": "004 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "habitat",
+      "villa"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 501
+  },
+  {
+    "numero": "381",
+    "nom": "Wuenheim",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "382",
+    "nom": "Zaessingue",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain",
+      "Mérovingien"
+    ],
+    "types_mentionnes": [
+      "nécropole",
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 1009
+  },
+  {
+    "numero": "383",
+    "nom": "Zellenberg",
+    "sites": [
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "003 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Gallo-romain"
+    ],
+    "types_mentionnes": [
+      "oppidum",
+      "voie",
+      "villa",
+      "dépôt"
+    ],
+    "nb_sites": 2,
+    "longueur_texte": 3675
+  },
+  {
+    "numero": "384",
+    "nom": "Zillisheim",
+    "sites": [
+      {
+        "ref": "007 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [
+      "voie",
+      "villa"
+    ],
+    "nb_sites": 1,
+    "longueur_texte": 2264
+  },
+  {
+    "numero": "385",
+    "nom": "Zimmerbach",
+    "sites": [],
+    "periodes_mentionnees": [],
+    "types_mentionnes": [],
+    "nb_sites": 0,
+    "longueur_texte": 99
+  },
+  {
+    "numero": "386",
+    "nom": "Zimmersheim",
+    "sites": [
+      {
+        "ref": "004 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "001 AP",
+        "type_code": "AP"
+      },
+      {
+        "ref": "001 AH",
+        "type_code": "AH"
+      },
+      {
+        "ref": "002 AH",
+        "type_code": "AH"
+      }
+    ],
+    "periodes_mentionnees": [
+      "Néolithique",
+      "La Tène",
+      "Gallo-romain",
+      "Médiéval"
+    ],
+    "types_mentionnes": [
+      "tumulus",
+      "habitat",
+      "voie",
+      "four",
+      "silo"
+    ],
+    "nb_sites": 4,
+    "longueur_texte": 5939
+  }
+]

@@ -1,0 +1,1099 @@
+{
+  "file_name": "20240425_mobilier_sepult_def (1).ods",
+  "file_path": "data/input/20240425_mobilier_sepult_def (1).ods",
+  "format": "ODS",
+  "file_size_kb": 71,
+  "engine": "odf",
+  "header_row": true,
+  "total_rows": 310,
+  "total_columns": 91,
+  "columns": [
+    {
+      "name": "Commune",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "Woippy",
+        "Duttlenheim",
+        "Sainte-Croix-en-Plaine"
+      ]
+    },
+    {
+      "name": "lieu-dit",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 32,
+      "sample_values": [
+        "Zac des Chiloux",
+        "Site 1.3 - Ampfad et Neustrasse",
+        "Ancien échangeur"
+      ]
+    },
+    {
+      "name": "TR/FEN",
+      "dtype": "object",
+      "null_count": 243,
+      "null_pct": 78.4,
+      "unique_count": 1,
+      "sample_values": [
+        " "
+      ]
+    },
+    {
+      "name": "N° enclos",
+      "dtype": "object",
+      "null_count": 23,
+      "null_pct": 7.4,
+      "unique_count": 49,
+      "sample_values": [
+        "E27",
+        "HE",
+        "E4"
+      ]
+    },
+    {
+      "name": "N° Sep",
+      "dtype": "object",
+      "null_count": 2,
+      "null_pct": 0.6,
+      "unique_count": 232,
+      "sample_values": [
+        "188",
+        "191",
+        "195"
+      ]
+    },
+    {
+      "name": "type sép",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "inhumation",
+        "inhumation, tombe triple",
+        "inhumation, tombe double"
+      ]
+    },
+    {
+      "name": "Type de fosse et dépôt funéraire",
+      "dtype": "object",
+      "null_count": 64,
+      "null_pct": 20.6,
+      "unique_count": 47,
+      "sample_values": [
+        "Tombe à double coffrage",
+        "Fosse subcirculaire avec vase",
+        "Fosse circulaire et vase ossuaire"
+      ]
+    },
+    {
+      "name": "Profil",
+      "dtype": "object",
+      "null_count": 167,
+      "null_pct": 53.9,
+      "unique_count": 24,
+      "sample_values": [
+        "Parois verticales fond en cuvette",
+        "Parois évasées fond en cuvette",
+        "Parois évasées fond plat"
+      ]
+    },
+    {
+      "name": "Recoupement",
+      "dtype": "object",
+      "null_count": 239,
+      "null_pct": 77.1,
+      "unique_count": 5,
+      "sample_values": [
+        "Recoupé par enclos 4",
+        "Recoupe enclos 25",
+        "Recoupe 112"
+      ]
+    },
+    {
+      "name": "Localisation vase ossuaire dans dépôt ",
+      "dtype": "object",
+      "null_count": 183,
+      "null_pct": 59.0,
+      "unique_count": 5,
+      "sample_values": [
+        "Perturbée",
+        "En position centrale",
+        "Fosse quasiment ajustée au vase"
+      ]
+    },
+    {
+      "name": "Position corps",
+      "dtype": "object",
+      "null_count": 103,
+      "null_pct": 33.2,
+      "unique_count": 28,
+      "sample_values": [
+        "sur le dos",
+        "position latérale gauche, imbriquée avec un autre squelette",
+        "sur le ventre"
+      ]
+    },
+    {
+      "name": "Décomposition",
+      "dtype": "object",
+      "null_count": 116,
+      "null_pct": 37.4,
+      "unique_count": 24,
+      "sample_values": [
+        "espace vide",
+        "espace colmaté",
+        "contenant rigide"
+      ]
+    },
+    {
+      "name": "Couverture",
+      "dtype": "object",
+      "null_count": 237,
+      "null_pct": 76.5,
+      "unique_count": 4,
+      "sample_values": [
+        "Blocs grès jaune",
+        "Blocs",
+        " "
+      ]
+    },
+    {
+      "name": "Position céramique",
+      "dtype": "object",
+      "null_count": 133,
+      "null_pct": 42.9,
+      "unique_count": 41,
+      "sample_values": [
+        "sur les membres inférieurs",
+        "droite de la tête",
+        "2 vases aux pieds"
+      ]
+    },
+    {
+      "name": "Posiiton métal",
+      "dtype": "object",
+      "null_count": 57,
+      "null_pct": 18.4,
+      "unique_count": 125,
+      "sample_values": [
+        "bras droit",
+        "niveau du cou",
+        "bras droit et gauche, au niveau du cou"
+      ]
+    },
+    {
+      "name": "NR",
+      "dtype": "object",
+      "null_count": 127,
+      "null_pct": 41.0,
+      "unique_count": 64,
+      "sample_values": [
+        "1",
+        "3",
+        "8"
+      ]
+    },
+    {
+      "name": "comptage pondéré/ NMI",
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "7",
+        "1",
+        "3"
+      ]
+    },
+    {
+      "name": "poids ceram.",
+      "dtype": "object",
+      "null_count": 197,
+      "null_pct": 63.5,
+      "unique_count": 47,
+      "sample_values": [
+        "291",
+        "672",
+        "2105"
+      ]
+    },
+    {
+      "name": "Vase ossuaire",
+      "dtype": "object",
+      "null_count": 225,
+      "null_pct": 72.6,
+      "unique_count": 5,
+      "sample_values": [
+        "x",
+        "Possible",
+        "?"
+      ]
+    },
+    {
+      "name": "Offrande primaire",
+      "dtype": "object",
+      "null_count": 233,
+      "null_pct": 75.2,
+      "unique_count": 9,
+      "sample_values": [
+        "6",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "name": "Offande secondaire",
+      "dtype": "object",
+      "null_count": 239,
+      "null_pct": 77.1,
+      "unique_count": 4,
+      "sample_values": [
+        "?",
+        "1",
+        "1 ?"
+      ]
+    },
+    {
+      "name": "Vase ext. Ossuraire",
+      "dtype": "object",
+      "null_count": 242,
+      "null_pct": 78.1,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "2"
+      ]
+    },
+    {
+      "name": "Résidus",
+      "dtype": "object",
+      "null_count": 236,
+      "null_pct": 76.1,
+      "unique_count": 4,
+      "sample_values": [
+        "?",
+        "x",
+        "1"
+      ]
+    },
+    {
+      "name": "Offrande lacunaire",
+      "dtype": "object",
+      "null_count": 243,
+      "null_pct": 78.4,
+      "unique_count": 1,
+      "sample_values": [
+        " "
+      ]
+    },
+    {
+      "name": "Pot",
+      "dtype": "object",
+      "null_count": 204,
+      "null_pct": 65.8,
+      "unique_count": 4,
+      "sample_values": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "name": "Couvercle",
+      "dtype": "object",
+      "null_count": 228,
+      "null_pct": 73.5,
+      "unique_count": 4,
+      "sample_values": [
+        "?",
+        "x",
+        "? Chauffe"
+      ]
+    },
+    {
+      "name": "Gobelet",
+      "dtype": "object",
+      "null_count": 236,
+      "null_pct": 76.1,
+      "unique_count": 5,
+      "sample_values": [
+        "2",
+        "4",
+        "1"
+      ]
+    },
+    {
+      "name": "Coupe",
+      "dtype": "object",
+      "null_count": 232,
+      "null_pct": 74.8,
+      "unique_count": 2,
+      "sample_values": [
+        "1",
+        " "
+      ]
+    },
+    {
+      "name": "Tasse",
+      "dtype": "object",
+      "null_count": 240,
+      "null_pct": 77.4,
+      "unique_count": 2,
+      "sample_values": [
+        "1",
+        " "
+      ]
+    },
+    {
+      "name": "Ecuelle",
+      "dtype": "object",
+      "null_count": 202,
+      "null_pct": 65.2,
+      "unique_count": 6,
+      "sample_values": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "name": "Jatte",
+      "dtype": "object",
+      "null_count": 236,
+      "null_pct": 76.1,
+      "unique_count": 2,
+      "sample_values": [
+        "1",
+        " "
+      ]
+    },
+    {
+      "name": "Assiette",
+      "dtype": "object",
+      "null_count": 241,
+      "null_pct": 77.7,
+      "unique_count": 2,
+      "sample_values": [
+        "1",
+        " "
+      ]
+    },
+    {
+      "name": "Vase miniature/microvase",
+      "dtype": "object",
+      "null_count": 237,
+      "null_pct": 76.5,
+      "unique_count": 4,
+      "sample_values": [
+        "1",
+        "5",
+        "2"
+      ]
+    },
+    {
+      "name": "Autre",
+      "dtype": "object",
+      "null_count": 225,
+      "null_pct": 72.6,
+      "unique_count": 12,
+      "sample_values": [
+        "4",
+        "2",
+        "0"
+      ]
+    },
+    {
+      "name": "Intrusif céram",
+      "dtype": "object",
+      "null_count": 240,
+      "null_pct": 77.4,
+      "unique_count": 4,
+      "sample_values": [
+        "1",
+        "2",
+        "2 à 4"
+      ]
+    },
+    {
+      "name": "Lithique",
+      "dtype": "object",
+      "null_count": 228,
+      "null_pct": 73.5,
+      "unique_count": 6,
+      "sample_values": [
+        "1",
+        " ",
+        "1 objet ind en schiste noduleux"
+      ]
+    },
+    {
+      "name": "AC Epingle",
+      "dtype": "object",
+      "null_count": 227,
+      "null_pct": 73.2,
+      "unique_count": 6,
+      "sample_values": [
+        "1",
+        "5",
+        " "
+      ]
+    },
+    {
+      "name": "AC Fibule",
+      "dtype": "object",
+      "null_count": 205,
+      "null_pct": 66.1,
+      "unique_count": 7,
+      "sample_values": [
+        "2",
+        "1",
+        "3"
+      ]
+    },
+    {
+      "name": "AC Perle",
+      "dtype": "object",
+      "null_count": 239,
+      "null_pct": 77.1,
+      "unique_count": 5,
+      "sample_values": [
+        "1",
+        "9",
+        " "
+      ]
+    },
+    {
+      "name": "AC Pendeloque",
+      "dtype": "object",
+      "null_count": 235,
+      "null_pct": 75.8,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "2"
+      ]
+    },
+    {
+      "name": "AC Boucle d'oreille",
+      "dtype": "object",
+      "null_count": 222,
+      "null_pct": 71.6,
+      "unique_count": 5,
+      "sample_values": [
+        "1",
+        "2",
+        " "
+      ]
+    },
+    {
+      "name": "AC Tige",
+      "dtype": "object",
+      "null_count": 239,
+      "null_pct": 77.1,
+      "unique_count": 3,
+      "sample_values": [
+        "3",
+        "1",
+        " "
+      ]
+    },
+    {
+      "name": "AC Tube",
+      "dtype": "object",
+      "null_count": 242,
+      "null_pct": 78.1,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "1 ?"
+      ]
+    },
+    {
+      "name": "AC Ruban",
+      "dtype": "object",
+      "null_count": 241,
+      "null_pct": 77.7,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "2"
+      ]
+    },
+    {
+      "name": "AC Anneau",
+      "dtype": "object",
+      "null_count": 210,
+      "null_pct": 67.7,
+      "unique_count": 5,
+      "sample_values": [
+        "3",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "name": "AC Bracelet",
+      "dtype": "object",
+      "null_count": 153,
+      "null_pct": 49.4,
+      "unique_count": 7,
+      "sample_values": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "name": "AC Anneau de jambe",
+      "dtype": "object",
+      "null_count": 199,
+      "null_pct": 64.2,
+      "unique_count": 4,
+      "sample_values": [
+        "2",
+        "3",
+        "1"
+      ]
+    },
+    {
+      "name": "AC Brassard",
+      "dtype": "object",
+      "null_count": 230,
+      "null_pct": 74.2,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        "2",
+        " "
+      ]
+    },
+    {
+      "name": "Fer Brassard",
+      "dtype": "float64",
+      "null_count": 310,
+      "null_pct": 100.0,
+      "unique_count": 0,
+      "sample_values": []
+    },
+    {
+      "name": "Roche noire Brassard",
+      "dtype": "float64",
+      "null_count": 309,
+      "null_pct": 99.7,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "AC Ceinture autre",
+      "dtype": "object",
+      "null_count": 238,
+      "null_pct": 76.8,
+      "unique_count": 2,
+      "sample_values": [
+        "1",
+        " "
+      ]
+    },
+    {
+      "name": "AC Crochet ceinture",
+      "dtype": "object",
+      "null_count": 237,
+      "null_pct": 76.5,
+      "unique_count": 2,
+      "sample_values": [
+        "1",
+        " "
+      ]
+    },
+    {
+      "name": "AC plaque ceinture",
+      "dtype": "object",
+      "null_count": 238,
+      "null_pct": 76.8,
+      "unique_count": 2,
+      "sample_values": [
+        "1",
+        " "
+      ]
+    },
+    {
+      "name": "Fer crochet ceinture",
+      "dtype": "float64",
+      "null_count": 302,
+      "null_pct": 97.4,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "AC Torque",
+      "dtype": "object",
+      "null_count": 222,
+      "null_pct": 71.6,
+      "unique_count": 3,
+      "sample_values": [
+        "2",
+        "1",
+        " "
+      ]
+    },
+    {
+      "name": "Fer Epingle",
+      "dtype": "object",
+      "null_count": 241,
+      "null_pct": 77.7,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "7"
+      ]
+    },
+    {
+      "name": "Fer Trousse",
+      "dtype": "object",
+      "null_count": 240,
+      "null_pct": 77.4,
+      "unique_count": 3,
+      "sample_values": [
+        "2",
+        "1",
+        " "
+      ]
+    },
+    {
+      "name": "AC Trousse",
+      "dtype": "float64",
+      "null_count": 308,
+      "null_pct": 99.4,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "Fer Bracelet",
+      "dtype": "object",
+      "null_count": 235,
+      "null_pct": 75.8,
+      "unique_count": 4,
+      "sample_values": [
+        "2",
+        "3",
+        "1"
+      ]
+    },
+    {
+      "name": "Fer Anneau",
+      "dtype": "object",
+      "null_count": 238,
+      "null_pct": 76.8,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "2"
+      ]
+    },
+    {
+      "name": "Fer Fibule",
+      "dtype": "object",
+      "null_count": 243,
+      "null_pct": 78.4,
+      "unique_count": 2,
+      "sample_values": [
+        " ",
+        "1"
+      ]
+    },
+    {
+      "name": "Fer indéterminé",
+      "dtype": "object",
+      "null_count": 235,
+      "null_pct": 75.8,
+      "unique_count": 4,
+      "sample_values": [
+        "2",
+        "1",
+        " "
+      ]
+    },
+    {
+      "name": "Fer Rasoir",
+      "dtype": "object",
+      "null_count": 236,
+      "null_pct": 76.1,
+      "unique_count": 2,
+      "sample_values": [
+        "1",
+        " "
+      ]
+    },
+    {
+      "name": "AC Rasoir",
+      "dtype": "float64",
+      "null_count": 307,
+      "null_pct": 99.0,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "Fer Spire",
+      "dtype": "object",
+      "null_count": 242,
+      "null_pct": 78.1,
+      "unique_count": 2,
+      "sample_values": [
+        "3",
+        " "
+      ]
+    },
+    {
+      "name": "Fer Passe-lacet",
+      "dtype": "float64",
+      "null_count": 309,
+      "null_pct": 99.7,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "Au Epingle",
+      "dtype": "float64",
+      "null_count": 309,
+      "null_pct": 99.7,
+      "unique_count": 1,
+      "sample_values": [
+        "7.0"
+      ]
+    },
+    {
+      "name": "Au Anneau",
+      "dtype": "object",
+      "null_count": 234,
+      "null_pct": 75.5,
+      "unique_count": 3,
+      "sample_values": [
+        "2",
+        "1",
+        " "
+      ]
+    },
+    {
+      "name": "Roche noire Bracelet",
+      "dtype": "object",
+      "null_count": 206,
+      "null_pct": 66.5,
+      "unique_count": 3,
+      "sample_values": [
+        "2",
+        "1",
+        " "
+      ]
+    },
+    {
+      "name": "Roche noire Perle",
+      "dtype": "object",
+      "null_count": 222,
+      "null_pct": 71.6,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        "2",
+        " "
+      ]
+    },
+    {
+      "name": "Ambre Perle",
+      "dtype": "object",
+      "null_count": 227,
+      "null_pct": 73.2,
+      "unique_count": 7,
+      "sample_values": [
+        "1",
+        " ",
+        "47"
+      ]
+    },
+    {
+      "name": "Verre Perle",
+      "dtype": "object",
+      "null_count": 230,
+      "null_pct": 74.2,
+      "unique_count": 10,
+      "sample_values": [
+        "4",
+        "100",
+        "3"
+      ]
+    },
+    {
+      "name": "Corail Perle ",
+      "dtype": "float64",
+      "null_count": 303,
+      "null_pct": 97.7,
+      "unique_count": 5,
+      "sample_values": [
+        "4.0",
+        "1.0",
+        "5.0"
+      ]
+    },
+    {
+      "name": "Corail autre",
+      "dtype": "float64",
+      "null_count": 309,
+      "null_pct": 99.7,
+      "unique_count": 1,
+      "sample_values": [
+        "114.0"
+      ]
+    },
+    {
+      "name": "Os Dent perforée/pendeloque",
+      "dtype": "object",
+      "null_count": 242,
+      "null_pct": 78.1,
+      "unique_count": 2,
+      "sample_values": [
+        "1",
+        " "
+      ]
+    },
+    {
+      "name": "AC Vaisselle",
+      "dtype": "float64",
+      "null_count": 310,
+      "null_pct": 100.0,
+      "unique_count": 0,
+      "sample_values": []
+    },
+    {
+      "name": "Fer Char",
+      "dtype": "float64",
+      "null_count": 306,
+      "null_pct": 98.7,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "AC Harnachement",
+      "dtype": "float64",
+      "null_count": 309,
+      "null_pct": 99.7,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "Fer épée/poignard",
+      "dtype": "float64",
+      "null_count": 301,
+      "null_pct": 97.1,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "Fer lance",
+      "dtype": "float64",
+      "null_count": 307,
+      "null_pct": 99.0,
+      "unique_count": 1,
+      "sample_values": [
+        "2.0"
+      ]
+    },
+    {
+      "name": "Fer Bouclier",
+      "dtype": "float64",
+      "null_count": 309,
+      "null_pct": 99.7,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "Fer couteau",
+      "dtype": "float64",
+      "null_count": 308,
+      "null_pct": 99.4,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "Composite Collier",
+      "dtype": "float64",
+      "null_count": 308,
+      "null_pct": 99.4,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "Composite Epingle",
+      "dtype": "float64",
+      "null_count": 304,
+      "null_pct": 98.1,
+      "unique_count": 4,
+      "sample_values": [
+        "1.0",
+        "5.0",
+        "4.0"
+      ]
+    },
+    {
+      "name": "Fer Pendeloque",
+      "dtype": "float64",
+      "null_count": 309,
+      "null_pct": 99.7,
+      "unique_count": 1,
+      "sample_values": [
+        "2.0"
+      ]
+    },
+    {
+      "name": "NMI anthropo",
+      "dtype": "object",
+      "null_count": 212,
+      "null_pct": 68.4,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        "2",
+        " "
+      ]
+    },
+    {
+      "name": "chrono",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 28,
+      "sample_values": [
+        "Ha D3",
+        "LT A",
+        "Ha D-LT A ?"
+      ]
+    },
+    {
+      "name": "Genre",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "Féminin",
+        "Masculin",
+        "Indéterminé"
+      ]
+    },
+    {
+      "name": "Remarques",
+      "dtype": "object",
+      "null_count": 189,
+      "null_pct": 61.0,
+      "unique_count": 111,
+      "sample_values": [
+        "2 Cabochons en alliages cuivreux ; bandage de roue en fer ; couteau en fer ; tombe à char à double c...",
+        "service céramique unique dans la nécropole (daté typologiquement du Ha C1) : - une coupelle tronconi...",
+        "Paire de bracelets en bronze et fer, dont la typologie pourrait plutôt renvoyer vers la Lorraine/Cha..."
+      ]
+    },
+    {
+      "name": "Coordonnées x (Lambert 93)",
+      "dtype": "float64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 23,
+      "sample_values": [
+        "929861.0",
+        "1038067.0",
+        "1026322.0"
+      ]
+    },
+    {
+      "name": "Coordonnées y (Lambert 93)",
+      "dtype": "float64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 23,
+      "sample_values": [
+        "6899179.0",
+        "6834890.0",
+        "6777079.0"
+      ]
+    }
+  ],
+  "source": {
+    "file_name": "20240425_mobilier_sepult_def (1).ods",
+    "export_date": "2024-04-25",
+    "platform": "Inconnu"
+  },
+  "geographic": {
+    "lat_column": "Coordonnées y (Lambert 93)",
+    "lon_column": "Coordonnées x (Lambert 93)",
+    "min_lat": 6761961.0,
+    "max_lat": 6915264.8143,
+    "min_lon": 893559.0,
+    "max_lon": 1045673.0,
+    "projection_guess": "Lambert-93 (EPSG:2154)"
+  },
+  "chronology": {},
+  "quality": {
+    "avg_fill_rate_pct": 32.1,
+    "lowest_fill_columns": [
+      [
+        "Fer Brassard",
+        0.0
+      ],
+      [
+        "AC Vaisselle",
+        0.0
+      ],
+      [
+        "Roche noire Brassard",
+        0.3
+      ],
+      [
+        "Fer Passe-lacet",
+        0.3
+      ],
+      [
+        "Au Epingle",
+        0.3
+      ]
+    ],
+    "issues": [
+      "2 colonnes entièrement vides: ['Fer Brassard', 'AC Vaisselle']"
+    ],
+    "confidence_level": "LOW"
+  },
+  "data_model": {
+    "grain": "Non déterminé — aucune colonne ID candidate trouvée",
+    "total_rows": 310
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "file_name": "cag_68_index.doc",
+  "file_path": "data/input/cag_68_index.doc",
+  "format": "DOC",
+  "file_size_kb": 236,
+  "extraction_tool": "antiword",
+  "total_lines_extracted": 4429,
+  "source": {
+    "file_name": "cag_68_index.doc",
+    "platform": "Carte Archéologique de la Gaule — Haut-Rhin (68)",
+    "auteur": "M. Zehner",
+    "type": "Index alphabétique thématique"
+  },
+  "structure": {
+    "type": "Index alphabétique par terme archéologique",
+    "pattern": "terme : NNN (détails), NNN (détails)",
+    "sections": "A-Z"
+  },
+  "statistics": {
+    "total_entries": 2087,
+    "total_commune_references": 11845,
+    "communes_distinctes_referenciees": 396,
+    "top_20_communes_citees": {
+      "066": 368,
+      "145": 329,
+      "271": 285,
+      "036": 284,
+      "078": 263,
+      "375": 243,
+      "152": 237,
+      "287": 217,
+      "118": 214,
+      "082": 211,
+      "365": 201,
+      "098": 195,
+      "309": 188,
+      "163": 187,
+      "154": 185,
+      "224": 165,
+      "376": 150,
+      "110": 145,
+      "291": 140,
+      "266": 128
+    },
+    "top_20_termes_par_refs": [
+      {
+        "terme": "inscription",
+        "nb_refs": 386
+      },
+      {
+        "terme": "Zwischen Sandweg und Rustenhammerweg",
+        "nb_refs": 217
+      },
+      {
+        "terme": "voie romaine",
+        "nb_refs": 95
+      },
+      {
+        "terme": "voie romaine",
+        "nb_refs": 95
+      },
+      {
+        "terme": "tumulus, tertre",
+        "nb_refs": 90
+      },
+      {
+        "terme": "tumulus, tertre",
+        "nb_refs": 90
+      },
+      {
+        "terme": "sépulture",
+        "nb_refs": 83
+      },
+      {
+        "terme": "sépulture",
+        "nb_refs": 83
+      },
+      {
+        "terme": "bronze (objets sauf monnaies)",
+        "nb_refs": 78
+      },
+      {
+        "terme": "bronze (objets sauf monnaies)",
+        "nb_refs": 78
+      },
+      {
+        "terme": "fer (objets)",
+        "nb_refs": 77
+      },
+      {
+        "terme": "fer (objets)",
+        "nb_refs": 77
+      },
+      {
+        "terme": "céramique",
+        "nb_refs": 70
+      },
+      {
+        "terme": "céramique",
+        "nb_refs": 70
+      },
+      {
+        "terme": "Hallstatt, hallstattien",
+        "nb_refs": 67
+      },
+      {
+        "terme": "fosse",
+        "nb_refs": 66
+      },
+      {
+        "terme": "fosse",
+        "nb_refs": 66
+      },
+      {
+        "terme": "Tène (La)",
+        "nb_refs": 65
+      },
+      {
+        "terme": "fossé",
+        "nb_refs": 63
+      },
+      {
+        "terme": "fossé",
+        "nb_refs": 63
+      }
+    ]
+  },
+  "categories": {
+    "mobilier": 154,
+    "structure": 108,
+    "période": 63,
+    "matériau": 204,
+    "funéraire": 57,
+    "voirie": 18,
+    "autre": 1483
+  },
+  "quality": {
+    "confidence_level": "MEDIUM",
+    "issues": [
+      "Format .doc legacy — extraction via antiword",
+      "Jointure de lignes multi-lignes imparfaite",
+      "Certaines entrées mal parsées à cause du wrapping"
+    ]
+  }
+}

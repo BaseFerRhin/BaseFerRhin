@@ -1,0 +1,1 @@
+/data-science-expert /archaeo-proto-eu    @RawData/GrosFichiers - Béhague/CAG Bas-Rhin.pdf  tu peux me faire un prompt complet pour lancer un extraction complet de toutes les pages pour ensuite lancer dans le pipeline. ce prompt seras stoker dans @prompts/CAG_BAS_RHIN.analyse.v1.md  /software-architecture 

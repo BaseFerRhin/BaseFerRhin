@@ -1,0 +1,173 @@
+{
+  "file_name": "cag_68_texte.doc",
+  "file_path": "data/input/cag_68_texte.doc",
+  "format": "DOC",
+  "file_size_kb": 1449,
+  "extraction_tool": "antiword",
+  "total_lines_extracted": 20048,
+  "source": {
+    "file_name": "cag_68_texte.doc",
+    "platform": "Carte Archéologique de la Gaule — Haut-Rhin (68)",
+    "auteur": "M. Zehner",
+    "type": "Notices communales archéologiques"
+  },
+  "structure": {
+    "type": "Notices communales numérotées (001–NNN)",
+    "pattern": "NNN - NomCommune",
+    "references_internes": "NNN AH/AP/AE/AF"
+  },
+  "statistics": {
+    "total_communes": 389,
+    "communes_avec_sites": 194,
+    "communes_sans_site": 195,
+    "total_references_sites": 812,
+    "type_codes": {
+      "AH": 743,
+      "AP": 69
+    },
+    "periodes_frequence": {
+      "Gallo-romain": 202,
+      "Mérovingien": 88,
+      "La Tène": 70,
+      "Hallstatt": 70,
+      "Médiéval": 46,
+      "Protohistoire": 39,
+      "Bronze final": 23,
+      "Néolithique": 11,
+      "Bronze moyen": 6,
+      "Bronze ancien": 1
+    },
+    "types_frequence": {
+      "villa": 191,
+      "nécropole": 130,
+      "voie": 127,
+      "tumulus": 91,
+      "fossé": 78,
+      "habitat": 63,
+      "four": 58,
+      "dépôt": 43,
+      "oppidum": 38,
+      "motte": 26,
+      "atelier": 17,
+      "silo": 12,
+      "menhir": 10,
+      "sanctuaire": 8
+    },
+    "top_20_communes": [
+      {
+        "numero": "066",
+        "nom": "Colmar",
+        "nb_sites": 34
+      },
+      {
+        "numero": "145",
+        "nom": "Horbourg-Wihr",
+        "nb_sites": 29
+      },
+      {
+        "numero": "078",
+        "nom": "Eguisheim",
+        "nb_sites": 22
+      },
+      {
+        "numero": "118",
+        "nom": "Habsheim",
+        "nb_sites": 20
+      },
+      {
+        "numero": "152",
+        "nom": "Illfurth",
+        "nb_sites": 17
+      },
+      {
+        "numero": "271",
+        "nom": "Riedisheim",
+        "nb_sites": 16
+      },
+      {
+        "numero": "224",
+        "nom": "Mulhouse",
+        "nb_sites": 15
+      },
+      {
+        "numero": "036",
+        "nom": "Biesheim",
+        "nb_sites": 14
+      },
+      {
+        "numero": "091",
+        "nom": "Fessenheim",
+        "nb_sites": 14
+      },
+      {
+        "numero": "376",
+        "nom": "Wittenheim",
+        "nb_sites": 14
+      },
+      {
+        "numero": "082",
+        "nom": "Ensisheim",
+        "nb_sites": 13
+      },
+      {
+        "numero": "300",
+        "nom": "Sausheim",
+        "nb_sites": 13
+      },
+      {
+        "numero": "009",
+        "nom": "Artzenheim",
+        "nb_sites": 12
+      },
+      {
+        "numero": "172",
+        "nom": "Kunheim",
+        "nb_sites": 12
+      },
+      {
+        "numero": "287",
+        "nom": "Rouffach",
+        "nb_sites": 11
+      },
+      {
+        "numero": "028",
+        "nom": "Bergheim",
+        "nb_sites": 10
+      },
+      {
+        "numero": "203",
+        "nom": "Merxheim",
+        "nb_sites": 10
+      },
+      {
+        "numero": "295",
+        "nom": "Sainte-Croix-en-Plaine",
+        "nb_sites": 10
+      },
+      {
+        "numero": "343",
+        "nom": "Ungersheim",
+        "nb_sites": 10
+      },
+      {
+        "numero": "022",
+        "nom": "Battenheim",
+        "nb_sites": 9
+      }
+    ],
+    "longueur_moyenne_notice": 2568
+  },
+  "geographic": {
+    "departement": "68 — Haut-Rhin",
+    "region": "Alsace",
+    "coordinates": "Aucune coordonnée dans le texte"
+  },
+  "quality": {
+    "confidence_level": "MEDIUM",
+    "issues": [
+      "Format .doc legacy — extraction via antiword",
+      "Pas de coordonnées géographiques",
+      "Texte non structuré nécessitant NER pour extraction fine"
+    ]
+  }
+}

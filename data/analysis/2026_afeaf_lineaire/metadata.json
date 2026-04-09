@@ -1,0 +1,157 @@
+{
+  "file_name": "2026_afeaf_lineaire.dbf",
+  "file_path": "data/input/2026_afeaf_lineaire.dbf",
+  "format": "DBF",
+  "file_size_kb": 17,
+  "encoding": "latin-1",
+  "header_row": true,
+  "total_rows": 27,
+  "total_columns": 9,
+  "columns": [
+    {
+      "name": "id",
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 27,
+      "sample_values": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "name": "a",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "France"
+      ]
+    },
+    {
+      "name": "b",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "Haut-Rhin",
+        "Bas-Rhin"
+      ]
+    },
+    {
+      "name": "c",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 17,
+      "sample_values": [
+        "Bisel",
+        "Bouxwiller",
+        "Oltingue"
+      ]
+    },
+    {
+      "name": "d",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 24,
+      "sample_values": [
+        "Saalenacker",
+        "Klein Allmend",
+        "Bleimatten"
+      ]
+    },
+    {
+      "name": "e",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "indice de site",
+        "habitat"
+      ]
+    },
+    {
+      "name": "f",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "c14 = 760 cl BC - 1 cal BC",
+        "La TÃ¨ne D1",
+        "La TÃ¨ne"
+      ]
+    },
+    {
+      "name": "g",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 26,
+      "sample_values": [
+        "comblement avec gros charbons de bois et argile rubÃ©fiÃ©e Ã  la base",
+        "2 fossÃ©s proches et quasi parallÃ¨les cÃ©ramique dans comblement",
+        "4 fragments jointifs d'une coupe Ã  bord rentrant"
+      ]
+    },
+    {
+      "name": "h",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 15,
+      "sample_values": [
+        "bucher ? fond de cabane 260*134*11",
+        "pot panse peignÃ©e, double ligne imprimÃ©e au poinÃ§on lÃ¨vre Ã©paissie plate",
+        "au sommet des alluvions anciennes de l'Ill"
+      ]
+    }
+  ],
+  "source": {
+    "file_name": "2026_afeaf_lineaire.dbf",
+    "platform": "AFEAF (Association Française pour l'Étude de l'Âge du Fer)"
+  },
+  "geographic": {},
+  "chronology": {},
+  "quality": {
+    "avg_fill_rate_pct": 100.0,
+    "lowest_fill_columns": [
+      [
+        "id",
+        100.0
+      ],
+      [
+        "a",
+        100.0
+      ],
+      [
+        "b",
+        100.0
+      ],
+      [
+        "c",
+        100.0
+      ],
+      [
+        "d",
+        100.0
+      ]
+    ],
+    "issues": [],
+    "confidence_level": "HIGH"
+  },
+  "data_model": {
+    "grain": "Clé candidate: id",
+    "id_column": "id",
+    "unique_count": 27,
+    "rows_per_id_avg": 1.0,
+    "rows_per_id_max": 1,
+    "total_rows": 27
+  }
+}

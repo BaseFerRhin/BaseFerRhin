@@ -1,0 +1,820 @@
+{
+  "file_name": "BDD-fun_AFEAF24-total_04.12 (1).xlsx",
+  "file_path": "data/input/BDD-fun_AFEAF24-total_04.12 (1).xlsx",
+  "format": "XLSX",
+  "file_size_kb": 181,
+  "engine": "openpyxl/calamine",
+  "header_row": true,
+  "total_rows": 401,
+  "total_columns": 63,
+  "columns": [
+    {
+      "name": "info SITE",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "DPT",
+        "68",
+        "67"
+      ]
+    },
+    {
+      "name": "Unnamed: 1",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 21,
+      "sample_values": [
+        "SITE",
+        "Colmar rue des Aunes",
+        "Dingsheim COS 4-1 (2019)"
+      ]
+    },
+    {
+      "name": "Unnamed: 2",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 383,
+      "sample_values": [
+        "N° ST",
+        "172",
+        "442"
+      ]
+    },
+    {
+      "name": "REMARQUES GENERALES",
+      "dtype": "object",
+      "null_count": 131,
+      "null_pct": 32.7,
+      "unique_count": 83,
+      "sample_values": [
+        "REMARQUES",
+        "Date dendro : 629 +/- 10 av. J.-C.",
+        "(tertre ?)"
+      ]
+    },
+    {
+      "name": "NMI / TYPE DEPOT",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 4,
+      "sample_values": [
+        "Type dépôt 1",
+        "simple",
+        "multiple"
+      ]
+    },
+    {
+      "name": "Unnamed: 5",
+      "dtype": "object",
+      "null_count": 3,
+      "null_pct": 0.7,
+      "unique_count": 9,
+      "sample_values": [
+        "NMI",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "name": "Unnamed: 6",
+      "dtype": "object",
+      "null_count": 8,
+      "null_pct": 2.0,
+      "unique_count": 12,
+      "sample_values": [
+        "N°individu",
+        "1",
+        "*"
+      ]
+    },
+    {
+      "name": "Unnamed: 7",
+      "dtype": "object",
+      "null_count": 1,
+      "null_pct": 0.2,
+      "unique_count": 5,
+      "sample_values": [
+        "Type dépôt 2",
+        "primaire",
+        "secondaire"
+      ]
+    },
+    {
+      "name": "MONUMENT (enclos fossoyé)",
+      "dtype": "object",
+      "null_count": 1,
+      "null_pct": 0.2,
+      "unique_count": 5,
+      "sample_values": [
+        "ENCLOS\nFOSSOYE",
+        "*",
+        "non"
+      ]
+    },
+    {
+      "name": "Unnamed: 9",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 6,
+      "sample_values": [
+        "forme",
+        "*",
+        "cercle"
+      ]
+    },
+    {
+      "name": "Unnamed: 10",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 28,
+      "sample_values": [
+        "N° ENCLOS",
+        "*",
+        "116"
+      ]
+    },
+    {
+      "name": "Unnamed: 11",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 27,
+      "sample_values": [
+        "DIAMETRE\n/ CÔTÉ ENCLOS\n(en cm)",
+        "*",
+        "280"
+      ]
+    },
+    {
+      "name": "Unnamed: 12",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 20,
+      "sample_values": [
+        "Nombre de sep dans l'enclos",
+        "*",
+        "4"
+      ]
+    },
+    {
+      "name": "MONUMENT (tumulus avéré)",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 5,
+      "sample_values": [
+        "TUMULUS",
+        "*",
+        "indéterminé"
+      ]
+    },
+    {
+      "name": "Unnamed: 14",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 9,
+      "sample_values": [
+        "N° TUMULUS",
+        "*",
+        "21"
+      ]
+    },
+    {
+      "name": "Unnamed: 15",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 9,
+      "sample_values": [
+        "DIAMETRE TUMULUS\n(en cm)",
+        "*",
+        "300"
+      ]
+    },
+    {
+      "name": "Unnamed: 16",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 13,
+      "sample_values": [
+        "Nombre de sep dans le tumulus",
+        "quadrangulaire",
+        "*"
+      ]
+    },
+    {
+      "name": "FOSSE",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 12,
+      "sample_values": [
+        "FORME",
+        "NO/SE",
+        "oblongue"
+      ]
+    },
+    {
+      "name": "Unnamed: 18",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 32,
+      "sample_values": [
+        "ORIENTATION\nFOSSE",
+        "250",
+        "NO/SE"
+      ]
+    },
+    {
+      "name": "Unnamed: 19",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 118,
+      "sample_values": [
+        "LONGUEUR \nSURF.\n(en cm)",
+        "75",
+        "240"
+      ]
+    },
+    {
+      "name": "Unnamed: 20",
+      "dtype": "object",
+      "null_count": 5,
+      "null_pct": 1.2,
+      "unique_count": 91,
+      "sample_values": [
+        "LARGEUR\nSURF.\n(en cm)",
+        "60",
+        "118"
+      ]
+    },
+    {
+      "name": "Unnamed: 21",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 69,
+      "sample_values": [
+        "PROFONDEUR MAX.\n(en cm)",
+        "oui",
+        "46"
+      ]
+    },
+    {
+      "name": "AMENAGEMENT / CONTENANT",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 5,
+      "sample_values": [
+        "AMENAGEMENT/\nCONTENANT\nPERISSABLE RIGIDE",
+        "oui",
+        "indéterminé"
+      ]
+    },
+    {
+      "name": "Unnamed: 23",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 5,
+      "sample_values": [
+        "> ARGUMENTS\n> tapho ",
+        "oui",
+        "non"
+      ]
+    },
+    {
+      "name": "Unnamed: 24",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 5,
+      "sample_values": [
+        "> ARGUMENTS\n> traces ligneuses",
+        "non",
+        "oui"
+      ]
+    },
+    {
+      "name": "Unnamed: 25",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 5,
+      "sample_values": [
+        "> ARGUMENTS\n> combl. Diff. Int./ext.\nEFFONDREMENTS PAROIS",
+        "indéterminé",
+        "oui"
+      ]
+    },
+    {
+      "name": "Unnamed: 26",
+      "dtype": "object",
+      "null_count": 6,
+      "null_pct": 1.5,
+      "unique_count": 6,
+      "sample_values": [
+        "TYPE > Coffrage fosse",
+        "indéterminé",
+        "probable"
+      ]
+    },
+    {
+      "name": "Unnamed: 27",
+      "dtype": "object",
+      "null_count": 6,
+      "null_pct": 1.5,
+      "unique_count": 6,
+      "sample_values": [
+        "TYPE > Contenant voué au défunt",
+        "oui",
+        "indéterminé"
+      ]
+    },
+    {
+      "name": "MOBILIER ASSOCIÉ AU DÉFUNT (PORTÉ)",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 4,
+      "sample_values": [
+        "MOBILIER",
+        "non",
+        "oui"
+      ]
+    },
+    {
+      "name": "Unnamed: 29",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 5,
+      "sample_values": [
+        "ÉLÉMENTS \nVESTIMENTAIRES",
+        "non",
+        "probable"
+      ]
+    },
+    {
+      "name": "Unnamed: 30",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 5,
+      "sample_values": [
+        "ARMEMENT",
+        "oui",
+        "non"
+      ]
+    },
+    {
+      "name": "Unnamed: 31",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 6,
+      "sample_values": [
+        "PARURE",
+        "probable",
+        "oui"
+      ]
+    },
+    {
+      "name": "Unnamed: 32",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 5,
+      "sample_values": [
+        "PORT DE \nVÊTEMENTS",
+        "oui",
+        "probable"
+      ]
+    },
+    {
+      "name": "Unnamed: 33",
+      "dtype": "object",
+      "null_count": 5,
+      "null_pct": 1.2,
+      "unique_count": 3,
+      "sample_values": [
+        "ARGUMENTS > objets de parure et habillement",
+        "non",
+        "oui"
+      ]
+    },
+    {
+      "name": "Unnamed: 34",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 3,
+      "sample_values": [
+        "ARGUMENTS > restes textiles minralisés ou organiques identifiés",
+        "non",
+        "oui"
+      ]
+    },
+    {
+      "name": "DÉPÔTS d'OFFRANDE",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 3,
+      "sample_values": [
+        "OUTILLAGE /\nUSUEL",
+        "non",
+        "oui"
+      ]
+    },
+    {
+      "name": "Unnamed: 36",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 4,
+      "sample_values": [
+        "CÉRAMIQUE/\nVAISSELLE",
+        "non",
+        "oui"
+      ]
+    },
+    {
+      "name": "Unnamed: 37",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 3,
+      "sample_values": [
+        "ARMES\nDÉPOSÉES",
+        "non",
+        "oui"
+      ]
+    },
+    {
+      "name": "Unnamed: 38",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 6,
+      "sample_values": [
+        "DÉPÔTS \nALIMENTAIRES",
+        "*",
+        "non"
+      ]
+    },
+    {
+      "name": "Unnamed: 39",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 38,
+      "sample_values": [
+        "LOCALISATION des dépôt (objets non portés) \nchamps libre",
+        "*",
+        "pince à épiler à D du crâne"
+      ]
+    },
+    {
+      "name": "AUTRE",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 30,
+      "sample_values": [
+        "AUTRE",
+        "recoupé",
+        "présence d'un galet entre les jambes"
+      ]
+    },
+    {
+      "name": "REINTERVENTIONS ANTHROPIQUES",
+      "dtype": "object",
+      "null_count": 6,
+      "null_pct": 1.5,
+      "unique_count": 11,
+      "sample_values": [
+        "RECOUPEMENT\nFOSSE SEPULCRALE\n(recoupe/recoupé)",
+        "St. 2 (fossé romain)",
+        "aucun"
+      ]
+    },
+    {
+      "name": "Unnamed: 42",
+      "dtype": "object",
+      "null_count": 6,
+      "null_pct": 1.5,
+      "unique_count": 59,
+      "sample_values": [
+        "RECOUPE/É\nQUOI?",
+        "non",
+        "*"
+      ]
+    },
+    {
+      "name": "Unnamed: 43",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 6,
+      "sample_values": [
+        "PERTURBATIONS DANS LA TOMBE",
+        "non ",
+        "non"
+      ]
+    },
+    {
+      "name": "Unnamed: 44",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 5,
+      "sample_values": [
+        "LAPS DE TEMPS\nREINTERVENTION\n(individus décomposé?)",
+        "non ",
+        "*"
+      ]
+    },
+    {
+      "name": "Unnamed: 45",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 5,
+      "sample_values": [
+        "LAPS DE TEMPS\nREINTERVENTION\n(contenant conservé?)",
+        "non ",
+        "*"
+      ]
+    },
+    {
+      "name": "Unnamed: 46",
+      "dtype": "object",
+      "null_count": 5,
+      "null_pct": 1.2,
+      "unique_count": 8,
+      "sample_values": [
+        "TRACES SUR OS",
+        "sur le dos",
+        "*"
+      ]
+    },
+    {
+      "name": "MODALITE DEPÔT",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 8,
+      "sample_values": [
+        "POSITION GENERALE",
+        "fléchis",
+        "sur le dos"
+      ]
+    },
+    {
+      "name": "Unnamed: 48",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 7,
+      "sample_values": [
+        "POSITION mb sup",
+        "en extension",
+        "indéterminé"
+      ]
+    },
+    {
+      "name": "Unnamed: 49",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 13,
+      "sample_values": [
+        "POSITION mb inf",
+        "SE",
+        "en extension"
+      ]
+    },
+    {
+      "name": "Unnamed: 50",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 14,
+      "sample_values": [
+        "DIRECTION TETE",
+        "moyen",
+        "SE"
+      ]
+    },
+    {
+      "name": "BIO",
+      "dtype": "object",
+      "null_count": 6,
+      "null_pct": 1.5,
+      "unique_count": 10,
+      "sample_values": [
+        "CONSERVATION OSSEUSE",
+        "enfants\n1/15",
+        "moyen"
+      ]
+    },
+    {
+      "name": "Unnamed: 52",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 20,
+      "sample_values": [
+        "Cat. Age\nAD/IMM",
+        "10-14",
+        "indéterminé"
+      ]
+    },
+    {
+      "name": "Unnamed: 53",
+      "dtype": "object",
+      "null_count": 8,
+      "null_pct": 2.0,
+      "unique_count": 103,
+      "sample_values": [
+        "AGE\n(ans)",
+        "[10-14]",
+        ">15"
+      ]
+    },
+    {
+      "name": "Unnamed: 54",
+      "dtype": "object",
+      "null_count": 36,
+      "null_pct": 9.0,
+      "unique_count": 9,
+      "sample_values": [
+        "Classe démog. \n[1]",
+        "[15-19]",
+        "[10-14]"
+      ]
+    },
+    {
+      "name": "Unnamed: 55",
+      "dtype": "object",
+      "null_count": 20,
+      "null_pct": 5.0,
+      "unique_count": 9,
+      "sample_values": [
+        "Classe démog. \n[2]\nsi à cheval",
+        "indéterminé",
+        "[>20]"
+      ]
+    },
+    {
+      "name": "Unnamed: 56",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 6,
+      "sample_values": [
+        "SEXE\nF/M/ND\n(DSP)",
+        "féminin",
+        "indéterminé"
+      ]
+    },
+    {
+      "name": "Unnamed: 57",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 9,
+      "sample_values": [
+        "GENRE (mobilier)",
+        "Hallstatt D1",
+        "indéterminé"
+      ]
+    },
+    {
+      "name": "DATATION ",
+      "dtype": "object",
+      "null_count": 4,
+      "null_pct": 1.0,
+      "unique_count": 59,
+      "sample_values": [
+        "DATATION MOB.",
+        "*",
+        "Hallstatt D1"
+      ]
+    },
+    {
+      "name": "Unnamed: 59",
+      "dtype": "object",
+      "null_count": 54,
+      "null_pct": 13.5,
+      "unique_count": 47,
+      "sample_values": [
+        "C14\nCALIBRE\n2 SIGMA",
+        "*",
+        "801-550 BC"
+      ]
+    },
+    {
+      "name": "Unnamed: 60",
+      "dtype": "object",
+      "null_count": 70,
+      "null_pct": 17.5,
+      "unique_count": 24,
+      "sample_values": [
+        "C14 non calibré",
+        "Hallstatt D1",
+        "2550 BP ± 30 ans"
+      ]
+    },
+    {
+      "name": "Unnamed: 61",
+      "dtype": "object",
+      "null_count": 50,
+      "null_pct": 12.5,
+      "unique_count": 35,
+      "sample_values": [
+        "phase chrono relative",
+        "Hallstatt D",
+        "Hallstatt C-D1"
+      ]
+    },
+    {
+      "name": "OBSERVATIONS DIVERSES",
+      "dtype": "object",
+      "null_count": 232,
+      "null_pct": 57.9,
+      "unique_count": 120,
+      "sample_values": [
+        "OBSERVATIONS DIVERSEs",
+        "Référence date 14C : Poz-131729",
+        "Référence date 14C : Poz-131730"
+      ]
+    }
+  ],
+  "source": {
+    "file_name": "BDD-fun_AFEAF24-total_04.12 (1).xlsx",
+    "platform": "AFEAF (Association Française pour l'Étude de l'Âge du Fer)"
+  },
+  "geographic": {},
+  "chronology": {
+    "period_column_DATATION ": [
+      "DATATION MOB.",
+      "*",
+      "Hallstatt D1",
+      "Hallstatt D1-D2",
+      "Hallstatt C-D1",
+      "Hallstatt D",
+      "La Tène A",
+      "Hallstatt C1",
+      "Hallstatt  C – D1",
+      "Hallstatt C2-D"
+    ]
+  },
+  "quality": {
+    "avg_fill_rate_pct": 96.7,
+    "lowest_fill_columns": [
+      [
+        "OBSERVATIONS DIVERSES",
+        42.1
+      ],
+      [
+        "REMARQUES GENERALES",
+        67.3
+      ],
+      [
+        "Unnamed: 60",
+        82.5
+      ],
+      [
+        "Unnamed: 59",
+        86.5
+      ],
+      [
+        "Unnamed: 61",
+        87.5
+      ]
+    ],
+    "issues": [
+      "48 colonnes sans nom (Unnamed)"
+    ],
+    "confidence_level": "HIGH"
+  },
+  "data_model": {
+    "grain": "Non déterminé — aucune colonne ID candidate trouvée",
+    "total_rows": 401
+  }
+}

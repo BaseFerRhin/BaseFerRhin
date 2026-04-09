@@ -1,0 +1,384 @@
+{
+  "file_name": "ea_fr.dbf",
+  "file_path": "data/input/ea_fr.dbf",
+  "format": "DBF",
+  "file_size_kb": 58,
+  "encoding": "latin-1",
+  "header_row": true,
+  "total_rows": 42,
+  "total_columns": 29,
+  "columns": [
+    {
+      "name": "EA_NATCODE",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "0112087",
+        "0112088",
+        "0112092"
+      ]
+    },
+    {
+      "name": "EA_IDENT",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "12087 / 67 150 0014 / FURDENHEIM /  / 44 route de Strasbourg / Age du bronze - Age du fer ? / silo",
+        "12088 / 67 150 0015 / FURDENHEIM /  / Holzweg / Age du fer / fosse",
+        "12092 / 67 150 0019 / FURDENHEIM /  / village / Age du bronze - Age du fer / fosse"
+      ]
+    },
+    {
+      "name": "NUMERO",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "67 150 0014",
+        "67 150 0015",
+        "67 150 0019"
+      ]
+    },
+    {
+      "name": "COMMUNE_PP",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 19,
+      "sample_values": [
+        "67 150",
+        "67 285",
+        "67 065"
+      ]
+    },
+    {
+      "name": "NUMORDRE",
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 22,
+      "sample_values": [
+        "14",
+        "15",
+        "19"
+      ]
+    },
+    {
+      "name": "NUMERO_DRA",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        ""
+      ]
+    },
+    {
+      "name": "NOMUSUEL",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "",
+        "Ouest de la route Quatzenheim-Furdenheim",
+        "Entre la route de Furdenheim et Hurtigheim"
+      ]
+    },
+    {
+      "name": "LIEU_IGN",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 31,
+      "sample_values": [
+        "44 route de Strasbourg",
+        "Holzweg",
+        "village"
+      ]
+    },
+    {
+      "name": "LIEU_CADAS",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "",
+        "SANDSTEIG",
+        "SAUWEHL"
+      ]
+    },
+    {
+      "name": "VESTIGES",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "silo",
+        "fosse",
+        "inhumation"
+      ]
+    },
+    {
+      "name": "NATURE_VES",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "S",
+        "I"
+      ]
+    },
+    {
+      "name": "CHRONO_DEB",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "EURBRO------",
+        "EURFER------",
+        "EURNEO------"
+      ]
+    },
+    {
+      "name": "CHRONO_FIN",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "EURFER------",
+        "EURGAL------"
+      ]
+    },
+    {
+      "name": "CHRONO_FOU",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "OUI",
+        "NON"
+      ]
+    },
+    {
+      "name": "CHRONO_DOU",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "",
+        "DOU"
+      ]
+    },
+    {
+      "name": "CHRONO_PER",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        ""
+      ]
+    },
+    {
+      "name": "COMMENT_CH",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        ""
+      ]
+    },
+    {
+      "name": "NUMERIQUE_",
+      "dtype": "float64",
+      "null_count": 36,
+      "null_pct": 85.7,
+      "unique_count": 2,
+      "sample_values": [
+        "-750.0",
+        "-52.0"
+      ]
+    },
+    {
+      "name": "X_SAISI",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "1035666",
+        "1035479",
+        "1036026"
+      ]
+    },
+    {
+      "name": "Y_SAISI",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "6844216",
+        "6843476",
+        "6844252"
+      ]
+    },
+    {
+      "name": "SURFACE",
+      "dtype": "float64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 29,
+      "sample_values": [
+        "0.1338",
+        "1.0063",
+        "0.0846"
+      ]
+    },
+    {
+      "name": "PARCELLES",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "",
+        "1983 :"
+      ]
+    },
+    {
+      "name": "INVENTEUR",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "0112"
+      ]
+    },
+    {
+      "name": "ANNEE_DECO",
+      "dtype": "float64",
+      "null_count": 4,
+      "null_pct": 9.5,
+      "unique_count": 15,
+      "sample_values": [
+        "1956.0",
+        "1963.0",
+        "1936.0"
+      ]
+    },
+    {
+      "name": "X_DEGRE",
+      "dtype": "float64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "7.555808",
+        "7.5527",
+        "7.560713"
+      ]
+    },
+    {
+      "name": "Y_DEGRE",
+      "dtype": "float64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 33,
+      "sample_values": [
+        "48.610969",
+        "48.604422",
+        "48.611099"
+      ]
+    },
+    {
+      "name": "EMPRISE",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "",
+        "LIN"
+      ]
+    },
+    {
+      "name": "GEOREFEREN",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "OUI"
+      ]
+    },
+    {
+      "name": "GEOMETRIE",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "POL",
+        "CER",
+        "PNT"
+      ]
+    }
+  ],
+  "source": {
+    "file_name": "ea_fr.dbf",
+    "platform": "Entités Archéologiques (base nationale France)"
+  },
+  "geographic": {},
+  "chronology": {},
+  "quality": {
+    "avg_fill_rate_pct": 96.7,
+    "lowest_fill_columns": [
+      [
+        "NUMERIQUE_",
+        14.3
+      ],
+      [
+        "ANNEE_DECO",
+        90.5
+      ],
+      [
+        "EA_NATCODE",
+        100.0
+      ],
+      [
+        "EA_IDENT",
+        100.0
+      ],
+      [
+        "NUMERO",
+        100.0
+      ]
+    ],
+    "issues": [],
+    "confidence_level": "HIGH"
+  },
+  "data_model": {
+    "grain": "Clé candidate: EA_NATCODE",
+    "id_column": "EA_NATCODE",
+    "unique_count": 33,
+    "rows_per_id_avg": 1.27,
+    "rows_per_id_max": 3,
+    "total_rows": 42
+  }
+}

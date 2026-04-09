@@ -1,0 +1,1219 @@
+{
+  "file_name": "20240419_Inhumations silos (1).xlsx",
+  "file_path": "data/input/20240419_Inhumations silos (1).xlsx",
+  "format": "XLSX",
+  "file_size_kb": 57,
+  "engine": "openpyxl/calamine",
+  "header_row": true,
+  "total_rows": 86,
+  "total_columns": 94,
+  "columns": [
+    {
+      "name": "Département",
+      "dtype": "object",
+      "null_count": 3,
+      "null_pct": 3.5,
+      "unique_count": 5,
+      "sample_values": [
+        "68",
+        "67",
+        "TOTAL"
+      ]
+    },
+    {
+      "name": "Site",
+      "dtype": "object",
+      "null_count": 5,
+      "null_pct": 5.8,
+      "unique_count": 37,
+      "sample_values": [
+        "Bergheim",
+        "Berstett",
+        "Bischoffsheim"
+      ]
+    },
+    {
+      "name": "Lieu dit",
+      "dtype": "object",
+      "null_count": 5,
+      "null_pct": 5.8,
+      "unique_count": 46,
+      "sample_values": [
+        "Saulager",
+        "Langenberg",
+        "Bischenberg"
+      ]
+    },
+    {
+      "name": "X(L93)",
+      "dtype": "float64",
+      "null_count": 18,
+      "null_pct": 20.9,
+      "unique_count": 36,
+      "sample_values": [
+        "1024887.0",
+        "1044392.0",
+        "1032025.0"
+      ]
+    },
+    {
+      "name": "Y(L93)",
+      "dtype": "float64",
+      "null_count": 18,
+      "null_pct": 20.9,
+      "unique_count": 36,
+      "sample_values": [
+        "6797044.0",
+        "6850994.0",
+        "6829834.0"
+      ]
+    },
+    {
+      "name": "Année fouille",
+      "dtype": "object",
+      "null_count": 6,
+      "null_pct": 7.0,
+      "unique_count": 22,
+      "sample_values": [
+        "2012",
+        "2018",
+        "1973"
+      ]
+    },
+    {
+      "name": "N° structure",
+      "dtype": "object",
+      "null_count": 8,
+      "null_pct": 9.3,
+      "unique_count": 64,
+      "sample_values": [
+        "351",
+        "643",
+        "2026"
+      ]
+    },
+    {
+      "name": "N° individu",
+      "dtype": "object",
+      "null_count": 7,
+      "null_pct": 8.1,
+      "unique_count": 10,
+      "sample_values": [
+        "1",
+        "2",
+        "x"
+      ]
+    },
+    {
+      "name": "Type de silo",
+      "dtype": "object",
+      "null_count": 7,
+      "null_pct": 8.1,
+      "unique_count": 12,
+      "sample_values": [
+        "Cylindrique",
+        "Tronconique",
+        "Fond de fosse"
+      ]
+    },
+    {
+      "name": "Nord-Ouest/Sud-Est",
+      "dtype": "object",
+      "null_count": 65,
+      "null_pct": 75.6,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Nord-Ouest/Sud-Est"
+      ]
+    },
+    {
+      "name": "Nord-Est/Sud-Ouest",
+      "dtype": "object",
+      "null_count": 61,
+      "null_pct": 70.9,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Nord-Est/Sud-Ouest"
+      ]
+    },
+    {
+      "name": "Nord/Sud",
+      "dtype": "object",
+      "null_count": 53,
+      "null_pct": 61.6,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Nord/Sud"
+      ]
+    },
+    {
+      "name": "Est/Ouest",
+      "dtype": "object",
+      "null_count": 64,
+      "null_pct": 74.4,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        "Est/Ouest",
+        " "
+      ]
+    },
+    {
+      "name": "Indéterminée",
+      "dtype": "object",
+      "null_count": 69,
+      "null_pct": 80.2,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Indéterminée"
+      ]
+    },
+    {
+      "name": "Remarque",
+      "dtype": "object",
+      "null_count": 68,
+      "null_pct": 79.1,
+      "unique_count": 10,
+      "sample_values": [
+        "déposé juste après ind.2 et avant des dépôts animaux",
+        "déposé juste avant ind.1 et avant des dépôts animaux",
+        "?"
+      ]
+    },
+    {
+      "name": "Tête au Nord",
+      "dtype": "object",
+      "null_count": 66,
+      "null_pct": 76.7,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Tête au Nord"
+      ]
+    },
+    {
+      "name": "Tête au Nord-Est",
+      "dtype": "object",
+      "null_count": 72,
+      "null_pct": 83.7,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Tête au Nord-Est"
+      ]
+    },
+    {
+      "name": "Tête au Nord-Ouest",
+      "dtype": "object",
+      "null_count": 69,
+      "null_pct": 80.2,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Tête au Nord-Ouest"
+      ]
+    },
+    {
+      "name": "Tête au Sud",
+      "dtype": "object",
+      "null_count": 63,
+      "null_pct": 73.3,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Tête au Sud"
+      ]
+    },
+    {
+      "name": "Tête au Sud-Est",
+      "dtype": "object",
+      "null_count": 71,
+      "null_pct": 82.6,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Tête au Sud-Est"
+      ]
+    },
+    {
+      "name": "Tête au Sud-Ouest",
+      "dtype": "object",
+      "null_count": 66,
+      "null_pct": 76.7,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Tête au Sud-Ouest"
+      ]
+    },
+    {
+      "name": "Tête à l'Est",
+      "dtype": "object",
+      "null_count": 71,
+      "null_pct": 82.6,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Tête à l'Est"
+      ]
+    },
+    {
+      "name": "Tête à l'Ouest",
+      "dtype": "object",
+      "null_count": 71,
+      "null_pct": 82.6,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Tête à l'Ouest"
+      ]
+    },
+    {
+      "name": "Tête indéterminé",
+      "dtype": "object",
+      "null_count": 68,
+      "null_pct": 79.1,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Tête indéterminé"
+      ]
+    },
+    {
+      "name": "Fond",
+      "dtype": "object",
+      "null_count": 57,
+      "null_pct": 66.3,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Fond"
+      ]
+    },
+    {
+      "name": "Sur le premier dôme",
+      "dtype": "object",
+      "null_count": 37,
+      "null_pct": 43.0,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Sur le premier dôme"
+      ]
+    },
+    {
+      "name": "Sommet",
+      "dtype": "object",
+      "null_count": 72,
+      "null_pct": 83.7,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Sommet"
+      ]
+    },
+    {
+      "name": "Indéterminée.1",
+      "dtype": "object",
+      "null_count": 70,
+      "null_pct": 81.4,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Indéterminée"
+      ]
+    },
+    {
+      "name": "Homme",
+      "dtype": "object",
+      "null_count": 57,
+      "null_pct": 66.3,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Homme"
+      ]
+    },
+    {
+      "name": "Femme",
+      "dtype": "object",
+      "null_count": 56,
+      "null_pct": 65.1,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Femme"
+      ]
+    },
+    {
+      "name": "Indéterminé",
+      "dtype": "object",
+      "null_count": 48,
+      "null_pct": 55.8,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Indéterminé"
+      ]
+    },
+    {
+      "name": "Périnatal (1-6 mois)",
+      "dtype": "object",
+      "null_count": 74,
+      "null_pct": 86.0,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Périnatal (1-6 mois)"
+      ]
+    },
+    {
+      "name": "Enfant (6 mois-9 ans)",
+      "dtype": "object",
+      "null_count": 64,
+      "null_pct": 74.4,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Enfant (6 mois-9 ans)"
+      ]
+    },
+    {
+      "name": "Adolescent (10-19 ans)",
+      "dtype": "object",
+      "null_count": 70,
+      "null_pct": 81.4,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Adolescent (10-19 ans)"
+      ]
+    },
+    {
+      "name": "Adulte jeune (20-30 ans)",
+      "dtype": "object",
+      "null_count": 63,
+      "null_pct": 73.3,
+      "unique_count": 4,
+      "sample_values": [
+        "1",
+        " ",
+        "x"
+      ]
+    },
+    {
+      "name": "Adulte mature (30-59 ans)",
+      "dtype": "object",
+      "null_count": 56,
+      "null_pct": 65.1,
+      "unique_count": 4,
+      "sample_values": [
+        "1",
+        " ",
+        "x"
+      ]
+    },
+    {
+      "name": "Adulte âgé (plus de 59 ans)",
+      "dtype": "object",
+      "null_count": 69,
+      "null_pct": 80.2,
+      "unique_count": 4,
+      "sample_values": [
+        "1",
+        " ",
+        "x"
+      ]
+    },
+    {
+      "name": "Indéterminé.1",
+      "dtype": "object",
+      "null_count": 69,
+      "null_pct": 80.2,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Indéterminé"
+      ]
+    },
+    {
+      "name": "Précision \nâge",
+      "dtype": "object",
+      "null_count": 28,
+      "null_pct": 32.6,
+      "unique_count": 43,
+      "sample_values": [
+        "20-59",
+        "20-39",
+        "?"
+      ]
+    },
+    {
+      "name": "Arthrose",
+      "dtype": "object",
+      "null_count": 60,
+      "null_pct": 69.8,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Arthrose"
+      ]
+    },
+    {
+      "name": "Tassement vetébral",
+      "dtype": "object",
+      "null_count": 74,
+      "null_pct": 86.0,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Tassement vetébral"
+      ]
+    },
+    {
+      "name": "Ostéoporose",
+      "dtype": "object",
+      "null_count": 74,
+      "null_pct": 86.0,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Ostéoporose"
+      ]
+    },
+    {
+      "name": "Usure dentaire importante",
+      "dtype": "object",
+      "null_count": 66,
+      "null_pct": 76.7,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Usure dentaire importante"
+      ]
+    },
+    {
+      "name": "Atteintes dentaires",
+      "dtype": "object",
+      "null_count": 64,
+      "null_pct": 74.4,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Atteintes dentaires"
+      ]
+    },
+    {
+      "name": "Pertes dentaires",
+      "dtype": "object",
+      "null_count": 65,
+      "null_pct": 75.6,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Pertes dentaires"
+      ]
+    },
+    {
+      "name": "Agénésie dentaire",
+      "dtype": "object",
+      "null_count": 75,
+      "null_pct": 87.2,
+      "unique_count": 3,
+      "sample_values": [
+        " ",
+        "1",
+        "Agénésie dentaire"
+      ]
+    },
+    {
+      "name": "Parodontose",
+      "dtype": "object",
+      "null_count": 75,
+      "null_pct": 87.2,
+      "unique_count": 3,
+      "sample_values": [
+        " ",
+        "1",
+        "Parodontose"
+      ]
+    },
+    {
+      "name": "Enthésopathie",
+      "dtype": "object",
+      "null_count": 69,
+      "null_pct": 80.2,
+      "unique_count": 3,
+      "sample_values": [
+        " ",
+        "1",
+        "Enthésopathie"
+      ]
+    },
+    {
+      "name": "Facettes d'accroupissement",
+      "dtype": "object",
+      "null_count": 74,
+      "null_pct": 86.0,
+      "unique_count": 3,
+      "sample_values": [
+        " ",
+        "1",
+        "Facettes d'accroupissement"
+      ]
+    },
+    {
+      "name": "Processus de Stieda",
+      "dtype": "object",
+      "null_count": 74,
+      "null_pct": 86.0,
+      "unique_count": 3,
+      "sample_values": [
+        " ",
+        "1",
+        "Processus de Stieda"
+      ]
+    },
+    {
+      "name": "Pathologies articulaires et périarticulaires",
+      "dtype": "object",
+      "null_count": 73,
+      "null_pct": 84.9,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Pathologies articulaires et périarticulaires"
+      ]
+    },
+    {
+      "name": "Scoliose",
+      "dtype": "object",
+      "null_count": 75,
+      "null_pct": 87.2,
+      "unique_count": 3,
+      "sample_values": [
+        " ",
+        "1",
+        "Scoliose"
+      ]
+    },
+    {
+      "name": "Asymétrie des os longs",
+      "dtype": "object",
+      "null_count": 75,
+      "null_pct": 87.2,
+      "unique_count": 3,
+      "sample_values": [
+        " ",
+        "1",
+        "Asymétrie des os longs"
+      ]
+    },
+    {
+      "name": "Lésions traumatiques",
+      "dtype": "object",
+      "null_count": 64,
+      "null_pct": 74.4,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Lésions traumatiques"
+      ]
+    },
+    {
+      "name": "Lésions infectieuses",
+      "dtype": "object",
+      "null_count": 71,
+      "null_pct": 82.6,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Lésions infectieuses"
+      ]
+    },
+    {
+      "name": "Hypoplasies dentaires (stress biologique pendant l'enfance)",
+      "dtype": "object",
+      "null_count": 75,
+      "null_pct": 87.2,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Hypoplasies dentaires (stress biologique pendant l'enfance)"
+      ]
+    },
+    {
+      "name": "Cribra orbitalia (stress biologique)",
+      "dtype": "object",
+      "null_count": 73,
+      "null_pct": 84.9,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Cribra orbitalia (stress biologique)"
+      ]
+    },
+    {
+      "name": "Ostéochondrite disséquante",
+      "dtype": "object",
+      "null_count": 75,
+      "null_pct": 87.2,
+      "unique_count": 3,
+      "sample_values": [
+        " ",
+        "1",
+        "Ostéochondrite disséquante"
+      ]
+    },
+    {
+      "name": "Spina bifida occulta",
+      "dtype": "object",
+      "null_count": 75,
+      "null_pct": 87.2,
+      "unique_count": 3,
+      "sample_values": [
+        " ",
+        "1",
+        "Spina bifida occulta"
+      ]
+    },
+    {
+      "name": "Vertèbres lombaires avec ostéophytes",
+      "dtype": "object",
+      "null_count": 74,
+      "null_pct": 86.0,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Vertèbres lombaires avec ostéophytes"
+      ]
+    },
+    {
+      "name": "Aucune",
+      "dtype": "object",
+      "null_count": 62,
+      "null_pct": 72.1,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Aucune"
+      ]
+    },
+    {
+      "name": "Pas de données",
+      "dtype": "object",
+      "null_count": 59,
+      "null_pct": 68.6,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Pas de données"
+      ]
+    },
+    {
+      "name": "Remarque.1",
+      "dtype": "object",
+      "null_count": 51,
+      "null_pct": 59.3,
+      "unique_count": 30,
+      "sample_values": [
+        "appositions périostées : infections?",
+        "Probable perforation d'une vertèbre cervicale",
+        "Anciennes fractures du métacarpien et de la clavicule\nAbcès de l'os alvéolaire\nPont osseux intervert..."
+      ]
+    },
+    {
+      "name": "sur le dos",
+      "dtype": "object",
+      "null_count": 45,
+      "null_pct": 52.3,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "sur le dos"
+      ]
+    },
+    {
+      "name": "sur le côté",
+      "dtype": "object",
+      "null_count": 63,
+      "null_pct": 73.3,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "sur le côté"
+      ]
+    },
+    {
+      "name": "sur le ventre",
+      "dtype": "object",
+      "null_count": 61,
+      "null_pct": 70.9,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "sur le ventre"
+      ]
+    },
+    {
+      "name": "Assis",
+      "dtype": "object",
+      "null_count": 74,
+      "null_pct": 86.0,
+      "unique_count": 3,
+      "sample_values": [
+        " ",
+        "1",
+        "Assis"
+      ]
+    },
+    {
+      "name": "Indéterminée.2",
+      "dtype": "object",
+      "null_count": 69,
+      "null_pct": 80.2,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Indéterminée"
+      ]
+    },
+    {
+      "name": "Membres inférieurs fléchis",
+      "dtype": "object",
+      "null_count": 47,
+      "null_pct": 54.7,
+      "unique_count": 4,
+      "sample_values": [
+        "1",
+        " ",
+        "?"
+      ]
+    },
+    {
+      "name": "Membres supérieurs fléchis",
+      "dtype": "object",
+      "null_count": 47,
+      "null_pct": 54.7,
+      "unique_count": 4,
+      "sample_values": [
+        "1",
+        " ",
+        "?"
+      ]
+    },
+    {
+      "name": "Position du squelette",
+      "dtype": "object",
+      "null_count": 47,
+      "null_pct": 54.7,
+      "unique_count": 36,
+      "sample_values": [
+        "position fœtale : membres inf particulièrement fléchis",
+        "sur le dos, membres inf et sup fléchis vers la gauche ",
+        "squelette perturbé : bas du corps sur le ventre, reste en vrac"
+      ]
+    },
+    {
+      "name": "Espace vide",
+      "dtype": "object",
+      "null_count": 47,
+      "null_pct": 54.7,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Espace vide"
+      ]
+    },
+    {
+      "name": "Espace colmaté",
+      "dtype": "object",
+      "null_count": 50,
+      "null_pct": 58.1,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Espace colmaté"
+      ]
+    },
+    {
+      "name": "Enveloppe textile souple",
+      "dtype": "object",
+      "null_count": 70,
+      "null_pct": 81.4,
+      "unique_count": 4,
+      "sample_values": [
+        "1",
+        " ",
+        "Enveloppe textile souple"
+      ]
+    },
+    {
+      "name": "Indéterminé.2",
+      "dtype": "object",
+      "null_count": 61,
+      "null_pct": 70.9,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Indéterminé"
+      ]
+    },
+    {
+      "name": "Remarques",
+      "dtype": "object",
+      "null_count": 56,
+      "null_pct": 65.1,
+      "unique_count": 24,
+      "sample_values": [
+        "ne reste que la moitié du corps (tronc, membres sup; crâne)",
+        "perturbation par un terrier",
+        "espace de décomposition mixte, colmatage en plusieurs temps? ou ponctuel?"
+      ]
+    },
+    {
+      "name": "Réinterventions",
+      "dtype": "object",
+      "null_count": 65,
+      "null_pct": 75.6,
+      "unique_count": 4,
+      "sample_values": [
+        "1",
+        "?",
+        " "
+      ]
+    },
+    {
+      "name": "Présence de parure",
+      "dtype": "object",
+      "null_count": 58,
+      "null_pct": 67.4,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Présence de parure"
+      ]
+    },
+    {
+      "name": "Absence de parure",
+      "dtype": "object",
+      "null_count": 29,
+      "null_pct": 33.7,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Absence de parure"
+      ]
+    },
+    {
+      "name": "Bracelet",
+      "dtype": "object",
+      "null_count": 65,
+      "null_pct": 75.6,
+      "unique_count": 5,
+      "sample_values": [
+        "1",
+        "2",
+        " "
+      ]
+    },
+    {
+      "name": "Anneau de chevile",
+      "dtype": "object",
+      "null_count": 73,
+      "null_pct": 84.9,
+      "unique_count": 4,
+      "sample_values": [
+        "2",
+        " ",
+        "3"
+      ]
+    },
+    {
+      "name": "Fibule",
+      "dtype": "object",
+      "null_count": 68,
+      "null_pct": 79.1,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        " ",
+        "Fibule"
+      ]
+    },
+    {
+      "name": "Bague",
+      "dtype": "object",
+      "null_count": 72,
+      "null_pct": 83.7,
+      "unique_count": 4,
+      "sample_values": [
+        "1",
+        " ",
+        "3"
+      ]
+    },
+    {
+      "name": "Torque",
+      "dtype": "object",
+      "null_count": 74,
+      "null_pct": 86.0,
+      "unique_count": 3,
+      "sample_values": [
+        " ",
+        "1",
+        "Torque"
+      ]
+    },
+    {
+      "name": "Agrafe de ceinture",
+      "dtype": "object",
+      "null_count": 75,
+      "null_pct": 87.2,
+      "unique_count": 3,
+      "sample_values": [
+        " ",
+        "1",
+        "Agrafe de ceinture"
+      ]
+    },
+    {
+      "name": "boucle d'oreille",
+      "dtype": "object",
+      "null_count": 76,
+      "null_pct": 88.4,
+      "unique_count": 4,
+      "sample_values": [
+        " ",
+        "1",
+        "boucle d'oreille"
+      ]
+    },
+    {
+      "name": "Dépôt de faune",
+      "dtype": "object",
+      "null_count": 70,
+      "null_pct": 81.4,
+      "unique_count": 4,
+      "sample_values": [
+        "1",
+        "?",
+        " "
+      ]
+    },
+    {
+      "name": "Datation absolue",
+      "dtype": "object",
+      "null_count": 40,
+      "null_pct": 46.5,
+      "unique_count": 4,
+      "sample_values": [
+        "1",
+        "X",
+        " "
+      ]
+    },
+    {
+      "name": "num datation (code labo)",
+      "dtype": "object",
+      "null_count": 37,
+      "null_pct": 43.0,
+      "unique_count": 44,
+      "sample_values": [
+        "Poz-118235",
+        "Poz-133830",
+        "Poz-117697"
+      ]
+    },
+    {
+      "name": "âge radiocarbone",
+      "dtype": "object",
+      "null_count": 38,
+      "null_pct": 44.2,
+      "unique_count": 44,
+      "sample_values": [
+        "2225 ± 30 BP",
+        "2505 +/- 30 BP",
+        "2500 ± 30 BP"
+      ]
+    },
+    {
+      "name": "14C (2 sigma)",
+      "dtype": "object",
+      "null_count": 34,
+      "null_pct": 39.5,
+      "unique_count": 47,
+      "sample_values": [
+        "380-203",
+        "780-540 avant J.C",
+        "788-537 avant J.-C."
+      ]
+    },
+    {
+      "name": "Datation relative",
+      "dtype": "object",
+      "null_count": 7,
+      "null_pct": 8.1,
+      "unique_count": 42,
+      "sample_values": [
+        "Ha D3-LT A1 ",
+        "LT C1",
+        "Ha D"
+      ]
+    },
+    {
+      "name": "biblio",
+      "dtype": "object",
+      "null_count": 26,
+      "null_pct": 30.2,
+      "unique_count": 32,
+      "sample_values": [
+        "PERRIN (B.), CHENAL (F.) dir. — Bergheim « Saulager » : un habitat rubané, des dépôts humains en fos...",
+        "FÉLIU (C.) dir. — Berstett, Langenberg, COS site 5.6 ; occupations du Néolithique récent, de l’âge d...",
+        "FÉLIU (C.) dir. — Berstett, Langenberg, COS site 5.6 ; occupations du Néolithique récent, de l’âge d..."
+      ]
+    },
+    {
+      "name": "Unnamed: 93",
+      "dtype": "object",
+      "null_count": 74,
+      "null_pct": 86.0,
+      "unique_count": 12,
+      "sample_values": [
+        "datation effectuée part la combinaison de trois dates radiocarbones : une sur chacun des individus, ...",
+        "datation effectuée part la combinaison de troi sdates radiocarbones : une sur chacun des individus, ...",
+        "rapport en cours"
+      ]
+    }
+  ],
+  "source": {
+    "file_name": "20240419_Inhumations silos (1).xlsx",
+    "export_date": "2024-04-19",
+    "platform": "Inconnu"
+  },
+  "geographic": {
+    "lat_column": "Y(L93)",
+    "lon_column": "X(L93)",
+    "min_lat": 6744716.0,
+    "max_lat": 6867096.0,
+    "min_lon": 1021019.0,
+    "max_lon": 1050157.0,
+    "projection_guess": "Lambert-93 (EPSG:2154)"
+  },
+  "chronology": {
+    "period_column_Datation absolue": [
+      "1",
+      "X",
+      " ",
+      "Datation absolue"
+    ],
+    "period_column_num datation (code labo)": [
+      "Poz-118235",
+      "Poz-133830",
+      "Poz-117697",
+      "Poz-117738",
+      "Poz-117739",
+      "Poz-117740",
+      "Poz-32427",
+      "Poz-32428",
+      "Poz-32431",
+      "Poz-32432"
+    ],
+    "period_column_Datation relative": [
+      "Ha D3-LT A1 ",
+      "LT C1",
+      "Ha D",
+      "Ha D1-D2",
+      "Ha C-D1",
+      "Ha D3-LTA2",
+      "LT B1-C1",
+      "LT B",
+      "LT A-B",
+      "Ha D3/LTA"
+    ]
+  },
+  "quality": {
+    "avg_fill_rate_pct": 33.8,
+    "lowest_fill_columns": [
+      [
+        "boucle d'oreille",
+        11.6
+      ],
+      [
+        "Agénésie dentaire",
+        12.8
+      ],
+      [
+        "Parodontose",
+        12.8
+      ],
+      [
+        "Scoliose",
+        12.8
+      ],
+      [
+        "Asymétrie des os longs",
+        12.8
+      ]
+    ],
+    "issues": [
+      "1 colonnes sans nom (Unnamed)"
+    ],
+    "confidence_level": "LOW"
+  },
+  "data_model": {
+    "grain": "Non déterminé — aucune colonne ID candidate trouvée",
+    "total_rows": 86
+  }
+}

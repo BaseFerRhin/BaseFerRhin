@@ -1,0 +1,332 @@
+{
+  "file_name": "BdD_Proto_Alsace (1).xlsx",
+  "file_path": "data/input/BdD_Proto_Alsace (1).xlsx",
+  "format": "XLSX",
+  "file_size_kb": 78,
+  "engine": "openpyxl/calamine",
+  "header_row": true,
+  "total_rows": 1127,
+  "total_columns": 23,
+  "columns": [
+    {
+      "name": "id",
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1127,
+      "sample_values": [
+        "231",
+        "232",
+        "233"
+      ]
+    },
+    {
+      "name": "commune",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 340,
+      "sample_values": [
+        "Gerstheim",
+        "Gougenheim",
+        "Gingsheim"
+      ]
+    },
+    {
+      "name": "lieu_dit",
+      "dtype": "object",
+      "null_count": 27,
+      "null_pct": 2.4,
+      "unique_count": 762,
+      "sample_values": [
+        "Lotissement Bancalis",
+        "LGV Est-Européenne, 2e phase, tronçon H - site 9.2. \"Ginsheimer Feld\", \"Burgweg\", \"Beim Burgweg\"",
+        "Lotissement Oberfeld"
+      ]
+    },
+    {
+      "name": "EA",
+      "dtype": "float64",
+      "null_count": 999,
+      "null_pct": 88.6,
+      "unique_count": 48,
+      "sample_values": [
+        "9.0",
+        "11.0",
+        "3.0"
+      ]
+    },
+    {
+      "name": "oa",
+      "dtype": "object",
+      "null_count": 647,
+      "null_pct": 57.4,
+      "unique_count": 207,
+      "sample_values": [
+        "671540017",
+        "5236",
+        "6358"
+      ]
+    },
+    {
+      "name": "type_oa",
+      "dtype": "object",
+      "null_count": 483,
+      "null_pct": 42.9,
+      "unique_count": 7,
+      "sample_values": [
+        "fouille",
+        "diagnostic",
+        "découverte isolée"
+      ]
+    },
+    {
+      "name": "annee_dec",
+      "dtype": "object",
+      "null_count": 506,
+      "null_pct": 44.9,
+      "unique_count": 103,
+      "sample_values": [
+        "2003-2004",
+        "2009",
+        "2015"
+      ]
+    },
+    {
+      "name": "type_site",
+      "dtype": "object",
+      "null_count": 3,
+      "null_pct": 0.3,
+      "unique_count": 7,
+      "sample_values": [
+        "habitat",
+        "funéraire",
+        "mobilier"
+      ]
+    },
+    {
+      "name": "type_precision",
+      "dtype": "float64",
+      "null_count": 1127,
+      "null_pct": 100.0,
+      "unique_count": 0,
+      "sample_values": []
+    },
+    {
+      "name": "structures",
+      "dtype": "object",
+      "null_count": 525,
+      "null_pct": 46.6,
+      "unique_count": 135,
+      "sample_values": [
+        "fosse à galets chauffés",
+        "Fosse",
+        "fosse"
+      ]
+    },
+    {
+      "name": "conservati",
+      "dtype": "float64",
+      "null_count": 1127,
+      "null_pct": 100.0,
+      "unique_count": 0,
+      "sample_values": []
+    },
+    {
+      "name": "datation_1",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 32,
+      "sample_values": [
+        "Bronze moyen/Bronze final",
+        "Bronze ancien",
+        "Bronze final"
+      ]
+    },
+    {
+      "name": "datation_2",
+      "dtype": "object",
+      "null_count": 653,
+      "null_pct": 57.9,
+      "unique_count": 40,
+      "sample_values": [
+        "Bze C-D",
+        "Bze A2a/A2b",
+        "Bze D-Ha A1"
+      ]
+    },
+    {
+      "name": "rq",
+      "dtype": "object",
+      "null_count": 657,
+      "null_pct": 58.3,
+      "unique_count": 142,
+      "sample_values": [
+        "10 fosses à galets chauffés, 1,2h fouillés",
+        "2 fosses",
+        "-"
+      ]
+    },
+    {
+      "name": "biblio",
+      "dtype": "object",
+      "null_count": 494,
+      "null_pct": 43.8,
+      "unique_count": 341,
+      "sample_values": [
+        "Châtelet 2003, Hardt P. 2015",
+        "Thomas et al 2008, Thomas Y. 2016",
+        "Thomas 2015"
+      ]
+    },
+    {
+      "name": "BA",
+      "dtype": "float64",
+      "null_count": 1007,
+      "null_pct": 89.4,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "BM",
+      "dtype": "float64",
+      "null_count": 914,
+      "null_pct": 81.1,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "BF1",
+      "dtype": "float64",
+      "null_count": 966,
+      "null_pct": 85.7,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "BF2",
+      "dtype": "float64",
+      "null_count": 1024,
+      "null_pct": 90.9,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "BF3_HaC",
+      "dtype": "float64",
+      "null_count": 977,
+      "null_pct": 86.7,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "HaD",
+      "dtype": "float64",
+      "null_count": 1062,
+      "null_pct": 94.2,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "LTAB",
+      "dtype": "float64",
+      "null_count": 996,
+      "null_pct": 88.4,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    },
+    {
+      "name": "LTCD",
+      "dtype": "float64",
+      "null_count": 971,
+      "null_pct": 86.2,
+      "unique_count": 1,
+      "sample_values": [
+        "1.0"
+      ]
+    }
+  ],
+  "source": {
+    "file_name": "BdD_Proto_Alsace (1).xlsx",
+    "platform": "Base de données Protohistoire Alsace"
+  },
+  "geographic": {},
+  "chronology": {
+    "period_column_datation_1": [
+      "Bronze moyen/Bronze final",
+      "Bronze ancien",
+      "Bronze final",
+      "Bronze moyen",
+      "Néolithique final/Bronze ancien",
+      "Bronze ancien/Bronze moyen",
+      "âge du Bronze",
+      "Néolithique final",
+      "Bronze ancien/Bronze moyen, Bronze moyen",
+      "Bronze final/Hallstatt"
+    ],
+    "period_column_datation_2": [
+      "Bze C-D",
+      "Bze A2a/A2b",
+      "Bze D-Ha A1",
+      "Bze D",
+      "Ha A2-B1",
+      "-",
+      "Ha B1",
+      "Ha A2",
+      "Bze A2",
+      "épicampaniforme"
+    ]
+  },
+  "quality": {
+    "avg_fill_rate_pct": 41.5,
+    "lowest_fill_columns": [
+      [
+        "type_precision",
+        0.0
+      ],
+      [
+        "conservati",
+        0.0
+      ],
+      [
+        "HaD",
+        5.8
+      ],
+      [
+        "BF2",
+        9.1
+      ],
+      [
+        "BA",
+        10.6
+      ]
+    ],
+    "issues": [
+      "2 colonnes entièrement vides: ['type_precision', 'conservati']"
+    ],
+    "confidence_level": "LOW"
+  },
+  "data_model": {
+    "grain": "Clé candidate: id",
+    "id_column": "id",
+    "unique_count": 1127,
+    "rows_per_id_avg": 1.0,
+    "rows_per_id_max": 1,
+    "total_rows": 1127
+  }
+}

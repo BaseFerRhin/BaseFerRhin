@@ -12,8 +12,8 @@ src/keplergl/dist/
 src/keplergl/node_modules/
 
 # DuckDB (generated, rebuild with: npm run db:build)
-src/keplergl/data/*.duckdb
-src/keplergl/data/*.duckdb.wal
+#src/keplergl/data/*.duckdb
+#src/keplergl/data/*.duckdb.wal
 
 # IDE
 .vscode/
@@ -38,3 +38,11 @@ src/keplergl/node_modules/.vite/
 .cursor/projects/
 
 RawData/*
+
+# Sub-projects: DuckDB generated databases
+sub_projet/*/data/*.duckdb
+sub_projet/*/data/*.duckdb.wal
+sub_projet/*/data/geocoder_cache.json
+
+# Analysis: regenerable extracted text (run analyze.py to regenerate)
+data/analysis/*/extracted_text.txt

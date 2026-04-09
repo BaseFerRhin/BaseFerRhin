@@ -1,0 +1,268 @@
+{
+  "file_name": "Alsace_Basel_AF (1).xlsx",
+  "file_path": "data/input/Alsace_Basel_AF (1).xlsx",
+  "format": "XLSX",
+  "file_size_kb": 163,
+  "engine": "openpyxl/calamine",
+  "header_row": true,
+  "total_rows": 1083,
+  "total_columns": 16,
+  "columns": [
+    {
+      "name": "id_site",
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1070,
+      "sample_values": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "name": "pays",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "France",
+        "Suisse",
+        "Allemagne"
+      ]
+    },
+    {
+      "name": "admin1",
+      "dtype": "object",
+      "null_count": 75,
+      "null_pct": 6.9,
+      "unique_count": 5,
+      "sample_values": [
+        "Bas-Rhin",
+        "Haut-Rhin",
+        "Bâle-Ville"
+      ]
+    },
+    {
+      "name": "commune",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 423,
+      "sample_values": [
+        "Saverne",
+        "Neubois",
+        "Hatten"
+      ]
+    },
+    {
+      "name": "lieu_dit",
+      "dtype": "object",
+      "null_count": 22,
+      "null_pct": 2.0,
+      "unique_count": 915,
+      "sample_values": [
+        "Fossé des Pandours",
+        "Frankenbourg",
+        "Rothsmatt"
+      ]
+    },
+    {
+      "name": "lieu_dit_autre",
+      "dtype": "object",
+      "null_count": 855,
+      "null_pct": 78.9,
+      "unique_count": 70,
+      "sample_values": [
+        "Schlossberg",
+        "groupe nord",
+        "groupe sud"
+      ]
+    },
+    {
+      "name": "x",
+      "dtype": "object",
+      "null_count": 5,
+      "null_pct": 0.5,
+      "unique_count": 996,
+      "sample_values": [
+        "7.331004",
+        "7.324984",
+        "8.000836"
+      ]
+    },
+    {
+      "name": "y",
+      "dtype": "object",
+      "null_count": 5,
+      "null_pct": 0.5,
+      "unique_count": 993,
+      "sample_values": [
+        "48.7550876",
+        "48.295214",
+        "48.896084"
+      ]
+    },
+    {
+      "name": "epsg_coord",
+      "dtype": "float64",
+      "null_count": 8,
+      "null_pct": 0.7,
+      "unique_count": 2,
+      "sample_values": [
+        "4326.0",
+        "25832.0"
+      ]
+    },
+    {
+      "name": "decouverte_annee",
+      "dtype": "object",
+      "null_count": 182,
+      "null_pct": 16.8,
+      "unique_count": 237,
+      "sample_values": [
+        "1914",
+        "1883",
+        "2001"
+      ]
+    },
+    {
+      "name": "decouverte_operation",
+      "dtype": "object",
+      "null_count": 60,
+      "null_pct": 5.5,
+      "unique_count": 14,
+      "sample_values": [
+        "première mention bibliographique",
+        "diagnostic",
+        "fouille"
+      ]
+    },
+    {
+      "name": "ref_biblio",
+      "dtype": "object",
+      "null_count": 383,
+      "null_pct": 35.4,
+      "unique_count": 560,
+      "sample_values": [
+        "Fichtl et alii 2021",
+        "Féliu 2021",
+        "Roth-Zehner 2005"
+      ]
+    },
+    {
+      "name": "ref_rapport",
+      "dtype": "object",
+      "null_count": 665,
+      "null_pct": 61.4,
+      "unique_count": 224,
+      "sample_values": [
+        "Féliu 2014, Féliu 2015, Féliu 2016, Féliu 2017, Féliu 218, Féliu 2019, Féliu 2020, Féliu 2021, Féliu...",
+        " Werlé 2001, Zehner 2001",
+        "Cony, Rault 2023a ; 2023b"
+      ]
+    },
+    {
+      "name": "auteur",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "Clément Féliu",
+        "Muriel Roth-Zehner",
+        "Norbert Spichtig"
+      ]
+    },
+    {
+      "name": "date",
+      "dtype": "datetime64[ns]",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "2026-02-07 00:00:00",
+        "2026-02-12 00:00:00",
+        "2026-02-13 00:00:00"
+      ]
+    },
+    {
+      "name": "commentaire",
+      "dtype": "object",
+      "null_count": 376,
+      "null_pct": 34.7,
+      "unique_count": 66,
+      "sample_values": [
+        "reprise récente des données dans PCR Haguenau",
+        "Leffert, à cheval sur les communes de Dachstein et d'Ernolsheim Bruche",
+        "même site que Brumath groupe sud"
+      ]
+    }
+  ],
+  "source": {
+    "file_name": "Alsace_Basel_AF (1).xlsx",
+    "platform": "Base Alsace–Bâle âge du Fer"
+  },
+  "geographic": {
+    "lat_column": "y",
+    "lon_column": "x",
+    "min_lat": 47.378306,
+    "max_lat": 48619681.0,
+    "min_lon": 7.087081,
+    "max_lon": 453674.98,
+    "projection_guess": "Lambert-93 (EPSG:2154)",
+    "epsg_column": "epsg_coord",
+    "epsg_values": [
+      4326.0,
+      25832.0
+    ]
+  },
+  "chronology": {
+    "period_column_date": [
+      "2026-02-07 00:00:00",
+      "2026-02-12 00:00:00",
+      "2026-02-13 00:00:00",
+      "2026-03-06 00:00:00",
+      "2026-03-26 00:00:00",
+      "2026-03-23 00:00:00",
+      "2026-03-28 00:00:00",
+      "2026-03-30 00:00:00"
+    ]
+  },
+  "quality": {
+    "avg_fill_rate_pct": 84.8,
+    "lowest_fill_columns": [
+      [
+        "lieu_dit_autre",
+        21.1
+      ],
+      [
+        "ref_rapport",
+        38.6
+      ],
+      [
+        "ref_biblio",
+        64.6
+      ],
+      [
+        "commentaire",
+        65.3
+      ],
+      [
+        "decouverte_annee",
+        83.2
+      ]
+    ],
+    "issues": [],
+    "confidence_level": "HIGH"
+  },
+  "data_model": {
+    "grain": "Clé candidate: id_site",
+    "id_column": "id_site",
+    "unique_count": 1070,
+    "rows_per_id_avg": 1.01,
+    "rows_per_id_max": 3,
+    "total_rows": 1083
+  }
+}

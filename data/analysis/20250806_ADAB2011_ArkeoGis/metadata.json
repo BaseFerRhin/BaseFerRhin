@@ -1,0 +1,336 @@
+{
+  "file_name": "20250806_ADAB2011_ArkeoGis.csv",
+  "file_path": "data/input/20250806_ADAB2011_ArkeoGis.csv",
+  "format": "CSV",
+  "file_size_kb": 309,
+  "separator": ";",
+  "encoding": "UTF-8",
+  "header_row": true,
+  "total_rows": 656,
+  "total_columns": 23,
+  "columns": [
+    {
+      "name": "SITE_AKG_ID",
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 655,
+      "sample_values": [
+        "1295024",
+        "1295026",
+        "1295027"
+      ]
+    },
+    {
+      "name": "DATABASE_NAME",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "Extrait de l'inventaire archéologique Nordbaden- ADAB-2011",
+        "Extrait de l'inventaire archéologique Südbaden-ADAB-2011"
+      ]
+    },
+    {
+      "name": "SITE_SOURCE_ID",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 655,
+      "sample_values": [
+        "BW_99401900",
+        "BW_96945683",
+        "BW_96956986"
+      ]
+    },
+    {
+      "name": "SITE_NAME",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 315,
+      "sample_values": [
+        "Achern-Wagshurst, Wagshurst, Oberbrunnhurst\"\"",
+        "Achern, Achern",
+        "Achern, Fautenbach"
+      ]
+    },
+    {
+      "name": "MAIN_CITY_NAME",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 62,
+      "sample_values": [
+        "Achern",
+        "Appenweier",
+        "Biberach"
+      ]
+    },
+    {
+      "name": "GEONAME_ID",
+      "dtype": "float64",
+      "null_count": 656,
+      "null_pct": 100.0,
+      "unique_count": 0,
+      "sample_values": []
+    },
+    {
+      "name": "PROJECTION_SYSTEM",
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "4326"
+      ]
+    },
+    {
+      "name": "LONGITUDE",
+      "dtype": "float64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 655,
+      "sample_values": [
+        "8.00774",
+        "8.071355",
+        "8.084406"
+      ]
+    },
+    {
+      "name": "LATITUDE",
+      "dtype": "float64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 654,
+      "sample_values": [
+        "48.618576",
+        "48.620857",
+        "48.625607"
+      ]
+    },
+    {
+      "name": "ALTITUDE",
+      "dtype": "float64",
+      "null_count": 656,
+      "null_pct": 100.0,
+      "unique_count": 0,
+      "sample_values": []
+    },
+    {
+      "name": "CITY_CENTROID",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "Non",
+        "Oui"
+      ]
+    },
+    {
+      "name": "STATE_OF_KNOWLEDGE",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "Non renseigné",
+        "Prospecté aérien"
+      ]
+    },
+    {
+      "name": "OCCUPATION",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "Non renseigné"
+      ]
+    },
+    {
+      "name": "STARTING_PERIOD",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 10,
+      "sample_values": [
+        "-2200:-26",
+        "Indéterminé",
+        "-800:-461"
+      ]
+    },
+    {
+      "name": "ENDING_PERIOD",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 14,
+      "sample_values": [
+        "-2200:-26",
+        "Indéterminé",
+        "-800:-461"
+      ]
+    },
+    {
+      "name": "CARAC_NAME",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 5,
+      "sample_values": [
+        "Immobilier",
+        "Paysage",
+        "Production"
+      ]
+    },
+    {
+      "name": "CARAC_LVL1",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 17,
+      "sample_values": [
+        "Habitat",
+        "Funéraire",
+        "Structure agraire"
+      ]
+    },
+    {
+      "name": "CARAC_LVL2",
+      "dtype": "object",
+      "null_count": 229,
+      "null_pct": 34.9,
+      "unique_count": 16,
+      "sample_values": [
+        "Groupé",
+        "Non renseigné",
+        "Fossé"
+      ]
+    },
+    {
+      "name": "CARAC_LVL3",
+      "dtype": "object",
+      "null_count": 458,
+      "null_pct": 69.8,
+      "unique_count": 13,
+      "sample_values": [
+        "Monument funéraire",
+        "Enclos",
+        "Source"
+      ]
+    },
+    {
+      "name": "CARAC_LVL4",
+      "dtype": "object",
+      "null_count": 653,
+      "null_pct": 99.5,
+      "unique_count": 2,
+      "sample_values": [
+        "Inhumation",
+        "Canalisation"
+      ]
+    },
+    {
+      "name": "CARAC_EXP",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "Non"
+      ]
+    },
+    {
+      "name": "BIBLIOGRAPHY",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 605,
+      "sample_values": [
+        "-- # AKTENZEICHEN : 4",
+        "-- # AKTENZEICHEN : L7314/065-01",
+        "-- # AKTENZEICHEN : L7314/065-02"
+      ]
+    },
+    {
+      "name": "COMMENTS",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 209,
+      "sample_values": [
+        "LISTENTEXT :  # BEGRUENDUNG : -- #GENAUIGK_T : mit 20 m Toleranz # DAT_GROB : -1 # DAT_FEIN : Metall...",
+        "LISTENTEXT :  # BEGRUENDUNG : -- #GENAUIGK_T : mit Ungenauigkeit bis zu 200m # DAT_GROB : -1 # DAT_F...",
+        "LISTENTEXT :  # BEGRUENDUNG : -- #GENAUIGK_T : mit Ungenauigkeit bis zu 200m # DAT_GROB : -1 # DAT_F..."
+      ]
+    }
+  ],
+  "source": {
+    "file_name": "20250806_ADAB2011_ArkeoGis.csv",
+    "export_date": "2025-08-06",
+    "platform": "ArkeoGIS",
+    "database_name": "Extrait de l'inventaire archéologique Nordbaden- ADAB-2011"
+  },
+  "geographic": {
+    "lat_column": "LATITUDE",
+    "lon_column": "LONGITUDE",
+    "min_lat": 48.01569,
+    "max_lat": 48.77749,
+    "min_lon": 7.581899,
+    "max_lon": 8.280656,
+    "projection_guess": "WGS84 (EPSG:4326)",
+    "epsg_column": "PROJECTION_SYSTEM",
+    "epsg_values": [
+      4326
+    ],
+    "city_centroid_pct": 81.2
+  },
+  "chronology": {
+    "date_format": "ArkeoGIS (-YYYY:-YYYY)",
+    "earliest": -2200,
+    "latest": 1701,
+    "indeterminate_rows": 467,
+    "indeterminate_pct": 71.2
+  },
+  "quality": {
+    "avg_fill_rate_pct": 82.4,
+    "lowest_fill_columns": [
+      [
+        "GEONAME_ID",
+        0.0
+      ],
+      [
+        "ALTITUDE",
+        0.0
+      ],
+      [
+        "CARAC_LVL4",
+        0.5
+      ],
+      [
+        "CARAC_LVL3",
+        30.2
+      ],
+      [
+        "CARAC_LVL2",
+        65.1
+      ]
+    ],
+    "issues": [
+      "Colonne 'SITE_NAME': 201 valeurs avec guillemets doubles malformés",
+      "2 colonnes entièrement vides: ['GEONAME_ID', 'ALTITUDE']"
+    ],
+    "confidence_level": "HIGH"
+  },
+  "data_model": {
+    "grain": "Clé candidate: SITE_AKG_ID",
+    "id_column": "SITE_AKG_ID",
+    "unique_count": 655,
+    "rows_per_id_avg": 1.0,
+    "rows_per_id_max": 2,
+    "total_rows": 656
+  }
+}

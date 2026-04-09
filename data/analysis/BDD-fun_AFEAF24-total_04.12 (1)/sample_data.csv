@@ -1,0 +1,76 @@
+info SITE;Unnamed: 1;Unnamed: 2;REMARQUES GENERALES;NMI / TYPE DEPOT;Unnamed: 5;Unnamed: 6;Unnamed: 7;MONUMENT (enclos fossoyé);Unnamed: 9;Unnamed: 10;Unnamed: 11;Unnamed: 12;MONUMENT (tumulus avéré);Unnamed: 14;Unnamed: 15;Unnamed: 16;FOSSE;Unnamed: 18;Unnamed: 19;Unnamed: 20;Unnamed: 21;AMENAGEMENT / CONTENANT;Unnamed: 23;Unnamed: 24;Unnamed: 25;Unnamed: 26;Unnamed: 27;MOBILIER ASSOCIÉ AU DÉFUNT (PORTÉ);Unnamed: 29;Unnamed: 30;Unnamed: 31;Unnamed: 32;Unnamed: 33;Unnamed: 34;DÉPÔTS d'OFFRANDE;Unnamed: 36;Unnamed: 37;Unnamed: 38;Unnamed: 39;AUTRE;REINTERVENTIONS ANTHROPIQUES;Unnamed: 42;Unnamed: 43;Unnamed: 44;Unnamed: 45;Unnamed: 46;MODALITE DEPÔT;Unnamed: 48;Unnamed: 49;Unnamed: 50;BIO;Unnamed: 52;Unnamed: 53;Unnamed: 54;Unnamed: 55;Unnamed: 56;Unnamed: 57;DATATION ;Unnamed: 59;Unnamed: 60;Unnamed: 61;OBSERVATIONS DIVERSES
+DPT;SITE;N° ST;REMARQUES;Type dépôt 1;NMI;N°individu;Type dépôt 2;"ENCLOS
+FOSSOYE";forme;N° ENCLOS;"DIAMETRE
+/ CÔTÉ ENCLOS
+(en cm)";Nombre de sep dans l'enclos;TUMULUS;N° TUMULUS;"DIAMETRE TUMULUS
+(en cm)";Nombre de sep dans le tumulus;FORME;"ORIENTATION
+FOSSE";"LONGUEUR 
+SURF.
+(en cm)";"LARGEUR
+SURF.
+(en cm)";"PROFONDEUR MAX.
+(en cm)";"AMENAGEMENT/
+CONTENANT
+PERISSABLE RIGIDE";"> ARGUMENTS
+> tapho ";"> ARGUMENTS
+> traces ligneuses";"> ARGUMENTS
+> combl. Diff. Int./ext.
+EFFONDREMENTS PAROIS";TYPE > Coffrage fosse;TYPE > Contenant voué au défunt;MOBILIER;"ÉLÉMENTS 
+VESTIMENTAIRES";ARMEMENT;PARURE;"PORT DE 
+VÊTEMENTS";ARGUMENTS > objets de parure et habillement;ARGUMENTS > restes textiles minralisés ou organiques identifiés;"OUTILLAGE /
+USUEL";"CÉRAMIQUE/
+VAISSELLE";"ARMES
+DÉPOSÉES";"DÉPÔTS 
+ALIMENTAIRES";"LOCALISATION des dépôt (objets non portés) 
+champs libre";AUTRE;"RECOUPEMENT
+FOSSE SEPULCRALE
+(recoupe/recoupé)";"RECOUPE/É
+QUOI?";PERTURBATIONS DANS LA TOMBE;"LAPS DE TEMPS
+REINTERVENTION
+(individus décomposé?)";"LAPS DE TEMPS
+REINTERVENTION
+(contenant conservé?)";TRACES SUR OS;POSITION GENERALE;POSITION mb sup;POSITION mb inf;DIRECTION TETE;CONSERVATION OSSEUSE;"Cat. Age
+AD/IMM";"AGE
+(ans)";"Classe démog. 
+[1]";"Classe démog. 
+[2]
+si à cheval";"SEXE
+F/M/ND
+(DSP)";GENRE (mobilier);DATATION MOB.;"C14
+CALIBRE
+2 SIGMA";C14 non calibré;phase chrono relative;OBSERVATIONS DIVERSEs
+68;Colmar rue des Aunes;172;Date dendro : 629 +/- 10 av. J.-C.;simple;1;1;primaire;*;*;*;*;*;*;*;*;quadrangulaire;NO/SE;250;75;60;oui;oui;oui;non;indéterminé;indéterminé;oui;non;non;oui;probable;oui;non;non;non;non;non;*;*;recoupé;St. 2 (fossé romain);non;non ;non ;non ;sur le dos;fléchis;en extension;SE;moyen;"enfants
+1/15";10-14;[10-14];;indéterminé;féminin;Hallstatt D1;*;*;Hallstatt D1;;
+67;Dingsheim COS 4-1 (2019);442;(tertre ?);simple;1;1;primaire;non;*;*;*;*;indéterminé;*;*;*;oblongue;NO/SE;240;118;46;oui;oui;oui;oui;indéterminé;indéterminé;oui;probable;non;oui;probable;oui;non;non;non;non;non;*;présence d'un galet entre les jambes;aucun;*;non;*;*;*;sur le dos;indéterminé;en extension;SE;moyen;indéterminé;>15;[15-19];[>20];indéterminé;indéterminé;Hallstatt D1;801-550 BC;2550 BP ± 30 ans;Hallstatt D;Référence date 14C : Poz-131729
+67;Dingsheim COS 4-1 (2019);531;(tertre ?);simple;1;1;primaire;non;*;*;*;*;indéterminé;*;*;*;oblongue;NO/SE;240;105;40;oui;oui;oui;oui;indéterminé;indéterminé;oui;probable;non;oui;probable;oui;non;non;non;non;non;*;présence d'un galet contre avant bras D;aucun;*;non;*;*;*;sur le dos;en extension;en extension;SE;moyen;indéterminé;>15;[15-19];[>20];indéterminé;indéterminé;Hallstatt D1-D2;774-481 BC;2485 BP ± 30 ans;Hallstatt D;Référence date 14C : Poz-131730
+67;Dingsheim COS 4-1 (2019);532;"(tertre ?)
+dans cette sep = ossements 
+d'un immature en vrac dans cblt";simple;1;1;primaire;non;*;*;*;*;indéterminé;*;*;*;oblongue;NE/SO;190;50;32;oui;non;non;oui;indéterminé;indéterminé;non;non;non;non;indéterminé;non;non;non;non;non;non;*;*;recoupé;St. 532.2;oui;indéterminé;indéterminé;non ;sur le dos;en extension;en extension;NE;mauvais;"enfants
+1/15";14-16;[10-14];[15-19];indéterminé;indéterminé;Hallstatt C-D1;791-544 BC;2525 BP ± 30 ans;Hallstatt C-D1;Référence date 14C : Poz-131731 - dans cette sep = ossements d'un immature en vrac dans cblt
+67;Dingsheim COS 4-1 (2019);533;(tertre ?);simple;1;*;primaire;non;*;*;*;*;indéterminé;*;*;*;oblongue;NO/SE;280;120;35;oui;non;non;oui;indéterminé;indéterminé;oui;probable;non;oui;probable;oui;oui;oui;non;non;non;pince à épiler à D du crâne;*;aucun;*;non;*;*;*;sur le dos;indéterminé;en extension;SE;mauvais;adulte probable;>15;[15-19];[>20];indéterminé;féminin;Hallstatt D1;788-516 BC;2505 BP ± 35 ans;Hallstatt D;Référence date 14C : Poz-131732
+67;Dingsheim COS 4-1 (2019);534; (tertre ?);simple;1;1;primaire;non;*;*;*;*;indéterminé;*;*;*;oblongue;NO/SE;285;84;15;indéterminé;oui;non;non;indéterminé;indéterminé;non;non;non;non;indéterminé;non;non;non;non;non;non;*;*;aucun;*;non;*;*;*;sur le dos;fléchis;en extension;SE;moyen;"adulte
+>20";>23;[>20];*;masculin;indéterminé;*;754-481 BC;??;Hallstatt D;Pas trouvé la référence date dans le rapport. Dates calibrées indiquées dans le rapport Vol. 2
+67;Dingsheim COS 4-1 (2019);537; (tertre ?);simple;1;1;primaire;non;*;*;*;*;indéterminé;*;*;*;oblongue;NO/SE;250;100;26;oui;non;non;oui;indéterminé;indéterminé;non;indéterminé;non;non;indéterminé;non;non;non;non;non;non;*;*;aucun;*;non;*;*;*;sur le dos;1 fléchi, 1 en extension;en extension;SE;moyen;"adulte
+>20";20-49;[>20];*;indéterminé;indéterminé;*;752-410 BC;2445 BP ± 30 ans;;Référence date 14C : Poz-131734
+67;Dingsheim COS 4-1 (2019);610;"Tombe ""isolée"" ?";simple;1;1;primaire;non;*;*;*;*;non;*;*;*;oblongue;NO/SE;265;110;70;oui;non;non;oui;indéterminé;indéterminé;oui;non;non;oui;probable;oui;non;non;non;non;non;*;*;aucun;*;non;*;*;*;sur le dos;en extension;en extension;SE;mauvais;adulte probable;>15;[15-19];[>20];indéterminé;féminin;Hallstatt D;815-593 BC;2590 BP ± 30 ans;Hallstatt D;Référence date 14C : Poz-131735
+67;Duttlenheim COS 1.3;107;recoupe enclos circulaire 96;simple;1;1;primaire;non;*;*;*;*;non;*;*;*;oblongue;E/O;250;60;14;indéterminé;non;non;non;indéterminé;indéterminé;oui;probable;non;non;probable;oui;non;non;non;non;non;*;*;recoupe;enclos circulaire 96;non;*;*;*;sur le dos;1 fléchi, 1 en extension;en extension;N;moyen;"adulte
+>20";*;[>20];*;homme;indéterminé;La Tène A;;;La Tène A;Boucle en fer, contrainte tapho souple, sépulture à l’intérieur de l’enclos ST 96 (Bronze final), analyse génét
+67;Duttlenheim COS 1.3;166;;simple;1;1;primaire;non;*;*;*;*;non;*;*;*;oblongue;N/S;216;80;22;indéterminé;non;non;non;indéterminé;indéterminé;non;non;non;non;indéterminé;non;non;non;non;non;non;*;*;aucun;*;non;*;*;*;sur le ventre;1 fléchi, 1 en extension;en extension;O;mauvais;"adulte
+>20";*;[>20];*;indéterminé;indéterminé;*;;;Hallstatt ;Analyse génét
+67;Duttlenheim COS 1.3;184;en lien avec le fossé du Langgraben 89?;simple;1;1;primaire;non;*;*;*;*;non;*;*;*;oblongue;E/O;223;104;24;indéterminé;non;non;non;indéterminé;indéterminé;non;non;non;non;probable;non;non;non;non;non;non;*;dépôt d’un gros tesson sur le bassin;recoupe;langgraben 89;non;*;*;*;sur le dos;fléchis;en extension;SE;moyen;"adulte
+>20";22-25;[>20];*;homme;indéterminé;*;;;Hallstatt ;Dans le fossé du langgraben Analyse génét
+67;Duttlenheim COS 1.3;185;en lien avec le fossé du Langgraben 89?;simple;1;1;primaire;non;*;*;*;*;non;*;*;*;oblongue;N/S;197;85;11;oui;oui;non;non;probable;probable;non;non;non;non;probable;non;non;non;non;non;non;*;*;recoupe;langgraben 89;non;*;*;*;sur le dos;en extension;en extension;SE;moyen;adulte probable;*;[15-19];[>20];indéterminé;indéterminé;*;;;Hallstatt ;Dans le fossé du langgraben Analyse génét
+67;Duttlenheim COS 1.3;186;en lien avec le fossé du Langgraben 89?;simple;1;1;primaire;non;*;*;*;*;non;*;*;*;oblongue;N/S;214;94;12;indéterminé;non;non;non;indéterminé;indéterminé;non;non;non;non;probable;non;non;non;non;non;non;*;*;recoupe;langgraben 89;non;*;*;*;sur le dos;fléchis;fléchis, sur la droite;SE;moyen;"adulte
+>20";*;[>20];*;femme;indéterminé;*;;;Hallstatt ;A l’intérieur du langgraben Analyse génét
+67;Duttlenheim COS 1.3;187;en lien avec le fossé du Langgraben 89?;simple;1;1;primaire;non;*;*;*;*;non;*;*;*;non visible;indéterminé;*;*;*;indéterminé;non;non;non;indéterminé;indéterminé;non;non;non;non;indéterminé;non;non;non;non;non;non;*;*;recoupe;langgraben 89;non;*;*;*;sur le dos;indéterminé;indéterminé;S;mauvais;"enfants
+1/15";*;[5-9];*;indéterminé;indéterminé;*;;;Hallstatt ;Inhumation superficielle, perturbations labours
+67;Duttlenheim COS 1.3;188;en lien avec le fossé du Langgraben 89?;simple;1;1;primaire;non;*;*;*;*;non;*;*;*;oblongue;N/S;220;76;15;oui;oui;non;non;probable;probable;oui;non;non;oui;probable;oui;non;non;non;non;non;*;*;aucun;*;non;*;*;*;sur le dos;1 fléchi, 1 en extension;en extension;SE;moyen;"adulte
+>20";*;[>20];*;femme;indéterminé;*;;;Hallstatt ;Bracelet alliage cuivreux poignet droit. Analyse génét
+67;Duttlenheim COS 1.3;189;;simple;1;1;primaire;non;*;*;*;*;non;*;*;*;oblongue;N/S;200;90;7;indéterminé;non;non;non;indéterminé;indéterminé;non;non;non;non;probable;non;non;non;non;non;non;*;*;aucun;*;non;*;*;*;sur le dos;1 fléchi, 1 en extension;en extension;SE;moyen;"adulte
+>20";*;[>20];*;femme;indéterminé;*;;;Hallstatt ;Analyse génét
+67;Duttlenheim COS 1.3;190;;simple;1;1;primaire;non;*;*;*;*;non;*;*;*;oblongue;N/S;200;100;12;oui;oui;non;non;probable;probable;non;non;non;non;indéterminé;non;non;non;non;non;non;*;*;aucun;*;non;*;*;*;sur le dos;1 fléchi, 1 en extension;en extension;SE;mauvais;"adulte
+>20";*;[>20];*;indéterminé;indéterminé;*;;;Hallstatt ;
+67;Duttlenheim COS 1.3;191;;simple;1;1;primaire;non;*;*;*;*;non;*;*;*;oblongue;N/S;115;36;12;indéterminé;non;non;non;indéterminé;indéterminé;oui;non;non;probable;indéterminé;non;non;non;non;non;non;parure = anneau perforé en os au niveau du crâne;*;aucun;*;non;*;*;*;sur le dos;indéterminé;en extension;SE;mauvais;"enfants
+1/15";*;[5-9];*;indéterminé;indéterminé;*;;;Hallstatt ;
+67;Duttlenheim COS 1.3;192;;simple;1;1;primaire;non;*;*;*;*;non;*;*;*;oblongue;N/S;90;60;20;indéterminé;non;non;non;indéterminé;indéterminé;non;non;non;non;indéterminé;non;non;non;non;non;non;*;*;recoupe;Sépulture 407;non;*;*;*;indéterminé;indéterminé;indéterminé;N;mauvais;"bébé
+0/1";*;[0];*;indéterminé;indéterminé;*;;;Hallstatt ;

@@ -1,0 +1,341 @@
+{
+  "file_name": "20250806_LoupBernard_ArkeoGis.csv",
+  "file_path": "data/input/20250806_LoupBernard_ArkeoGis.csv",
+  "format": "CSV",
+  "file_size_kb": 32,
+  "separator": ";",
+  "encoding": "UTF-8",
+  "header_row": true,
+  "total_rows": 116,
+  "total_columns": 23,
+  "columns": [
+    {
+      "name": "SITE_AKG_ID",
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 105,
+      "sample_values": [
+        "25820",
+        "25821",
+        "25822"
+      ]
+    },
+    {
+      "name": "DATABASE_NAME",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "Sites de l'âge du Fer dans le Bade-Wurtemberg - Bernard"
+      ]
+    },
+    {
+      "name": "SITE_SOURCE_ID",
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 105,
+      "sample_values": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "name": "SITE_NAME",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 99,
+      "sample_values": [
+        "Kocherburg",
+        "Gräbelesberg",
+        "Schlatt"
+      ]
+    },
+    {
+      "name": "MAIN_CITY_NAME",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 100,
+      "sample_values": [
+        "Aalen-Unterkochen",
+        "Albstadt-Laufen",
+        "Bad Krozingen"
+      ]
+    },
+    {
+      "name": "GEONAME_ID",
+      "dtype": "float64",
+      "null_count": 116,
+      "null_pct": 100.0,
+      "unique_count": 0,
+      "sample_values": []
+    },
+    {
+      "name": "PROJECTION_SYSTEM",
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "4326"
+      ]
+    },
+    {
+      "name": "LONGITUDE",
+      "dtype": "float64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 68,
+      "sample_values": [
+        "10.083333",
+        "8.916667",
+        "7.5833335"
+      ]
+    },
+    {
+      "name": "LATITUDE",
+      "dtype": "float64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 61,
+      "sample_values": [
+        "48.833332",
+        "48.25",
+        "47.916668"
+      ]
+    },
+    {
+      "name": "ALTITUDE",
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 71,
+      "sample_values": [
+        "640",
+        "914",
+        "250"
+      ]
+    },
+    {
+      "name": "CITY_CENTROID",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1,
+      "sample_values": [
+        "Oui"
+      ]
+    },
+    {
+      "name": "STATE_OF_KNOWLEDGE",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "Sondé",
+        "Littérature",
+        "Fouillé"
+      ]
+    },
+    {
+      "name": "OCCUPATION",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "Multiple",
+        "Non renseigné",
+        "Continue"
+      ]
+    },
+    {
+      "name": "STARTING_PERIOD",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 8,
+      "sample_values": [
+        "-620:-531",
+        "-800:-26",
+        "-725:-621"
+      ]
+    },
+    {
+      "name": "ENDING_PERIOD",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "-500:-431",
+        "-620:-531",
+        "-800:-26"
+      ]
+    },
+    {
+      "name": "CARAC_NAME",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 3,
+      "sample_values": [
+        "Immobilier",
+        "Mobilier",
+        "Production"
+      ]
+    },
+    {
+      "name": "CARAC_LVL1",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 7,
+      "sample_values": [
+        "Enceinte",
+        "Métal",
+        "Céramique"
+      ]
+    },
+    {
+      "name": "CARAC_LVL2",
+      "dtype": "object",
+      "null_count": 106,
+      "null_pct": 91.4,
+      "unique_count": 6,
+      "sample_values": [
+        "Outils",
+        "Parure",
+        "Vaisselle"
+      ]
+    },
+    {
+      "name": "CARAC_LVL3",
+      "dtype": "object",
+      "null_count": 107,
+      "null_pct": 92.2,
+      "unique_count": 9,
+      "sample_values": [
+        "Hache",
+        "Parure annulaire",
+        "Autres"
+      ]
+    },
+    {
+      "name": "CARAC_LVL4",
+      "dtype": "object",
+      "null_count": 114,
+      "null_pct": 98.3,
+      "unique_count": 2,
+      "sample_values": [
+        "Bracelet",
+        "Import"
+      ]
+    },
+    {
+      "name": "CARAC_EXP",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "Non",
+        "Oui"
+      ]
+    },
+    {
+      "name": "BIBLIOGRAPHY",
+      "dtype": "object",
+      "null_count": 1,
+      "null_pct": 0.9,
+      "unique_count": 107,
+      "sample_values": [
+        "KBdw, 282_ FBS 21, 1913, 29+  /Bittel50,N°6a/Zürn FBS NF 247",
+        "KBW 286_ FBS4,1896,21/NF2,1924,20-12,52,116,16,62,233,18-II,67,67/Bittel48n°2/LDA BL 2,61,451 +plan,...",
+        "KBDW 303, denkmalpflege BdW 1984, 191-192_ Habitat= FBBaWü 2, 1975,99+ /Tumuli =Wagner I,228/ BaFB I..."
+      ]
+    },
+    {
+      "name": "COMMENTS",
+      "dtype": "object",
+      "null_count": 65,
+      "null_pct": 56.0,
+      "unique_count": 49,
+      "sample_values": [
+        "sources dans le fossé / tessons Ha D-LTA",
+        "Plan KBW 285/tessons HaD",
+        "FSS proche dans les tumuli, début 6è av."
+      ]
+    }
+  ],
+  "source": {
+    "file_name": "20250806_LoupBernard_ArkeoGis.csv",
+    "export_date": "2025-08-06",
+    "platform": "ArkeoGIS",
+    "database_name": "Sites de l'âge du Fer dans le Bade-Wurtemberg - Bernard"
+  },
+  "geographic": {
+    "lat_column": "LATITUDE",
+    "lon_column": "LONGITUDE",
+    "min_lat": 47.583332,
+    "max_lat": 49.2,
+    "min_lon": 7.516667,
+    "max_lon": 10.466666,
+    "projection_guess": "WGS84 (EPSG:4326)",
+    "epsg_column": "PROJECTION_SYSTEM",
+    "epsg_values": [
+      4326
+    ],
+    "city_centroid_pct": 100.0
+  },
+  "chronology": {
+    "date_format": "ArkeoGIS (-YYYY:-YYYY)",
+    "earliest": -800,
+    "latest": -26,
+    "indeterminate_rows": 0,
+    "indeterminate_pct": 0.0
+  },
+  "quality": {
+    "avg_fill_rate_pct": 80.9,
+    "lowest_fill_columns": [
+      [
+        "GEONAME_ID",
+        0.0
+      ],
+      [
+        "CARAC_LVL4",
+        1.7
+      ],
+      [
+        "CARAC_LVL3",
+        7.8
+      ],
+      [
+        "CARAC_LVL2",
+        8.6
+      ],
+      [
+        "COMMENTS",
+        44.0
+      ]
+    ],
+    "issues": [
+      "1 colonnes entièrement vides: ['GEONAME_ID']"
+    ],
+    "confidence_level": "HIGH"
+  },
+  "data_model": {
+    "grain": "Clé candidate: SITE_AKG_ID",
+    "id_column": "SITE_AKG_ID",
+    "unique_count": 105,
+    "rows_per_id_avg": 1.1,
+    "rows_per_id_max": 12,
+    "total_rows": 116
+  }
+}

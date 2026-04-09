@@ -1,0 +1,530 @@
+{
+  "file_name": "20250324_necropoles_BFIIIb-HaD3_Als-Lor (1).xlsx",
+  "file_path": "data/input/20250324_necropoles_BFIIIb-HaD3_Als-Lor (1).xlsx",
+  "format": "XLSX",
+  "file_size_kb": 76,
+  "engine": "openpyxl/calamine",
+  "header_row": true,
+  "total_rows": 339,
+  "total_columns": 37,
+  "columns": [
+    {
+      "name": "Unnamed: 0",
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 140,
+      "sample_values": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "name": "Région",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "sample_values": [
+        "Alsace",
+        "Lorraine"
+      ]
+    },
+    {
+      "name": "Dept",
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 6,
+      "sample_values": [
+        "67",
+        "68",
+        "54"
+      ]
+    },
+    {
+      "name": "Commune",
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 223,
+      "sample_values": [
+        "Altorf",
+        "Barr",
+        "Benfeld"
+      ]
+    },
+    {
+      "name": "Nom",
+      "dtype": "object",
+      "null_count": 17,
+      "null_pct": 5.0,
+      "unique_count": 306,
+      "sample_values": [
+        "Lange Stein",
+        "non localisé",
+        "Plateforme dép"
+      ]
+    },
+    {
+      "name": "Date de fouille/découverte",
+      "dtype": "object",
+      "null_count": 117,
+      "null_pct": 34.5,
+      "unique_count": 88,
+      "sample_values": [
+        "2011-2014",
+        "2018-2019",
+        "2018"
+      ]
+    },
+    {
+      "name": "localisation topographique",
+      "dtype": "object",
+      "null_count": 152,
+      "null_pct": 44.8,
+      "unique_count": 14,
+      "sample_values": [
+        "placage lœss",
+        "graviers",
+        "placage loess"
+      ]
+    },
+    {
+      "name": "Coordonnées x (Lambert 93)",
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 255,
+      "sample_values": [
+        "1034400",
+        "1029876",
+        "1040045"
+      ]
+    },
+    {
+      "name": "Coordonnées y (Lambert 93)",
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 254,
+      "sample_values": [
+        "6834330",
+        "6821099",
+        "6817485"
+      ]
+    },
+    {
+      "name": "Occupation nécropole",
+      "dtype": "object",
+      "null_count": 51,
+      "null_pct": 15.0,
+      "unique_count": 112,
+      "sample_values": [
+        "-",
+        "Ha C - LT A",
+        "Bz D- Ha C-D1"
+      ]
+    },
+    {
+      "name": "Datation",
+      "dtype": "object",
+      "null_count": 47,
+      "null_pct": 13.9,
+      "unique_count": 82,
+      "sample_values": [
+        "Ha D",
+        "Ha C",
+        "Ha D1"
+      ]
+    },
+    {
+      "name": "Protohistoire ind",
+      "dtype": "object",
+      "null_count": 166,
+      "null_pct": 49.0,
+      "unique_count": 2,
+      "sample_values": [
+        "-",
+        "1"
+      ]
+    },
+    {
+      "name": "Hallstatt indéterminé",
+      "dtype": "object",
+      "null_count": 208,
+      "null_pct": 61.4,
+      "unique_count": 2,
+      "sample_values": [
+        "-",
+        "1"
+      ]
+    },
+    {
+      "name": "Etape 1 Hallstatt B2-B3 - Hallstatt C1",
+      "dtype": "object",
+      "null_count": 153,
+      "null_pct": 45.1,
+      "unique_count": 2,
+      "sample_values": [
+        "-",
+        "1"
+      ]
+    },
+    {
+      "name": "Hallstatt B2-B3 (850-800)",
+      "dtype": "object",
+      "null_count": 133,
+      "null_pct": 39.2,
+      "unique_count": 2,
+      "sample_values": [
+        "-",
+        "1"
+      ]
+    },
+    {
+      "name": "Hallstatt C1 (800-660)",
+      "dtype": "object",
+      "null_count": 113,
+      "null_pct": 33.3,
+      "unique_count": 3,
+      "sample_values": [
+        "-",
+        "1",
+        "à vérifier"
+      ]
+    },
+    {
+      "name": "Etape 2 Hallstatt C2 - Hallstatt D1",
+      "dtype": "object",
+      "null_count": 151,
+      "null_pct": 44.5,
+      "unique_count": 2,
+      "sample_values": [
+        "-",
+        "1"
+      ]
+    },
+    {
+      "name": "Hallstatt C2 (660-620)",
+      "dtype": "object",
+      "null_count": 118,
+      "null_pct": 34.8,
+      "unique_count": 2,
+      "sample_values": [
+        "-",
+        "1"
+      ]
+    },
+    {
+      "name": "Hallstatt D1 (620-550)",
+      "dtype": "object",
+      "null_count": 117,
+      "null_pct": 34.5,
+      "unique_count": 2,
+      "sample_values": [
+        "1",
+        "-"
+      ]
+    },
+    {
+      "name": "Etape 3 Hallstatt D2 - Hallstatt D3",
+      "dtype": "object",
+      "null_count": 167,
+      "null_pct": 49.3,
+      "unique_count": 2,
+      "sample_values": [
+        "-",
+        "1"
+      ]
+    },
+    {
+      "name": "Hallstatt D2 (550-500)",
+      "dtype": "object",
+      "null_count": 123,
+      "null_pct": 36.3,
+      "unique_count": 2,
+      "sample_values": [
+        "1",
+        "-"
+      ]
+    },
+    {
+      "name": "Hallstatt D3 (500-480)",
+      "dtype": "object",
+      "null_count": 129,
+      "null_pct": 38.1,
+      "unique_count": 2,
+      "sample_values": [
+        "1",
+        "-"
+      ]
+    },
+    {
+      "name": "Tertre (élévation)",
+      "dtype": "object",
+      "null_count": 106,
+      "null_pct": 31.3,
+      "unique_count": 22,
+      "sample_values": [
+        "-",
+        "1",
+        "6"
+      ]
+    },
+    {
+      "name": "Tertre arasé",
+      "dtype": "object",
+      "null_count": 182,
+      "null_pct": 53.7,
+      "unique_count": 3,
+      "sample_values": [
+        "-",
+        "1",
+        "oui"
+      ]
+    },
+    {
+      "name": "cercle funéraire",
+      "dtype": "object",
+      "null_count": 155,
+      "null_pct": 45.7,
+      "unique_count": 18,
+      "sample_values": [
+        "-",
+        "2",
+        "4"
+      ]
+    },
+    {
+      "name": "Langgraben",
+      "dtype": "object",
+      "null_count": 193,
+      "null_pct": 56.9,
+      "unique_count": 3,
+      "sample_values": [
+        "-",
+        "1",
+        "6"
+      ]
+    },
+    {
+      "name": "Autre",
+      "dtype": "object",
+      "null_count": 191,
+      "null_pct": 56.3,
+      "unique_count": 9,
+      "sample_values": [
+        "-",
+        "fossé?",
+        "aménagement de pierres disposé en demi-cercle superposées + tertre en pierre ?"
+      ]
+    },
+    {
+      "name": "Inhumation",
+      "dtype": "object",
+      "null_count": 121,
+      "null_pct": 35.7,
+      "unique_count": 40,
+      "sample_values": [
+        "-",
+        "11",
+        "5"
+      ]
+    },
+    {
+      "name": "crémation",
+      "dtype": "object",
+      "null_count": 168,
+      "null_pct": 49.6,
+      "unique_count": 19,
+      "sample_values": [
+        "1",
+        "-",
+        "3"
+      ]
+    },
+    {
+      "name": "pratique funéraire indéterminée",
+      "dtype": "object",
+      "null_count": 249,
+      "null_pct": 73.5,
+      "unique_count": 16,
+      "sample_values": [
+        "-",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "name": "Présence textiles",
+      "dtype": "object",
+      "null_count": 210,
+      "null_pct": 61.9,
+      "unique_count": 4,
+      "sample_values": [
+        "-",
+        "oui",
+        "1"
+      ]
+    },
+    {
+      "name": "signalisation/stèle",
+      "dtype": "object",
+      "null_count": 197,
+      "null_pct": 58.1,
+      "unique_count": 5,
+      "sample_values": [
+        "1",
+        "-",
+        "oui"
+      ]
+    },
+    {
+      "name": "Architecture tombe/bois",
+      "dtype": "object",
+      "null_count": 203,
+      "null_pct": 59.9,
+      "unique_count": 6,
+      "sample_values": [
+        "-",
+        "1",
+        "oui"
+      ]
+    },
+    {
+      "name": "tombe élitaire",
+      "dtype": "object",
+      "null_count": 182,
+      "null_pct": 53.7,
+      "unique_count": 9,
+      "sample_values": [
+        "-",
+        "1",
+        "oui"
+      ]
+    },
+    {
+      "name": "tombe à armes",
+      "dtype": "object",
+      "null_count": 183,
+      "null_pct": 54.0,
+      "unique_count": 8,
+      "sample_values": [
+        "-",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "name": "Chronologie et commentaires",
+      "dtype": "object",
+      "null_count": 34,
+      "null_pct": 10.0,
+      "unique_count": 246,
+      "sample_values": [
+        "crémation sous une stèle ? = Dorlisheim Gaensweidt",
+        "1 tumulus avec bracelets à tampons Hallstatt C",
+        "bracelets à tampons Hallstatt D1, "
+      ]
+    },
+    {
+      "name": "biblio",
+      "dtype": "object",
+      "null_count": 5,
+      "null_pct": 1.5,
+      "unique_count": 75,
+      "sample_values": [
+        "cag67",
+        "Cony, Rault 2022",
+        "Cony, Rault 2022 ; Cony, Mulot et al.  à paraitre"
+      ]
+    }
+  ],
+  "source": {
+    "file_name": "20250324_necropoles_BFIIIb-HaD3_Als-Lor (1).xlsx",
+    "export_date": "2025-03-24",
+    "platform": "Inconnu"
+  },
+  "geographic": {
+    "lat_column": "Coordonnées y (Lambert 93)",
+    "lon_column": "Coordonnées x (Lambert 93)",
+    "min_lat": 687455.0,
+    "max_lat": 6934806.0,
+    "min_lon": 848848.0,
+    "max_lon": 1073640.0,
+    "projection_guess": "Lambert-93 (EPSG:2154)"
+  },
+  "chronology": {
+    "period_column_Date de fouille/découverte": [
+      "2011-2014",
+      "2018-2019",
+      "2018",
+      "2023",
+      "ancienne",
+      "2015",
+      "2000; 2002",
+      "fouilles Nessel; 1921; 1926",
+      "Fin 19e ou début 20e siècle",
+      "fouilles X. Nessel ?"
+    ],
+    "period_column_Datation": [
+      "Ha D",
+      "Ha C",
+      "Ha D1",
+      "Ha C2-HaD3/LTA",
+      " Ha C-D1",
+      "Ha D1-D3",
+      "Ha D1-D2",
+      "Ha C-D1",
+      "-",
+      "Ha C2-D1"
+    ],
+    "period_column_Chronologie et commentaires": [
+      "crémation sous une stèle ? = Dorlisheim Gaensweidt",
+      "1 tumulus avec bracelets à tampons Hallstatt C",
+      "bracelets à tampons Hallstatt D1, ",
+      "Trois crémations dans des ossuaires en céramique avec uniquement des vases comme mobilier s'intègrent dans une zone funéraire plus importante mais peu dense",
+      "s'intègrent dans une zone funéraire plus importante mais peu dense (phase Ha C composé de 3 crémations) en plus des 5 inhumatiojns attesté pour cette phase 6 non datées ou mal datées peuvent également y être associé) 2 enclos circulaires, présence coffrage en bois, trois regroupement de tombes, nombreux mobiliers dont torque, perle en verre, bracelet en roche noire et alliage cuivreux, anneuax de cheville, pendeloques, ceinture abdominales, fibules, épingle, agrafe, trousses de toilettes, couteau",
+      "3 dépots de crémation avérés (19063, 19025, 19154) pour cette phase mais la zone funéraire est composé d'au moins dix-neuf dépôts secondaires de crémation pour l'ensemble de la nécropole avec au moins une phase au Bz D  - 2 crémation, une phase au Ha A1 - 3 crémations, Une au Ha A2 : 4 crémations et 7 qui ne sont pas datées précisément) note hiatus au Ha B1 et B2/B3. Puet petre implanté le long d'un axe de communication (voirie?) mobilier uniquement composé de céramique",
+      "5 inhumations, présence d'un tertre suspecté au diag. nombreux mobilier métalliques, en ambre, en roche noire : fibules, torque, bracelet, collier de perles, bracelet de cheville. coffrage en bois pour 4 des inhumations.",
+      "4 enclos dont un double. Enclos 2 : 1 inhumation avec deux fer de lance et deux fibule en son centre. enclos 3 4 inhumations (+ 1 probable) et 1 dépôts secondaire de crémation. Enclos 4 deux inhumations. Traces de coffrage. mobilier riche : perle tonnelet en ambre, torque massif, brassards tonnelets, 11 armilles, 2 pendeloques en or, 1 plaque de ceinture",
+      "3 tombes avec bracelets en lignite, anneau en bronze",
+      "6 tumulus (tum 20, 21, 28, 31, 35 et 36)"
+    ]
+  },
+  "quality": {
+    "avg_fill_rate_pct": 65.4,
+    "lowest_fill_columns": [
+      [
+        "pratique funéraire indéterminée",
+        26.5
+      ],
+      [
+        "Présence textiles",
+        38.1
+      ],
+      [
+        "Hallstatt indéterminé",
+        38.6
+      ],
+      [
+        "Architecture tombe/bois",
+        40.1
+      ],
+      [
+        "signalisation/stèle",
+        41.9
+      ]
+    ],
+    "issues": [
+      "1 colonnes sans nom (Unnamed)"
+    ],
+    "confidence_level": "MEDIUM"
+  },
+  "data_model": {
+    "grain": "Non déterminé — aucune colonne ID candidate trouvée",
+    "total_rows": 339
+  }
+}

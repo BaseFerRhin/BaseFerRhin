@@ -1,0 +1,328 @@
+{
+  "file_name": "20240425_habitats-tombes riches_Als-Lor (1).xlsx",
+  "file_path": "data/input/20240425_habitats-tombes riches_Als-Lor (1).xlsx",
+  "format": "XLSX",
+  "file_size_kb": 22,
+  "engine": "openpyxl/calamine",
+  "header_row": true,
+  "total_rows": 110,
+  "total_columns": 21,
+  "columns": [
+    {
+      "name": "Pays",
+      "dtype": "object",
+      "null_count": 3,
+      "null_pct": 2.7,
+      "unique_count": 3,
+      "sample_values": [
+        "D",
+        "F",
+        "f"
+      ]
+    },
+    {
+      "name": "Dept/Land",
+      "dtype": "object",
+      "null_count": 1,
+      "null_pct": 0.9,
+      "unique_count": 11,
+      "sample_values": [
+        "Bade-Wurtemberg",
+        "Rhénanie-Palatinat",
+        "54"
+      ]
+    },
+    {
+      "name": "Commune",
+      "dtype": "object",
+      "null_count": 3,
+      "null_pct": 2.7,
+      "unique_count": 55,
+      "sample_values": [
+        "Breisach-am-Rhein",
+        "Hügelsheim",
+        "Ihringen"
+      ]
+    },
+    {
+      "name": "Lieudit",
+      "dtype": "object",
+      "null_count": 8,
+      "null_pct": 7.3,
+      "unique_count": 85,
+      "sample_values": [
+        "Gündlingen",
+        "Gündlingen, Zwölferbuck",
+        "Münsterberg"
+      ]
+    },
+    {
+      "name": "type",
+      "dtype": "object",
+      "null_count": 3,
+      "null_pct": 2.7,
+      "unique_count": 5,
+      "sample_values": [
+        "tombe riche",
+        "site fortifié de hauteur",
+        "tombe princière"
+      ]
+    },
+    {
+      "name": "armement",
+      "dtype": "object",
+      "null_count": 50,
+      "null_pct": 45.5,
+      "unique_count": 23,
+      "sample_values": [
+        "tombe à char, tombe à épée (Bz)",
+        "tombe à char (Pare type 3), tombe à épée (Fer)",
+        "tombe à char, tombe à poignard (à antennes?)"
+      ]
+    },
+    {
+      "name": "Unnamed: 6",
+      "dtype": "object",
+      "null_count": 95,
+      "null_pct": 86.4,
+      "unique_count": 10,
+      "sample_values": [
+        "Mors, harnachement",
+        "harnachement",
+        "lance"
+      ]
+    },
+    {
+      "name": "or",
+      "dtype": "object",
+      "null_count": 70,
+      "null_pct": 63.6,
+      "unique_count": 27,
+      "sample_values": [
+        "torque, bracelet",
+        "1 bracelet",
+        "2 boucles d'oreilles en or à barquette"
+      ]
+    },
+    {
+      "name": "Corail",
+      "dtype": "object",
+      "null_count": 99,
+      "null_pct": 90.0,
+      "unique_count": 4,
+      "sample_values": [
+        "oui",
+        "bracelet en perles de corail",
+        "2 perles"
+      ]
+    },
+    {
+      "name": "oenochoé/Olpé/Stamnoï, etc.",
+      "dtype": "object",
+      "null_count": 102,
+      "null_pct": 92.7,
+      "unique_count": 8,
+      "sample_values": [
+        "1 petit récipient à puiser (puisard à tête de taureau?)",
+        "Schnabelkanne",
+        "1 récipient à puiser"
+      ]
+    },
+    {
+      "name": "parure/accessoires",
+      "dtype": "object",
+      "null_count": 81,
+      "null_pct": 73.6,
+      "unique_count": 28,
+      "sample_values": [
+        "rasoir",
+        "1 fibule serpentiforme",
+        "3 fibules, 2 bracelets, 2 anneaux de jambes, couteau, amulettes"
+      ]
+    },
+    {
+      "name": "Chaudron",
+      "dtype": "object",
+      "null_count": 102,
+      "null_pct": 92.7,
+      "unique_count": 2,
+      "sample_values": [
+        "1",
+        "-"
+      ]
+    },
+    {
+      "name": "bassin",
+      "dtype": "object",
+      "null_count": 104,
+      "null_pct": 94.5,
+      "unique_count": 6,
+      "sample_values": [
+        "2 bassins plats",
+        "1 bassin à attaches cruciformes",
+        "1 bassin à bord perlé"
+      ]
+    },
+    {
+      "name": "situle/ciste",
+      "dtype": "object",
+      "null_count": 105,
+      "null_pct": 95.5,
+      "unique_count": 5,
+      "sample_values": [
+        "1 ciste à cordons",
+        "1 situle type Kurd, 11 petites cistes à cordons",
+        "Ciste à cordons"
+      ]
+    },
+    {
+      "name": "présence textile",
+      "dtype": "object",
+      "null_count": 107,
+      "null_pct": 97.3,
+      "unique_count": 3,
+      "sample_values": [
+        "1",
+        "textile qui emballait le poignard",
+        "sur épée"
+      ]
+    },
+    {
+      "name": "verre",
+      "dtype": "object",
+      "null_count": 102,
+      "null_pct": 92.7,
+      "unique_count": 8,
+      "sample_values": [
+        "coupe",
+        "1 perle",
+        "perles"
+      ]
+    },
+    {
+      "name": "Céramique",
+      "dtype": "object",
+      "null_count": 96,
+      "null_pct": 87.3,
+      "unique_count": 9,
+      "sample_values": [
+        "2?",
+        "2 col en quille",
+        "oui"
+      ]
+    },
+    {
+      "name": "Autre",
+      "dtype": "object",
+      "null_count": 100,
+      "null_pct": 90.9,
+      "unique_count": 10,
+      "sample_values": [
+        "ambre : incrustation épée",
+        "galet (lissoir ?)",
+        "un couteau (fer)"
+      ]
+    },
+    {
+      "name": "Datation",
+      "dtype": "object",
+      "null_count": 3,
+      "null_pct": 2.7,
+      "unique_count": 19,
+      "sample_values": [
+        "Hallstatt C1",
+        "Hallstatt C",
+        "Hallstatt D3-LT A"
+      ]
+    },
+    {
+      "name": "Datation globale Tum",
+      "dtype": "object",
+      "null_count": 91,
+      "null_pct": 82.7,
+      "unique_count": 11,
+      "sample_values": [
+        "Hallstatt C-LTA",
+        "Hallstatt D3",
+        "Hallstatt D2/D3"
+      ]
+    },
+    {
+      "name": "Remarques",
+      "dtype": "object",
+      "null_count": 34,
+      "null_pct": 30.9,
+      "unique_count": 38,
+      "sample_values": [
+        "daté par fibule",
+        "tableau M. Landolt ; Dubreucq et al. 2018 (datation proposée Ha D)",
+        "info S. Marion : 1 épée C2, 3 épée C2-D1 et 4 épées C2 ou C2-D1 (datation Dhennequin)"
+      ]
+    }
+  ],
+  "source": {
+    "file_name": "20240425_habitats-tombes riches_Als-Lor (1).xlsx",
+    "export_date": "2024-04-25",
+    "platform": "Inconnu"
+  },
+  "geographic": {},
+  "chronology": {
+    "period_column_Datation": [
+      "Hallstatt C1",
+      "Hallstatt C",
+      "Hallstatt D3-LT A",
+      "Hallstatt D1",
+      "Hallstatt D3",
+      "Hallstatt D2/D3",
+      "Hallstatt C2-D1",
+      "Hallstatt C2 ou Hallstatt C2-D1",
+      "Hallstatt C2",
+      "Ha D3"
+    ],
+    "period_column_Datation globale Tum": [
+      "Hallstatt C-LTA",
+      "Hallstatt D3",
+      "Hallstatt D2/D3",
+      "Hallstatt D3 - La Tène A2",
+      "BM-Hallstatt",
+      "Hallstatt D1-D3",
+      "Hallstatt D1-D2",
+      "Hallstatt D",
+      "Bz moyen - Ha C2-D1",
+      "Bz moyen - Ha D2"
+    ]
+  },
+  "quality": {
+    "avg_fill_rate_pct": 41.2,
+    "lowest_fill_columns": [
+      [
+        "présence textile",
+        2.7
+      ],
+      [
+        "situle/ciste",
+        4.5
+      ],
+      [
+        "bassin",
+        5.5
+      ],
+      [
+        "oenochoé/Olpé/Stamnoï, etc.",
+        7.3
+      ],
+      [
+        "Chaudron",
+        7.3
+      ]
+    ],
+    "issues": [
+      "1 colonnes sans nom (Unnamed)"
+    ],
+    "confidence_level": "LOW"
+  },
+  "data_model": {
+    "grain": "Non déterminé — aucune colonne ID candidate trouvée",
+    "total_rows": 110
+  }
+}
